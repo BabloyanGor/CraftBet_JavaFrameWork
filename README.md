@@ -1,1 +1,3 @@
-# CraftBet_JavaFrameWork
+# CraftBet Java FrameWork
+
+UI and Functional Testing
