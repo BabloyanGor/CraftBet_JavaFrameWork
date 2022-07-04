@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -18,6 +19,7 @@ public class BasePage {
     WebDriver driver;
     WebDriverWait webDriverWait;
     Actions actions;
+    Select select;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -32,7 +34,7 @@ public class BasePage {
         return this.driver;
     }
 
-    /* this method will be take Screenshot*/
+    /* this method will be take Screenshot whale page*/
     public void captureScreen(WebDriver driver, String tname) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
@@ -41,9 +43,12 @@ public class BasePage {
         System.out.println("Screenshot taken");
     }
 
+    /* this method will be used for validate webElements visibility */
     public void waitElementToBeVisible(WebElement element) {
         this.webDriverWait.until(ExpectedConditions.visibilityOf(element));
     }
+
+    /* this method will be used for validate webElements clickability */
     public void waitElementTobeClickable(WebElement element) {
         this.webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
     }
@@ -67,6 +72,18 @@ public class BasePage {
         this.waitElementToBeVisible(element);
         element.clear();
         element.sendKeys(keys);
+    }
+
+    /* this method will be used for selecting element from dropdown using visible text */
+    public void selectFromDropDownByVisibleText(WebElement element, String text){
+        select = new Select(element);
+        select.selectByVisibleText(text);
+    }
+
+    /* this method will be used for selecting element from dropdown using dropdown elements index */
+    public void selectFromDropDownByID(WebElement element, int index){
+        select = new Select(element);
+        select.selectByIndex(index);
     }
 
     //region <Random email, String word, String numbers>
@@ -95,6 +112,7 @@ public class BasePage {
 
 
     //region <JavaScript executor>
+
     //endregion
 
     //region <Actions>

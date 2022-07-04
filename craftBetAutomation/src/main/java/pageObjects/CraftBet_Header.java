@@ -44,6 +44,10 @@ public class CraftBet_Header extends BasePage {
     public void clickOnLanguageDropDownIfVisible(){
         clickOnElementIfVisible(languageDropDown);
     }
+
+    public void selectLanguageFromDropDown(){
+        //clickOnElementIfVisible(languageDropDown);
+    }
     public void clickOnMessageIconIfVisible(){
         clickOnElementIfVisible(messageIcon);
     }
