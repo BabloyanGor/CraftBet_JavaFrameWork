@@ -1,0 +1,6 @@
+testCases\LogoTest.class
+utilities\DriverFactory.class
+testCases\BaseTest.class
+utilities\XLUtils.class
+utilities\ReadConfig.class
+utilities\Reporting.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="craftBetAutomation(failed)">
+    <classes>
+      <class name="testCases.LogoTest">
+        <methods>
+          <include name="testSkipp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testFail"/>
+        </methods>
+      </class> <!-- testCases.LogoTest -->
+    </classes>
+  </test> <!-- craftBetAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

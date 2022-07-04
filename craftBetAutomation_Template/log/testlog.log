@@ -1,0 +1,117 @@
+2022-07-04 10:53:07,014 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 10:53:07,186 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 10:53:07,217 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 10:53:10,684 - craftBet -INFO - Home Page initialized
+2022-07-04 10:53:10,745 - craftBet -INFO - TestSuccess started
+2022-07-04 10:53:12,074 - craftBet -INFO - TestSuccess finished
+2022-07-04 10:53:12,086 - craftBet -INFO - TestSuccess--->  Success
+2022-07-04 10:53:12,086 - craftBet -INFO - TestSuccess------------------------------------------------
+2022-07-04 10:53:12,258 - craftBet -INFO - Browser closed
+2022-07-04 10:53:12,258 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 10:53:12,258 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 10:53:12,274 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 10:53:15,097 - craftBet -INFO - Home Page initialized
+2022-07-04 10:53:15,102 - craftBet -INFO - testFail started
+2022-07-04 10:53:17,129 - craftBet -ERROR - testFail--->  Fail
+2022-07-04 10:53:17,129 - craftBet -ERROR - testFail------------------------------------------------
+2022-07-04 10:53:17,303 - craftBet -INFO - Browser closed
+2022-07-04 10:53:17,307 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 10:53:17,338 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 10:53:17,354 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 10:53:20,560 - craftBet -INFO - Home Page initialized
+2022-07-04 10:53:20,567 - craftBet -INFO - testSkipp started
+2022-07-04 10:53:20,569 - craftBet -WARN - testSkipp--->  Skipped
+2022-07-04 10:53:20,740 - craftBet -INFO - Browser closed
+2022-07-04 10:53:20,923 - craftBet -INFO - --------------------------------------------------------------------
+2022-07-04 10:53:21,001 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-04 11:22:56,114 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:22:56,301 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:22:56,317 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:23:00,995 - craftBet -INFO - Home Page initialized
+2022-07-04 11:23:01,037 - craftBet -INFO - TestSuccess started
+2022-07-04 11:23:03,517 - craftBet -INFO - TestSuccess finished
+2022-07-04 11:23:03,530 - craftBet -INFO - TestSuccess--->  Success
+2022-07-04 11:23:03,530 - craftBet -INFO - TestSuccess------------------------------------------------
+2022-07-04 11:23:03,706 - craftBet -INFO - Browser closed
+2022-07-04 11:23:03,706 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:23:03,722 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:23:03,722 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:23:06,334 - craftBet -INFO - Home Page initialized
+2022-07-04 11:23:06,339 - craftBet -INFO - testFail started
+2022-07-04 11:23:07,946 - craftBet -ERROR - testFail--->  Fail
+2022-07-04 11:23:07,946 - craftBet -ERROR - testFail------------------------------------------------
+2022-07-04 11:23:08,125 - craftBet -INFO - Browser closed
+2022-07-04 11:23:08,125 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:23:08,156 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:23:08,172 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:23:10,213 - craftBet -INFO - Home Page initialized
+2022-07-04 11:23:10,217 - craftBet -INFO - testSkipp started
+2022-07-04 11:23:10,219 - craftBet -WARN - testSkipp--->  Skipped
+2022-07-04 11:23:10,219 - craftBet -WARN - testSkipp------------------------------------------------
+2022-07-04 11:23:10,401 - craftBet -INFO - Browser closed
+2022-07-04 11:23:10,641 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-04 11:25:26,292 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:25:26,476 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:25:26,498 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:25:30,045 - craftBet -INFO - Home Page initialized
+2022-07-04 11:25:30,102 - craftBet -INFO - TestSuccess started
+2022-07-04 11:25:31,726 - craftBet -INFO - TestSuccess finished
+2022-07-04 11:25:31,738 - craftBet -INFO - TestSuccess--->  Success
+2022-07-04 11:25:31,739 - craftBet -INFO - TestSuccess------------------------------------------------
+2022-07-04 11:25:31,895 - craftBet -INFO - Browser closed
+2022-07-04 11:25:31,895 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:25:31,911 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:25:31,911 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:25:34,235 - craftBet -INFO - Home Page initialized
+2022-07-04 11:25:34,239 - craftBet -INFO - testFail started
+2022-07-04 11:25:35,593 - craftBet -ERROR - testFail--->  Fail
+2022-07-04 11:25:35,594 - craftBet -ERROR - testFail------------------------------------------------
+2022-07-04 11:25:35,774 - craftBet -INFO - Browser closed
+2022-07-04 11:25:35,781 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-04 11:25:35,781 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-04 11:25:35,797 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-04 11:25:38,861 - craftBet -INFO - Home Page initialized
+2022-07-04 11:25:38,864 - craftBet -INFO - testSkipp started
+2022-07-04 11:25:38,866 - craftBet -WARN - testSkipp--->  Skipped
+2022-07-04 11:25:38,866 - craftBet -WARN - testSkipp------------------------------------------------
+2022-07-04 11:25:39,028 - craftBet -INFO - Browser closed
+2022-07-04 11:25:39,243 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
