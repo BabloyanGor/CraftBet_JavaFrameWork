@@ -2,11 +2,9 @@ package testCases;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
-import pageObjects.BasePage;
-import pageObjects.CraftBet_HomePage;
+import pageObjects.CraftBet_Header;
 import utilities.DriverFactory;
 import utilities.ReadConfig;
 
@@ -21,7 +19,7 @@ public class BaseTest extends DriverFactory {
     public String username=readConfig.getUsername();
     public String password=readConfig.getPassword();
     public static Logger logger;
-    public CraftBet_HomePage craftBet_homePage;
+    public CraftBet_Header craftBet_homePage;
 
     public BaseTest() {
     }
@@ -37,7 +35,7 @@ public class BaseTest extends DriverFactory {
             super.initDriver(baseURL,browser);
         }
         //region <Page Class Instance Initialization >
-        craftBet_homePage = PageFactory.initElements(this.driver, CraftBet_HomePage.class);
+        craftBet_homePage = PageFactory.initElements(this.driver, CraftBet_Header.class);
         logger.info("Home Page initialized");
 
         //endregion
