@@ -53,7 +53,7 @@ public class BasePage {
         this.webDriverWait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    /* this method will be used for validate webElements clickability */
+    /* this method will be used for validate webElements click ability */
     public void waitElementTobeClickable(WebElement element) {
         this.webDriverWait.until(ExpectedConditions.elementToBeClickable(element));
     }
@@ -99,7 +99,7 @@ public class BasePage {
     //endregion
 
 
-    //region <javaScript>
+    //region <javaScript executor>
 
     /* this method will be used for scrolling down to particular element */
     public void javaScriptScrollDownToParticularElement(WebElement element) {
@@ -116,13 +116,61 @@ public class BasePage {
         js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
     }
 
+    /* this method will scroll the page down */
+    public void scrollPageDown(){
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+    }
+    /* this method will scroll the page up */
+    public void  scrollPageUp(){
+        js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
+    }
+
+    /* this method will zoom the page */
+    public void  zoomPageByJS(String zoomProcsent){
+        js.executeScript("document.body.style.zoom='" + zoomProcsent + "%'"); //zoom by 100%
+    }
+
+    /* this method will be used for clicking on WebElement */
+    public void javaScriptClick(WebElement element) {
+        js.executeScript("argument[0].click();", element);
+    }
+
+    /* this method will be used for sending text to text box */
+    public void javaScriptSendKeys(String text) {
+        js.executeScript("document.getElementById('q').value='"+text+"'");
+    }
+
+    /* this method will refresh browser */
+    public void javaScriptRefreshBrowser(){
+        js.executeScript("history.go(0)");
+    }
+
+    /* this method will draw border for element */
+    public void javaScriptDrawBorder(WebElement element){
+        js.executeScript("arguments[0].style.border = '3px solid red'",element);
+    }
+
+    /* this method will return title of the page */
+    public String javaScriptGetTitle (){
+        String title = js.executeScript("return document.title;").toString();
+        return  title;
+    }
+
+    /* this method will generate the alert window */
+    public void javaScriptGenerateAlert(String massage){
+        js.executeScript("alert('"+ massage +"')");
+    }
+
+
 
     //endregion
 
     //region <Actions>
+
     //endregion
 
     //region <Robot>
+
     //endregion
 
 
