@@ -2,10 +2,7 @@ package pageObjects;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -20,14 +17,22 @@ public class BasePage {
     WebDriverWait webDriverWait;
     Actions actions;
     Select select;
+    JavascriptExecutor js;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         actions = new Actions(driver);
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        js = (JavascriptExecutor) driver;
     }
 
     public BasePage() {
+    }
+
+    /* this method will be return integer number 4 symbols */
+    public static String randomNum(int num) {
+        String generatedInt = RandomStringUtils.randomNumeric(num);
+        return (generatedInt);
     }
 
     public WebDriver getDriver() {
@@ -61,64 +66,64 @@ public class BasePage {
         element.click();
     }
 
-    /* this method will be used for clicking on element which is Clickable*/
+    /* this method will be used for clicking on element which is Clickable */
     public void clickOnElementIfClickable(WebElement element) {
         this.waitElementTobeClickable(element);
         element.click();
     }
 
     /* this method will be used for sending keys on element which is visible */
-    public void sendKeysIfElementVisible(WebElement element, String keys){
+    public void sendKeysIfElementVisible(WebElement element, String keys) {
         this.waitElementToBeVisible(element);
         element.clear();
         element.sendKeys(keys);
     }
 
+    //region <Select from Dropdown>
     /* this method will be used for selecting element from dropdown using visible text */
-    public void selectFromDropDownByVisibleText(WebElement element, String text){
+    public void selectFromDropDownByVisibleText(WebElement element, String text) {
         select = new Select(element);
         select.selectByVisibleText(text);
     }
 
     /* this method will be used for selecting element from dropdown using dropdown elements index */
-    public void selectFromDropDownByID(WebElement element, int index){
+    public void selectFromDropDownByIndex(WebElement element, int index) {
         select = new Select(element);
         select.selectByIndex(index);
     }
-
-    //region <Random email, String word, String numbers>
-
-    /* this method will be return random String  num symbols */
-    public String randomString(int num) {
-        String generatedString = RandomStringUtils.randomAlphabetic(num);
-        return (generatedString);
+    /* this method will be used for selecting element from dropdown using dropdown elements index */
+    public void selectFromDropDownByValue(WebElement element, String value) {
+        select = new Select(element);
+        select.selectByValue(value);
     }
-
-    /* this method will be return integer number 4 symbols */
-    public static String randomNum(int num) {
-        String generatedInt = RandomStringUtils.randomNumeric(num);
-        return (generatedInt);
-    }
-
-    /* this method will return random valid emails */
-    public String generateRandomEmail() {
-        String randomEmail;
-        String generatedString = RandomStringUtils.randomAlphanumeric(10);
-        randomEmail = generatedString + "@gmail.com";
-        return randomEmail;
-    }
-
     //endregion
 
 
-    //region <JavaScript executor>
+    //region <javaScript>
+
+    /* this method will be used for scrolling down to particular element */
+    public void javaScriptScrollDownToParticularElement(WebElement element) {
+        js.executeScript("arguments[0].scrollIntoView();", element);
+    }
+
+    /* this method will be used for scrolling down to particular position */
+    public void javaScriptScrollDownToParticularPosition(String position) {
+        js.executeScript("window.scrollBy(0," + position + ")", "");
+    }
+
+    /* this method will be used for scrolling to bottom of the page */
+    public void javaScriptScrollToBottom() {
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
+
 
     //endregion
 
     //region <Actions>
     //endregion
 
-
+    //region <Robot>
+    //endregion
 
 
 }
