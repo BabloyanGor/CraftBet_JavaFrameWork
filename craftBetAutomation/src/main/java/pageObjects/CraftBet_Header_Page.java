@@ -5,15 +5,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
-public class CraftBet_Header extends BasePage {
+public class CraftBet_Header_Page extends BasePage {
 
     private final BasePage basePage;
 
 
-    public CraftBet_Header(WebDriver driver) {
+    public CraftBet_Header_Page(WebDriver driver) {
         super(driver);
         basePage = new BasePage(driver);
     }
+
     @FindBy(xpath = "//button[@class = 'global_register-btn button-style1-type-btn']")
     @CacheLookup
     WebElement signUp;
@@ -25,6 +26,16 @@ public class CraftBet_Header extends BasePage {
     @FindBy(xpath = "//*[@class = 'dropdown-style1-type-Dpd']")
     @CacheLookup
     WebElement languageDropDown;
+
+    @FindBy(xpath = "//span[text()= 'English']")
+    @CacheLookup
+    WebElement EnglishLanguageDropDown;
+    @FindBy(xpath = "//span[text()= 'Русский']")
+    @CacheLookup
+    WebElement RussianLanguageDropDown;
+    @FindBy(xpath = "//span[text()= 'Հայերեն']")
+    @CacheLookup
+    WebElement ArmenianLanguageDropDown;
 
     @FindBy(xpath = "//*[@class = 'icon icon-message']")
     @CacheLookup
@@ -45,8 +56,9 @@ public class CraftBet_Header extends BasePage {
         clickOnElementIfVisible(languageDropDown);
     }
 
-    public void selectLanguageFromDropDown(){
-        //clickOnElementIfVisible(languageDropDown);
+    public void selectEnglishLanguageFromDropDown(){
+        clickOnElementIfVisible(languageDropDown);
+        clickOnElementIfVisible(EnglishLanguageDropDown);
     }
     public void clickOnMessageIconIfVisible(){
         clickOnElementIfVisible(messageIcon);

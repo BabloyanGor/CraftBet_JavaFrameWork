@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="craftBetAutomation(failed)">
     <classes>
-      <class name="testCases.LogoTest">
+      <class name="testCases.LoginTest">
         <methods>
-          <include name="testSkipp"/>
+          <include name="finish"/>
           <include name="setup"/>
+          <include name="initElements"/>
           <include name="tearDown"/>
-          <include name="testFail"/>
+          <include name="loginPopUpGUI_Test"/>
         </methods>
-      </class> <!-- testCases.LogoTest -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
   </test> <!-- craftBetAutomation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

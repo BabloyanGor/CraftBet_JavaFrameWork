@@ -4,7 +4,8 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
-import pageObjects.CraftBet_Header;
+import pageObjects.CraftBet_Header_Page;
+import pageObjects.CraftBet_Login_PopUp_Page;
 import utilities.DriverFactory;
 import utilities.ReadConfig;
 
@@ -19,9 +20,15 @@ public class BaseTest extends DriverFactory {
     public String username=readConfig.getUsername();
     public String password=readConfig.getPassword();
     public static Logger logger;
-    public CraftBet_Header craftBet_homePage;
+    public CraftBet_Header_Page craftBet_header_page;
+    public CraftBet_Login_PopUp_Page craftBet_login_popUp_page;
 
     public BaseTest() {
+    }
+
+    @BeforeSuite
+    public void initElements(){
+
     }
 
     @BeforeMethod
@@ -34,12 +41,17 @@ public class BaseTest extends DriverFactory {
         } catch (org.openqa.selenium.TimeoutException exception) {
             super.initDriver(baseURL,browser);
         }
-        //region <Page Class Instance Initialization >
-        craftBet_homePage = PageFactory.initElements(this.driver, CraftBet_Header.class);
-        logger.info("Home Page initialized");
-
-        //endregion
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //region <Page Class Instance Initialization >
+        craftBet_header_page = PageFactory.initElements(this.driver, CraftBet_Header_Page.class);
+        logger.info("Home Page header elements are initialized");
+        craftBet_login_popUp_page = PageFactory.initElements(this.driver, CraftBet_Login_PopUp_Page.class);
+        logger.info("Home Page login PopUp elements are initialized");
+        //endregion
+
+        craftBet_header_page.selectEnglishLanguageFromDropDown();
+
+
     }
 
     @AfterMethod
@@ -52,4 +64,17 @@ public class BaseTest extends DriverFactory {
             logger.info("Browser closed with exception");
         }
     }
+
+
+
+    @AfterSuite
+    public void finish(){
+        logger.info("All specified test are executed");
+    }
+
+
+
+
+
+
 }

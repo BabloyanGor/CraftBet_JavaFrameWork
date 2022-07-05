@@ -7,12 +7,10 @@
             <include name="RegressionTest"/>
         </run>
     </groups>
-<!--    <listeners>-->
-<!--        <listener class-name="utilities.Reporting"/>-->
-<!--    </listeners>-->
-    <test name="testCases.LogoTest">
+
+    <test name="testCases.LoginTest">
         <classes>
-            <class name="testCases.LogoTest"/>
+            <class name="testCases.LoginTest"/>
         </classes>
     </test>
 </suite>

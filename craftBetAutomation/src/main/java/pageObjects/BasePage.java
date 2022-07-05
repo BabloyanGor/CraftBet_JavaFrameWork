@@ -29,6 +29,9 @@ public class BasePage {
     public BasePage() {
     }
 
+
+
+
     /* this method will be return integer number 4 symbols */
     public static String randomNum(int num) {
         String generatedInt = RandomStringUtils.randomNumeric(num);
@@ -41,6 +44,14 @@ public class BasePage {
 
     /* this method will be take Screenshot whale page*/
     public void captureScreen(WebDriver driver, String tname) throws IOException {
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");
+        FileUtils.copyFile(source, target);
+        System.out.println("Screenshot taken");
+    }
+
+    public void captureScreenShowElement(WebDriver driver, WebElement element, String tname) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");
@@ -79,6 +90,29 @@ public class BasePage {
         element.sendKeys(keys);
     }
 
+    /* this method will true if element is enabled */
+    public boolean elementIsEnable(WebElement element) {
+        return element.isEnabled();
+    }
+
+    /* this method will return true if element is selected */
+    public boolean elementIsSelected(WebElement element) {
+        return element.isSelected();
+    }
+
+    /* this method will get text from element */
+    public String getText(WebElement element) {
+        return element.getText();
+    }
+
+    /* this method will get attribute from element */
+    public String getAttribute(WebElement element, String attribute) {
+        return element.getAttribute(attribute);
+    }
+    /* this method will get attribute from element */
+    public String getTagName(WebElement element) {
+        return element.getTagName();
+    }
     //region <Select from Dropdown>
     /* this method will be used for selecting element from dropdown using visible text */
     public void selectFromDropDownByVisibleText(WebElement element, String text) {
@@ -164,6 +198,7 @@ public class BasePage {
 
 
     //endregion
+
 
     //region <Actions>
 

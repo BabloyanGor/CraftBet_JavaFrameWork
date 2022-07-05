@@ -115,3 +115,147 @@ java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
 	at org.testng.TestNG.run(TestNG.java:1072)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-05 11:58:48,892 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 11:58:50,267 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 11:58:50,283 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 11:58:52,459 - craftBet -INFO - Home Page initialized
+2022-07-05 11:58:52,522 - craftBet -INFO - test1--->  Success
+2022-07-05 11:58:52,522 - craftBet -INFO - test1------------------------------------------------
+2022-07-05 11:58:52,663 - craftBet -INFO - Browser closed
+2022-07-05 11:58:52,882 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-05 12:07:06,735 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:07:06,922 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:07:06,938 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:07:09,309 - craftBet -INFO - Home Page initialized
+2022-07-05 12:07:09,345 - craftBet -INFO - TestSuccess started
+2022-07-05 12:07:10,242 - craftBet -INFO - TestSuccess finished
+2022-07-05 12:07:10,309 - craftBet -INFO - TestSuccess--->  Success
+2022-07-05 12:07:10,309 - craftBet -INFO - TestSuccess------------------------------------------------
+2022-07-05 12:07:10,314 - craftBet -INFO - testFail started
+2022-07-05 12:07:10,540 - craftBet -ERROR - testFail--->  Fail
+2022-07-05 12:07:10,540 - craftBet -ERROR - testFail------------------------------------------------
+2022-07-05 12:07:10,541 - craftBet -INFO - testSkipp started
+2022-07-05 12:07:10,543 - craftBet -WARN - testSkipp--->  Skipped
+2022-07-05 12:07:10,543 - craftBet -WARN - testSkipp------------------------------------------------
+2022-07-05 12:07:10,546 - craftBet -INFO - loginPopUpGUI_Test--->  Success
+2022-07-05 12:07:10,546 - craftBet -INFO - loginPopUpGUI_Test------------------------------------------------
+2022-07-05 12:07:10,731 - craftBet -INFO - Browser closed
+2022-07-05 12:07:10,988 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-05 12:26:22,845 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:26:23,051 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:26:23,070 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:26:25,361 - craftBet -INFO - Home Page initialized
+2022-07-05 12:26:25,362 - craftBet -INFO - Home Page initialized
+2022-07-05 12:26:25,595 - craftBet -INFO - Browser closed
+2022-07-05 12:26:25,600 - craftBet -INFO - All specified test are executed
+2022-07-05 12:31:24,897 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:31:25,075 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:31:25,096 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:31:27,451 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:31:27,452 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:31:28,641 - craftBet -INFO - Browser closed
+2022-07-05 12:31:28,658 - craftBet -INFO - All specified test are executed
+2022-07-05 12:32:34,858 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:32:35,048 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:32:35,067 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:32:36,765 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:32:36,766 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:32:40,655 - craftBet -INFO - Browser closed
+2022-07-05 12:32:40,660 - craftBet -INFO - All specified test are executed
+2022-07-05 12:37:35,985 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:37:36,172 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:37:36,188 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:37:37,886 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:37:37,887 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:37:39,208 - craftBet -INFO - Browser closed
+2022-07-05 12:37:39,224 - craftBet -INFO - All specified test are executed
+2022-07-05 12:37:52,506 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:37:52,694 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:37:52,709 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:37:55,010 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:37:55,011 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:37:56,105 - craftBet -INFO - Browser closed
+2022-07-05 12:37:56,120 - craftBet -INFO - All specified test are executed
+2022-07-05 12:38:23,394 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:38:23,566 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:38:23,581 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:38:25,897 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:38:25,899 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:38:27,064 - craftBet -INFO - Browser closed
+2022-07-05 12:38:27,071 - craftBet -INFO - All specified test are executed
+2022-07-05 12:42:04,763 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:42:04,951 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:42:04,967 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:42:06,677 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:42:06,678 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:42:07,691 - craftBet -INFO - All specified test are executed
+2022-07-05 12:49:59,412 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:49:59,599 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:49:59,615 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:50:03,713 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:50:03,715 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:50:06,188 - craftBet -INFO - Browser closed
+2022-07-05 12:50:06,203 - craftBet -INFO - All specified test are executed
+2022-07-05 12:50:28,519 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:50:28,707 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:50:28,722 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:50:32,072 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:50:32,074 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:50:34,639 - craftBet -INFO - Browser closed
+2022-07-05 12:50:34,654 - craftBet -INFO - All specified test are executed
+2022-07-05 12:55:30,009 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:55:30,197 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:55:30,212 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:55:34,232 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:55:34,233 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:55:36,730 - craftBet -INFO - Browser closed
+2022-07-05 12:55:36,746 - craftBet -INFO - All specified test are executed
+2022-07-05 12:56:00,903 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-05 12:56:01,075 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-05 12:56:01,090 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-05 12:56:05,055 - craftBet -INFO - Home Page header elements are initialized
+2022-07-05 12:56:05,056 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-05 12:56:07,939 - craftBet -ERROR - loginPopUpGUI_Test--->  Fail
+2022-07-05 12:56:07,939 - craftBet -ERROR - loginPopUpGUI_Test------------------------------------------------
+2022-07-05 12:56:08,120 - craftBet -INFO - Browser closed
+2022-07-05 12:56:08,318 - craftBet -INFO - All specified test are executed
+2022-07-05 12:56:08,365 - org.testng.reporters.jq.Main -ERROR - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

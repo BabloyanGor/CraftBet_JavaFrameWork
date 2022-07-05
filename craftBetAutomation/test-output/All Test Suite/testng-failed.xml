@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="testCases.LogoTest(failed)">
+  <test thread-count="5" name="testCases.LoginTest(failed)">
     <classes>
-      <class name="testCases.LogoTest">
+      <class name="testCases.LoginTest">
         <methods>
           <include name="testSkipp"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="testFail"/>
         </methods>
-      </class> <!-- testCases.LogoTest -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
-  </test> <!-- testCases.LogoTest(failed) -->
+  </test> <!-- testCases.LoginTest(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
