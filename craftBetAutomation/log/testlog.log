@@ -770,3 +770,119 @@ java.net.SocketException: Connection reset
 2022-07-06 11:13:04,157 - craftBet -INFO - Home Page login PopUp elements are initialized
 2022-07-06 11:13:08,614 - craftBet -INFO - Browser closed
 2022-07-06 11:13:08,643 - craftBet -INFO - All specified test are executed
+2022-07-06 12:06:30,493 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:06:32,444 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:06:32,464 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:06:36,394 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:06:36,397 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:06:40,784 - craftBet -INFO - Browser closed
+2022-07-06 12:06:40,805 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:06:40,831 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:06:40,849 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:06:42,664 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:06:42,666 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:06:47,054 - craftBet -INFO - Browser closed
+2022-07-06 12:06:47,079 - craftBet -INFO - All specified test are executed
+2022-07-06 12:11:24,820 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:11:25,137 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:11:25,166 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:11:27,889 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:11:27,898 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:11:32,098 - craftBet -INFO - Browser closed
+2022-07-06 12:11:32,118 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:11:32,198 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:11:32,217 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:11:34,239 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:11:34,240 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:11:38,745 - craftBet -INFO - Browser closed
+2022-07-06 12:11:38,758 - craftBet -INFO - All specified test are executed
+2022-07-06 12:17:07,084 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:17:07,406 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:17:07,440 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:17:10,927 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:17:10,930 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:17:14,735 - craftBet -INFO - Browser closed
+2022-07-06 12:17:14,755 - craftBet -INFO - All specified test are executed
+2022-07-06 12:29:42,788 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:29:43,123 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:29:43,155 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:29:47,619 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:29:47,623 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:29:51,891 - craftBet -INFO - Browser closed
+2022-07-06 12:29:51,932 - craftBet -INFO - All specified test are executed
+2022-07-06 12:30:17,028 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:30:17,351 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:30:17,388 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:30:21,441 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:30:21,447 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:30:24,619 - craftBet -INFO - Browser closed
+2022-07-06 12:30:24,642 - craftBet -INFO - All specified test are executed
+2022-07-06 12:34:47,778 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:34:48,023 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:34:48,048 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:34:51,408 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:34:51,417 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:34:55,234 - craftBet -INFO - All specified test are executed
+2022-07-06 12:35:52,290 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:35:52,618 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:35:52,650 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:35:57,735 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:35:57,738 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:36:03,249 - craftBet -INFO - All specified test are executed
+2022-07-06 12:42:51,921 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:42:52,166 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:42:52,189 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:42:57,173 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:42:57,177 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:43:00,690 - craftBet -INFO - All specified test are executed
+2022-07-06 12:45:26,303 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:45:26,617 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:45:26,648 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:45:31,832 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:45:31,838 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:45:35,692 - craftBet -INFO - All specified test are executed
+2022-07-06 12:45:56,525 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:45:56,821 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:45:56,851 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:46:01,982 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:46:01,986 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:46:05,738 - craftBet -INFO - All specified test are executed
+2022-07-06 12:46:46,038 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:46:46,345 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:46:46,374 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:46:51,350 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:46:51,354 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:46:55,722 - craftBet -INFO - All specified test are executed
+2022-07-06 12:55:13,938 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:55:14,340 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:55:14,390 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:55:44,691 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:55:45,007 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:55:45,040 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:55:49,242 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:55:49,252 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:56:24,063 - craftBet -INFO - All specified test are executed
+2022-07-06 12:57:06,646 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 12:57:06,926 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 12:57:06,953 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 12:57:10,852 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 12:57:10,855 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 12:57:43,869 - craftBet -INFO - All specified test are executed
+2022-07-06 13:02:08,587 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 13:02:08,906 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 13:02:08,938 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 13:02:13,184 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 13:02:13,187 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 13:02:17,590 - craftBet -INFO - All specified test are executed
+2022-07-06 13:06:16,696 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 13:06:16,970 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 13:06:16,995 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 13:06:26,526 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 13:06:26,535 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 13:07:36,519 - craftBet -INFO - All specified test are executed
+2022-07-06 13:07:40,550 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-06 13:07:44,691 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 13:07:44,717 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 13:07:48,881 - craftBet -INFO - Home Page header elements are initialized
+2022-07-06 13:07:48,885 - craftBet -INFO - Home Page login PopUp elements are initialized
+2022-07-06 13:08:01,147 - craftBet -INFO - All specified test are executed

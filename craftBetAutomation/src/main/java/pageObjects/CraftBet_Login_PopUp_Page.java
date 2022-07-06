@@ -31,7 +31,7 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @FindBy(xpath = "//img[@class='login-logo']")
     @CacheLookup
     WebElement loginPopUpLogo;
-    public boolean LoginPopUpLogoPresense(){
+    public boolean loginPopUpLogoPresence(){
         try{
             basePage.waitElementToBeVisible(loginPopUpLogo);
             return true;
@@ -141,11 +141,11 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     }
 
 
-    @FindBy(xpath = "//button[@class='craft_btn login_btn -btn not_active']")
+    @FindBy(xpath = "//button[contains(text(),' Log In ') and @type='submit']")
     @CacheLookup
     WebElement loginPopUpLogInButton;
     public void clickLoginPopUpLogInButton(){
-        basePage.clickOnElementIfVisible(loginPopUpLogInButton);
+        basePage.clickOnElementIfClickable(loginPopUpLogInButton);
     }
     public boolean isClickableLoginPopUpLogInButton(){
         if (basePage.elementIsEnable(loginPopUpLogInButton)){

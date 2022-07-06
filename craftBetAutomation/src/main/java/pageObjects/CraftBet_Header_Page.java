@@ -43,6 +43,14 @@ public class CraftBet_Header_Page extends BasePage {
     public void clickOnLogInButtonIfVisible() {
         clickOnElementIfVisible(logIn);
     }
+    public boolean checkLoginButtonEnable(){
+        if (basePage.elementIsEnable(logIn)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
     public void clickOnLanguageDropDownIfVisible() {
         clickOnElementIfVisible(languageDropDown);

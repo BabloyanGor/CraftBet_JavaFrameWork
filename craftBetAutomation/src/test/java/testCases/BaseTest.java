@@ -27,8 +27,7 @@ public class BaseTest extends DriverFactory {
     }
 
     @BeforeSuite
-    public void initElements(){
-
+    public void StartSuite(){
     }
 
     @BeforeMethod
@@ -56,13 +55,13 @@ public class BaseTest extends DriverFactory {
 
     @AfterMethod
     public void tearDown() {
-        try {
-            this.driver.quit();
-            logger.info("Browser closed");
-        } catch (Exception exception) {
-            this.driver.quit();
-            logger.info("Browser closed with exception");
-        }
+//        try {
+//            this.driver.quit();
+//            logger.info("Browser closed");
+//        } catch (Exception exception) {
+//            this.driver.quit();
+//            logger.info("Browser closed with exception");
+//        }
     }
 
 

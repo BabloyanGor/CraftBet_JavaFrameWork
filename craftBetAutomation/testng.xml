@@ -12,9 +12,9 @@
         <listener class-name="utilities.Reporting"/>
         <listener class-name="utilities.ReportingAllure"/>
     </listeners>
-    <test name="testCases.LoginTest">
+    <test name="testCases.LoginPopUpTest">
         <classes>
-            <class name="testCases.LoginTest"/>
+            <class name="testCases.LoginPopUpTest"/>
         </classes>
     </test>
 </suite>

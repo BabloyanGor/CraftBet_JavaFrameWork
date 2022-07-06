@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="craftBetAutomation(failed)">
     <classes>
-      <class name="testCases.LoginTest">
+      <class name="testCases.LoginPopUpTest">
         <methods>
           <include name="testSkipp"/>
           <include name="finish"/>
@@ -13,7 +13,7 @@
           <include name="testFail"/>
           <include name="loginPopUpGUI_Test"/>
         </methods>
-      </class> <!-- testCases.LoginTest -->
+      </class> <!-- testCases.LoginPopUpTest -->
     </classes>
   </test> <!-- craftBetAutomation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
