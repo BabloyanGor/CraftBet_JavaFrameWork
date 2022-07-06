@@ -8,12 +8,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.BasePage;
-import pageObjects.CraftBet_Login_PopUp_Page;
 
 public class LoginPopUpTest extends BaseTest {
     SoftAssert softAssert = new SoftAssert();
     BasePage bp = new BasePage();
-
 
     @BeforeMethod
     public void goToLoginPopUp() {
@@ -26,7 +24,7 @@ public class LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with," +
             " Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
     @Severity(SeverityLevel.MINOR)
-    public void loginPopLabels_Test() {
+    public void loginPopUpLabelsPresenceVerification_Test() {
         String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
         logger.info("Header Captured");
         String actualEmailLabel = craftBet_login_popUp_page.getLoginPopUpEmailOrUsernameLabel();
@@ -51,7 +49,7 @@ public class LoginPopUpTest extends BaseTest {
         String expectedDontHaveAnAccountLabel = "Don't have an account? Sign Up";
         String expectedSaveAndSecureLabel = "Safe and Secure";
 
-        softAssert.assertEquals(actHeader,expectedHeader);
+        softAssert.assertEquals(actHeader, expectedHeader);
         logger.info("Header label checked");
         softAssert.assertEquals(actualEmailLabel, expectedEmailLabel);
         logger.info("username label checked");
@@ -61,9 +59,9 @@ public class LoginPopUpTest extends BaseTest {
         logger.info("Remember me label checked");
         softAssert.assertEquals(actualYouCanSignUpWithLabel, expectedYouCanSignUpWithLabel);
         logger.info("You can Sign in with label checked");
-        softAssert.assertEquals(actualDontHaveAnAccountLabel,expectedDontHaveAnAccountLabel);
+        softAssert.assertEquals(actualDontHaveAnAccountLabel, expectedDontHaveAnAccountLabel);
         logger.info("Don't have an account? Sign Up");
-        softAssert.assertEquals(actualSaveAndSecureLabel,expectedSaveAndSecureLabel);
+        softAssert.assertEquals(actualSaveAndSecureLabel, expectedSaveAndSecureLabel);
         logger.info("Safe and secure label checked");
 
         softAssert.assertAll();
@@ -72,17 +70,18 @@ public class LoginPopUpTest extends BaseTest {
     @Test(priority = 2, description = "Validate on Log_in Pop Up Logo Presence")
     @Description("Validate on Log_in Pop Up Logo Presence")
     @Severity(SeverityLevel.MINOR)
-    public void loginPopUpLogo_Test() {
+    public void loginPopUpLogoPresenceVerification_Test() {
         if (craftBet_login_popUp_page.loginPopUpLogoPresence()) {
             Assert.assertTrue(true);
         } else {
             Assert.assertTrue(false);
         }
     }
+
     @Test(priority = 3, description = "Validate on Log_in Pop Up Close (X) button functionality")
     @Description("Validate on Log_in Pop Up Close (X) button functionality")
     @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpCloseButton_Test() {
+    public void loginPopUpCloseButtonFunctionality_Test() {
         craftBet_login_popUp_page.clickOnLoginPopUpCloseButton();
         logger.info("close (X) button clicked");
         if (!craftBet_login_popUp_page.loginPopUpLogoPresence()) {
@@ -95,20 +94,23 @@ public class LoginPopUpTest extends BaseTest {
     // eye test
 
 
-
     @Test(priority = 5, description = "Validate on Log_in Pop Up Remember me label click-ability")
     @Description("Validate on Log_in Pop Up Remember me label click-ability")
     @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpRememberMeLabelClickability_Test() {
+    public void loginPopUpRememberMeLabelClickAbility_Test() {
         craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
         logger.info("Remember me label clicked");
-        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
+        logger.info("Remember me label clicked again");
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), false);
+        softAssert.assertAll();
     }
 
     @Test(priority = 6, description = "Validate on Log_in Pop Up checkBox functionality")
     @Description("Validate on Log_in Pop checkBox functionality")
     @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpCheckBoxClickability_Test() {
+    public void loginPopUpCheckBoxClickAbility_Test() {
         craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
         logger.info("checkbox clicked");
         softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
@@ -147,13 +149,7 @@ public class LoginPopUpTest extends BaseTest {
 //    }
 
 
-
-
-
-
-
-
-    @Test(priority = 5, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
+    @Test(priority = 9, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Description("Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInPositiveTest() {
@@ -167,7 +163,7 @@ public class LoginPopUpTest extends BaseTest {
 
     }
 
-    @Test(priority = 6, description = "Validate on Log_in Pop Up Log_In functionality with invalid password")
+    @Test(priority = 10, description = "Validate on Log_in Pop Up Log_In functionality with invalid password")
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid password")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInNegativeTest1() {
@@ -184,7 +180,7 @@ public class LoginPopUpTest extends BaseTest {
         }
     }
 
-    @Test(priority = 7, description = "Validate on Log_in Pop Up Log_In functionality with invalid username")
+    @Test(priority = 11, description = "Validate on Log_in Pop Up Log_In functionality with invalid username")
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid username")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInNegativeTest2() {
@@ -202,7 +198,7 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    @Test(priority = 8, description = "Validate on Log_in Pop Up Error message with invalid username")
+    @Test(priority = 12, description = "Validate on Log_in Pop Up Error message with invalid username")
     @Description("Validate on Log_in Pop Up error message with invalid username")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpErrorMessageValidationInvalidUsername() throws InterruptedException {
@@ -217,7 +213,7 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    @Test(priority = 9, description = "Validate on Log_in Pop Up error message with invalid password")
+    @Test(priority = 13, description = "Validate on Log_in Pop Up error message with invalid password")
     @Description("Validate on Log_in Pop Up error message with invalid password")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpErrorMessageValidationInvalidPassword() throws InterruptedException {

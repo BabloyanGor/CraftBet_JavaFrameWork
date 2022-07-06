@@ -111,3 +111,502 @@
 2022-07-06 18:09:29,711 [main] INFO craftBet - log in button was clicked
 2022-07-06 18:09:31,058 [main] INFO craftBet - Browser closed
 2022-07-06 18:09:31,073 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:21:31,046 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:32,237 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:32,290 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:35,025 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:35,028 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:35,029 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:21:38,786 [main] INFO craftBet - Header Captured
+2022-07-06 21:21:38,822 [main] INFO craftBet - Username label captured
+2022-07-06 21:21:38,858 [main] INFO craftBet - Password label captured
+2022-07-06 21:21:38,883 [main] INFO craftBet - Remember me label Captured
+2022-07-06 21:21:38,913 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-06 21:21:38,939 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-06 21:21:38,963 [main] INFO craftBet - Safe and secure label Captured
+2022-07-06 21:21:38,965 [main] INFO craftBet - Header label checked
+2022-07-06 21:21:38,965 [main] INFO craftBet - username label checked
+2022-07-06 21:21:38,966 [main] INFO craftBet - password label checked
+2022-07-06 21:21:38,966 [main] INFO craftBet - Remember me label checked
+2022-07-06 21:21:38,966 [main] INFO craftBet - You can Sign in with label checked
+2022-07-06 21:21:38,966 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-06 21:21:38,967 [main] INFO craftBet - Safe and secure label checked
+2022-07-06 21:21:38,976 [main] INFO craftBet - loginPopLabels_Test--->  Success
+2022-07-06 21:21:38,977 [main] INFO craftBet - loginPopLabels_Test------------------------------------------------
+2022-07-06 21:21:39,168 [main] INFO craftBet - Browser closed
+2022-07-06 21:21:39,174 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:39,182 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:39,190 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:40,491 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:40,492 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:40,492 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:21:42,575 [main] INFO craftBet - loginPopUpLogo_Test--->  Success
+2022-07-06 21:21:42,575 [main] INFO craftBet - loginPopUpLogo_Test------------------------------------------------
+2022-07-06 21:21:42,751 [main] INFO craftBet - Browser closed
+2022-07-06 21:21:42,762 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:42,779 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:42,789 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:44,157 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:44,157 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:44,157 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:21:46,552 [main] INFO craftBet - close (X) button clicked
+2022-07-06 21:21:47,098 [main] INFO craftBet - loginPopUpCloseButton_Test--->  Success
+2022-07-06 21:21:47,098 [main] INFO craftBet - loginPopUpCloseButton_Test------------------------------------------------
+2022-07-06 21:21:47,268 [main] INFO craftBet - Browser closed
+2022-07-06 21:21:47,272 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:47,279 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:47,286 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:48,612 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:48,613 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:48,613 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:21:50,621 [main] INFO craftBet - username passed
+2022-07-06 21:21:50,697 [main] INFO craftBet - password passed
+2022-07-06 21:21:50,758 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:21:52,290 [main] INFO craftBet - loginPopUpLogInPositiveTest--->  Success
+2022-07-06 21:21:52,291 [main] INFO craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-06 21:21:52,468 [main] INFO craftBet - Browser closed
+2022-07-06 21:21:52,479 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:52,495 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:52,506 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:53,757 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:53,757 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:53,758 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:21:55,565 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:21:55,586 [main] INFO craftBet - loginPopUpRememberMeLabelClickability_Test--->  Success
+2022-07-06 21:21:55,586 [main] INFO craftBet - loginPopUpRememberMeLabelClickability_Test------------------------------------------------
+2022-07-06 21:21:55,753 [main] INFO craftBet - Browser closed
+2022-07-06 21:21:55,756 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:21:55,763 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:21:55,771 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:21:57,479 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:21:57,479 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:21:57,479 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:00,376 [main] INFO craftBet - checkbox clicked
+2022-07-06 21:22:00,428 [main] INFO craftBet - checkbox clicked again
+2022-07-06 21:22:00,435 [main] INFO craftBet - loginPopUpCheckBoxClickability_Test--->  Success
+2022-07-06 21:22:00,435 [main] INFO craftBet - loginPopUpCheckBoxClickability_Test------------------------------------------------
+2022-07-06 21:22:00,622 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:00,630 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:22:00,635 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:22:00,643 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:22:01,962 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:22:01,963 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:22:01,963 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:04,563 [main] INFO craftBet - username passed
+2022-07-06 21:22:04,632 [main] INFO craftBet - password passed
+2022-07-06 21:22:04,685 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:22:14,709 [main] INFO craftBet - loginPopUpLogInNegativeTest1--->  Success
+2022-07-06 21:22:14,709 [main] INFO craftBet - loginPopUpLogInNegativeTest1------------------------------------------------
+2022-07-06 21:22:14,900 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:14,910 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:22:14,929 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:22:14,937 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:22:16,706 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:22:16,707 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:22:16,707 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:19,079 [main] INFO craftBet - username passed
+2022-07-06 21:22:19,157 [main] INFO craftBet - password passed
+2022-07-06 21:22:19,209 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:22:29,283 [main] INFO craftBet - loginPopUpLogInNegativeTest2--->  Success
+2022-07-06 21:22:29,283 [main] INFO craftBet - loginPopUpLogInNegativeTest2------------------------------------------------
+2022-07-06 21:22:29,497 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:29,505 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:22:29,518 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:22:29,525 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:22:30,804 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:22:30,805 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:22:30,805 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:33,017 [main] INFO craftBet - ForgotPassword link clicked
+2022-07-06 21:22:33,021 [main] INFO craftBet - Url captured
+2022-07-06 21:22:33,022 [main] INFO craftBet - loginPopUpSignUpLink_Test--->  Success
+2022-07-06 21:22:33,022 [main] INFO craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-06 21:22:33,196 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:33,204 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:22:33,224 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:22:33,239 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:22:34,514 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:22:34,515 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:22:34,515 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:36,143 [main] INFO craftBet - username passed
+2022-07-06 21:22:36,219 [main] INFO craftBet - password passed
+2022-07-06 21:22:36,270 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:22:37,314 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Success
+2022-07-06 21:22:37,314 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-06 21:22:37,506 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:37,509 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:22:37,514 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:22:37,520 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:22:39,263 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:22:39,264 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:22:39,264 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:22:41,678 [main] INFO craftBet - username passed
+2022-07-06 21:22:41,752 [main] INFO craftBet - password passed
+2022-07-06 21:22:41,808 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:22:42,865 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Success
+2022-07-06 21:22:42,866 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-06 21:22:43,055 [main] INFO craftBet - Browser closed
+2022-07-06 21:22:43,267 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:22:43,322 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-06 21:26:55,712 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:26:55,889 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:26:55,906 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:26:57,817 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:26:57,819 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:26:57,820 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:27:01,669 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:27:01,715 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:27:01,732 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-06 21:27:01,732 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-06 21:27:01,941 [main] INFO craftBet - Browser closed
+2022-07-06 21:27:02,145 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:27:02,193 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-06 21:27:36,821 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:27:37,012 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:27:37,029 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:27:38,754 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:27:38,757 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:27:38,758 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:27:40,590 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:27:40,633 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:27:40,652 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-06 21:27:40,652 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-06 21:27:40,840 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:27:40,875 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-06 21:28:31,381 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:28:31,560 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:28:31,577 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:28:35,133 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:28:35,136 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:28:35,137 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:28:37,094 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:28:37,122 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-06 21:28:37,122 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-06 21:28:37,313 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:28:37,347 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-06 21:33:03,441 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:03,685 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:03,703 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:07,189 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:07,192 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:07,192 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:09,956 [main] INFO craftBet - Header Captured
+2022-07-06 21:33:09,986 [main] INFO craftBet - Username label captured
+2022-07-06 21:33:10,015 [main] INFO craftBet - Password label captured
+2022-07-06 21:33:10,045 [main] INFO craftBet - Remember me label Captured
+2022-07-06 21:33:10,072 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-06 21:33:10,099 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-06 21:33:10,127 [main] INFO craftBet - Safe and secure label Captured
+2022-07-06 21:33:10,130 [main] INFO craftBet - Header label checked
+2022-07-06 21:33:10,130 [main] INFO craftBet - username label checked
+2022-07-06 21:33:10,130 [main] INFO craftBet - password label checked
+2022-07-06 21:33:10,131 [main] INFO craftBet - Remember me label checked
+2022-07-06 21:33:10,131 [main] INFO craftBet - You can Sign in with label checked
+2022-07-06 21:33:10,131 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-06 21:33:10,131 [main] INFO craftBet - Safe and secure label checked
+2022-07-06 21:33:10,141 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test--->  Success
+2022-07-06 21:33:10,142 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-06 21:33:10,147 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:10,160 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:10,168 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:13,023 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:13,024 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:13,024 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:16,269 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test--->  Success
+2022-07-06 21:33:16,270 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-06 21:33:16,274 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:16,287 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:16,299 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:19,247 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:19,248 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:19,248 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:22,366 [main] INFO craftBet - close (X) button clicked
+2022-07-06 21:33:22,904 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test--->  Success
+2022-07-06 21:33:22,905 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-06 21:33:22,910 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:22,924 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:22,933 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:25,832 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:25,833 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:25,833 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:28,534 [main] INFO craftBet - username passed
+2022-07-06 21:33:28,653 [main] INFO craftBet - password passed
+2022-07-06 21:33:28,755 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:33:30,109 [main] INFO craftBet - loginPopUpLogInPositiveTest--->  Success
+2022-07-06 21:33:30,109 [main] INFO craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-06 21:33:30,117 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:30,128 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:30,150 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:32,939 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:32,940 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:32,940 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:35,631 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:33:35,706 [main] INFO craftBet - Remember me label clicked again
+2022-07-06 21:33:35,779 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-06 21:33:35,780 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-06 21:33:35,786 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:35,798 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:35,807 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:38,993 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:38,994 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:38,994 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:41,812 [main] INFO craftBet - checkbox clicked
+2022-07-06 21:33:41,878 [main] INFO craftBet - checkbox clicked again
+2022-07-06 21:33:41,888 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test--->  Success
+2022-07-06 21:33:41,889 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-06 21:33:41,895 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:41,913 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:41,929 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:33:44,912 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:33:44,913 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:33:44,913 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:33:48,047 [main] INFO craftBet - username passed
+2022-07-06 21:33:48,179 [main] INFO craftBet - password passed
+2022-07-06 21:33:48,248 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:33:58,257 [main] INFO craftBet - loginPopUpLogInNegativeTest1--->  Success
+2022-07-06 21:33:58,258 [main] INFO craftBet - loginPopUpLogInNegativeTest1------------------------------------------------
+2022-07-06 21:33:58,261 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:33:58,269 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:33:58,276 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:34:01,524 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:34:01,526 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:34:01,527 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:34:04,855 [main] INFO craftBet - username passed
+2022-07-06 21:34:04,968 [main] INFO craftBet - password passed
+2022-07-06 21:34:05,021 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:34:15,039 [main] INFO craftBet - loginPopUpLogInNegativeTest2--->  Success
+2022-07-06 21:34:15,039 [main] INFO craftBet - loginPopUpLogInNegativeTest2------------------------------------------------
+2022-07-06 21:34:15,044 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:34:15,053 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:34:15,061 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:34:17,930 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:34:17,931 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:34:17,931 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:34:20,572 [main] INFO craftBet - ForgotPassword link clicked
+2022-07-06 21:34:20,579 [main] INFO craftBet - Url captured
+2022-07-06 21:34:20,580 [main] INFO craftBet - loginPopUpSignUpLink_Test--->  Success
+2022-07-06 21:34:20,581 [main] INFO craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-06 21:34:20,585 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:34:20,592 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:34:20,599 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:34:24,044 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:34:24,045 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:34:24,045 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:34:26,947 [main] INFO craftBet - username passed
+2022-07-06 21:34:27,030 [main] INFO craftBet - password passed
+2022-07-06 21:34:27,095 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:34:28,130 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Success
+2022-07-06 21:34:28,130 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-06 21:34:28,133 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:34:28,138 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:34:28,145 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:34:31,076 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:34:31,078 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:34:31,078 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:34:36,019 [main] INFO craftBet - username passed
+2022-07-06 21:34:36,188 [main] INFO craftBet - password passed
+2022-07-06 21:34:36,265 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:34:37,311 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Success
+2022-07-06 21:34:37,312 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-06 21:34:37,532 [main] INFO craftBet - All specified test was executed
+2022-07-06 21:34:37,657 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-06 21:40:56,739 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:40:56,931 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:40:56,950 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:00,491 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:00,494 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:00,494 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:04,642 [main] INFO craftBet - Header Captured
+2022-07-06 21:41:04,670 [main] INFO craftBet - Username label captured
+2022-07-06 21:41:04,695 [main] INFO craftBet - Password label captured
+2022-07-06 21:41:04,726 [main] INFO craftBet - Remember me label Captured
+2022-07-06 21:41:04,753 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-06 21:41:04,781 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-06 21:41:04,808 [main] INFO craftBet - Safe and secure label Captured
+2022-07-06 21:41:04,810 [main] INFO craftBet - Header label checked
+2022-07-06 21:41:04,810 [main] INFO craftBet - username label checked
+2022-07-06 21:41:04,810 [main] INFO craftBet - password label checked
+2022-07-06 21:41:04,811 [main] INFO craftBet - Remember me label checked
+2022-07-06 21:41:04,811 [main] INFO craftBet - You can Sign in with label checked
+2022-07-06 21:41:04,811 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-06 21:41:04,811 [main] INFO craftBet - Safe and secure label checked
+2022-07-06 21:41:04,821 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test--->  Success
+2022-07-06 21:41:04,822 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-06 21:41:05,009 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:05,015 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:05,023 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:05,032 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:07,934 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:07,935 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:07,935 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:10,902 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test--->  Success
+2022-07-06 21:41:10,903 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-06 21:41:11,111 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:11,114 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:11,121 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:11,129 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:13,974 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:13,975 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:13,975 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:16,065 [main] INFO craftBet - close (X) button clicked
+2022-07-06 21:41:17,130 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test--->  Success
+2022-07-06 21:41:17,131 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-06 21:41:17,291 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:17,294 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:17,301 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:17,310 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:20,310 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:20,311 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:20,311 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:22,349 [main] INFO craftBet - username passed
+2022-07-06 21:41:22,509 [main] INFO craftBet - password passed
+2022-07-06 21:41:22,580 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:41:24,287 [main] INFO craftBet - loginPopUpLogInPositiveTest--->  Success
+2022-07-06 21:41:24,287 [main] INFO craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-06 21:41:24,433 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:24,436 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:24,443 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:24,451 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:27,590 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:27,590 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:27,591 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:30,588 [main] INFO craftBet - Remember me label clicked
+2022-07-06 21:41:30,635 [main] INFO craftBet - Remember me label clicked again
+2022-07-06 21:41:30,650 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-06 21:41:30,650 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-06 21:41:30,805 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:30,807 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:30,815 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:30,822 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:33,983 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:33,983 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:33,983 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:35,579 [main] INFO craftBet - checkbox clicked
+2022-07-06 21:41:35,618 [main] INFO craftBet - checkbox clicked again
+2022-07-06 21:41:35,623 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test--->  Success
+2022-07-06 21:41:35,624 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-06 21:41:35,786 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:35,789 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:35,796 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:35,804 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:38,886 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:38,886 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:38,886 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:40,587 [main] INFO craftBet - username passed
+2022-07-06 21:41:40,665 [main] INFO craftBet - password passed
+2022-07-06 21:41:40,719 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:41:50,731 [main] INFO craftBet - loginPopUpLogInNegativeTest1--->  Success
+2022-07-06 21:41:50,732 [main] INFO craftBet - loginPopUpLogInNegativeTest1------------------------------------------------
+2022-07-06 21:41:50,926 [main] INFO craftBet - Browser closed
+2022-07-06 21:41:50,929 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:41:50,936 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:41:50,943 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:41:54,436 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:41:54,436 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:41:54,436 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:41:57,007 [main] INFO craftBet - username passed
+2022-07-06 21:41:57,089 [main] INFO craftBet - password passed
+2022-07-06 21:41:57,140 [main] INFO craftBet - Log In Button was clicked
+2022-07-06 21:42:07,197 [main] INFO craftBet - loginPopUpLogInNegativeTest2--->  Success
+2022-07-06 21:42:07,197 [main] INFO craftBet - loginPopUpLogInNegativeTest2------------------------------------------------
+2022-07-06 21:42:07,375 [main] INFO craftBet - Browser closed
+2022-07-06 21:42:07,378 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:42:07,388 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:42:07,396 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:42:10,299 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:42:10,299 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:42:10,299 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:42:12,396 [main] INFO craftBet - ForgotPassword link clicked
+2022-07-06 21:42:12,400 [main] INFO craftBet - Url captured
+2022-07-06 21:42:12,401 [main] INFO craftBet - loginPopUpSignUpLink_Test--->  Success
+2022-07-06 21:42:12,401 [main] INFO craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-06 21:42:12,582 [main] INFO craftBet - Browser closed
+2022-07-06 21:42:12,584 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:42:12,590 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:42:12,599 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:42:15,395 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:42:15,395 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:42:15,395 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:42:17,959 [main] INFO craftBet - username passed
+2022-07-06 21:42:18,056 [main] INFO craftBet - password passed
+2022-07-06 21:42:18,122 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:42:19,181 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Success
+2022-07-06 21:42:19,181 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-06 21:42:19,358 [main] INFO craftBet - Browser closed
+2022-07-06 21:42:19,364 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 21:42:19,374 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 21:42:19,385 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 21:42:22,177 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 21:42:22,178 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-06 21:42:22,178 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-06 21:42:25,231 [main] INFO craftBet - username passed
+2022-07-06 21:42:25,315 [main] INFO craftBet - password passed
+2022-07-06 21:42:25,369 [main] INFO craftBet - log in button was clicked
+2022-07-06 21:42:26,409 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Success
+2022-07-06 21:42:26,410 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-06 21:42:26,581 [main] INFO craftBet - Browser closed
+2022-07-06 21:42:26,757 [main] INFO craftBet - All specified test was executed
