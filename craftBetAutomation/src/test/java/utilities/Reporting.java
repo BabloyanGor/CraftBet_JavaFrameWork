@@ -64,6 +64,8 @@ public class Reporting extends TestListenerAdapter {
         logger = extent.createTest(tr.getName()); // create new entry in th report
         logger.fail(tr.getName() + " Failed");    // log test failed
         logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); // send the failed information to the report with Red color highlighted
+
+
         try {
             basePage.captureScreen(BaseTest.driver, tr.getName());
             String screenshotPath = System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tr.getName() + ".png";

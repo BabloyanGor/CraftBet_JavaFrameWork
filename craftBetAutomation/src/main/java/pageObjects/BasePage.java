@@ -43,15 +43,17 @@ public class BasePage {
     }
 
     /* this method will be take Screenshot whale page*/
-    public void captureScreen(WebDriver driver, String tname) throws IOException {
+    public File captureScreen(WebDriver driver, String tname) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");
         FileUtils.copyFile(source, target);
         System.out.println("Screenshot taken");
+        return target;
     }
 
-    public void captureScreenShowElement(WebDriver driver, WebElement element, String tname) throws IOException {
+    public void captureScreenDrawBorder(WebDriver driver, WebElement element, String tname) throws IOException {
+        js.executeScript("arguments[0].style.border = '3px solid red'",element);
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 23.19 sec <<< FAILURE! - in TestSuite
+testFail(testCases.LoginTest)  Time elapsed: 2.048 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.LoginTest.testFail(LoginTest.java:49)
+
+loginPopUpGUI_Test(testCases.LoginTest)  Time elapsed: 1.703 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [Log In     ] but found [Log In]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.LoginTest.loginPopUpGUI_Test(LoginTest.java:26)
+

@@ -5,10 +5,12 @@
     <classes>
       <class name="testCases.LoginTest">
         <methods>
+          <include name="testSkipp"/>
           <include name="finish"/>
-          <include name="setup"/>
           <include name="initElements"/>
+          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="testFail"/>
           <include name="loginPopUpGUI_Test"/>
         </methods>
       </class> <!-- testCases.LoginTest -->

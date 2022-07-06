@@ -1,2 +1,3 @@
+pageObjects\CraftBet_Login_PopUp_Page.class
 pageObjects\BasePage.class
-pageObjects\CraftBet_HomePage.class
+pageObjects\CraftBet_Header_Page.class

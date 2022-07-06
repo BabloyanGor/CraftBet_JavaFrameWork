@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+    <listener class-name="utilities.ReportingAllure"/>
+  </listeners>
+  <test thread-count="5" name="testCases.LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="testSkipp"/>
+          <include name="finish"/>
+          <include name="setup"/>
+          <include name="initElements"/>
+          <include name="testFail"/>
+          <include name="tearDown"/>
+          <include name="loginPopUpGUI_Test"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- testCases.LoginTest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

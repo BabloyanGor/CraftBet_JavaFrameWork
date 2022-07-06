@@ -1,6 +1,7 @@
-testCases\LogoTest.class
+utilities\ReportingAllure.class
+utilities\XLUtils.class
+testCases\LoginTest.class
+utilities\Reporting.class
 utilities\DriverFactory.class
 testCases\BaseTest.class
-utilities\XLUtils.class
 utilities\ReadConfig.class
-utilities\Reporting.class
