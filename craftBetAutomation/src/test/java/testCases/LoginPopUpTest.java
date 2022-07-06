@@ -21,8 +21,10 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    @Test(priority = 1, description = "Validate on Log_in Pop Up Header")
-    @Description("Validate on Log_in Pop Ups Header")
+    @Test(priority = 1, description = "Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
+            " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
+    @Description("Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with," +
+            " Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
     @Severity(SeverityLevel.MINOR)
     public void loginPopLabels_Test() {
         String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
@@ -44,7 +46,7 @@ public class LoginPopUpTest extends BaseTest {
         String expectedHeader = "Log In";
         String expectedEmailLabel = "Email/mobile or username";
         String expectedPasswordLabel = "Password";
-        String expectedRememberMyLabel = "Remember me ";
+        String expectedRememberMyLabel = "Remember me";
         String expectedYouCanSignUpWithLabel = "You can Sign in with";
         String expectedDontHaveAnAccountLabel = "Don't have an account? Sign Up";
         String expectedSaveAndSecureLabel = "Safe and Secure";
@@ -65,8 +67,8 @@ public class LoginPopUpTest extends BaseTest {
         logger.info("Safe and secure label checked");
 
         softAssert.assertAll();
-
     }
+
     @Test(priority = 2, description = "Validate on Log_in Pop Up Logo Presence")
     @Description("Validate on Log_in Pop Up Logo Presence")
     @Severity(SeverityLevel.MINOR)
@@ -77,56 +79,6 @@ public class LoginPopUpTest extends BaseTest {
             Assert.assertTrue(false);
         }
     }
-
-
-
-    @Test(priority = 1, description = "Validate on Log_in Pop Up Remember me label click-ability")
-    @Description("Validate on Log_in Pop Up Remember me label click-ability")
-    @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpRememberMeLabelClickability_Test() {
-        craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
-        logger.info("Remember me label clicked");
-        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
-    }
-
-    @Test(priority = 1, description = "Validate on Log_in Pop Up checkBox functionality")
-    @Description("Validate on Log_in Pop checkBox functionality")
-    @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpCheckBoxClickability_Test() {
-        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
-        logger.info("checkbox clicked");
-        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
-        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
-        logger.info("checkbox clicked again");
-        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), false);
-        softAssert.assertAll();
-    }
-//    @Test(priority = 1, description = "Validate on Log_in Pop Up SignUp link functionality")
-//    @Description("Validate on Log_in Pop Up SignUp link functionality")
-//    @Severity(SeverityLevel.NORMAL)
-//    public void loginPopUpSignUpLink_Test()  {
-//        craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
-//        logger.info("SignUp link clicked");
-//        String url = bp.getUrl();
-//        logger.info("Url captured");
-//        softAssert.assertEquals(url,"");
-//
-//    }
-
-    @Test(priority = 1, description = "Validate on Log_in Pop Up Forgot password link functionality")
-    @Description("Validate on Log_in Pop Up Forgot password link functionality")
-    @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpSignUpLink_Test() {
-        craftBet_login_popUp_page.clickLoginPopUpForgotPassword();
-        logger.info("ForgotPassword link clicked");
-        String url = craftBet_login_popUp_page.getUrl();
-        logger.info("Url captured");
-        softAssert.assertEquals(url, "https://craftbet.com/forgot-password");
-
-    }
-
-
-
     @Test(priority = 3, description = "Validate on Log_in Pop Up Close (X) button functionality")
     @Description("Validate on Log_in Pop Up Close (X) button functionality")
     @Severity(SeverityLevel.NORMAL)
@@ -139,6 +91,66 @@ public class LoginPopUpTest extends BaseTest {
             Assert.assertTrue(false);
         }
     }
+
+    // eye test
+
+
+
+    @Test(priority = 5, description = "Validate on Log_in Pop Up Remember me label click-ability")
+    @Description("Validate on Log_in Pop Up Remember me label click-ability")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpRememberMeLabelClickability_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
+        logger.info("Remember me label clicked");
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+    }
+
+    @Test(priority = 6, description = "Validate on Log_in Pop Up checkBox functionality")
+    @Description("Validate on Log_in Pop checkBox functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpCheckBoxClickability_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
+        logger.info("checkbox clicked");
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
+        logger.info("checkbox clicked again");
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), false);
+        softAssert.assertAll();
+    }
+
+    @Test(priority = 7, description = "Validate on Log_in Pop Up Forgot password link functionality")
+    @Description("Validate on Log_in Pop Up Forgot password link functionality")
+    @Severity(SeverityLevel.BLOCKER)
+    public void loginPopUpSignUpLink_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpForgotPassword();
+        logger.info("ForgotPassword link clicked");
+        String url = craftBet_login_popUp_page.getUrl();
+        logger.info("Url captured");
+        softAssert.assertEquals(url, "https://craftbet.com/forgot-password");
+
+    }
+
+
+    // facebook google ......test
+
+
+//    @Test(priority = 8, description = "Validate on Log_in Pop Up SignUp link functionality")
+//    @Description("Validate on Log_in Pop Up SignUp link functionality")
+//    @Severity(SeverityLevel.NORMAL)
+//    public void loginPopUpSignUpLink_Test()  {
+//        craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
+//        logger.info("SignUp link clicked");
+//        String url = bp.getUrl();
+//        logger.info("Url captured");
+//        softAssert.assertEquals(url,"");
+//
+//    }
+
+
+
+
+
+
 
 
     @Test(priority = 5, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
