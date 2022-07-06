@@ -740,3 +740,33 @@ java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
 2022-07-05 20:26:44,278 [main] ERROR craftBet - loginPopUpGUI_Test------------------------------------------------
 2022-07-05 20:26:44,516 [main] INFO craftBet - Browser closed
 2022-07-05 20:26:44,776 [main] INFO craftBet - All specified test are executed
+2022-07-06 10:20:21,720 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 10:20:23,481 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 10:20:23,530 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 10:20:28,128 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 10:20:28,130 [main] INFO craftBet - Home Page login PopUp elements are initialized
+2022-07-06 10:20:31,586 [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-06 10:20:31,879 [main] INFO craftBet - Browser closed
+2022-07-06 10:20:31,899 [main] INFO craftBet - All specified test are executed
+2022-07-06 11:12:59,107 [main] INFO craftBet - Browser for test will be edge as chosen
+2022-07-06 11:12:59,447 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 103.0.1264.45 (resolved driver for Edge 103)
+2022-07-06 11:12:59,472 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.45\msedgedriver.exe
+2022-07-06 11:13:04,153 [main] INFO craftBet - Home Page header elements are initialized
+2022-07-06 11:13:04,157 [main] INFO craftBet - Home Page login PopUp elements are initialized
+2022-07-06 11:13:08,614 [main] INFO craftBet - Browser closed
+2022-07-06 11:13:08,643 [main] INFO craftBet - All specified test are executed
