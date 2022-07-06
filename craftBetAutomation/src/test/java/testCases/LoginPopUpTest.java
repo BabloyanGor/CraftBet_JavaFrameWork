@@ -11,96 +11,213 @@ import pageObjects.BasePage;
 import pageObjects.CraftBet_Login_PopUp_Page;
 
 public class LoginPopUpTest extends BaseTest {
-    SoftAssert softAssert =new SoftAssert();
+    SoftAssert softAssert = new SoftAssert();
     BasePage bp = new BasePage();
 
 
     @BeforeMethod
-    public void goToLoginPopUp(){
+    public void goToLoginPopUp() {
         craftBet_header_page.clickOnLogInButtonIfVisible();
     }
 
-    @Test(priority = 1, description = "Validate Log_in Pop Header")
-    @Description("Validate Log_in Pop Header")
+
+    @Test(priority = 1, description = "Validate on Log_in Pop Up Header")
+    @Description("Validate on Log_in Pop Ups Header")
     @Severity(SeverityLevel.MINOR)
-    public void loginPopUpHeader_Test()  {
-        String actTitle = craftBet_login_popUp_page.getLoginPopUpHeader();
+    public void loginPopLabels_Test() {
+        String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
         logger.info("Header Captured");
-        String expTitle = "Log In";
-        softAssert.assertEquals(actTitle,expTitle);
-        softAssert.assertAll();
-    }
-
-    @Test(priority = 2, description = "Validate Log_in Pop Logo Presence")
-    @Description("Validate Log_in Pop Logo Presence")
-    @Severity(SeverityLevel.MINOR)
-    public void loginPopUpLogo_Test()  {
-       if (craftBet_login_popUp_page.loginPopUpLogoPresence()){
-           Assert.assertTrue(true);
-       }
-       else{
-           Assert.fail();
-       }
-    }
-
-    @Test(priority = 3, description = "Validate Log_in Pop Up Close X button functionality")
-    @Description("Validate Log_in Pop Close X button functionality")
-    @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpCloseButton_Test()  {
-        craftBet_login_popUp_page.clickOnLoginPopUpCloseButton();
-        logger.info("close (X) button clicked");
-        if (!craftBet_login_popUp_page.loginPopUpLogoPresence()){
-            Assert.assertTrue(true);
-        }
-        else{
-            Assert.fail();
-        }
-    }
-
-    @Test(priority = 3, description = "Validate Log_in Pop Up Email and Password labels")
-    @Description("Validate Log_in Pop Up Email and Password labels")
-    @Severity(SeverityLevel.MINOR)
-    public void loginPopUpEmailAndPasswordLabelsValidation()  {
         String actualEmailLabel = craftBet_login_popUp_page.getLoginPopUpEmailOrUsernameLabel();
-        logger.info("username label captured");
+        logger.info("Username label captured");
         String actualPasswordLabel = craftBet_login_popUp_page.getLoginPopUpPasswordLabel();
-        logger.info("password label captured");
+        logger.info("Password label captured");
+
+        String actualRememberMyLabel = craftBet_login_popUp_page.loginPopUpRememberMeLabelGetText();
+        logger.info("Remember me label Captured");
+        String actualYouCanSignUpWithLabel = craftBet_login_popUp_page.loginPopUpYouCanSignUpWithLabelGetText();
+        logger.info("You can Sign in with label Captured");
+        String actualDontHaveAnAccountLabel = craftBet_login_popUp_page.loginPopUpDoNotHaveAccountLabelGetText();
+        logger.info("Don't have an account? label Captured");
+        String actualSaveAndSecureLabel = craftBet_login_popUp_page.loginPopUpSaveAndSecureLabelGetText();
+        logger.info("Safe and secure label Captured");
+
+        String expectedHeader = "Log In";
         String expectedEmailLabel = "Email/mobile or username";
         String expectedPasswordLabel = "Password";
-        softAssert.assertEquals(actualEmailLabel,expectedEmailLabel);
+        String expectedRememberMyLabel = "Remember me ";
+        String expectedYouCanSignUpWithLabel = "You can Sign in with";
+        String expectedDontHaveAnAccountLabel = "Don't have an account? Sign Up";
+        String expectedSaveAndSecureLabel = "Safe and Secure";
+
+        softAssert.assertEquals(actHeader,expectedHeader);
+        logger.info("Header label checked");
+        softAssert.assertEquals(actualEmailLabel, expectedEmailLabel);
         logger.info("username label checked");
-        softAssert.assertEquals(actualPasswordLabel,expectedPasswordLabel);
+        softAssert.assertEquals(actualPasswordLabel, expectedPasswordLabel);
         logger.info("password label checked");
+        softAssert.assertEquals(actualRememberMyLabel, expectedRememberMyLabel);
+        logger.info("Remember me label checked");
+        softAssert.assertEquals(actualYouCanSignUpWithLabel, expectedYouCanSignUpWithLabel);
+        logger.info("You can Sign in with label checked");
+        softAssert.assertEquals(actualDontHaveAnAccountLabel,expectedDontHaveAnAccountLabel);
+        logger.info("You can Sign in with label checked");
+        softAssert.assertEquals(actualSaveAndSecureLabel,expectedSaveAndSecureLabel);
+        logger.info("Safe and secure label checked");
+
         softAssert.assertAll();
+
+    }
+    @Test(priority = 2, description = "Validate on Log_in Pop Up Logo Presence")
+    @Description("Validate on Log_in Pop Up Logo Presence")
+    @Severity(SeverityLevel.MINOR)
+    public void loginPopUpLogo_Test() {
+        if (craftBet_login_popUp_page.loginPopUpLogoPresence()) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.assertTrue(false);
+        }
     }
 
 
-    @Test(priority = 4, description = "Validate Log_in Pop Up Log_In functionality")
-    @Description("Validate Log_in Pop Up Log_In functionality")
+
+    @Test(priority = 1, description = "Validate on Log_in Pop Up Remember me label click-ability")
+    @Description("Validate on Log_in Pop Up Remember me label click-ability")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpRememberMeLabelClickability_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
+        logger.info("Remember me label clicked");
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+    }
+
+    @Test(priority = 1, description = "Validate on Log_in Pop Up checkBox functionality")
+    @Description("Validate on Log_in Pop checkBox functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpCheckBoxClickability_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
+        logger.info("checkbox clicked");
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
+        craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
+        logger.info("checkbox clicked again");
+        softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), false);
+        softAssert.assertAll();
+    }
+//    @Test(priority = 1, description = "Validate on Log_in Pop Up SignUp link functionality")
+//    @Description("Validate on Log_in Pop Up SignUp link functionality")
+//    @Severity(SeverityLevel.NORMAL)
+//    public void loginPopUpSignUpLink_Test()  {
+//        craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
+//        logger.info("SignUp link clicked");
+//        String url = bp.getUrl();
+//        logger.info("Url captured");
+//        softAssert.assertEquals(url,"");
+//
+//    }
+
+    @Test(priority = 1, description = "Validate on Log_in Pop Up Forgot password link functionality")
+    @Description("Validate on Log_in Pop Up Forgot password link functionality")
     @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpLogInPositiveTest()  {
+    public void loginPopUpSignUpLink_Test() {
+        craftBet_login_popUp_page.clickLoginPopUpForgotPassword();
+        logger.info("ForgotPassword link clicked");
+        String url = craftBet_login_popUp_page.getUrl();
+        logger.info("Url captured");
+        softAssert.assertEquals(url, "https://craftbet.com/forgot-password");
+
+    }
+
+
+
+    @Test(priority = 3, description = "Validate on Log_in Pop Up Close (X) button functionality")
+    @Description("Validate on Log_in Pop Up Close (X) button functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpCloseButton_Test() {
+        craftBet_login_popUp_page.clickOnLoginPopUpCloseButton();
+        logger.info("close (X) button clicked");
+        if (!craftBet_login_popUp_page.loginPopUpLogoPresence()) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.assertTrue(false);
+        }
+    }
+
+
+    @Test(priority = 5, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
+    @Description("Validate on Log_in Pop Up Log_In functionality with valid credentials")
+    @Severity(SeverityLevel.BLOCKER)
+    public void loginPopUpLogInPositiveTest() {
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
         logger.info("username passed");
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys(password);
         logger.info("password passed");
         craftBet_login_popUp_page.clickLoginPopUpLogInButton();
         logger.info("Log In Button was clicked");
-        if (craftBet_login_popUp_page.loginPopUpLogoPresence()){
+        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), true);
+
+    }
+
+    @Test(priority = 6, description = "Validate on Log_in Pop Up Log_In functionality with invalid password")
+    @Description("Validate on Log_in Pop Up Log_In functionality with invalid password")
+    @Severity(SeverityLevel.BLOCKER)
+    public void loginPopUpLogInNegativeTest1() {
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
+        logger.info("username passed");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys("123456");
+        logger.info("password passed");
+        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
+        logger.info("Log In Button was clicked");
+        try {
+            Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), false);
+        } catch (Exception e) {
             Assert.assertTrue(true);
-            logger.info("test passed");
         }
-        else{
-            Assert.fail();
-            logger.error("test Failed");
+    }
+
+    @Test(priority = 7, description = "Validate on Log_in Pop Up Log_In functionality with invalid username")
+    @Description("Validate on Log_in Pop Up Log_In functionality with invalid username")
+    @Severity(SeverityLevel.BLOCKER)
+    public void loginPopUpLogInNegativeTest2() {
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys("1234");
+        logger.info("username passed");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys(password);
+        logger.info("password passed");
+        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
+        logger.info("Log In Button was clicked");
+        try {
+            Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), false);
+        } catch (Exception e) {
+            Assert.assertTrue(true);
         }
     }
 
 
+    @Test(priority = 8, description = "Validate on Log_in Pop Up Error message with invalid username")
+    @Description("Validate on Log_in Pop Up error message with invalid username")
+    @Severity(SeverityLevel.MINOR)
+    public void loginPopUpErrorMessageValidationInvalidUsername() throws InterruptedException {
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
+        logger.info("username passed");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys("1234");
+        logger.info("password passed");
+        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
+        logger.info("log in button was clicked");
+        Thread.sleep(1000);
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpErrorMessageGetText(), "Username or Password is incorrect. Please try again.");
+    }
 
 
-
-
-
+    @Test(priority = 9, description = "Validate on Log_in Pop Up error message with invalid password")
+    @Description("Validate on Log_in Pop Up error message with invalid password")
+    @Severity(SeverityLevel.MINOR)
+    public void loginPopUpErrorMessageValidationInvalidPassword() throws InterruptedException {
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys("1234");
+        logger.info("username passed");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys(password);
+        logger.info("password passed");
+        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
+        logger.info("log in button was clicked");
+        Thread.sleep(1000);
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpErrorMessageGetText(), "Username or Password is incorrect. Please try again.");
+    }
 
 
 //    @Test(groups= {"SmokeTest"})

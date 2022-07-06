@@ -28,6 +28,16 @@ public class CraftBet_Header_Page extends BasePage {
     @FindBy(xpath = "//*[@class = 'icon icon-message']")
     @CacheLookup
     WebElement messageIcon;
+
+    @FindBy(xpath = "//*[@class='user_id']")
+    @CacheLookup
+    WebElement UserIdLabel;
+    public boolean userIdLabelIsEnabled(){
+       return basePage.elementIsEnable(UserIdLabel);
+    }
+    public boolean userIdLabelIsDisplayed(){
+        return basePage.elementIsDisplayed(UserIdLabel);
+    }
     @FindBy(xpath = "//div[@class='header-section_topPanel_left']")
     @CacheLookup
     WebElement logo;

@@ -95,6 +95,11 @@ public class BasePage {
     /* this method will true if element is enabled */
     public boolean elementIsEnable(WebElement element) {
         return element.isEnabled();
+
+    }
+    public boolean elementIsDisplayed(WebElement element) {
+        return element.isDisplayed();
+
     }
 
     /* this method will return true if element is selected */
@@ -104,7 +109,12 @@ public class BasePage {
 
     /* this method will get text from element */
     public String getText(WebElement element) {
+        waitElementToBeVisible(element);
         return element.getText();
+    }
+    /* this method will get current URL */
+    public String getUrl() {
+        return driver.getCurrentUrl();
     }
 
     /* this method will get attribute from element */

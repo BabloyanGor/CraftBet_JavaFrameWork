@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>craftBetAutomation</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/2/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 05 20:23:31 AMT 2022</td>
+<td>Started on:</td><td>Wed Jul 06 15:57:02 AMT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23983 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105053 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,103 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testCases.LoginPopUpTest.testFail()'><b>testFail</b><br>Test class: testCases.LoginPopUpTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.LoginPopUpTest.testFail(LoginTest.java:49)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace645717550", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace645717550'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at testCases.LoginPopUpTest.testFail(LoginTest.java:49)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>testCases.LoginPopUpTest@710c2b53</td></tr>
-<tr>
-<td title='testCases.LoginPopUpTest.loginPopUpGUI_Test()'><b>loginPopUpGUI_Test</b><br>Test class: testCases.LoginPopUpTest</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Log In     ] but found [Log In]
-	at testCases.LoginPopUpTest.loginPopUpGUI_Test(LoginTest.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1729954747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1729954747'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [Log In     ] but found [Log In]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at testCases.LoginPopUpTest.loginPopUpGUI_Test(LoginTest.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>testCases.LoginPopUpTest@710c2b53</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -173,59 +76,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.LoginPopUpTest.TestSuccess()'><b>TestSuccess</b><br>Test class: testCases.LoginPopUpTest</td>
+<td title='testCases.LoginPopUpTest.loginPopUpCloseButton_Test()'><b>loginPopUpCloseButton_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Close (X) button functionality</td>
 <td></td>
 <td>0</td>
-<td>testCases.LoginPopUpTest@710c2b53</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
 <tr>
-<td title='testCases.LoginPopUpTest.testSkipp()'><b>testSkipp</b><br>Test class: testCases.LoginPopUpTest</td>
-<td><div><pre>org.testng.SkipException: Skipping this exception
-	at testCases.LoginPopUpTest.testSkipp(LoginTest.java:56)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1398479590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1398479590'><pre>org.testng.SkipException: Skipping this exception
-	at testCases.LoginPopUpTest.testSkipp(LoginTest.java:56)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1()'><b>loginPopUpLogInNegativeTest1</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid password</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest2()'><b>loginPopUpLogInNegativeTest2</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid username</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpEmailAndPasswordLabelsValidation()'><b>loginPopUpEmailAndPasswordLabelsValidation</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Email and Password labels</td>
+<td></td>
 <td>0</td>
-<td>testCases.LoginPopUpTest@710c2b53</td></tr>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpErrorMessageValidationInvalidPassword()'><b>loginPopUpErrorMessageValidationInvalidPassword</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up error message with invalid password</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpHeader_Test()'><b>loginPopUpHeader_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Header</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpErrorMessageValidationInvalidUsername()'><b>loginPopUpErrorMessageValidationInvalidUsername</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up error message with invalid username</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogo_Test()'><b>loginPopUpLogo_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Logo Presence</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInPositiveTest()'><b>loginPopUpLogInPositiveTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with valid credentials</td>
+<td></td>
+<td>2</td>
+<td>testCases.LoginPopUpTest@63376bed</td></tr>
 </table><p>
 </body>
 </html>

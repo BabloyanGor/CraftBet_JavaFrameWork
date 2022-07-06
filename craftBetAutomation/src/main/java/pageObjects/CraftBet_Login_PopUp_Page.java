@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
-public class CraftBet_Login_PopUp_Page extends BasePage{
+public class CraftBet_Login_PopUp_Page extends BasePage {
     private final BasePage basePage;
 
     public CraftBet_Login_PopUp_Page(WebDriver driver) {
@@ -13,10 +13,14 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
         basePage = new BasePage(driver);
     }
 
+    public String getCurrentUrl() {
+        return basePage.getUrl();
+    }
     @FindBy(xpath = "//*[@class='login-title']")
     @CacheLookup
     WebElement loginPopUpHeader;
-    public String getLoginPopUpHeader(){
+
+    public String getLoginPopUpHeader() {
         return basePage.getText(loginPopUpHeader);
     }
 
@@ -24,19 +28,19 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @CacheLookup
     WebElement loginPopUpCloseButton;
 
-    public void clickOnLoginPopUpCloseButton(){
+    public void clickOnLoginPopUpCloseButton() {
         basePage.clickOnElementIfVisible(loginPopUpCloseButton);
     }
 
     @FindBy(xpath = "//img[@class='login-logo']")
     @CacheLookup
     WebElement loginPopUpLogo;
-    public boolean loginPopUpLogoPresence(){
-        try{
+
+    public boolean loginPopUpLogoPresence() {
+        try {
             basePage.waitElementToBeVisible(loginPopUpLogo);
             return true;
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             return false;
         }
 
@@ -45,21 +49,24 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @FindBy(xpath = "//span[contains(text(),'Email/mobile or username')]")
     @CacheLookup
     WebElement loginPopUpEmailOrUsernameLabel;
-    public String getLoginPopUpEmailOrUsernameLabel(){
+
+    public String getLoginPopUpEmailOrUsernameLabel() {
         return basePage.getText(loginPopUpEmailOrUsernameLabel);
     }
 
     @FindBy(xpath = "//*[@name='username']")
     @CacheLookup
     WebElement loginPopUpEmailOrUsernameInput;
-    public void loginPopUpEmailOrUsernameSendKeys(String username){
-        basePage.sendKeysIfElementVisible(loginPopUpEmailOrUsernameInput,username);
+
+    public void loginPopUpEmailOrUsernameSendKeys(String username) {
+        basePage.sendKeysIfElementVisible(loginPopUpEmailOrUsernameInput, username);
     }
 
     @FindBy(xpath = "//span[contains(text(),'Password')]")
     @CacheLookup
     WebElement loginPopUpPasswordLabel;
-    public String getLoginPopUpPasswordLabel(){
+
+    public String getLoginPopUpPasswordLabel() {
         return basePage.getText(loginPopUpPasswordLabel);
     }
 
@@ -67,17 +74,19 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @CacheLookup
     WebElement loginPopUpPasswordInput;
 
-    public void loginPopUpPasswordSendKeys(String password){
-        basePage.sendKeysIfElementVisible(loginPopUpPasswordInput,password);
+    public void loginPopUpPasswordSendKeys(String password) {
+        basePage.sendKeysIfElementVisible(loginPopUpPasswordInput, password);
     }
-    public String loginPopUpPasswordGetText(){
+
+    public String loginPopUpPasswordGetText() {
         return basePage.getText(loginPopUpPasswordInput);
     }
 
     @FindBy(xpath = "//span[@class='icon-eye-password-close']")
     @CacheLookup
     WebElement loginPopUpEyeShowPassword;
-    public void clickLoginPopUpEyeShowPassword(){
+
+    public void clickLoginPopUpEyeShowPassword() {
         basePage.clickOnElementIfVisible(loginPopUpEyeShowPassword);
     }
 
@@ -86,57 +95,71 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @CacheLookup
     WebElement loginPopUpForgotPassword;
 
-    public void clickLoginPopUpForgotPassword(){
+    public void clickLoginPopUpForgotPassword() {
         basePage.clickOnElementIfVisible(loginPopUpForgotPassword);
     }
 
     @FindBy(xpath = "//input[@id='remeberMe']")
     @CacheLookup
     WebElement loginPopUpRememberMeCheckbox;
-    public void clickLoginPopUpRememberMeCheckbox(){
+
+    public void clickLoginPopUpRememberMeCheckbox() {
         basePage.clickOnElementIfVisible(loginPopUpRememberMeCheckbox);
+    }
+
+    public boolean loginPopUpRememberMeCheckboxIsSelected() {
+        return basePage.elementIsSelected(loginPopUpRememberMeCheckbox);
     }
 
     @FindBy(xpath = "//label[@class='reg-conditions']")
     @CacheLookup
     WebElement loginPopUpRememberMeLabel;
 
-    public void clickLoginPopUpRememberMeLabel(){
+    public void clickLoginPopUpRememberMeLabel() {
         basePage.clickOnElementIfVisible(loginPopUpRememberMeLabel);
     }
-    public String loginPopUpRememberMeLabelGetText(){
+
+    public String loginPopUpRememberMeLabelGetText() {
         return basePage.getText(loginPopUpRememberMeLabel);
     }
 
     @FindBy(xpath = "//*[@class='social-login-text']")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithLabel;
-    public String loginPopUpYouCanSignUpWithLabelGetText(){
+
+    public String loginPopUpYouCanSignUpWithLabelGetText() {
         return basePage.getText(loginPopUpYouCanSignUpWithLabel);
     }
 
     @FindBy(xpath = "/html/body/app-root/simple-modal-holder/simple-modal-wrapper/div/app-app-confirm/div/div[2]/div/app-login/div/form/ul/li[2]")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithGoogle;
-    public void clickLoginPopUpYouCanSignUpWithGoogle(){
+
+    public void clickLoginPopUpYouCanSignUpWithGoogle() {
         basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithGoogle);
     }
+
     @FindBy(xpath = "/html/body/app-root/simple-modal-holder/simple-modal-wrapper/div/app-app-confirm/div/div[2]/div/app-login/div/form/ul/li[1]")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithFaceBook;
-    public void clickLoginPopUpYouCanSignUpWithFaceBook(){
+
+    public void clickLoginPopUpYouCanSignUpWithFaceBook() {
         basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithFaceBook);
     }
+
     @FindBy(xpath = "/html/body/app-root/simple-modal-holder/simple-modal-wrapper/div/app-app-confirm/div/div[2]/div/app-login/div/form/ul/li[3]")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithTelegram;
-    public void clickLoginPopUpYouCanSignUpWithTelegram(){
+
+    public void clickLoginPopUpYouCanSignUpWithTelegram() {
         basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithTelegram);
     }
+
     @FindBy(xpath = "/html/body/app-root/simple-modal-holder/simple-modal-wrapper/div/app-app-confirm/div/div[2]/div/app-login/div/form/ul/li[4]")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithInstagram;
-    public void clickLoginPopUpYouCanSignUpWithInstagram(){
+
+    public void clickLoginPopUpYouCanSignUpWithInstagram() {
         basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithInstagram);
     }
 
@@ -144,14 +167,15 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @FindBy(xpath = "//button[contains(text(),' Log In ') and @type='submit']")
     @CacheLookup
     WebElement loginPopUpLogInButton;
-    public void clickLoginPopUpLogInButton(){
+
+    public void clickLoginPopUpLogInButton() {
         basePage.clickOnElementIfClickable(loginPopUpLogInButton);
     }
-    public boolean isClickableLoginPopUpLogInButton(){
-        if (basePage.elementIsEnable(loginPopUpLogInButton)){
+
+    public boolean isClickableLoginPopUpLogInButton() {
+        if (basePage.elementIsEnable(loginPopUpLogInButton)) {
             return true;
-        }
-        else {
+        } else {
             return false;
         }
 
@@ -160,14 +184,16 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @FindBy(xpath = "//*[contains(text(),'have an account')]")
     @CacheLookup
     WebElement loginPopUpDoNotHaveAccountLabel;
-    public String loginPopUpDoNotHaveAccountLabelGetText(){
+
+    public String loginPopUpDoNotHaveAccountLabelGetText() {
         return basePage.getText(loginPopUpDoNotHaveAccountLabel);
     }
 
     @FindBy(xpath = "//a[contains(text(),'Sign Up')]")
     @CacheLookup
     WebElement loginPopUpSignUpLink;
-    public void clickLoginPopUpSignUpLink(){
+
+    public void clickLoginPopUpSignUpLink() {
         basePage.clickOnElementIfVisible(loginPopUpSignUpLink);
     }
 
@@ -175,10 +201,17 @@ public class CraftBet_Login_PopUp_Page extends BasePage{
     @CacheLookup
     WebElement loginPopUpSaveAndSecureLabel;
 
-    public String loginPopUpSaveAndSecureLabelGetText(){
+    public String loginPopUpSaveAndSecureLabelGetText() {
         return basePage.getText(loginPopUpSaveAndSecureLabel);
     }
 
+    @FindBy(xpath = "//*[@class='error_message']")
+    @CacheLookup
+    WebElement loginPopUpErrorMessage;
+
+    public String loginPopUpErrorMessageGetText() {
+        return basePage.getText(loginPopUpErrorMessage);
+    }
 
 
 }
