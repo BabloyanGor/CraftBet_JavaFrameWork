@@ -62,7 +62,7 @@ public class LoginPopUpTest extends BaseTest {
         softAssert.assertEquals(actualYouCanSignUpWithLabel, expectedYouCanSignUpWithLabel);
         logger.info("You can Sign in with label checked");
         softAssert.assertEquals(actualDontHaveAnAccountLabel,expectedDontHaveAnAccountLabel);
-        logger.info("You can Sign in with label checked");
+        logger.info("Don't have an account? Sign Up");
         softAssert.assertEquals(actualSaveAndSecureLabel,expectedSaveAndSecureLabel);
         logger.info("Safe and secure label checked");
 
