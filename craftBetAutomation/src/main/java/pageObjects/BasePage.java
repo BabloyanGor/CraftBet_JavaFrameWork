@@ -61,6 +61,14 @@ public class BasePage {
         System.out.println("Screenshot taken");
     }
 
+    public void captureFromScreenSpecificElement(WebDriver driver, WebElement element, String tname) throws IOException {
+
+        File source = element.getScreenshotAs(OutputType.FILE);
+        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Compare_Screenshots\\" + tname + ".png");
+        FileUtils.copyFile(source, target);
+        System.out.println("Screenshot taken");
+    }
+
     /* this method will be used for validate webElements visibility */
     public void waitElementToBeVisible(WebElement element) {
         this.webDriverWait.until(ExpectedConditions.visibilityOf(element));

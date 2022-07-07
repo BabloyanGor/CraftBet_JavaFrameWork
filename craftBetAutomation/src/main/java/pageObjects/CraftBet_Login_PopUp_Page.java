@@ -77,6 +77,12 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     public void loginPopUpPasswordSendKeys(String password) {
         basePage.sendKeysIfElementVisible(loginPopUpPasswordInput, password);
     }
+    public WebElement getLoginPopUpPasswordInput() {
+        return loginPopUpPasswordInput;
+    }
+    public String getPasswordInputTypeAttribute(){
+        return basePage.getAttribute(loginPopUpPasswordInput,"type");
+    }
 
     public String loginPopUpPasswordGetText() {
         return basePage.getText(loginPopUpPasswordInput);
@@ -89,7 +95,6 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     public void clickLoginPopUpEyeShowPassword() {
         basePage.clickOnElementIfVisible(loginPopUpEyeShowPassword);
     }
-
 
     @FindBy(xpath = "//a[@class='forgot_password login-section-forgot_password']")
     @CacheLookup

@@ -55,7 +55,7 @@ public class BaseTest extends DriverFactory {
         logger.info("Footer Page elements are initialized");
         craftBet_passwordRecovery_page = PageFactory.initElements(this.driver, CraftBet_PasswordRecovery_Page.class);
         logger.info("Password recovery Page elements are initialized");
-        
+
 
         //endregion
 

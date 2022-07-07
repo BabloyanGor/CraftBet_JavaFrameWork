@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.BasePage;
 
+import java.io.IOException;
+
 public class LoginPopUpTest extends BaseTest {
     SoftAssert softAssert = new SoftAssert();
     BasePage bp = new BasePage();
@@ -31,7 +33,6 @@ public class LoginPopUpTest extends BaseTest {
         logger.info("Username label captured");
         String actualPasswordLabel = craftBet_login_popUp_page.getLoginPopUpPasswordLabel();
         logger.info("Password label captured");
-
         String actualRememberMyLabel = craftBet_login_popUp_page.loginPopUpRememberMeLabelGetText();
         logger.info("Remember me label Captured");
         String actualYouCanSignUpWithLabel = craftBet_login_popUp_page.loginPopUpYouCanSignUpWithLabelGetText();
@@ -71,11 +72,7 @@ public class LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Logo Presence")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpLogoPresenceVerification_Test() {
-        if (craftBet_login_popUp_page.loginPopUpLogoPresence()) {
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertTrue(false);
-        }
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(),true);
     }
 
     @Test(priority = 3, description = "Validate on Log_in Pop Up Close (X) button functionality")
@@ -84,14 +81,25 @@ public class LoginPopUpTest extends BaseTest {
     public void loginPopUpCloseButtonFunctionality_Test() {
         craftBet_login_popUp_page.clickOnLoginPopUpCloseButton();
         logger.info("close (X) button clicked");
-        if (!craftBet_login_popUp_page.loginPopUpLogoPresence()) {
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertTrue(false);
-        }
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(),false);
     }
 
-    // eye test
+    @Test(priority = 4, description = "Validate on Log_in Pop Up eye functionality")
+    @Description("Validate on Log_in Pop Up eye functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpEyeButtonFunctionality_Test() throws InterruptedException, IOException {
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys("123456");
+        logger.info("password passed");
+        craftBet_login_popUp_page.clickLoginPopUpEyeShowPassword();
+        logger.info("Eye icon clicked");
+        String typeText = craftBet_login_popUp_page.getPasswordInputTypeAttribute();
+        softAssert.assertEquals(typeText, "text");
+        craftBet_login_popUp_page.clickLoginPopUpEyeShowPassword();
+        logger.info("Eye icon click again");
+        String typePassword = craftBet_login_popUp_page.getPasswordInputTypeAttribute();
+        softAssert.assertEquals(typePassword, "password");
+        softAssert.assertAll();
+    }
 
 
     @Test(priority = 5, description = "Validate on Log_in Pop Up Remember me label click-ability")
@@ -123,7 +131,7 @@ public class LoginPopUpTest extends BaseTest {
     @Test(priority = 7, description = "Validate on Log_in Pop Up Forgot password link functionality")
     @Description("Validate on Log_in Pop Up Forgot password link functionality")
     @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpSignUpLink_Test() {
+    public void loginPopUpForgotPasswordLink_Test() {
         craftBet_login_popUp_page.clickLoginPopUpForgotPassword();
         logger.info("ForgotPassword link clicked");
         String url = craftBet_login_popUp_page.getUrl();
@@ -133,20 +141,22 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    // facebook google ......test
 
-
-//    @Test(priority = 8, description = "Validate on Log_in Pop Up SignUp link functionality")
-//    @Description("Validate on Log_in Pop Up SignUp link functionality")
-//    @Severity(SeverityLevel.NORMAL)
-//    public void loginPopUpSignUpLink_Test()  {
-//        craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
-//        logger.info("SignUp link clicked");
-//        String url = bp.getUrl();
-//        logger.info("Url captured");
-//        softAssert.assertEquals(url,"");
-//
-//    }
+    // facebook, google, Telegram, Instagram ......test
+    @Test(priority = 8, description = "Validate on Log_in Pop Up SignUp link functionality")
+    @Description("Validate on Log_in Pop Up SignUp link functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void loginPopUpSignUpLink_Test()  {
+        craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
+        logger.info("SignUp link clicked");
+        try{
+            String header = craftBet_signUp_popUp_page.getTextSignUpPopUpHeader();
+            Assert.assertEquals(header,"Quick Register");
+        }
+        catch (Exception e){
+            Assert.assertTrue(false);
+        }
+    }
 
 
     @Test(priority = 9, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
