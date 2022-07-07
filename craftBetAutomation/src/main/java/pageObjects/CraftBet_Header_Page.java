@@ -7,6 +7,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class CraftBet_Header_Page extends BasePage {
     private final BasePage basePage;
+    public CraftBet_Header_Page(WebDriver driver) {
+        super(driver);
+        basePage = new BasePage(driver);
+    }
     @FindBy(xpath = "//button[@class = 'global_register-btn button-style1-type-btn']")
     @CacheLookup
     WebElement signUp;
@@ -38,13 +42,11 @@ public class CraftBet_Header_Page extends BasePage {
     public boolean userIdLabelIsDisplayed(){
         return basePage.elementIsDisplayed(UserIdLabel);
     }
+
     @FindBy(xpath = "//div[@class='header-section_topPanel_left']")
     @CacheLookup
     WebElement logo;
-    public CraftBet_Header_Page(WebDriver driver) {
-        super(driver);
-        basePage = new BasePage(driver);
-    }
+
 
     public void clickOnSignInButtonIfVisible() {
         clickOnElementIfVisible(signUp);
