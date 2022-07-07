@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.time.Duration;
 
 public class BasePage {
-    WebDriver driver;
+    static WebDriver driver;
     WebDriverWait webDriverWait;
     Actions actions;
     Select select;
@@ -22,14 +22,12 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         actions = new Actions(driver);
-        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(60));
         js = (JavascriptExecutor) driver;
     }
 
     public BasePage() {
     }
-
-
 
 
     /* this method will be return integer number 4 symbols */
@@ -53,7 +51,7 @@ public class BasePage {
     }
 
     public void captureScreenDrawBorder(WebDriver driver, WebElement element, String tname) throws IOException {
-        js.executeScript("arguments[0].style.border = '3px solid red'",element);
+        js.executeScript("arguments[0].style.border = '3px solid red'", element);
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");
@@ -80,7 +78,6 @@ public class BasePage {
     }
 
 
-
     /* this method will be used for clicking on element which is visible */
     public void clickOnElementIfVisible(WebElement element) {
         this.waitElementToBeVisible(element);
@@ -105,6 +102,7 @@ public class BasePage {
         return element.isEnabled();
 
     }
+
     public boolean elementIsDisplayed(WebElement element) {
         return element.isDisplayed();
 
@@ -120,6 +118,7 @@ public class BasePage {
         waitElementToBeVisible(element);
         return element.getText();
     }
+
     /* this method will get current URL */
     public String getUrl() {
         return driver.getCurrentUrl();
@@ -129,10 +128,12 @@ public class BasePage {
     public String getAttribute(WebElement element, String attribute) {
         return element.getAttribute(attribute);
     }
+
     /* this method will get attribute from element */
     public String getTagName(WebElement element) {
         return element.getTagName();
     }
+
     //region <Select from Dropdown>
     /* this method will be used for selecting element from dropdown using visible text */
     public void selectFromDropDownByVisibleText(WebElement element, String text) {
@@ -145,6 +146,7 @@ public class BasePage {
         select = new Select(element);
         select.selectByIndex(index);
     }
+
     /* this method will be used for selecting element from dropdown using dropdown elements index */
     public void selectFromDropDownByValue(WebElement element, String value) {
         select = new Select(element);
@@ -171,62 +173,103 @@ public class BasePage {
     }
 
     /* this method will scroll the page down */
-    public void scrollPageDown(){
+    public void scrollPageDown() {
         js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
     }
+
     /* this method will scroll the page up */
-    public void  scrollPageUp(){
+    public void scrollPageUp() {
         js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
     }
 
     /* this method will zoom the page */
-    public void  zoomPageByJS(String zoomProcsent){
+    public void zoomPageByJS(String zoomProcsent) {
         js.executeScript("document.body.style.zoom='" + zoomProcsent + "%'"); //zoom by 100%
     }
 
     /* this method will be used for clicking on WebElement */
     public void javaScriptClick(WebElement element) {
-        js.executeScript("argument[0].click();", element);
+        waitElementTobeClickable(element);
+        js.executeScript("arguments[0].click();", element);
     }
 
     /* this method will be used for sending text to text box */
     public void javaScriptSendKeys(String text) {
-        js.executeScript("document.getElementById('q').value='"+text+"'");
+        js.executeScript("document.getElementById('q').value='" + text + "'");
     }
 
     /* this method will refresh browser */
-    public void javaScriptRefreshBrowser(){
+    public void javaScriptRefreshBrowser() {
         js.executeScript("history.go(0)");
     }
 
     /* this method will draw border for element */
-    public void javaScriptDrawBorder(WebElement element){
-        js.executeScript("arguments[0].style.border = '3px solid red'",element);
+    public void javaScriptDrawBorder(WebElement element) {
+        js.executeScript("arguments[0].style.border = '3px solid red'", element);
     }
 
     /* this method will return title of the page */
-    public String javaScriptGetTitle (){
+    public String javaScriptGetTitle() {
         String title = js.executeScript("return document.title;").toString();
-        return  title;
+        return title;
     }
 
     /* this method will generate the alert window */
-    public void javaScriptGenerateAlert(String massage){
-        js.executeScript("alert('"+ massage +"')");
+    public void javaScriptGenerateAlert(String massage) {
+        js.executeScript("alert('" + massage + "')");
     }
-
 
 
     //endregion
 
 
     //region <Actions>
+    public void actionClickToElement(WebElement element) {
+        waitElementToBeVisible(element);
+        actions.moveToElement(element).build().perform();
+    }
+
+    public void actionMoveToElement(WebElement element) {
+        actions.moveToElement(element).build().perform();
+    }
+
+    public void actionMoveToElementClick(WebElement element) {
+        actions.moveToElement(element).click().build().perform();
+
+    }
+
+    public void actionDoubleClick(WebElement element) {
+        waitElementToBeVisible(element);
+        actions.doubleClick(element).perform();
+    }
+
+    public void actionDownXTime(int x) {
+        for (int i = 0; i<x; i++){
+            actions.sendKeys(Keys.ARROW_DOWN).perform();
+        }
+    }
 
     //endregion
 
     //region <Robot>
 
+
     //endregion
 
+
+
+
+    //region <Navigation>
+    public void navigateForward(){
+        driver.navigate().forward();
+    }
+    public void navigateBack(){
+        driver.navigate().back();
+    }
+    public void navigateRefresh(){
+        driver.navigate().refresh();
+    }
+
+    //endregion
 
 }

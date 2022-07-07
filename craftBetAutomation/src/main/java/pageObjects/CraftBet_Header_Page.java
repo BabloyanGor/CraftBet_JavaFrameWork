@@ -7,10 +7,12 @@ import org.openqa.selenium.support.FindBy;
 
 public class CraftBet_Header_Page extends BasePage {
     private final BasePage basePage;
+
     public CraftBet_Header_Page(WebDriver driver) {
         super(driver);
         basePage = new BasePage(driver);
     }
+
     @FindBy(xpath = "//button[@class = 'global_register-btn button-style1-type-btn']")
     @CacheLookup
     WebElement signUp;
@@ -36,10 +38,12 @@ public class CraftBet_Header_Page extends BasePage {
     @FindBy(xpath = "//*[@class='user_id']")
     @CacheLookup
     WebElement UserIdLabel;
-    public boolean userIdLabelIsEnabled(){
-       return basePage.elementIsEnable(UserIdLabel);
+
+    public boolean userIdLabelIsEnabled() {
+        return basePage.elementIsEnable(UserIdLabel);
     }
-    public boolean userIdLabelIsDisplayed(){
+
+    public boolean userIdLabelIsDisplayed() {
         return basePage.elementIsDisplayed(UserIdLabel);
     }
 
@@ -47,6 +51,14 @@ public class CraftBet_Header_Page extends BasePage {
     @CacheLookup
     WebElement logo;
 
+    @FindBy(xpath = "//a[text() = ' Casino ']")
+    @CacheLookup
+    WebElement CasinoLink;
+
+    public void clickOnHeaderCasinoLink(){
+        basePage.waitElementToBeVisible(CasinoLink);
+        basePage.clickOnElementIfClickable(CasinoLink);
+    }
 
     public void clickOnSignInButtonIfVisible() {
         clickOnElementIfVisible(signUp);
@@ -55,11 +67,11 @@ public class CraftBet_Header_Page extends BasePage {
     public void clickOnLogInButtonIfVisible() {
         clickOnElementIfVisible(logIn);
     }
-    public boolean checkLoginButtonEnable(){
-        if (basePage.elementIsEnable(logIn)){
+
+    public boolean checkLoginButtonEnable() {
+        if (basePage.elementIsEnable(logIn)) {
             return true;
-        }
-        else{
+        } else {
             return false;
         }
     }

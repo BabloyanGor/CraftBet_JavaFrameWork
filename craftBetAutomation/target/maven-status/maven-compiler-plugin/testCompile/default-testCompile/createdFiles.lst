@@ -1,6 +1,6 @@
 utilities\ReportingAllure.class
+testCases\LoginPopUpTest.class
 utilities\XLUtils.class
-testCases\LoginTest.class
 utilities\Reporting.class
 utilities\DriverFactory.class
 testCases\BaseTest.class

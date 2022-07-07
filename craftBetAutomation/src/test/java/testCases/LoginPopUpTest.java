@@ -238,29 +238,4 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-//    @Test(groups= {"SmokeTest"})
-//    public void TestSuccess() throws IOException {
-//        logger.info("TestSuccess started");
-//        String homePageUrl = driver.getCurrentUrl();
-//        craftBet_header_page.clickOnLogoIfVisible();
-//        String currentUrl = driver.getCurrentUrl();
-//        Assert.assertEquals(currentUrl,homePageUrl);
-//        logger.info("TestSuccess finished");
-//    }
-//
-//    @Test(groups= {"RegressionTest"})
-//    public void testFail() throws IOException {
-//        logger.info("testFail started");
-//        craftBet_header_page.clickOnLogoIfVisible();
-//        Assert.assertTrue(false);
-//        logger.info("testFail finished");
-//    }
-//
-//    @Test(groups= {"SmokeTest"})
-//    public void testSkipp(){
-//        logger.info("testSkipp started");
-//        throw new SkipException("Skipping this exception");
-//        //logger.info("testSkipp finished");
-//    }
-
 }

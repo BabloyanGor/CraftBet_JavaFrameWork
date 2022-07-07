@@ -2,6 +2,7 @@ package testCases;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 import pageObjects.*;
@@ -19,13 +20,16 @@ public class BaseTest extends DriverFactory {
     public String username=readConfig.getUsername();
     public String password=readConfig.getPassword();
     public static Logger logger;
+
+
     public CraftBet_Header_Page craftBet_header_page;
     public CraftBet_Login_PopUp_Page craftBet_login_popUp_page;
-
     public CraftBet_Footer_Page craftBet_footer_page;
     public CraftBet_PasswordRecovery_Page craftBet_passwordRecovery_page;
-
     public CraftBet_SignUp_PopUp_Page craftBet_signUp_popUp_page;
+    public CraftBet_Casino_Page craftBet_casino_page;
+
+    public  WebDriver testDriver;
     public BaseTest() {
     }
 
@@ -40,8 +44,10 @@ public class BaseTest extends DriverFactory {
 
         try {
             super.initDriver(baseURL,browser);
+            testDriver = driver;
         } catch (org.openqa.selenium.TimeoutException exception) {
             super.initDriver(baseURL,browser);
+            testDriver = driver;
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //region <Page Class Instance Initialization >
@@ -55,6 +61,8 @@ public class BaseTest extends DriverFactory {
         logger.info("Footer Page elements are initialized");
         craftBet_passwordRecovery_page = PageFactory.initElements(this.driver, CraftBet_PasswordRecovery_Page.class);
         logger.info("Password recovery Page elements are initialized");
+        craftBet_casino_page = PageFactory.initElements(this.driver, CraftBet_Casino_Page.class);
+        logger.info("Casino Page elements are initialized");
 
 
         //endregion
@@ -64,13 +72,13 @@ public class BaseTest extends DriverFactory {
 
     @AfterMethod
     public void tearDown() {
-        try {
-            this.driver.quit();
-            logger.info("Browser closed");
-        } catch (Exception exception) {
-            this.driver.quit();
-            logger.info("Browser closed with exception");
-        }
+//        try {
+//            this.driver.quit();
+//            logger.info("Browser closed");
+//        } catch (Exception exception) {
+//            this.driver.quit();
+//            logger.info("Browser closed with exception");
+//        }
     }
 
 
