@@ -30,26 +30,33 @@ public class Casino_Games_Test extends BaseTest{
 
     @Test
     public void casinoGameTest() throws InterruptedException {
-//        while(!craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().equals("(4)")){
-//            craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
-//            System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());
-//        }
-//        craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
 
-        for (WebElement startGameButton:craftBet_casino_page.getGamesStartButtonsList()){
-            bp.actionDownXTime(4);
-//            bp.actionMoveToElement(startGameButton);
-//            bp.javaScriptClick(craftBet_casino_page.getActiveGamesStartButtons());
+        int intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1,craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
 
-            Thread.sleep(1000);
-            System.out.println(bp.getUrl());
-            break;
+        while(intGameNumber>16){
+            craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
+            System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());
+        }
+        craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
 
 
-            //System.out.println(testDriver.getCurrentUrl());
-            //testDriver.navigate().back();
 
-       }
+
+
+//        for (WebElement startGameButton:craftBet_casino_page.getGamesStartButtonsList()){
+//            bp.actionDownXTime(4);
+////            bp.actionMoveToElement(startGameButton);
+////            bp.javaScriptClick(craftBet_casino_page.getActiveGamesStartButtons());
+//
+//            Thread.sleep(1000);
+//            System.out.println(bp.getUrl());
+//            break;
+//
+//
+//            //System.out.println(testDriver.getCurrentUrl());
+//            //testDriver.navigate().back();
+
+ //      }
     }
 
 
