@@ -5,12 +5,10 @@
     <classes>
       <class name="testCases.LoginPopUpTest">
         <methods>
-          <include name="loginPopUpErrorMessageValidationInvalidPassword"/>
           <include name="finish"/>
           <include name="setup"/>
-          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
           <include name="tearDown"/>
-          <include name="loginPopUpLogInNegativeTest" invocation-numbers="1"/>
+          <include name="loginPopUpLogInNegativeTest" invocation-numbers="1 2 5 6 7"/>
           <include name="goToLoginPopUp"/>
         </methods>
       </class> <!-- testCases.LoginPopUpTest -->

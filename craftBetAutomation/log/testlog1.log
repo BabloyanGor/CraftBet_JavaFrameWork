@@ -857,3 +857,697 @@ java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
 2022-07-08 16:30:28,442 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
 2022-07-08 16:30:29,472 [main] INFO craftBet - Browser closed
 2022-07-08 16:30:29,802 [main] INFO craftBet - Login Test Suit test was finished
+2022-07-08 16:42:42,878 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:42:44,448 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:42:44,492 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:42:51,013 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:42:51,017 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:42:51,023 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:42:51,025 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:42:51,027 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:42:51,032 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:42:54,227 [main] INFO craftBet - Header Captured
+2022-07-08 16:42:54,256 [main] INFO craftBet - Username label captured
+2022-07-08 16:42:54,288 [main] INFO craftBet - Password label captured
+2022-07-08 16:42:54,322 [main] INFO craftBet - Remember me label Captured
+2022-07-08 16:42:54,348 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-08 16:42:54,381 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-08 16:42:54,422 [main] INFO craftBet - Safe and secure label Captured
+2022-07-08 16:42:54,428 [main] INFO craftBet - Header label checked
+2022-07-08 16:42:54,428 [main] INFO craftBet - username label checked
+2022-07-08 16:42:54,428 [main] INFO craftBet - password label checked
+2022-07-08 16:42:54,428 [main] INFO craftBet - Remember me label checked
+2022-07-08 16:42:54,428 [main] INFO craftBet - You can Sign in with label checked
+2022-07-08 16:42:54,429 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-08 16:42:54,429 [main] INFO craftBet - Safe and secure label checked
+2022-07-08 16:42:54,477 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test--->  Success
+2022-07-08 16:42:54,477 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-08 16:42:55,678 [main] INFO craftBet - Browser closed
+2022-07-08 16:42:55,686 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:42:55,708 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:42:55,726 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:42:59,127 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:42:59,128 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:42:59,129 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:42:59,130 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:42:59,130 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:42:59,130 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:01,409 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test--->  Success
+2022-07-08 16:43:01,409 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-08 16:43:02,454 [main] INFO craftBet - Browser closed
+2022-07-08 16:43:02,458 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:43:02,474 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:43:02,488 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:43:06,079 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:43:06,079 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:43:06,079 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:43:06,080 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:43:06,080 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:43:06,080 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:08,930 [main] INFO craftBet - close (X) button clicked
+2022-07-08 16:43:09,491 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test--->  Success
+2022-07-08 16:43:09,491 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:43:10,538 [main] INFO craftBet - Browser closed
+2022-07-08 16:43:10,608 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:43:10,628 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:43:10,645 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:43:13,944 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:43:13,945 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:43:13,946 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:43:13,946 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:43:13,947 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:43:13,947 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:16,662 [main] INFO craftBet - password passed
+2022-07-08 16:43:17,188 [main] INFO craftBet - Eye icon clicked
+2022-07-08 16:43:17,885 [main] INFO craftBet - Eye icon click again
+2022-07-08 16:43:17,945 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test--->  Success
+2022-07-08 16:43:17,946 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:43:18,965 [main] INFO craftBet - Browser closed
+2022-07-08 16:43:18,972 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:43:18,987 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:43:19,091 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:43:22,844 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:43:22,844 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:43:22,845 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:43:22,845 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:43:22,846 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:43:22,846 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:25,831 [main] INFO craftBet - Remember me label clicked
+2022-07-08 16:43:26,109 [main] INFO craftBet - Remember me label clicked again
+2022-07-08 16:43:26,133 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-08 16:43:26,133 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-08 16:43:27,195 [main] INFO craftBet - Browser closed
+2022-07-08 16:43:27,290 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:43:27,309 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:43:27,324 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:43:30,381 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:43:30,382 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:43:30,382 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:43:30,382 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:43:30,383 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:43:30,383 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:33,212 [main] INFO craftBet - checkbox clicked
+2022-07-08 16:43:33,482 [main] INFO craftBet - checkbox clicked again
+2022-07-08 16:43:33,508 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test--->  Success
+2022-07-08 16:43:33,508 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-08 16:43:34,569 [main] INFO craftBet - Browser closed
+2022-07-08 16:43:34,574 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:43:34,587 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:43:34,601 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:43:38,018 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:43:38,020 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:43:38,020 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:43:38,020 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:43:38,020 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:43:38,021 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:43:39,824 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test--->  Skipped
+2022-07-08 16:43:39,825 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test------------------------------------------------
+2022-07-08 16:43:39,849 [main] WARN craftBet - loginPopUpSignUpLink_Test--->  Skipped
+2022-07-08 16:43:39,850 [main] WARN craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-08 16:43:39,864 [main] WARN craftBet - loginPopUpLogInPositiveTest--->  Skipped
+2022-07-08 16:43:39,865 [main] WARN craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-08 16:43:39,890 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,890 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,908 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,908 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,923 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,924 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,933 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,934 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,946 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,947 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,960 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,960 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,970 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,971 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,982 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,982 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:39,993 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:39,993 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:40,003 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:43:40,003 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:43:40,015 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Skipped
+2022-07-08 16:43:40,016 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-08 16:43:40,026 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Skipped
+2022-07-08 16:43:40,027 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-08 16:43:40,625 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-08 16:46:44,025 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:46:44,341 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:46:44,376 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:46:49,174 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:46:49,178 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:46:49,180 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:46:49,181 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:46:49,276 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:46:49,281 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:46:52,862 [main] INFO craftBet - Header Captured
+2022-07-08 16:46:52,893 [main] INFO craftBet - Username label captured
+2022-07-08 16:46:52,923 [main] INFO craftBet - Password label captured
+2022-07-08 16:46:52,983 [main] INFO craftBet - Remember me label Captured
+2022-07-08 16:46:53,009 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-08 16:46:53,118 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-08 16:46:53,141 [main] INFO craftBet - Safe and secure label Captured
+2022-07-08 16:46:53,145 [main] INFO craftBet - Header label checked
+2022-07-08 16:46:53,146 [main] INFO craftBet - username label checked
+2022-07-08 16:46:53,146 [main] INFO craftBet - password label checked
+2022-07-08 16:46:53,146 [main] INFO craftBet - Remember me label checked
+2022-07-08 16:46:53,146 [main] INFO craftBet - You can Sign in with label checked
+2022-07-08 16:46:53,146 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-08 16:46:53,146 [main] INFO craftBet - Safe and secure label checked
+2022-07-08 16:46:53,165 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test--->  Success
+2022-07-08 16:46:53,165 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-08 16:46:54,425 [main] INFO craftBet - Browser closed
+2022-07-08 16:46:54,431 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:46:54,449 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:46:54,467 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:46:57,529 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:46:57,530 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:46:57,530 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:46:57,530 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:46:57,530 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:46:57,530 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:46:59,888 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test--->  Success
+2022-07-08 16:46:59,889 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-08 16:47:01,373 [main] INFO craftBet - Browser closed
+2022-07-08 16:47:01,378 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:47:01,397 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:47:01,413 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:47:04,797 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:47:04,798 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:47:04,799 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:47:04,799 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:47:04,800 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:47:04,800 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:47:07,349 [main] INFO craftBet - close (X) button clicked
+2022-07-08 16:47:07,898 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test--->  Success
+2022-07-08 16:47:07,898 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:47:09,095 [main] INFO craftBet - Browser closed
+2022-07-08 16:47:09,115 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:47:09,157 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:47:09,182 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:47:12,390 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:47:12,391 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:47:12,392 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:47:12,392 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:47:12,392 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:47:12,393 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:47:14,732 [main] INFO craftBet - password passed
+2022-07-08 16:47:15,033 [main] INFO craftBet - Eye icon clicked
+2022-07-08 16:47:15,335 [main] INFO craftBet - Eye icon click again
+2022-07-08 16:47:15,363 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test--->  Success
+2022-07-08 16:47:15,364 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:47:16,655 [main] INFO craftBet - Browser closed
+2022-07-08 16:47:16,670 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:47:16,708 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:47:16,733 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:47:19,928 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:47:19,928 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:47:19,929 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:47:19,929 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:47:19,929 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:47:19,929 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:47:22,532 [main] INFO craftBet - Remember me label clicked
+2022-07-08 16:47:22,856 [main] INFO craftBet - Remember me label clicked again
+2022-07-08 16:47:22,893 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-08 16:47:22,893 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-08 16:47:24,233 [main] INFO craftBet - Browser closed
+2022-07-08 16:47:24,256 [main] INFO craftBet - Browser for test will be firefox as chosen
+2022-07-08 16:47:24,328 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 16:47:24,396 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 16:47:27,681 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:47:27,682 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:47:27,682 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:47:27,682 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:47:27,683 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:47:27,683 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:47:28,883 [main] WARN craftBet - loginPopUpCheckBoxClickAbility_Test--->  Skipped
+2022-07-08 16:47:28,884 [main] WARN craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-08 16:47:28,900 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test--->  Skipped
+2022-07-08 16:47:28,900 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test------------------------------------------------
+2022-07-08 16:47:28,915 [main] WARN craftBet - loginPopUpSignUpLink_Test--->  Skipped
+2022-07-08 16:47:28,915 [main] WARN craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-08 16:47:28,928 [main] WARN craftBet - loginPopUpLogInPositiveTest--->  Skipped
+2022-07-08 16:47:28,928 [main] WARN craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-08 16:47:28,943 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:28,943 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:28,953 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:28,954 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:28,965 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:28,965 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:28,976 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:28,977 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:28,990 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:28,990 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,003 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:29,003 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,016 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:29,016 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,030 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:29,030 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,042 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:29,042 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,051 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:47:29,051 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:47:29,063 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Skipped
+2022-07-08 16:47:29,063 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-08 16:47:29,077 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Skipped
+2022-07-08 16:47:29,077 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-08 16:47:29,699 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-08 16:50:31,680 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:50:33,181 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:50:33,215 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:50:39,729 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:50:39,734 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:50:39,737 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:50:39,738 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:50:39,740 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:50:39,744 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:52:39,929 [main] WARN craftBet - loginPopUpLabelsPresenceVerification_Test--->  Skipped
+2022-07-08 16:52:39,929 [main] WARN craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-08 16:52:39,942 [main] WARN craftBet - loginPopUpLogoPresenceVerification_Test--->  Skipped
+2022-07-08 16:52:39,942 [main] WARN craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-08 16:52:39,956 [main] WARN craftBet - loginPopUpCloseButtonFunctionality_Test--->  Skipped
+2022-07-08 16:52:39,956 [main] WARN craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:52:39,966 [main] WARN craftBet - loginPopUpEyeButtonFunctionality_Test--->  Skipped
+2022-07-08 16:52:39,968 [main] WARN craftBet - loginPopUpEyeButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:52:39,981 [main] WARN craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Skipped
+2022-07-08 16:52:39,981 [main] WARN craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-08 16:52:39,999 [main] WARN craftBet - loginPopUpCheckBoxClickAbility_Test--->  Skipped
+2022-07-08 16:52:39,999 [main] WARN craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-08 16:52:40,015 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test--->  Skipped
+2022-07-08 16:52:40,016 [main] WARN craftBet - loginPopUpForgotPasswordLink_Test------------------------------------------------
+2022-07-08 16:52:40,029 [main] WARN craftBet - loginPopUpSignUpLink_Test--->  Skipped
+2022-07-08 16:52:40,030 [main] WARN craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-08 16:52:40,044 [main] WARN craftBet - loginPopUpLogInPositiveTest--->  Skipped
+2022-07-08 16:52:40,045 [main] WARN craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-08 16:52:40,065 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,065 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,076 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,077 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,087 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,088 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,100 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,101 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,113 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,113 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,129 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,130 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,148 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,148 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,163 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,164 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,179 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,179 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,198 [main] WARN craftBet - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 16:52:40,199 [main] WARN craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:52:40,213 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Skipped
+2022-07-08 16:52:40,213 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-08 16:52:40,227 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Skipped
+2022-07-08 16:52:40,228 [main] WARN craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-08 16:52:40,649 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+2022-07-08 16:54:16,296 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:16,587 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:16,625 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:19,554 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:19,558 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:19,560 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:19,561 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:19,562 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:19,566 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:25,285 [main] INFO craftBet - Header Captured
+2022-07-08 16:54:25,340 [main] INFO craftBet - Username label captured
+2022-07-08 16:54:25,394 [main] INFO craftBet - Password label captured
+2022-07-08 16:54:25,441 [main] INFO craftBet - Remember me label Captured
+2022-07-08 16:54:25,472 [main] INFO craftBet - You can Sign in with label Captured
+2022-07-08 16:54:25,506 [main] INFO craftBet - Don't have an account? label Captured
+2022-07-08 16:54:25,536 [main] INFO craftBet - Safe and secure label Captured
+2022-07-08 16:54:25,541 [main] INFO craftBet - Header label checked
+2022-07-08 16:54:25,541 [main] INFO craftBet - username label checked
+2022-07-08 16:54:25,541 [main] INFO craftBet - password label checked
+2022-07-08 16:54:25,542 [main] INFO craftBet - Remember me label checked
+2022-07-08 16:54:25,542 [main] INFO craftBet - You can Sign in with label checked
+2022-07-08 16:54:25,542 [main] INFO craftBet - Don't have an account? Sign Up
+2022-07-08 16:54:25,542 [main] INFO craftBet - Safe and secure label checked
+2022-07-08 16:54:25,563 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test--->  Success
+2022-07-08 16:54:25,563 [main] INFO craftBet - loginPopUpLabelsPresenceVerification_Test------------------------------------------------
+2022-07-08 16:54:25,830 [AsyncHttpClient-1-4] WARN org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-07-08 16:54:26,124 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:26,133 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:26,162 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:26,183 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:28,045 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:28,046 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:28,047 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:28,048 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:28,048 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:28,049 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:31,568 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test--->  Success
+2022-07-08 16:54:31,569 [main] INFO craftBet - loginPopUpLogoPresenceVerification_Test------------------------------------------------
+2022-07-08 16:54:31,879 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:31,883 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:31,902 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:31,927 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:34,249 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:34,250 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:34,250 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:34,250 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:34,250 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:34,251 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:38,281 [main] INFO craftBet - close (X) button clicked
+2022-07-08 16:54:38,837 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test--->  Success
+2022-07-08 16:54:38,837 [main] INFO craftBet - loginPopUpCloseButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:54:39,217 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:39,229 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:39,259 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:39,311 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:41,318 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:41,319 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:41,324 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:41,324 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:41,326 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:41,327 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:45,147 [main] INFO craftBet - password passed
+2022-07-08 16:54:45,243 [main] INFO craftBet - Eye icon clicked
+2022-07-08 16:54:45,375 [main] INFO craftBet - Eye icon click again
+2022-07-08 16:54:45,391 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test--->  Success
+2022-07-08 16:54:45,391 [main] INFO craftBet - loginPopUpEyeButtonFunctionality_Test------------------------------------------------
+2022-07-08 16:54:45,772 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:45,779 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:45,811 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:45,831 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:47,875 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:47,875 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:47,875 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:47,875 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:47,876 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:47,876 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:51,408 [main] INFO craftBet - Remember me label clicked
+2022-07-08 16:54:51,543 [main] INFO craftBet - Remember me label clicked again
+2022-07-08 16:54:51,565 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test--->  Success
+2022-07-08 16:54:51,565 [main] INFO craftBet - loginPopUpRememberMeLabelClickAbility_Test------------------------------------------------
+2022-07-08 16:54:51,911 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:51,925 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:51,963 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:51,991 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:54:54,500 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:54:54,501 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:54:54,501 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:54:54,501 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:54:54,501 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:54:54,502 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:54:58,115 [main] INFO craftBet - checkbox clicked
+2022-07-08 16:54:58,197 [main] INFO craftBet - checkbox clicked again
+2022-07-08 16:54:58,214 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test--->  Success
+2022-07-08 16:54:58,214 [main] INFO craftBet - loginPopUpCheckBoxClickAbility_Test------------------------------------------------
+2022-07-08 16:54:58,586 [main] INFO craftBet - Browser closed
+2022-07-08 16:54:58,593 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:54:58,607 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:54:58,625 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:55:00,895 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:55:00,896 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:55:00,896 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:55:00,896 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:55:00,897 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:55:00,897 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:55:04,484 [main] INFO craftBet - ForgotPassword link clicked
+2022-07-08 16:55:04,492 [main] INFO craftBet - Url captured
+2022-07-08 16:55:04,494 [main] INFO craftBet - loginPopUpForgotPasswordLink_Test--->  Success
+2022-07-08 16:55:04,494 [main] INFO craftBet - loginPopUpForgotPasswordLink_Test------------------------------------------------
+2022-07-08 16:55:04,900 [main] INFO craftBet - Browser closed
+2022-07-08 16:55:04,925 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:55:04,950 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:55:04,974 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:55:07,008 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:55:07,009 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:55:07,009 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:55:07,010 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:55:07,010 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:55:07,011 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:55:10,184 [main] INFO craftBet - SignUp link clicked
+2022-07-08 16:55:10,228 [main] INFO craftBet - loginPopUpSignUpLink_Test--->  Success
+2022-07-08 16:55:10,228 [main] INFO craftBet - loginPopUpSignUpLink_Test------------------------------------------------
+2022-07-08 16:55:10,664 [main] INFO craftBet - Browser closed
+2022-07-08 16:55:10,676 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:55:10,699 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:55:10,729 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:55:12,961 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:55:12,962 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:55:12,962 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:55:12,962 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:55:12,962 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:55:12,962 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:55:16,023 [main] INFO craftBet - username passed
+2022-07-08 16:55:16,115 [main] INFO craftBet - password passed
+2022-07-08 16:55:16,193 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:55:18,178 [main] INFO craftBet - loginPopUpLogInPositiveTest--->  Success
+2022-07-08 16:55:18,178 [main] INFO craftBet - loginPopUpLogInPositiveTest------------------------------------------------
+2022-07-08 16:55:18,505 [main] INFO craftBet - Browser closed
+2022-07-08 16:55:18,512 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:55:18,528 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:55:18,546 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:55:20,610 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:55:20,610 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:55:20,611 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:55:20,611 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:55:20,611 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:55:20,611 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:55:23,780 [main] INFO craftBet - username passed -->U1630370<--
+2022-07-08 16:55:23,916 [main] INFO craftBet - password passed -->N3 HU3<--
+2022-07-08 16:55:23,995 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:56:24,034 [main] INFO craftBet - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 16:56:24,039 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:56:24,444 [main] INFO craftBet - Browser closed
+2022-07-08 16:56:24,457 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:56:24,482 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:56:24,510 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:56:26,877 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:56:26,879 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:56:26,879 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:56:26,879 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:56:26,879 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:56:26,879 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:56:30,269 [main] INFO craftBet - username passed -->U1630370<--
+2022-07-08 16:56:30,366 [main] INFO craftBet - password passed -->N3HU3 <--
+2022-07-08 16:56:30,464 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:56:33,662 [main] ERROR craftBet - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 16:56:33,662 [main] ERROR craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:56:33,980 [main] INFO craftBet - Browser closed
+2022-07-08 16:56:34,085 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:56:34,107 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:56:34,125 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:56:36,246 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:56:36,247 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:56:36,247 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:56:36,247 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:56:36,247 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:56:36,247 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:56:39,335 [main] INFO craftBet - username passed -->U1630370<--
+2022-07-08 16:56:39,429 [main] INFO craftBet - password passed --> N3HU3<--
+2022-07-08 16:56:39,541 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:56:41,922 [main] ERROR craftBet - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 16:56:41,922 [main] ERROR craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:56:42,240 [main] INFO craftBet - Browser closed
+2022-07-08 16:56:42,245 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:56:42,264 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:56:42,292 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:56:44,692 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:56:44,692 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:56:44,692 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:56:44,692 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:56:44,693 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:56:44,693 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:56:48,197 [main] INFO craftBet - username passed -->U1630370<--
+2022-07-08 16:56:48,283 [main] INFO craftBet - password passed -->     <--
+2022-07-08 16:56:48,378 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:57:48,449 [main] INFO craftBet - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 16:57:48,449 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:57:49,637 [main] INFO craftBet - Browser closed
+2022-07-08 16:57:49,649 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:57:49,663 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:57:49,678 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:57:51,650 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:57:51,651 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:57:51,651 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:57:51,651 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:57:51,652 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:57:51,652 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:57:54,732 [main] INFO craftBet - username passed -->U1630370<--
+2022-07-08 16:57:54,843 [main] INFO craftBet - password passed -->?N3HU3<--
+2022-07-08 16:57:54,923 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:58:54,954 [main] INFO craftBet - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 16:58:54,956 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:58:55,396 [main] INFO craftBet - Browser closed
+2022-07-08 16:58:55,401 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:58:55,417 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:58:55,438 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:58:57,609 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:58:57,609 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:58:57,610 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:58:57,610 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:58:57,610 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:58:57,610 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:59:01,141 [main] INFO craftBet - username passed -->U1630370 <--
+2022-07-08 16:59:01,245 [main] INFO craftBet - password passed -->N3HU3<--
+2022-07-08 16:59:01,376 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:59:05,154 [main] ERROR craftBet - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 16:59:05,154 [main] ERROR craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:59:05,467 [main] INFO craftBet - Browser closed
+2022-07-08 16:59:05,475 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:59:05,489 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:59:05,514 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:59:07,781 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:59:07,782 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:59:07,782 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:59:07,782 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:59:07,783 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:59:07,783 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:59:11,983 [main] INFO craftBet - username passed -->U163 0370<--
+2022-07-08 16:59:12,090 [main] INFO craftBet - password passed -->N3HU3<--
+2022-07-08 16:59:12,180 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:59:14,643 [main] ERROR craftBet - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 16:59:14,644 [main] ERROR craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:59:14,945 [main] INFO craftBet - Browser closed
+2022-07-08 16:59:14,962 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:59:15,022 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:59:15,045 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:59:17,165 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:59:17,166 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:59:17,167 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:59:17,167 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:59:17,168 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:59:17,170 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:59:20,213 [main] INFO craftBet - username passed --> U1630370<--
+2022-07-08 16:59:20,317 [main] INFO craftBet - password passed -->N3HU3<--
+2022-07-08 16:59:20,395 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 16:59:22,739 [main] ERROR craftBet - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 16:59:22,740 [main] ERROR craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 16:59:23,059 [main] INFO craftBet - Browser closed
+2022-07-08 16:59:23,086 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 16:59:23,117 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 16:59:23,135 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 16:59:25,396 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 16:59:25,397 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 16:59:25,397 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 16:59:25,398 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 16:59:25,398 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 16:59:25,398 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 16:59:28,414 [main] INFO craftBet - username passed -->        <--
+2022-07-08 16:59:28,521 [main] INFO craftBet - password passed -->N3HU3<--
+2022-07-08 17:01:28,572 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 17:02:28,683 [main] INFO craftBet - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 17:02:28,684 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 17:02:29,180 [main] INFO craftBet - Browser closed
+2022-07-08 17:02:29,200 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 17:02:29,223 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 17:02:29,243 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 17:02:31,564 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 17:02:31,565 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 17:02:31,565 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 17:02:31,565 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 17:02:31,566 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 17:02:31,566 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 17:02:35,464 [main] INFO craftBet - username passed -->?U1630370<--
+2022-07-08 17:02:35,560 [main] INFO craftBet - password passed -->N3HU3<--
+2022-07-08 17:02:35,665 [main] INFO craftBet - Log In Button was clicked
+2022-07-08 17:03:35,715 [main] INFO craftBet - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 17:03:35,716 [main] INFO craftBet - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 17:03:36,140 [main] INFO craftBet - Browser closed
+2022-07-08 17:03:36,146 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 17:03:36,174 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 17:03:36,199 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 17:03:39,196 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 17:03:39,196 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 17:03:39,197 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 17:03:39,197 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 17:03:39,197 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 17:03:39,197 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 17:03:42,634 [main] INFO craftBet - username passed
+2022-07-08 17:03:42,947 [main] INFO craftBet - password passed
+2022-07-08 17:03:43,099 [main] INFO craftBet - log in button was clicked
+2022-07-08 17:03:44,245 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername--->  Success
+2022-07-08 17:03:44,246 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidUsername------------------------------------------------
+2022-07-08 17:03:44,944 [main] INFO craftBet - Browser closed
+2022-07-08 17:03:44,974 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-08 17:03:44,999 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-08 17:03:45,030 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-08 17:03:47,750 [main] INFO craftBet - Header page elements are initialized
+2022-07-08 17:03:47,750 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 17:03:47,750 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-08 17:03:47,750 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-08 17:03:47,750 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-08 17:03:47,750 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-08 17:03:51,430 [main] INFO craftBet - username passed
+2022-07-08 17:03:52,631 [main] INFO craftBet - password passed
+2022-07-08 17:03:52,843 [main] INFO craftBet - log in button was clicked
+2022-07-08 17:03:53,897 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword--->  Success
+2022-07-08 17:03:53,897 [main] INFO craftBet - loginPopUpErrorMessageValidationInvalidPassword------------------------------------------------
+2022-07-08 17:03:54,110 [main] INFO craftBet - Browser closed
+2022-07-08 17:03:54,570 [main] INFO craftBet - Login Test Suit test was finished
+2022-07-08 17:03:54,648 [main] ERROR org.testng.reporters.jq.Main - test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

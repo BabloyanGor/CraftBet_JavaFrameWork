@@ -90,7 +90,7 @@ LoginPopUpTest extends BaseTest {
     @Test(priority = 4, description = "Validate on Log_in Pop Up eye functionality")
     @Description("Validate on Log_in Pop Up eye functionality")
     @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpEyeButtonFunctionality_Test() throws InterruptedException, IOException {
+    public void loginPopUpEyeButtonFunctionality_Test() {
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys("123456");
         logger.info("password passed");
         craftBet_login_popUp_page.clickLoginPopUpEyeShowPassword();
@@ -158,7 +158,7 @@ LoginPopUpTest extends BaseTest {
             Assert.assertTrue(false);
         }
     }
-    
+
     @Test(priority = 9, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Description("Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Severity(SeverityLevel.BLOCKER)
@@ -196,8 +196,8 @@ LoginPopUpTest extends BaseTest {
 
     @DataProvider(name = "invalidLoginData")
     public Object[][] loginData() {
-        Object invalidLoginData[][] = {{"U1630370", "N3 HU3"}, {"U1630370", "N3HU3 "}, {"U1630370", " N3HU3"}, {"U1630370", "     "},{"U1630370", "?N3HU3"},
-                                       {"U1630370 ", "N3HU3"}, {"U163 0370", "N3HU3"}, {" U1630370", "N3HU3"}, {"        ", "N3HU3"}, {"?U1630370", "N3HU3"}};
+        Object invalidLoginData[][] = {{"U1630370", "N3 HU3"}, {"U1630370", "N3HU3 "}, {"U1630370", " N3HU3"}, {"U1630370", "     "}, {"U1630370", "?N3HU3"},
+                {"U1630370 ", "N3HU3"}, {"U163 0370", "N3HU3"}, {" U1630370", "N3HU3"}, {"        ", "N3HU3"}, {"?U1630370", "N3HU3"}};
         return invalidLoginData;
     }
 

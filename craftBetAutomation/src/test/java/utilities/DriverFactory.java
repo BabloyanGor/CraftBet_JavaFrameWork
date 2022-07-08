@@ -53,6 +53,8 @@ public class DriverFactory {
                 driver.manage().window().maximize();
                 driver.get(siteUrl);
                 break;
+
+
             case "edge":
                 BaseTest.logger.info("Browser for test will be edge as chosen");
                 WebDriverManager.edgedriver().setup();
@@ -67,6 +69,8 @@ public class DriverFactory {
                 driver.manage().window().maximize();
                 driver.get(siteUrl);
                 break;
+
+
             default:
                 BaseTest.logger.info("Browser for test will be chrome by default");
                 WebDriverManager.chromedriver().setup();
@@ -81,7 +85,6 @@ public class DriverFactory {
 
                 driver.manage().window().maximize();
                 driver.get(siteUrl);
-                break;
         }
 
     }
