@@ -21,4 +21,6 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         return basePage.getText(SignUpPopUpHeader);
     }
 
+
+
 }

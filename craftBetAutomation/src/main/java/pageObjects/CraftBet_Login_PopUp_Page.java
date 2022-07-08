@@ -199,7 +199,7 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     public String loginPopUpSaveAndSecureLabelGetText() {
         return basePage.getText(loginPopUpSaveAndSecureLabel);
     }
-    
+
     public String loginPopUpErrorMessageGetText() {
         return basePage.getText(loginPopUpErrorMessage);
     }

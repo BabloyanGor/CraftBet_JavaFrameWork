@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Default Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_Suite" class="navigator-link ">
+                    <span>C:\Users\Nerses Khachatryan\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 6 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U1630370, N3HU3 )">loginPopUpLogInNegativeTest1(U1630370, N3HU3 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U163 0370, N3HU3)">loginPopUpLogInNegativeTest1(U163 0370, N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U1630370 , N3HU3)">loginPopUpLogInNegativeTest1(U1630370 , N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1( U1630370, N3HU3)">loginPopUpLogInNegativeTest1( U1630370, N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(        , N3HU3)">loginPopUpLogInNegativeTest1(        , N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U1630370,  N3HU3)">loginPopUpLogInNegativeTest1(U1630370,  N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpCheckBoxClickAbility_Test">loginPopUpCheckBoxClickAbility_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpCloseButtonFunctionality_Test">loginPopUpCloseButtonFunctionality_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpErrorMessageValidationInvalidPassword">loginPopUpErrorMessageValidationInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpErrorMessageValidationInvalidUsername">loginPopUpErrorMessageValidationInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpEyeButtonFunctionality_Test">loginPopUpEyeButtonFunctionality_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpForgotPasswordLink_Test">loginPopUpForgotPasswordLink_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLabelsPresenceVerification_Test">loginPopUpLabelsPresenceVerification_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U1630370, N3 HU3)">loginPopUpLogInNegativeTest1(U1630370, N3 HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest1(U1630370,      )">loginPopUpLogInNegativeTest1(U1630370,      )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInPositiveTest">loginPopUpLogInPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogoPresenceVerification_Test">loginPopUpLogoPresenceVerification_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpRememberMeLabelClickAbility_Test">loginPopUpRememberMeLabelClickAbility_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpSignUpLink_Test">loginPopUpSignUpLink_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.LoginPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U1630370, N3HU3 )">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U1630370, N3HU3 ) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U1630370,N3HU3 )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U163 0370, N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U163 0370, N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U163 0370,N3HU3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U1630370 , N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U1630370 , N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U1630370 ,N3HU3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1( U1630370, N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1( U1630370, N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">( U1630370,N3HU3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(        , N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1(        , N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(        ,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;craft_btn login_btn -btn not_active&quot; type=&quot;submit&quot;&gt; is not clickable at point (960,647) because another element &lt;div class=&quot;form_field&quot;&gt; obscures it
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [79273788-0d7f-4191-b564-680e92fefe8d, clickElement {id=782406c1-b896-40b9-8ad4-1ceccbc11053}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:64920, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 15092, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64920/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (79273788-0d7f-4191-b564-680e92fefe8d)] -&gt; xpath: //button[contains(text(),&apos; Log In &apos;) and @type=&apos;submit&apos;]]
+Session ID: 79273788-0d7f-4191-b564-680e92fefe8d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfClickable(BasePage.java:90)
+	at pageObjects.CraftBet_Login_PopUp_Page.clickLoginPopUpLogInButton(CraftBet_Login_PopUp_Page.java:179)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:185)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U1630370,  N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U1630370,  N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U1630370, N3HU3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest1(LoginPopUpTest.java:188)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpCheckBoxClickAbility_Test">
+                  </a> <!-- loginPopUpCheckBoxClickAbility_Test -->
+                  <span class="method-name">loginPopUpCheckBoxClickAbility_Test</span>
+                  <em>
+(Validate on Log_in Pop Up checkBox functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpCloseButtonFunctionality_Test">
+                  </a> <!-- loginPopUpCloseButtonFunctionality_Test -->
+                  <span class="method-name">loginPopUpCloseButtonFunctionality_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Close (X) button functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpErrorMessageValidationInvalidPassword">
+                  </a> <!-- loginPopUpErrorMessageValidationInvalidPassword -->
+                  <span class="method-name">loginPopUpErrorMessageValidationInvalidPassword</span>
+                  <em>
+(Validate on Log_in Pop Up error message with invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpErrorMessageValidationInvalidUsername">
+                  </a> <!-- loginPopUpErrorMessageValidationInvalidUsername -->
+                  <span class="method-name">loginPopUpErrorMessageValidationInvalidUsername</span>
+                  <em>
+(Validate on Log_in Pop Up Error message with invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpEyeButtonFunctionality_Test">
+                  </a> <!-- loginPopUpEyeButtonFunctionality_Test -->
+                  <span class="method-name">loginPopUpEyeButtonFunctionality_Test</span>
+                  <em>
+(Validate on Log_in Pop Up eye functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpForgotPasswordLink_Test">
+                  </a> <!-- loginPopUpForgotPasswordLink_Test -->
+                  <span class="method-name">loginPopUpForgotPasswordLink_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Forgot password link functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLabelsPresenceVerification_Test">
+                  </a> <!-- loginPopUpLabelsPresenceVerification_Test -->
+                  <span class="method-name">loginPopUpLabelsPresenceVerification_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U1630370, N3 HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U1630370, N3 HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U1630370,N3 HU3)</span>
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest1(U1630370,      )">
+                  </a> <!-- loginPopUpLogInNegativeTest1(U1630370,      ) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest1</span>
+                  <span class="parameters">(U1630370,     )</span>
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInPositiveTest">
+                  </a> <!-- loginPopUpLogInPositiveTest -->
+                  <span class="method-name">loginPopUpLogInPositiveTest</span>
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogoPresenceVerification_Test">
+                  </a> <!-- loginPopUpLogoPresenceVerification_Test -->
+                  <span class="method-name">loginPopUpLogoPresenceVerification_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Logo Presence)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpRememberMeLabelClickAbility_Test">
+                  </a> <!-- loginPopUpRememberMeLabelClickAbility_Test -->
+                  <span class="method-name">loginPopUpRememberMeLabelClickAbility_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Remember me label click-ability)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpSignUpLink_Test">
+                  </a> <!-- loginPopUpSignUpLink_Test -->
+                  <span class="method-name">loginPopUpSignUpLink_Test</span>
+                  <em>
+(Validate on Log_in Pop Up SignUp link functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nerses Khachatryan\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;craftBetAutomation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginPopUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- craftBetAutomation --&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">craftBetAutomation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(0, 2, 'testCases.LoginPopUpTest')
+data.setCell(0, 3, 10460);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(1, 2, 'testCases.LoginPopUpTest')
+data.setCell(1, 3, 10375);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(2, 2, 'testCases.LoginPopUpTest')
+data.setCell(2, 3, 2386);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(3, 2, 'testCases.LoginPopUpTest')
+data.setCell(3, 3, 2229);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(4, 2, 'testCases.LoginPopUpTest')
+data.setCell(4, 3, 2210);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(5, 2, 'testCases.LoginPopUpTest')
+data.setCell(5, 3, 2200);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(6, 2, 'testCases.LoginPopUpTest')
+data.setCell(6, 3, 2144);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginPopUpLogInPositiveTest')
+data.setCell(7, 2, 'testCases.LoginPopUpTest')
+data.setCell(7, 3, 2060);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginPopUpErrorMessageValidationInvalidPassword')
+data.setCell(8, 2, 'testCases.LoginPopUpTest')
+data.setCell(8, 3, 1407);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginPopUpErrorMessageValidationInvalidUsername')
+data.setCell(9, 2, 'testCases.LoginPopUpTest')
+data.setCell(9, 3, 1406);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPopUpCloseButtonFunctionality_Test')
+data.setCell(10, 2, 'testCases.LoginPopUpTest')
+data.setCell(10, 3, 807);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginPopUpEyeButtonFunctionality_Test')
+data.setCell(11, 2, 'testCases.LoginPopUpTest')
+data.setCell(11, 3, 668);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginPopUpRememberMeLabelClickAbility_Test')
+data.setCell(12, 2, 'testCases.LoginPopUpTest')
+data.setCell(12, 3, 522);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginPopUpCheckBoxClickAbility_Test')
+data.setCell(13, 2, 'testCases.LoginPopUpTest')
+data.setCell(13, 3, 476);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginPopUpSignUpLink_Test')
+data.setCell(14, 2, 'testCases.LoginPopUpTest')
+data.setCell(14, 3, 304);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginPopUpForgotPasswordLink_Test')
+data.setCell(15, 2, 'testCases.LoginPopUpTest')
+data.setCell(15, 3, 264);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginPopUpLabelsPresenceVerification_Test')
+data.setCell(16, 2, 'testCases.LoginPopUpTest')
+data.setCell(16, 3, 201);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginPopUpLogInNegativeTest1')
+data.setCell(17, 2, 'testCases.LoginPopUpTest')
+data.setCell(17, 3, 164);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginPopUpLogoPresenceVerification_Test')
+data.setCell(18, 2, 'testCases.LoginPopUpTest')
+data.setCell(18, 3, 45);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPopUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">StartSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">13207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLabelsPresenceVerification_Test</span>
+                <span class="method-start">13859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">20087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogoPresenceVerification_Test</span>
+                <span class="method-start">21054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">28696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpCloseButtonFunctionality_Test</span>
+                <span class="method-start">29779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">35878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpEyeButtonFunctionality_Test</span>
+                <span class="method-start">36542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">42354 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpRememberMeLabelClickAbility_Test</span>
+                <span class="method-start">43342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">48995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpCheckBoxClickAbility_Test</span>
+                <span class="method-start">49985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">55922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpForgotPasswordLink_Test</span>
+                <span class="method-start">56879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57145 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">62953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpSignUpLink_Test</span>
+                <span class="method-start">63668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">64840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">69182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInPositiveTest</span>
+                <span class="method-start">69813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">77092 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest1(U1630370, N3 HU3)</span>
+                <span class="method-start">78060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">93648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1(U1630370, N3HU3 )</span>
+                <span class="method-start">94275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">97549 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">101822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1(U1630370,  N3HU3)</span>
+                <span class="method-start">102462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">105685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">110241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest1(U1630370,      )</span>
+                <span class="method-start">110929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">126507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1(U1630370 , N3HU3)</span>
+                <span class="method-start">127173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">130336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">134562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1(U163 0370, N3HU3)</span>
+                <span class="method-start">135224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">138591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">142982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1( U1630370, N3HU3)</span>
+                <span class="method-start">143630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">146773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">151053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest1(        , N3HU3)</span>
+                <span class="method-start">151776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">153006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">157421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpErrorMessageValidationInvalidUsername</span>
+                <span class="method-start">158087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">160334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">164678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpErrorMessageValidationInvalidPassword</span>
+                <span class="method-start">165325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">finish</span>
+                <span class="method-start">167865 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

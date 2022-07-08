@@ -68,15 +68,16 @@ public class Reporting extends TestListenerAdapter {
 
         try {
             basePage.captureScreen(BaseTest.driver, tr.getName());
-            String screenshotPath = System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tr.getName() + ".png";
+            String screenshotPath = System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tr.getName() + basePage.i + ".png";
             File f = new File(screenshotPath);
 
             if (f.exists()) {
+
                 try {
                     logger.fail("Screenshot is below.");
-                    logger.addScreenCaptureFromPath("\\Extent_Report\\Screenshots\\" + tr.getName() + ".png");
+                    logger.addScreenCaptureFromPath("\\Extent_Report\\Screenshots\\" + tr.getName() + basePage.i + ".png");
                     //logger.addScreenCaptureFromPath("C:\\Users\\user\\Desktop\\Presentation\\Maven\\Java_Practice\\craftBetAutomation\\Extent_Report\\Screenshots" + tr.getName() + ".png");
-
+                    basePage.i++;
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

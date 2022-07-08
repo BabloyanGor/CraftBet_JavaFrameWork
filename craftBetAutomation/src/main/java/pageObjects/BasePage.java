@@ -18,6 +18,7 @@ public class BasePage {
     Actions actions;
     Select select;
     JavascriptExecutor js;
+    public int i = 1;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -44,7 +45,7 @@ public class BasePage {
     public File captureScreen(WebDriver driver, String tname) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + ".png");
+        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname+i + ".png");
         FileUtils.copyFile(source, target);
         System.out.println("Screenshot taken");
         return target;

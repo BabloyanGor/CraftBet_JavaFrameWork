@@ -33,9 +33,7 @@ public class BaseTest extends DriverFactory {
     public BaseTest() {
     }
 
-    @BeforeSuite
-    public void StartSuite(){
-    }
+
 
     @BeforeMethod
     public void setup() {
@@ -84,7 +82,7 @@ public class BaseTest extends DriverFactory {
 
     @AfterSuite
     public void finish(){
-        logger.info("All specified test was executed");
+        logger.info("Login Test Suit test was finished");
     }
 
 

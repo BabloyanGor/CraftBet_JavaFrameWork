@@ -177,7 +177,7 @@ public class LoginPopUpTest extends BaseTest {
     @Test(priority = 10, dataProvider = "invalidLoginData" ,description = "Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpLogInNegativeTest1(String dataUsername, String dataPassword) {
+    public void loginPopUpLogInNegativeTest(String dataUsername, String dataPassword) {
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(dataUsername);
         logger.info("username passed -->" + dataUsername+ "<--");
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys(dataPassword);
@@ -213,7 +213,7 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    @Test(priority = 13, description = "Validate on Log_in Pop Up error message with invalid username")
+    @Test(priority = 12, description = "Validate on Log_in Pop Up error message with invalid username")
     @Description("Validate on Log_in Pop Up error message with invalid username")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpErrorMessageValidationInvalidPassword() throws InterruptedException {
