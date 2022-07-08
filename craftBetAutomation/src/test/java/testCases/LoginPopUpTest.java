@@ -12,15 +12,17 @@ import pageObjects.BasePage;
 
 import java.io.IOException;
 
-public class LoginPopUpTest extends BaseTest {
+public class
+
+LoginPopUpTest extends BaseTest {
     SoftAssert softAssert = new SoftAssert();
     BasePage bp = new BasePage();
+
 
     @BeforeMethod
     public void goToLoginPopUp() {
         craftBet_header_page.clickOnLogInButtonIfVisible();
     }
-
 
     @Test(priority = 1, description = "Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
             " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
@@ -73,7 +75,7 @@ public class LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Logo Presence")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpLogoPresenceVerification_Test() {
-        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(),true);
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(), true);
     }
 
     @Test(priority = 3, description = "Validate on Log_in Pop Up Close (X) button functionality")
@@ -82,7 +84,7 @@ public class LoginPopUpTest extends BaseTest {
     public void loginPopUpCloseButtonFunctionality_Test() {
         craftBet_login_popUp_page.clickOnLoginPopUpCloseButton();
         logger.info("close (X) button clicked");
-        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(),false);
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(), false);
     }
 
     @Test(priority = 4, description = "Validate on Log_in Pop Up eye functionality")
@@ -142,24 +144,21 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-
     // facebook, google, Telegram, Instagram ......test
     @Test(priority = 8, description = "Validate on Log_in Pop Up SignUp link functionality")
     @Description("Validate on Log_in Pop Up SignUp link functionality")
     @Severity(SeverityLevel.NORMAL)
-    public void loginPopUpSignUpLink_Test()  {
+    public void loginPopUpSignUpLink_Test() {
         craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
         logger.info("SignUp link clicked");
-        try{
+        try {
             String header = craftBet_signUp_popUp_page.getTextSignUpPopUpHeader();
-            Assert.assertEquals(header,"Quick Register");
-        }
-        catch (Exception e){
+            Assert.assertEquals(header, "Quick Register");
+        } catch (Exception e) {
             Assert.assertTrue(false);
         }
     }
-
-
+    
     @Test(priority = 9, description = "Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Description("Validate on Log_in Pop Up Log_In functionality with valid credentials")
     @Severity(SeverityLevel.BLOCKER)
@@ -174,16 +173,20 @@ public class LoginPopUpTest extends BaseTest {
 
     }
 
-    @Test(priority = 10, dataProvider = "invalidLoginData" ,description = "Validate on Log_in Pop Up Log_In functionality with invalid data")
+    @Test(priority = 10, dataProvider = "invalidLoginData", description = "Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInNegativeTest(String dataUsername, String dataPassword) {
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(dataUsername);
-        logger.info("username passed -->" + dataUsername+ "<--");
+        logger.info("username passed -->" + dataUsername + "<--");
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys(dataPassword);
         logger.info("password passed -->" + dataPassword + "<--");
-        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
-        logger.info("Log In Button was clicked");
+        try {
+            craftBet_login_popUp_page.clickLoginPopUpLogInButton();
+            logger.info("Log In Button was clicked");
+        } catch (Exception e) {
+            logger.info("Log In Button isn't active    " + e);
+        }
         try {
             Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), false);
         } catch (Exception e) {
@@ -191,10 +194,10 @@ public class LoginPopUpTest extends BaseTest {
         }
     }
 
-    @DataProvider(name="invalidLoginData")
-    public Object[][] loginData(){
-        Object invalidLoginData[][] = {{"U1630370","N3 HU3"},{"U1630370","N3HU3 "},{"U1630370"," N3HU3"},{"U1630370","     "},
-                                       {"U1630370 ","N3HU3"},{"U163 0370","N3HU3"},{" U1630370","N3HU3"},{"        ","N3HU3"}};
+    @DataProvider(name = "invalidLoginData")
+    public Object[][] loginData() {
+        Object invalidLoginData[][] = {{"U1630370", "N3 HU3"}, {"U1630370", "N3HU3 "}, {"U1630370", " N3HU3"}, {"U1630370", "     "},{"U1630370", "?N3HU3"},
+                                       {"U1630370 ", "N3HU3"}, {"U163 0370", "N3HU3"}, {" U1630370", "N3HU3"}, {"        ", "N3HU3"}, {"?U1630370", "N3HU3"}};
         return invalidLoginData;
     }
 

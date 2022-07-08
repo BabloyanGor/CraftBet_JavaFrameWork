@@ -1,120 +1,161 @@
-2022-07-08 12:31:54,881 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:31:56,409 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:31:56,435 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:32:01,909 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:32:01,916 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:32:01,918 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:32:01,919 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:32:01,920 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:32:01,929 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:32:05,345 - craftBet -INFO - username passed -->U1630370<--
-2022-07-08 12:32:05,398 - craftBet -INFO - password passed -->N3 HU3<--
-2022-07-08 12:32:05,681 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:32:15,735 - craftBet -INFO - loginPopUpLogInNegativeTest--->  Success
-2022-07-08 12:32:15,735 - craftBet -INFO - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:32:16,892 - craftBet -INFO - Browser closed
-2022-07-08 12:32:16,910 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:32:16,946 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:32:16,966 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:32:20,017 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:32:20,018 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:32:20,019 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:32:20,019 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:32:20,019 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:32:20,020 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:32:22,570 - craftBet -INFO - username passed -->U1630370<--
-2022-07-08 12:32:22,622 - craftBet -INFO - password passed -->N3HU3 <--
-2022-07-08 12:32:22,896 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:33:04,568 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:33:04,568 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:33:05,431 - craftBet -INFO - Browser closed
-2022-07-08 12:33:05,447 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:33:05,478 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:33:05,494 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:33:08,748 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:33:08,749 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:33:08,750 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:33:08,750 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:33:08,750 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:33:08,751 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:33:11,095 - craftBet -INFO - username passed -->U1630370<--
-2022-07-08 12:33:11,155 - craftBet -INFO - password passed --> N3HU3<--
-2022-07-08 12:33:11,420 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:35:05,893 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:35:05,893 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:35:06,852 - craftBet -INFO - Browser closed
-2022-07-08 12:35:06,859 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:35:06,878 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:35:06,893 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:35:10,084 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:35:10,085 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:35:10,086 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:35:10,086 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:35:10,087 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:35:10,087 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:35:12,852 - craftBet -INFO - username passed -->U1630370<--
-2022-07-08 12:35:12,902 - craftBet -INFO - password passed -->     <--
-2022-07-08 12:35:13,166 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:35:23,175 - craftBet -INFO - loginPopUpLogInNegativeTest--->  Success
-2022-07-08 12:35:23,177 - craftBet -INFO - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:35:24,376 - craftBet -INFO - Browser closed
-2022-07-08 12:35:24,392 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:35:24,412 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:35:24,433 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:35:27,552 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:35:27,553 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:35:27,553 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:35:27,553 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:35:27,553 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:35:27,553 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:35:30,014 - craftBet -INFO - username passed -->U1630370 <--
-2022-07-08 12:35:30,073 - craftBet -INFO - password passed -->N3HU3<--
-2022-07-08 12:35:30,336 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:36:03,923 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:36:03,923 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:36:04,787 - craftBet -INFO - Browser closed
-2022-07-08 12:36:04,793 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:36:04,807 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:36:04,821 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:36:07,791 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:36:07,792 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:36:07,793 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:36:07,794 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:36:07,794 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:36:07,794 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:36:10,144 - craftBet -INFO - username passed -->U163 0370<--
-2022-07-08 12:36:10,199 - craftBet -INFO - password passed -->N3HU3<--
-2022-07-08 12:36:10,476 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:36:24,081 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:36:24,082 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:36:25,024 - craftBet -INFO - Browser closed
-2022-07-08 12:36:25,029 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:36:25,042 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:36:25,056 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:36:28,039 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:36:28,040 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:36:28,040 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:36:28,040 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:36:28,041 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:36:28,041 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:36:30,730 - craftBet -INFO - username passed --> U1630370<--
-2022-07-08 12:36:30,787 - craftBet -INFO - password passed -->N3HU3<--
-2022-07-08 12:36:31,054 - craftBet -INFO - Log In Button was clicked
-2022-07-08 12:36:53,682 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:36:53,683 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:36:54,588 - craftBet -INFO - Browser closed
-2022-07-08 12:36:54,595 - craftBet -INFO - Browser for test will be firefox as chosen
-2022-07-08 12:36:54,608 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
-2022-07-08 12:36:54,621 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
-2022-07-08 12:36:57,735 - craftBet -INFO - Header page elements are initialized
-2022-07-08 12:36:57,736 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
-2022-07-08 12:36:57,736 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
-2022-07-08 12:36:57,736 - craftBet -INFO - Footer Page elements are initialized
-2022-07-08 12:36:57,737 - craftBet -INFO - Password recovery Page elements are initialized
-2022-07-08 12:36:57,738 - craftBet -INFO - Casino Page elements are initialized
-2022-07-08 12:37:00,104 - craftBet -INFO - username passed -->        <--
-2022-07-08 12:37:00,157 - craftBet -INFO - password passed -->N3HU3<--
-2022-07-08 12:37:06,341 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
-2022-07-08 12:37:06,342 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
-2022-07-08 12:37:07,276 - craftBet -INFO - Browser closed
-2022-07-08 12:37:07,576 - craftBet -INFO - Login Test Suit test was finished
+2022-07-08 15:19:46,474 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:19:46,804 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:19:46,838 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:19:50,895 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:19:50,900 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:19:50,902 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:19:50,904 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:19:50,906 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:19:50,910 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:19:53,884 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:19:53,937 - craftBet -INFO - password passed -->N3 HU3<--
+2022-07-08 15:19:54,206 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:20:04,288 - craftBet -INFO - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 15:20:04,289 - craftBet -INFO - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:05,095 - craftBet -INFO - Browser closed
+2022-07-08 15:20:05,102 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:20:05,119 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:20:05,135 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:20:07,485 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:20:07,486 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:20:07,486 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:20:07,486 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:20:07,487 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:20:07,487 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:20:10,204 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:20:10,260 - craftBet -INFO - password passed -->N3HU3 <--
+2022-07-08 15:20:10,524 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:20:12,968 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 15:20:12,969 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:13,801 - craftBet -INFO - Browser closed
+2022-07-08 15:20:13,806 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:20:13,823 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:20:13,839 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:20:16,196 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:20:16,196 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:20:16,197 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:20:16,197 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:20:16,200 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:20:16,201 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:20:17,529 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,529 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,550 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,555 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,576 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,577 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,605 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,605 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,626 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,627 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,655 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,656 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,689 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,690 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:20:17,722 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:20:17,722 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:34:58,311 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:34:58,792 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:34:58,841 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:35:03,123 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:35:03,133 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:35:03,180 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:35:03,184 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:35:03,194 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:35:03,207 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:35:07,716 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:35:07,827 - craftBet -INFO - password passed -->N3 HU3<--
+2022-07-08 15:35:08,149 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:35:18,323 - craftBet -INFO - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 15:35:18,325 - craftBet -INFO - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:35:19,558 - craftBet -INFO - Browser closed
+2022-07-08 15:35:19,564 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:35:19,595 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:35:19,624 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:35:22,511 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:35:22,512 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:35:22,513 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:35:22,513 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:35:22,514 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:35:22,516 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:35:27,080 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:35:27,225 - craftBet -INFO - password passed -->N3HU3 <--
+2022-07-08 15:35:27,536 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:35:29,087 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 15:35:29,088 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:35:30,164 - craftBet -INFO - Browser closed
+2022-07-08 15:35:30,185 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:35:30,213 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:35:30,229 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:35:34,198 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:35:34,201 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:35:34,202 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:35:34,203 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:35:34,204 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:35:34,207 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:35:36,725 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:35:36,778 - craftBet -INFO - password passed --> N3HU3<--
+2022-07-08 15:35:37,064 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:35:39,518 - craftBet -ERROR - loginPopUpLogInNegativeTest--->  Fail
+2022-07-08 15:35:39,520 - craftBet -ERROR - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:35:40,810 - craftBet -INFO - Browser closed
+2022-07-08 15:35:40,839 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:35:40,897 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:35:40,927 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:35:43,620 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:35:43,621 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:35:43,621 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:35:43,621 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:35:43,621 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:35:43,622 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:35:46,798 - craftBet -INFO - username passed -->U1630370<--
+2022-07-08 15:35:46,896 - craftBet -INFO - password passed -->     <--
+2022-07-08 15:35:47,209 - craftBet -INFO - Log In Button was clicked
+2022-07-08 15:35:57,224 - craftBet -INFO - loginPopUpLogInNegativeTest--->  Success
+2022-07-08 15:35:57,224 - craftBet -INFO - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:35:58,037 - craftBet -INFO - Browser closed
+2022-07-08 15:35:58,050 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:35:58,066 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:35:58,081 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:36:01,447 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:36:01,448 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:36:01,451 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:36:01,452 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:36:01,454 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:36:01,456 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:36:02,865 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,865 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:02,881 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,885 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:02,903 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,904 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:02,920 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,920 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:02,931 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,932 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:02,949 - craftBet -WARN - loginPopUpLogInNegativeTest--->  Skipped
+2022-07-08 15:36:02,949 - craftBet -WARN - loginPopUpLogInNegativeTest------------------------------------------------
+2022-07-08 15:36:20,245 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-08 15:36:22,278 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-08 15:36:22,322 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-08 15:36:27,123 - craftBet -INFO - Header page elements are initialized
+2022-07-08 15:36:27,130 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-08 15:36:27,136 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-08 15:36:27,141 - craftBet -INFO - Footer Page elements are initialized
+2022-07-08 15:36:27,146 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-08 15:36:27,162 - craftBet -INFO - Casino Page elements are initialized
+2022-07-08 15:36:30,801 - craftBet -INFO - Header Captured
+2022-07-08 15:36:30,824 - craftBet -INFO - Username label captured
+2022-07-08 15:36:30,874 - craftBet -INFO - Password label captured
+2022-07-08 15:36:30,896 - craftBet -INFO - Remember me label Captured
+2022-07-08 15:36:30,924 - craftBet -INFO - You can Sign in with label Captured
+2022-07-08 15:36:30,947 - craftBet -INFO - Don't have an account? label Captured
+2022-07-08 15:36:30,973 - craftBet -INFO - Safe and secure label Captured
+2022-07-08 15:36:30,977 - craftBet -INFO - Header label checked
+2022-07-08 15:36:30,978 - craftBet -INFO - username label checked
+2022-07-08 15:36:30,978 - craftBet -INFO - password label checked
+2022-07-08 15:36:30,978 - craftBet -INFO - Remember me label checked
+2022-07-08 15:36:30,978 - craftBet -INFO - You can Sign in with label checked
+2022-07-08 15:36:30,978 - craftBet -INFO - Don't have an account? Sign Up
+2022-07-08 15:36:30,978 - craftBet -INFO - Safe and secure label checked
+2022-07-08 15:36:31,840 - craftBet -INFO - Browser closed
+2022-07-08 15:36:31,853 - craftBet -INFO - Login Test Suit test was finished

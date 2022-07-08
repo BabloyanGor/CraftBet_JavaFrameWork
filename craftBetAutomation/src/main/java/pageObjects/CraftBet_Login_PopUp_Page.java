@@ -26,13 +26,13 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     @FindBy(xpath = "//img[@class='login-logo']")
     @CacheLookup
     WebElement loginPopUpLogo;
-    @FindBy(xpath = "//span[contains(text(),'Email/mobile or username')]")
+    @FindBy(xpath = "//div[@class='login-section_field form_field distans-right email']//child::span")
     @CacheLookup
     WebElement loginPopUpEmailOrUsernameLabel;
     @FindBy(xpath = "//*[@name='username']")
     @CacheLookup
     WebElement loginPopUpEmailOrUsernameInput;
-    @FindBy(xpath = "//span[contains(text(),'Password')]")
+    @FindBy(xpath = "//div[@class='login-section_field form_field distans-right password']//child::span[@class='floating-label ']")
     @CacheLookup
     WebElement loginPopUpPasswordLabel;
     @FindBy(xpath = "//input[@formcontrolname='Password']")
@@ -65,13 +65,13 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     @FindBy(xpath = "/html/body/app-root/simple-modal-holder/simple-modal-wrapper/div/app-app-confirm/div/div[2]/div/app-login/div/form/ul/li[4]")
     @CacheLookup
     WebElement loginPopUpYouCanSignUpWithInstagram;
-    @FindBy(xpath = "//button[contains(text(),' Log In ') and @type='submit']")
+    @FindBy(xpath = "//button[@class='craft_btn login_btn -btn']")
     @CacheLookup
     WebElement loginPopUpLogInButton;
     @FindBy(xpath = "//*[contains(text(),'have an account')]")
     @CacheLookup
     WebElement loginPopUpDoNotHaveAccountLabel;
-    @FindBy(xpath = "//a[contains(text(),'Sign Up')]")
+    @FindBy(xpath = "//div[@class='login_PSection_redirect']//child::a")
     @CacheLookup
     WebElement loginPopUpSignUpLink;
     @FindBy(xpath = "//span[@class='login-safety-text']")

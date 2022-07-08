@@ -16,6 +16,7 @@ public class BaseTest extends DriverFactory {
 
     ReadConfig readConfig = new ReadConfig();
     public String baseURL=readConfig.getApplicationURL();
+    public String browserType=readConfig.getBrowserType();
     public String browser=readConfig.getBrowser();
     public String username=readConfig.getUsername();
     public String password=readConfig.getPassword();
@@ -30,7 +31,7 @@ public class BaseTest extends DriverFactory {
     public CraftBet_Casino_Page craftBet_casino_page;
 
     public  WebDriver testDriver;
-    public BaseTest() {
+    public BaseTest()  {
     }
 
 
@@ -41,10 +42,10 @@ public class BaseTest extends DriverFactory {
         PropertyConfigurator.configure("Log4j.properties");
 
         try {
-            super.initDriver(baseURL,browser);
+            super.initDriver(baseURL,browser,browserType);
             testDriver = driver;
         } catch (org.openqa.selenium.TimeoutException exception) {
-            super.initDriver(baseURL,browser);
+            super.initDriver(baseURL,browser,browserType);
             testDriver = driver;
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

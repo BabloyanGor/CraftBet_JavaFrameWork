@@ -25,6 +25,11 @@ public class ReadConfig {
         String browser=pro.getProperty("browser");
         return browser;
     }
+    public String getBrowserType()
+    {
+        String browserType=pro.getProperty("browserType");
+        return browserType;
+    }
 
     public String getApplicationURL()
     {
