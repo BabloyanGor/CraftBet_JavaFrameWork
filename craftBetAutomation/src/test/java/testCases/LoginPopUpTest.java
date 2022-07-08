@@ -5,6 +5,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.BasePage;
@@ -173,14 +174,14 @@ public class LoginPopUpTest extends BaseTest {
 
     }
 
-    @Test(priority = 10, description = "Validate on Log_in Pop Up Log_In functionality with invalid password")
-    @Description("Validate on Log_in Pop Up Log_In functionality with invalid password")
+    @Test(priority = 10, dataProvider = "invalidLoginData" ,description = "Validate on Log_in Pop Up Log_In functionality with invalid data")
+    @Description("Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpLogInNegativeTest1() {
-        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
-        logger.info("username passed");
-        craftBet_login_popUp_page.loginPopUpPasswordSendKeys("123456");
-        logger.info("password passed");
+    public void loginPopUpLogInNegativeTest1(String dataUsername, String dataPassword) {
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(dataUsername);
+        logger.info("username passed -->" + dataUsername+ "<--");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys(dataPassword);
+        logger.info("password passed -->" + dataPassword + "<--");
         craftBet_login_popUp_page.clickLoginPopUpLogInButton();
         logger.info("Log In Button was clicked");
         try {
@@ -190,26 +191,15 @@ public class LoginPopUpTest extends BaseTest {
         }
     }
 
-    @Test(priority = 11, description = "Validate on Log_in Pop Up Log_In functionality with invalid username")
-    @Description("Validate on Log_in Pop Up Log_In functionality with invalid username")
-    @Severity(SeverityLevel.BLOCKER)
-    public void loginPopUpLogInNegativeTest2() {
-        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys("1234");
-        logger.info("username passed");
-        craftBet_login_popUp_page.loginPopUpPasswordSendKeys(password);
-        logger.info("password passed");
-        craftBet_login_popUp_page.clickLoginPopUpLogInButton();
-        logger.info("Log In Button was clicked");
-        try {
-            Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), false);
-        } catch (Exception e) {
-            Assert.assertTrue(true);
-        }
+    @DataProvider(name="invalidLoginData")
+    public Object[][] loginData(){
+        Object invalidLoginData[][] = {{"U1630370","N3 HU3"},{"U1630370","N3HU3 "},{"U1630370"," N3HU3"},{"U1630370","     "},
+                                       {"U1630370 ","N3HU3"},{"U163 0370","N3HU3"},{" U1630370","N3HU3"},{"        ","N3HU3"}};
+        return invalidLoginData;
     }
 
-
-    @Test(priority = 12, description = "Validate on Log_in Pop Up Error message with invalid username")
-    @Description("Validate on Log_in Pop Up error message with invalid username")
+    @Test(priority = 11, description = "Validate on Log_in Pop Up Error message with invalid password")
+    @Description("Validate on Log_in Pop Up error message with invalid password")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpErrorMessageValidationInvalidUsername() throws InterruptedException {
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(username);
@@ -223,8 +213,8 @@ public class LoginPopUpTest extends BaseTest {
     }
 
 
-    @Test(priority = 13, description = "Validate on Log_in Pop Up error message with invalid password")
-    @Description("Validate on Log_in Pop Up error message with invalid password")
+    @Test(priority = 13, description = "Validate on Log_in Pop Up error message with invalid username")
+    @Description("Validate on Log_in Pop Up error message with invalid username")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpErrorMessageValidationInvalidPassword() throws InterruptedException {
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys("1234");
@@ -236,6 +226,5 @@ public class LoginPopUpTest extends BaseTest {
         Thread.sleep(1000);
         Assert.assertEquals(craftBet_login_popUp_page.loginPopUpErrorMessageGetText(), "Username or Password is incorrect. Please try again.");
     }
-
 
 }

@@ -72,13 +72,12 @@ public class BaseTest extends DriverFactory {
 
     @AfterMethod
     public void tearDown() {
-//        try {
-//            this.driver.quit();
-//            logger.info("Browser closed");
-//        } catch (Exception exception) {
-//            this.driver.quit();
-//            logger.info("Browser closed with exception");
-//        }
+        try {
+            this.driver.quit();
+            logger.info("Browser closed");
+        } catch (Exception exception) {
+            logger.info("Browser close order has an exception");
+        }
     }
 
 
