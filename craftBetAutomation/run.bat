@@ -1,3 +1,3 @@
-cd C:\Users\user\Desktop\Presentation\Maven\Java_Practice\craftBetAutomation
+cd C:\Users\Nerses Khachatryan\Desktop\Git_craftBet_TestAutomation\CraftBet_JavaFrameWork\craftBetAutomation
 mvn clean install
 allure serve allure-results
