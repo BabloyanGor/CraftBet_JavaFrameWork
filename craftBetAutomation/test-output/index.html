@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Default Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_Suite" class="navigator-link ">
+                    <span>C:\Users\Nerses Khachatryan\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,  10 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370, N3HU3 )">loginPopUpLogInNegativeTest(U1630370, N3HU3 )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods skipped suite-Default_Suite"> (hide)</a> <!-- hide-methods skipped suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods skipped suite-Default_Suite"> (show)</a> <!-- show-methods skipped suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpErrorMessageValidationInvalidPassword">loginPopUpErrorMessageValidationInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpErrorMessageValidationInvalidUsername">loginPopUpErrorMessageValidationInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(?U1630370, N3HU3)">loginPopUpLogInNegativeTest(?U1630370, N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(        , N3HU3)">loginPopUpLogInNegativeTest(        , N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370,  N3HU3)">loginPopUpLogInNegativeTest(U1630370,  N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370, ?N3HU3)">loginPopUpLogInNegativeTest(U1630370, ?N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370 , N3HU3)">loginPopUpLogInNegativeTest(U1630370 , N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U163 0370, N3HU3)">loginPopUpLogInNegativeTest(U163 0370, N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370,      )">loginPopUpLogInNegativeTest(U1630370,      )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest( U1630370, N3HU3)">loginPopUpLogInNegativeTest( U1630370, N3HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpCheckBoxClickAbility_Test">loginPopUpCheckBoxClickAbility_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpCloseButtonFunctionality_Test">loginPopUpCloseButtonFunctionality_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpEyeButtonFunctionality_Test">loginPopUpEyeButtonFunctionality_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpForgotPasswordLink_Test">loginPopUpForgotPasswordLink_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLabelsPresenceVerification_Test">loginPopUpLabelsPresenceVerification_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInNegativeTest(U1630370, N3 HU3)">loginPopUpLogInNegativeTest(U1630370, N3 HU3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogInPositiveTest">loginPopUpLogInPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpLogoPresenceVerification_Test">loginPopUpLogoPresenceVerification_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpRememberMeLabelClickAbility_Test">loginPopUpRememberMeLabelClickAbility_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_Suite" title="testCases.LoginPopUpTest" class="method navigator-link" hash-for-method="loginPopUpSignUpLink_Test">loginPopUpSignUpLink_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+          <div class="suite-Default_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.LoginPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370, N3HU3 )">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370, N3HU3 ) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370,N3HU3 )</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-failed -->
+          <div class="suite-Default_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.LoginPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpErrorMessageValidationInvalidPassword">
+                  </a> <!-- loginPopUpErrorMessageValidationInvalidPassword -->
+                  <span class="method-name">loginPopUpErrorMessageValidationInvalidPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up error message with invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpErrorMessageValidationInvalidUsername">
+                  </a> <!-- loginPopUpErrorMessageValidationInvalidUsername -->
+                  <span class="method-name">loginPopUpErrorMessageValidationInvalidUsername</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Error message with invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(?U1630370, N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(?U1630370, N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(?U1630370,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(        , N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(        , N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(        ,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370,  N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370,  N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370, N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370, ?N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370, ?N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370,?N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370 , N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370 , N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370 ,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U163 0370, N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(U163 0370, N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U163 0370,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370,      )">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370,      ) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370,     )</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest( U1630370, N3HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest( U1630370, N3HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">( U1630370,N3HU3)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=networkProtocolError&amp;u=https%3A//craftbet.com/home&amp;c=UTF-8&amp;d=Firefox%20has%20experienced%20a%20network%20protocol%20violation%20that%20cannot%20be%20repaired.
+Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;
+System info: host: &apos;DESKTOP-PO3T4V3&apos;, ip: &apos;10.50.17.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0756a71a-fac3-448f-9f8f-560fe13550a5, clickElement {id=c78e9c25-2a1d-46ba-99ff-528de38bedc2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0, moz:accessibilityChecks: false, moz:buildID: 20220526203855, moz:debuggerAddress: localhost:53188, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 30316, moz:profile: C:\Users\NERSES~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0756a71a-fac3-448f-9f8f-560fe13550a5)] -&gt; xpath: //span[text()= &apos;English&apos;]]
+Session ID: 0756a71a-fac3-448f-9f8f-560fe13550a5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at pageObjects.BasePage.clickOnElementIfVisible(BasePage.java:85)
+	at pageObjects.CraftBet_Header_Page.selectEnglishLanguageFromDropDown(CraftBet_Header_Page.java:85)
+	at testCases.BaseTest.setup(BaseTest.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-skipped -->
+          <div class="suite-Default_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginPopUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpCheckBoxClickAbility_Test">
+                  </a> <!-- loginPopUpCheckBoxClickAbility_Test -->
+                  <span class="method-name">loginPopUpCheckBoxClickAbility_Test</span>
+                  <em>
+(Validate on Log_in Pop Up checkBox functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpCloseButtonFunctionality_Test">
+                  </a> <!-- loginPopUpCloseButtonFunctionality_Test -->
+                  <span class="method-name">loginPopUpCloseButtonFunctionality_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Close (X) button functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpEyeButtonFunctionality_Test">
+                  </a> <!-- loginPopUpEyeButtonFunctionality_Test -->
+                  <span class="method-name">loginPopUpEyeButtonFunctionality_Test</span>
+                  <em>
+(Validate on Log_in Pop Up eye functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpForgotPasswordLink_Test">
+                  </a> <!-- loginPopUpForgotPasswordLink_Test -->
+                  <span class="method-name">loginPopUpForgotPasswordLink_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Forgot password link functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLabelsPresenceVerification_Test">
+                  </a> <!-- loginPopUpLabelsPresenceVerification_Test -->
+                  <span class="method-name">loginPopUpLabelsPresenceVerification_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInNegativeTest(U1630370, N3 HU3)">
+                  </a> <!-- loginPopUpLogInNegativeTest(U1630370, N3 HU3) -->
+                  <span class="method-name">loginPopUpLogInNegativeTest</span>
+                  <span class="parameters">(U1630370,N3 HU3)</span>
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with invalid data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogInPositiveTest">
+                  </a> <!-- loginPopUpLogInPositiveTest -->
+                  <span class="method-name">loginPopUpLogInPositiveTest</span>
+                  <em>
+(Validate on Log_in Pop Up Log_In functionality with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpLogoPresenceVerification_Test">
+                  </a> <!-- loginPopUpLogoPresenceVerification_Test -->
+                  <span class="method-name">loginPopUpLogoPresenceVerification_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Logo Presence)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpRememberMeLabelClickAbility_Test">
+                  </a> <!-- loginPopUpRememberMeLabelClickAbility_Test -->
+                  <span class="method-name">loginPopUpRememberMeLabelClickAbility_Test</span>
+                  <em>
+(Validate on Log_in Pop Up Remember me label click-ability)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPopUpSignUpLink_Test">
+                  </a> <!-- loginPopUpSignUpLink_Test -->
+                  <span class="method-name">loginPopUpSignUpLink_Test</span>
+                  <em>
+(Validate on Log_in Pop Up SignUp link functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_Suite-class-passed -->
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nerses Khachatryan\AppData\Local\JetBrains\IdeaIC2022.1\temp-testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;craftBetAutomation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginPopUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- craftBetAutomation --&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">craftBetAutomation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(0, 2, 'testCases.LoginPopUpTest')
+data.setCell(0, 3, 60857);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPopUpLogInPositiveTest')
+data.setCell(1, 2, 'testCases.LoginPopUpTest')
+data.setCell(1, 3, 2439);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(2, 2, 'testCases.LoginPopUpTest')
+data.setCell(2, 3, 2110);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPopUpRememberMeLabelClickAbility_Test')
+data.setCell(3, 2, 'testCases.LoginPopUpTest')
+data.setCell(3, 3, 993);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginPopUpEyeButtonFunctionality_Test')
+data.setCell(4, 2, 'testCases.LoginPopUpTest')
+data.setCell(4, 3, 967);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginPopUpCheckBoxClickAbility_Test')
+data.setCell(5, 2, 'testCases.LoginPopUpTest')
+data.setCell(5, 3, 956);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginPopUpCloseButtonFunctionality_Test')
+data.setCell(6, 2, 'testCases.LoginPopUpTest')
+data.setCell(6, 3, 846);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginPopUpLabelsPresenceVerification_Test')
+data.setCell(7, 2, 'testCases.LoginPopUpTest')
+data.setCell(7, 3, 731);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginPopUpSignUpLink_Test')
+data.setCell(8, 2, 'testCases.LoginPopUpTest')
+data.setCell(8, 3, 413);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginPopUpForgotPasswordLink_Test')
+data.setCell(9, 2, 'testCases.LoginPopUpTest')
+data.setCell(9, 3, 340);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPopUpLogoPresenceVerification_Test')
+data.setCell(10, 2, 'testCases.LoginPopUpTest')
+data.setCell(10, 3, 24);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(11, 2, 'testCases.LoginPopUpTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(12, 2, 'testCases.LoginPopUpTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(13, 2, 'testCases.LoginPopUpTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(14, 2, 'testCases.LoginPopUpTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(15, 2, 'testCases.LoginPopUpTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(16, 2, 'testCases.LoginPopUpTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginPopUpErrorMessageValidationInvalidPassword')
+data.setCell(17, 2, 'testCases.LoginPopUpTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginPopUpErrorMessageValidationInvalidUsername')
+data.setCell(18, 2, 'testCases.LoginPopUpTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(19, 2, 'testCases.LoginPopUpTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginPopUpLogInNegativeTest')
+data.setCell(20, 2, 'testCases.LoginPopUpTest')
+data.setCell(20, 3, 0);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginPopUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">8018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLabelsPresenceVerification_Test</span>
+                <span class="method-start">9682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10451 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">18473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogoPresenceVerification_Test</span>
+                <span class="method-start">19477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">26378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpCloseButtonFunctionality_Test</span>
+                <span class="method-start">27382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">37774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpEyeButtonFunctionality_Test</span>
+                <span class="method-start">39467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">48486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpRememberMeLabelClickAbility_Test</span>
+                <span class="method-start">49335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">63266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpCheckBoxClickAbility_Test</span>
+                <span class="method-start">65995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">68426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">74085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpForgotPasswordLink_Test</span>
+                <span class="method-start">75035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">80846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpSignUpLink_Test</span>
+                <span class="method-start">81575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">83185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">88576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInPositiveTest</span>
+                <span class="method-start">89573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">100740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370, N3 HU3)</span>
+                <span class="method-start">101710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">162580 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">163529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">168361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370, N3HU3 )</span>
+                <span class="method-start">169336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">171994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">172762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370,  N3HU3)</span>
+                <span class="method-start">177599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370,      )</span>
+                <span class="method-start">177610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370, ?N3HU3)</span>
+                <span class="method-start">177620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U1630370 , N3HU3)</span>
+                <span class="method-start">177633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(U163 0370, N3HU3)</span>
+                <span class="method-start">177645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest( U1630370, N3HU3)</span>
+                <span class="method-start">177655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(        , N3HU3)</span>
+                <span class="method-start">177665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpLogInNegativeTest(?U1630370, N3HU3)</span>
+                <span class="method-start">177676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177681 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpErrorMessageValidationInvalidUsername</span>
+                <span class="method-start">177686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">goToLoginPopUp</span>
+                <span class="method-start">177695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPopUpErrorMessageValidationInvalidPassword</span>
+                <span class="method-start">177697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">177701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">finish</span>
+                <span class="method-start">178126 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

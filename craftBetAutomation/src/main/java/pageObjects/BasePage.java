@@ -271,6 +271,10 @@ public class BasePage {
         driver.navigate().refresh();
     }
 
+    public void navigateRefresh(String url){
+        driver.navigate().to(url);
+    }
+
     //endregion
 
 }

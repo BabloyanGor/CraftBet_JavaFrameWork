@@ -146,93 +146,193 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
         return loginPopUpPasswordInput;
     }
 
-    
+
 
 
 
     public String getPasswordInputTypeAttribute() {
-        return basePage.getAttribute(loginPopUpPasswordInput, "type");
+        try{
+            return basePage.getAttribute(loginPopUpPasswordInput, "type");
+        }
+        catch(Exception e){
+            return "There is no type attribute";
+        }
     }
 
     public String loginPopUpPasswordGetText() {
-        return basePage.getText(loginPopUpPasswordInput);
-    }
-
-
-    public void clickLoginPopUpEyeShowPassword() {
-        basePage.clickOnElementIfVisible(loginPopUpEyeShowPassword);
-    }
-
-
-    public void clickLoginPopUpForgotPassword() {
-        basePage.clickOnElementIfVisible(loginPopUpForgotPassword);
-    }
-
-
-    public void clickLoginPopUpRememberMeCheckbox() {
-        basePage.clickOnElementIfVisible(loginPopUpRememberMeCheckbox);
-    }
-
-    public boolean loginPopUpRememberMeCheckboxIsSelected() {
-        return basePage.elementIsSelected(loginPopUpRememberMeCheckbox);
-    }
-
-    public void clickLoginPopUpRememberMeLabel() {
-        basePage.clickOnElementIfVisible(loginPopUpRememberMeLabel);
-    }
-
-    public String loginPopUpRememberMeLabelGetText() {
-        return basePage.getText(loginPopUpRememberMeLabel);
-    }
-
-
-    public String loginPopUpYouCanSignUpWithLabelGetText() {
-        return basePage.getText(loginPopUpYouCanSignUpWithLabel);
-    }
-
-    public void clickLoginPopUpYouCanSignUpWithGoogle() {
-        basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithGoogle);
-    }
-
-    public void clickLoginPopUpYouCanSignUpWithFaceBook() {
-        basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithFaceBook);
-    }
-
-    public void clickLoginPopUpYouCanSignUpWithTelegram() {
-        basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithTelegram);
-    }
-
-    public void clickLoginPopUpYouCanSignUpWithInstagram() {
-        basePage.clickOnElementIfVisible(loginPopUpYouCanSignUpWithInstagram);
-    }
-
-    public void clickLoginPopUpLogInButton() {
-        basePage.clickOnElementIfClickable(loginPopUpLogInButton);
-    }
-
-    public boolean isClickableLoginPopUpLogInButton() {
-        if (basePage.elementIsEnable(loginPopUpLogInButton)) {
-            return true;
-        } else {
-            return false;
+        try{
+            return basePage.getText(loginPopUpPasswordInput);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpPasswordInput element";
         }
 
     }
 
+
+    public void clickLoginPopUpEyeShowPassword() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpEyeShowPassword);
+            basePage.clickOnElementIfClickable(loginPopUpEyeShowPassword);
+        }
+        catch(Exception e){
+        }
+    }
+
+
+    public void clickLoginPopUpForgotPassword() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpForgotPassword);
+            basePage.clickOnElementIfClickable(loginPopUpForgotPassword);
+        }
+        catch(Exception e){
+        }
+    }
+
+
+    public void clickLoginPopUpRememberMeCheckbox() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpRememberMeCheckbox);
+            basePage.clickOnElementIfClickable(loginPopUpRememberMeCheckbox);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public boolean loginPopUpRememberMeCheckboxIsSelected() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpRememberMeCheckbox);
+            return basePage.elementIsSelected(loginPopUpRememberMeCheckbox);
+        }
+        catch(Exception e){
+            return basePage.elementIsSelected(loginPopUpRememberMeCheckbox);
+        }
+    }
+
+    public void clickLoginPopUpRememberMeLabel() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpRememberMeLabel);
+            basePage.clickOnElementIfClickable(loginPopUpRememberMeLabel);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public String loginPopUpRememberMeLabelGetText() {
+        try{
+            return basePage.getText(loginPopUpRememberMeLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpRememberMeLabel element";
+        }
+    }
+
+
+    public String loginPopUpYouCanSignUpWithLabelGetText() {
+        try{
+            return basePage.getText(loginPopUpYouCanSignUpWithLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpYouCanSignUpWithLabel element";
+        }
+    }
+
+    public void clickLoginPopUpYouCanSignUpWithGoogle() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpYouCanSignUpWithGoogle);
+            basePage.clickOnElementIfClickable(loginPopUpYouCanSignUpWithGoogle);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public void clickLoginPopUpYouCanSignUpWithFaceBook() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpYouCanSignUpWithFaceBook);
+            basePage.clickOnElementIfClickable(loginPopUpYouCanSignUpWithFaceBook);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public void clickLoginPopUpYouCanSignUpWithTelegram() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpYouCanSignUpWithTelegram);
+            basePage.clickOnElementIfClickable(loginPopUpYouCanSignUpWithTelegram);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public void clickLoginPopUpYouCanSignUpWithInstagram() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpYouCanSignUpWithInstagram);
+            basePage.clickOnElementIfClickable(loginPopUpYouCanSignUpWithInstagram);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public void clickLoginPopUpLogInButton() {
+        try{
+            basePage.waitElementToBeVisible(loginPopUpLogInButton);
+            basePage.clickOnElementIfClickable(loginPopUpLogInButton);
+        }
+        catch(Exception e){
+        }
+    }
+
+    public boolean isClickableLoginPopUpLogInButton() {
+        try{
+            if (basePage.elementIsEnable(loginPopUpLogInButton)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        catch (Exception e){
+            if (basePage.elementIsEnable(loginPopUpLogInButton)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
     public String loginPopUpDoNotHaveAccountLabelGetText() {
-        return basePage.getText(loginPopUpDoNotHaveAccountLabel);
+        try{
+            return basePage.getText(loginPopUpDoNotHaveAccountLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpDoNotHaveAccountLabel element";
+        }
     }
 
     public void clickLoginPopUpSignUpLink() {
-        basePage.clickOnElementIfVisible(loginPopUpSignUpLink);
+        try{
+            basePage.waitElementToBeVisible(loginPopUpSignUpLink);
+            basePage.clickOnElementIfClickable(loginPopUpSignUpLink);
+        }
+        catch(Exception e){
+        }
     }
 
     public String loginPopUpSaveAndSecureLabelGetText() {
-        return basePage.getText(loginPopUpSaveAndSecureLabel);
+        try{
+            return basePage.getText(loginPopUpSaveAndSecureLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpSaveAndSecureLabel element";
+        }
     }
 
     public String loginPopUpErrorMessageGetText() {
-        return basePage.getText(loginPopUpErrorMessage);
+        try{
+            return basePage.getText(loginPopUpErrorMessage);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpErrorMessage element";
+        }
     }
 
 

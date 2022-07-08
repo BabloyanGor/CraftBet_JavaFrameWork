@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="craftBetAutomation(failed)">
+    <classes>
+      <class name="testCases.LoginPopUpTest">
+        <methods>
+          <include name="loginPopUpErrorMessageValidationInvalidPassword"/>
+          <include name="finish"/>
+          <include name="setup"/>
+          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
+          <include name="tearDown"/>
+          <include name="loginPopUpLogInNegativeTest" invocation-numbers="1"/>
+          <include name="goToLoginPopUp"/>
+        </methods>
+      </class> <!-- testCases.LoginPopUpTest -->
+    </classes>
+  </test> <!-- craftBetAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
