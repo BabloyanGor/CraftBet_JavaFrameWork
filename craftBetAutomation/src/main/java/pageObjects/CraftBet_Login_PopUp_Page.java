@@ -82,13 +82,22 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     WebElement loginPopUpErrorMessage;
 
     public String getLoginPopUpHeader() {
-        return basePage.getText(loginPopUpHeader);
+        try{
+            return basePage.getText(loginPopUpHeader);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpHeader element";
+        }
     }
 
     public void clickOnLoginPopUpCloseButton() {
-        basePage.clickOnElementIfVisible(loginPopUpCloseButton);
+        try{
+            basePage.waitElementToBeVisible(loginPopUpCloseButton);
+            basePage.clickOnElementIfClickable(loginPopUpCloseButton);
+        }
+        catch(Exception e){
+        }
     }
-
     public boolean loginPopUpLogoPresence() {
         try {
             basePage.waitElementToBeVisible(loginPopUpLogo);
@@ -96,28 +105,50 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
         } catch (Exception e) {
             return false;
         }
-
     }
-
     public String getLoginPopUpEmailOrUsernameLabel() {
-        return basePage.getText(loginPopUpEmailOrUsernameLabel);
+        try{
+            return basePage.getText(loginPopUpEmailOrUsernameLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpEmailOrUsernameLabel element";
+        }
     }
 
     public void loginPopUpEmailOrUsernameSendKeys(String username) {
-        basePage.sendKeysIfElementVisible(loginPopUpEmailOrUsernameInput, username);
-    }
+        try{
+            basePage.sendKeysIfElementVisible(loginPopUpEmailOrUsernameInput, username);
+        }
+        catch(Exception e){
 
+        }
+    }
     public String getLoginPopUpPasswordLabel() {
-        return basePage.getText(loginPopUpPasswordLabel);
+        try{
+            return basePage.getText(loginPopUpPasswordLabel);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpPasswordLabel element";
+        }
+
     }
 
     public void loginPopUpPasswordSendKeys(String password) {
-        basePage.sendKeysIfElementVisible(loginPopUpPasswordInput, password);
+        try{
+            basePage.sendKeysIfElementVisible(loginPopUpPasswordInput, password);
+        }
+        catch(Exception e){
+
+        }
     }
 
     public WebElement getLoginPopUpPasswordInput() {
         return loginPopUpPasswordInput;
     }
+
+    
+
+
 
     public String getPasswordInputTypeAttribute() {
         return basePage.getAttribute(loginPopUpPasswordInput, "type");
