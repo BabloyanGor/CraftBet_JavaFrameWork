@@ -1,225 +1,704 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="16" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-07T12:12:28 AMT" name="All Test Suite" finished-at="2022-07-07T12:15:14 AMT" duration-ms="165545">
+  <suite started-at="2022-07-08T17:33:22 AMT" name="All Test Suite" finished-at="2022-07-08T17:44:25 AMT" duration-ms="663360">
     <groups>
     </groups>
-    <test started-at="2022-07-07T12:12:28 AMT" name="testCases.LoginPopUpTest" finished-at="2022-07-07T12:15:14 AMT" duration-ms="165545">
+    <test started-at="2022-07-08T17:33:22 AMT" name="testCases.LoginPopUpTest" finished-at="2022-07-08T17:44:25 AMT" duration-ms="663360">
       <class name="testCases.LoginPopUpTest">
-        <test-method is-config="true" signature="StartSuite()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:28 AMT" name="StartSuite" finished-at="2022-07-07T12:12:28 AMT" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StartSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:29 AMT" name="setup" finished-at="2022-07-07T12:12:38 AMT" duration-ms="9719" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:22 AMT" name="setup" finished-at="2022-07-08T17:33:36 AMT" duration-ms="13701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:38 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:12:39 AMT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:36 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:33:36 AMT" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpLabelsPresenceVerification_Test()[pri:1, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:39 AMT" name="loginPopUpLabelsPresenceVerification_Test" description="Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with, Don&#039;t have an account? Sign Up, Don&#039;t have an account? Sign Up, Safe and Secure labels" finished-at="2022-07-07T12:12:39 AMT" duration-ms="374" status="PASS">
+        <test-method signature="loginPopUpLabelsPresenceVerification_Test()[pri:1, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:36 AMT" name="loginPopUpLabelsPresenceVerification_Test" description="Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with, Don&#039;t have an account? Sign Up, Don&#039;t have an account? Sign Up, Safe and Secure labels" finished-at="2022-07-08T17:33:37 AMT" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpLabelsPresenceVerification_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:39 AMT" name="tearDown" finished-at="2022-07-07T12:12:40 AMT" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:37 AMT" name="tearDown" finished-at="2022-07-08T17:33:37 AMT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:40 AMT" name="setup" finished-at="2022-07-07T12:12:47 AMT" duration-ms="7292" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:37 AMT" name="setup" finished-at="2022-07-08T17:33:43 AMT" duration-ms="6160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:47 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:12:48 AMT" duration-ms="552" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:43 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:33:44 AMT" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpLogoPresenceVerification_Test()[pri:2, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:48 AMT" name="loginPopUpLogoPresenceVerification_Test" description="Validate on Log_in Pop Up Logo Presence" finished-at="2022-07-07T12:12:48 AMT" duration-ms="88" status="PASS">
+        <test-method signature="loginPopUpLogoPresenceVerification_Test()[pri:2, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:44 AMT" name="loginPopUpLogoPresenceVerification_Test" description="Validate on Log_in Pop Up Logo Presence" finished-at="2022-07-08T17:33:51 AMT" duration-ms="7332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpLogoPresenceVerification_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:48 AMT" name="tearDown" finished-at="2022-07-07T12:12:48 AMT" duration-ms="416" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:51 AMT" name="tearDown" finished-at="2022-07-08T17:33:51 AMT" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:48 AMT" name="setup" finished-at="2022-07-07T12:12:55 AMT" duration-ms="6646" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:33:51 AMT" name="setup" finished-at="2022-07-08T17:34:04 AMT" duration-ms="12475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:55 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:12:55 AMT" duration-ms="507" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:04 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:34:04 AMT" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpCloseButtonFunctionality_Test()[pri:3, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:55 AMT" name="loginPopUpCloseButtonFunctionality_Test" description="Validate on Log_in Pop Up Close (X) button functionality" finished-at="2022-07-07T12:12:56 AMT" duration-ms="849" status="PASS">
+        <test-method signature="loginPopUpCloseButtonFunctionality_Test()[pri:3, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:04 AMT" name="loginPopUpCloseButtonFunctionality_Test" description="Validate on Log_in Pop Up Close (X) button functionality" finished-at="2022-07-08T17:34:05 AMT" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpCloseButtonFunctionality_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:56 AMT" name="tearDown" finished-at="2022-07-07T12:12:57 AMT" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:05 AMT" name="tearDown" finished-at="2022-07-08T17:34:05 AMT" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:12:57 AMT" name="setup" finished-at="2022-07-07T12:13:04 AMT" duration-ms="7327" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:05 AMT" name="setup" finished-at="2022-07-08T17:34:22 AMT" duration-ms="16717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:04 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:13:05 AMT" duration-ms="657" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:22 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:34:23 AMT" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpEyeButtonFunctionality_Test()[pri:4, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:05 AMT" name="loginPopUpEyeButtonFunctionality_Test" description="Validate on Log_in Pop Up eye functionality" finished-at="2022-07-07T12:13:05 AMT" duration-ms="355" status="PASS">
+        <test-method signature="loginPopUpEyeButtonFunctionality_Test()[pri:4, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:23 AMT" name="loginPopUpEyeButtonFunctionality_Test" description="Validate on Log_in Pop Up eye functionality" finished-at="2022-07-08T17:34:23 AMT" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpEyeButtonFunctionality_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:05 AMT" name="tearDown" finished-at="2022-07-07T12:13:05 AMT" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:23 AMT" name="tearDown" finished-at="2022-07-08T17:34:23 AMT" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:05 AMT" name="setup" finished-at="2022-07-07T12:13:12 AMT" duration-ms="6884" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:23 AMT" name="setup" finished-at="2022-07-08T17:34:42 AMT" duration-ms="19052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:12 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:13:13 AMT" duration-ms="704" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:42 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:34:43 AMT" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpRememberMeLabelClickAbility_Test()[pri:5, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:13 AMT" name="loginPopUpRememberMeLabelClickAbility_Test" description="Validate on Log_in Pop Up Remember me label click-ability" finished-at="2022-07-07T12:13:13 AMT" duration-ms="407" status="PASS">
+        <test-method signature="loginPopUpRememberMeLabelClickAbility_Test()[pri:5, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:43 AMT" name="loginPopUpRememberMeLabelClickAbility_Test" description="Validate on Log_in Pop Up Remember me label click-ability" finished-at="2022-07-08T17:34:43 AMT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpRememberMeLabelClickAbility_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:13 AMT" name="tearDown" finished-at="2022-07-07T12:13:14 AMT" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:43 AMT" name="tearDown" finished-at="2022-07-08T17:34:43 AMT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:14 AMT" name="setup" finished-at="2022-07-07T12:13:20 AMT" duration-ms="6370" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:43 AMT" name="setup" finished-at="2022-07-08T17:34:58 AMT" duration-ms="15004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:20 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:13:21 AMT" duration-ms="715" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:58 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:34:59 AMT" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpCheckBoxClickAbility_Test()[pri:6, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:21 AMT" name="loginPopUpCheckBoxClickAbility_Test" description="Validate on Log_in Pop Up checkBox functionality" finished-at="2022-07-07T12:13:21 AMT" duration-ms="183" status="PASS">
+        <test-method signature="loginPopUpCheckBoxClickAbility_Test()[pri:6, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:59 AMT" name="loginPopUpCheckBoxClickAbility_Test" description="Validate on Log_in Pop Up checkBox functionality" finished-at="2022-07-08T17:34:59 AMT" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpCheckBoxClickAbility_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:21 AMT" name="tearDown" finished-at="2022-07-07T12:13:21 AMT" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:59 AMT" name="tearDown" finished-at="2022-07-08T17:34:59 AMT" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:21 AMT" name="setup" finished-at="2022-07-07T12:13:29 AMT" duration-ms="7246" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:34:59 AMT" name="setup" finished-at="2022-07-08T17:35:17 AMT" duration-ms="17473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:29 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:13:29 AMT" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:17 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:35:17 AMT" duration-ms="570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpForgotPasswordLink_Test()[pri:7, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:29 AMT" name="loginPopUpForgotPasswordLink_Test" description="Validate on Log_in Pop Up Forgot password link functionality" finished-at="2022-07-07T12:13:29 AMT" duration-ms="235" status="PASS">
+        <test-method signature="loginPopUpForgotPasswordLink_Test()[pri:7, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:17 AMT" name="loginPopUpForgotPasswordLink_Test" description="Validate on Log_in Pop Up Forgot password link functionality" finished-at="2022-07-08T17:35:17 AMT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpForgotPasswordLink_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:29 AMT" name="tearDown" finished-at="2022-07-07T12:13:30 AMT" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:17 AMT" name="tearDown" finished-at="2022-07-08T17:35:18 AMT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:30 AMT" name="setup" finished-at="2022-07-07T12:13:43 AMT" duration-ms="13047" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:18 AMT" name="setup" finished-at="2022-07-08T17:35:34 AMT" duration-ms="16310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:43 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:13:43 AMT" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:34 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:35:34 AMT" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpSignUpLink_Test()[pri:8, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:43 AMT" name="loginPopUpSignUpLink_Test" description="Validate on Log_in Pop Up SignUp link functionality" finished-at="2022-07-07T12:13:43 AMT" duration-ms="272" status="PASS">
+        <test-method signature="loginPopUpSignUpLink_Test()[pri:8, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:34 AMT" name="loginPopUpSignUpLink_Test" description="Validate on Log_in Pop Up SignUp link functionality" finished-at="2022-07-08T17:35:35 AMT" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpSignUpLink_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:43 AMT" name="tearDown" finished-at="2022-07-07T12:13:44 AMT" duration-ms="372" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:35 AMT" name="tearDown" finished-at="2022-07-08T17:35:35 AMT" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:13:44 AMT" name="setup" finished-at="2022-07-07T12:14:09 AMT" duration-ms="25526" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:35 AMT" name="setup" finished-at="2022-07-08T17:35:59 AMT" duration-ms="24524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:09 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:14:10 AMT" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:35:59 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:36:00 AMT" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpLogInPositiveTest()[pri:9, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:10 AMT" name="loginPopUpLogInPositiveTest" description="Validate on Log_in Pop Up Log_In functionality with valid credentials" finished-at="2022-07-07T12:14:12 AMT" duration-ms="2019" status="PASS">
+        <test-method signature="loginPopUpLogInPositiveTest()[pri:9, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:36:00 AMT" name="loginPopUpLogInPositiveTest" description="Validate on Log_in Pop Up Log_In functionality with valid credentials" finished-at="2022-07-08T17:36:02 AMT" duration-ms="1988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpLogInPositiveTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:12 AMT" name="tearDown" finished-at="2022-07-07T12:14:12 AMT" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:36:02 AMT" name="tearDown" finished-at="2022-07-08T17:36:02 AMT" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:12 AMT" name="setup" finished-at="2022-07-07T12:14:24 AMT" duration-ms="11331" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:36:02 AMT" name="setup" finished-at="2022-07-08T17:36:06 AMT" duration-ms="4203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:24 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:14:24 AMT" duration-ms="610" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:36:06 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:36:07 AMT" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpLogInNegativeTest1()[pri:10, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:24 AMT" name="loginPopUpLogInNegativeTest1" description="Validate on Log_in Pop Up Log_In functionality with invalid password" finished-at="2022-07-07T12:14:35 AMT" duration-ms="10653" status="PASS">
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:36:07 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:37:07 AMT" duration-ms="60317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3 HU3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPopUpLogInNegativeTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:35 AMT" name="tearDown" finished-at="2022-07-07T12:14:35 AMT" duration-ms="367" status="PASS">
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:07 AMT" name="tearDown" finished-at="2022-07-08T17:37:07 AMT" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:35 AMT" name="setup" finished-at="2022-07-07T12:14:44 AMT" duration-ms="8186" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:07 AMT" name="setup" finished-at="2022-07-08T17:37:14 AMT" duration-ms="6613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:44 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:14:44 AMT" duration-ms="556" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:14 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:37:15 AMT" duration-ms="530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpLogInNegativeTest2()[pri:11, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:44 AMT" name="loginPopUpLogInNegativeTest2" description="Validate on Log_in Pop Up Log_In functionality with invalid username" finished-at="2022-07-07T12:14:55 AMT" duration-ms="10544" status="PASS">
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:15 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:37:16 AMT" duration-ms="1591" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3 ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPopUpLogInNegativeTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:55 AMT" name="tearDown" finished-at="2022-07-07T12:14:55 AMT" duration-ms="546" status="PASS">
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:17 AMT" name="tearDown" finished-at="2022-07-08T17:37:17 AMT" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:14:55 AMT" name="setup" finished-at="2022-07-07T12:15:01 AMT" duration-ms="5950" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:17 AMT" name="setup" finished-at="2022-07-08T17:37:23 AMT" duration-ms="5254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:01 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:15:03 AMT" duration-ms="1276" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:23 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:37:23 AMT" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpErrorMessageValidationInvalidUsername()[pri:12, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:03 AMT" name="loginPopUpErrorMessageValidationInvalidUsername" description="Validate on Log_in Pop Up Error message with invalid username" finished-at="2022-07-07T12:15:04 AMT" duration-ms="1540" status="PASS">
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:23 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:37:24 AMT" duration-ms="1557" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:25 AMT" name="tearDown" finished-at="2022-07-08T17:37:26 AMT" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:26 AMT" name="setup" finished-at="2022-07-08T17:37:30 AMT" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:30 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:37:30 AMT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:37:30 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:38:30 AMT" duration-ms="60400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:38:30 AMT" name="tearDown" finished-at="2022-07-08T17:38:31 AMT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:38:31 AMT" name="setup" finished-at="2022-07-08T17:38:34 AMT" duration-ms="3663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:38:34 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:38:35 AMT" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:38:35 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:39:35 AMT" duration-ms="60396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[?N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:35 AMT" name="tearDown" finished-at="2022-07-08T17:39:35 AMT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:35 AMT" name="setup" finished-at="2022-07-08T17:39:39 AMT" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:39 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:39:40 AMT" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:40 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:39:41 AMT" duration-ms="1603" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1630370 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:42 AMT" name="tearDown" finished-at="2022-07-08T17:39:42 AMT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:42 AMT" name="setup" finished-at="2022-07-08T17:39:46 AMT" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:46 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:39:46 AMT" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:46 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:39:48 AMT" duration-ms="1486" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U163 0370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:49 AMT" name="tearDown" finished-at="2022-07-08T17:39:49 AMT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:49 AMT" name="setup" finished-at="2022-07-08T17:39:55 AMT" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:55 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:39:55 AMT" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:55 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:39:57 AMT" duration-ms="1561" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:58 AMT" name="tearDown" finished-at="2022-07-08T17:39:58 AMT" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:39:58 AMT" name="setup" finished-at="2022-07-08T17:40:02 AMT" duration-ms="4184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:40:02 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:40:02 AMT" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:40:02 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:43:03 AMT" duration-ms="180362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[        ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:43:03 AMT" name="tearDown" finished-at="2022-07-08T17:43:03 AMT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:43:03 AMT" name="setup" finished-at="2022-07-08T17:43:08 AMT" duration-ms="5071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:43:08 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:43:08 AMT" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpLogInNegativeTest(java.lang.String,java.lang.String)[pri:10, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:43:08 AMT" name="loginPopUpLogInNegativeTest" description="Validate on Log_in Pop Up Log_In functionality with invalid data" data-provider="invalidLoginData" finished-at="2022-07-08T17:44:09 AMT" duration-ms="60367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[?U1630370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N3HU3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPopUpLogInNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:09 AMT" name="tearDown" finished-at="2022-07-08T17:44:09 AMT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:09 AMT" name="setup" finished-at="2022-07-08T17:44:16 AMT" duration-ms="7353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:16 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:44:17 AMT" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="loginPopUpErrorMessageValidationInvalidUsername()[pri:11, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:17 AMT" name="loginPopUpErrorMessageValidationInvalidUsername" description="Validate on Log_in Pop Up Error message with invalid password" finished-at="2022-07-08T17:44:18 AMT" duration-ms="1325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpErrorMessageValidationInvalidUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:04 AMT" name="tearDown" finished-at="2022-07-07T12:15:04 AMT" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:18 AMT" name="tearDown" finished-at="2022-07-08T17:44:18 AMT" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:04 AMT" name="setup" finished-at="2022-07-07T12:15:11 AMT" duration-ms="6340" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:18 AMT" name="setup" finished-at="2022-07-08T17:44:23 AMT" duration-ms="4798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:11 AMT" name="goToLoginPopUp" finished-at="2022-07-07T12:15:11 AMT" duration-ms="568" status="PASS">
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:23 AMT" name="goToLoginPopUp" finished-at="2022-07-08T17:44:24 AMT" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToLoginPopUp -->
-        <test-method signature="loginPopUpErrorMessageValidationInvalidPassword()[pri:13, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:11 AMT" name="loginPopUpErrorMessageValidationInvalidPassword" description="Validate on Log_in Pop Up error message with invalid password" finished-at="2022-07-07T12:15:13 AMT" duration-ms="2031" status="PASS">
+        <test-method signature="loginPopUpErrorMessageValidationInvalidPassword()[pri:12, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:24 AMT" name="loginPopUpErrorMessageValidationInvalidPassword" description="Validate on Log_in Pop Up error message with invalid username" finished-at="2022-07-08T17:44:25 AMT" duration-ms="1441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPopUpErrorMessageValidationInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:13 AMT" name="tearDown" finished-at="2022-07-07T12:15:14 AMT" duration-ms="419" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:25 AMT" name="tearDown" finished-at="2022-07-08T17:44:25 AMT" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.LoginPopUpTest@4d154ccd]" started-at="2022-07-07T12:15:14 AMT" name="finish" finished-at="2022-07-07T12:15:14 AMT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.LoginPopUpTest@6c1a5b54]" started-at="2022-07-08T17:44:26 AMT" name="finish" finished-at="2022-07-08T17:44:26 AMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->

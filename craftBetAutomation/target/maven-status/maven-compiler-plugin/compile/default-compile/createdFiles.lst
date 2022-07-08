@@ -1,6 +1,7 @@
 pageObjects\CraftBet_Header_Page.class
 pageObjects\CraftBet_PasswordRecovery_Page.class
 pageObjects\CraftBet_SignUp_PopUp_Page.class
-pageObjects\CraftBet_Login_PopUp_Page.class
 pageObjects\BasePage.class
 pageObjects\CraftBet_Footer_Page.class
+pageObjects\CraftBet_Casino_Page.class
+pageObjects\CraftBet_Login_PopUp_Page.class

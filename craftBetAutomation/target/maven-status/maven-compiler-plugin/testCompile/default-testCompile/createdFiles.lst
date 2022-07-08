@@ -1,5 +1,7 @@
 utilities\ReportingAllure.class
+testCases\Casino_Games_Test.class
 testCases\LoginPopUpTest.class
+testCases\PasswordRecoveryTest.class
 utilities\XLUtils.class
 utilities\Reporting.class
 utilities\DriverFactory.class
