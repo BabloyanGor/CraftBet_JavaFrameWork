@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.BasePage;
 
-import java.io.IOException;
-
 public class
 
 LoginPopUpTest extends BaseTest {
@@ -25,9 +23,9 @@ LoginPopUpTest extends BaseTest {
     }
 
     @Test(priority = 1, description = "Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
-            " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
-    @Description("Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with," +
-            " Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels")
+    " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
+    @Description("Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
+    " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpLabelsPresenceVerification_Test() {
         String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
@@ -44,6 +42,12 @@ LoginPopUpTest extends BaseTest {
         logger.info("Don't have an account? label Captured");
         String actualSaveAndSecureLabel = craftBet_login_popUp_page.loginPopUpSaveAndSecureLabelGetText();
         logger.info("Safe and secure label Captured");
+        craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys("g.babloyan@iqsoft.am");
+        logger.info("Username passed");
+        craftBet_login_popUp_page.loginPopUpPasswordSendKeys("12345678");
+        logger.info("Password passed");
+        String actualLoginButtonText = craftBet_login_popUp_page.loginPopUpLoginButtonGetText();
+        logger.info("Login buttons label Captured");
 
         String expectedHeader = "Log In";
         String expectedEmailLabel = "Email/mobile or username";
@@ -52,6 +56,8 @@ LoginPopUpTest extends BaseTest {
         String expectedYouCanSignUpWithLabel = "You can Sign in with";
         String expectedDontHaveAnAccountLabel = "Don't have an account? Sign Up";
         String expectedSaveAndSecureLabel = "Safe and Secure";
+        String expectedLoginButtonText = "Log In";
+
 
         softAssert.assertEquals(actHeader, expectedHeader);
         logger.info("Header label checked");
@@ -67,6 +73,8 @@ LoginPopUpTest extends BaseTest {
         logger.info("Don't have an account? Sign Up");
         softAssert.assertEquals(actualSaveAndSecureLabel, expectedSaveAndSecureLabel);
         logger.info("Safe and secure label checked");
+        softAssert.assertEquals(actualLoginButtonText, expectedLoginButtonText);
+        logger.info("Login Button label checked");
 
         softAssert.assertAll();
     }

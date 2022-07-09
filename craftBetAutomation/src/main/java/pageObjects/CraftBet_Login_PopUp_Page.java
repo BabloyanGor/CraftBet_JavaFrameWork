@@ -16,6 +16,10 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     public String getCurrentUrl() {
         return basePage.getUrl();
     }
+    public void goToUrl() {
+         basePage.navigateToUrl("https://craftbet.com/home");
+    }
+
 
     @FindBy(xpath = "//*[@class='login-title']")
     @CacheLookup
@@ -68,7 +72,7 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     @FindBy(xpath = "//button[@class='craft_btn login_btn -btn']")
     @CacheLookup
     WebElement loginPopUpLogInButton;
-    @FindBy(xpath = "//*[contains(text(),'have an account')]")
+    @FindBy(xpath = "//*[@class = 'login_PSection_redirect']//child::div")
     @CacheLookup
     WebElement loginPopUpDoNotHaveAccountLabel;
     @FindBy(xpath = "//div[@class='login_PSection_redirect']//child::a")
@@ -298,6 +302,17 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
             }
         }
     }
+
+
+    public String loginPopUpLoginButtonGetText() {
+        try{
+            return basePage.getText(loginPopUpLogInButton);
+        }
+        catch(Exception e){
+            return "There is no loginPopUpLogInButton element";
+        }
+    }
+
 
     public String loginPopUpDoNotHaveAccountLabelGetText() {
         try{

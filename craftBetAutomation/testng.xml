@@ -15,6 +15,7 @@
     <test name="testCases.LoginPopUpTest">
         <classes>
             <class name="testCases.LoginPopUpTest"/>
+            <class name="testCases.PasswordRecoveryTest"/>
         </classes>
     </test>
 </suite>

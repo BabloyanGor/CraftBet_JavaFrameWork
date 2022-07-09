@@ -74,7 +74,7 @@ public class Reporting extends TestListenerAdapter {
             if (f.exists()) {
 
                 try {
-                    logger.fail("Screenshot is below.");
+                    logger.fail("Screenshot is below. Screenshot path is:  " + screenshotPath);
                     logger.addScreenCaptureFromPath("\\Extent_Report\\Screenshots\\" + tr.getName() + basePage.i + ".png");
                     //logger.addScreenCaptureFromPath("C:\\Users\\user\\Desktop\\Presentation\\Maven\\Java_Practice\\craftBetAutomation\\Extent_Report\\Screenshots" + tr.getName() + ".png");
                     basePage.i++;

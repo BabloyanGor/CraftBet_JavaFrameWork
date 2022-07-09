@@ -23,7 +23,7 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         actions = new Actions(driver);
-        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
         js = (JavascriptExecutor) driver;
     }
 
@@ -271,7 +271,7 @@ public class BasePage {
         driver.navigate().refresh();
     }
 
-    public void navigateRefresh(String url){
+    public void navigateToUrl(String url){
         driver.navigate().to(url);
     }
 

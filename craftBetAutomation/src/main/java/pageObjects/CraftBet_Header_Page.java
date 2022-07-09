@@ -25,9 +25,11 @@ public class CraftBet_Header_Page extends BasePage {
     @FindBy(xpath = "//span[text()= 'English']")
     @CacheLookup
     WebElement EnglishLanguageDropDown;
+
     @FindBy(xpath = "//span[text()= 'Русский']")
     @CacheLookup
     WebElement RussianLanguageDropDown;
+
     @FindBy(xpath = "//span[text()= 'Հայերեն']")
     @CacheLookup
     WebElement ArmenianLanguageDropDown;
@@ -83,6 +85,10 @@ public class CraftBet_Header_Page extends BasePage {
     public void selectEnglishLanguageFromDropDown() {
         clickOnElementIfVisible(languageDropDown);
         clickOnElementIfVisible(EnglishLanguageDropDown);
+    }
+    public void selectRussianLanguageFromDropDown() {
+        clickOnElementIfVisible(languageDropDown);
+        clickOnElementIfVisible(RussianLanguageDropDown);
     }
 
     public void clickOnMessageIconIfVisible() {

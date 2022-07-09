@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-09T14:26:48 AMT" name="Default Suite" finished-at="2022-07-09T14:27:30 AMT" duration-ms="42275">
+    <groups>
+    </groups>
+    <test started-at="2022-07-09T14:26:48 AMT" name="craftBetAutomation" finished-at="2022-07-09T14:27:30 AMT" duration-ms="42275">
+      <class name="testCases.PasswordRecoveryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:48 AMT" name="setup" finished-at="2022-07-09T14:26:52 AMT" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:52 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:26:52 AMT" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpLabelsPresenceVerification_Test()[pri:1, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:52 AMT" name="RecoveryPopUpLabelsPresenceVerification_Test" description="Validate on Password Recovery PopUp Title, Email/mobile or username input Label, Info Message, Help message, Text on Send Me Recovery Button" finished-at="2022-07-09T14:26:53 AMT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpLabelsPresenceVerification_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:53 AMT" name="tearDown" finished-at="2022-07-09T14:26:53 AMT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:53 AMT" name="setup" finished-at="2022-07-09T14:26:56 AMT" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:56 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:26:56 AMT" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpLogoPresenceVerification_Test()[pri:2, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:56 AMT" name="RecoveryPopUpLogoPresenceVerification_Test" description="Validate on Password Recovery Pop Up Logo Presence" finished-at="2022-07-09T14:26:56 AMT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpLogoPresenceVerification_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:56 AMT" name="tearDown" finished-at="2022-07-09T14:26:56 AMT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:56 AMT" name="setup" finished-at="2022-07-09T14:26:59 AMT" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:59 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:26:59 AMT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpSupportLink_Test()[pri:3, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:26:59 AMT" name="RecoveryPopUpSupportLink_Test" description="Validate on Password Recovery Pop Up Support link" finished-at="2022-07-09T14:27:00 AMT" duration-ms="317" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failEquals(Assert.java:1417)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+at org.testng.Assert.assertNotEquals(Assert.java:2033)
+at org.testng.Assert.assertNotEquals(Assert.java:2055)
+at testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test(PasswordRecoveryTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpSupportLink_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:00 AMT" name="tearDown" finished-at="2022-07-09T14:27:00 AMT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:00 AMT" name="setup" finished-at="2022-07-09T14:27:03 AMT" duration-ms="3189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:03 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:04 AMT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpPositiveTest()[pri:9, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:04 AMT" name="RecoveryPopUpPositiveTest" description="Validate on Password recovery pop up functionality of Recovery with valid credentials" finished-at="2022-07-09T14:27:05 AMT" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpPositiveTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:05 AMT" name="tearDown" finished-at="2022-07-09T14:27:05 AMT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:05 AMT" name="setup" finished-at="2022-07-09T14:27:07 AMT" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:07 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:08 AMT" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:08 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:08 AMT" duration-ms="704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ g.babloyan@iqsoft.am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:08 AMT" name="tearDown" finished-at="2022-07-09T14:27:08 AMT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:08 AMT" name="setup" finished-at="2022-07-09T14:27:11 AMT" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:11 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:11 AMT" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:11 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:12 AMT" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g.babloyan@iqsoft.am ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:12 AMT" name="tearDown" finished-at="2022-07-09T14:27:12 AMT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:12 AMT" name="setup" finished-at="2022-07-09T14:27:15 AMT" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:15 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:16 AMT" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:16 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:17 AMT" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g .babloyan@iqsoft.am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:17 AMT" name="tearDown" finished-at="2022-07-09T14:27:17 AMT" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:17 AMT" name="setup" finished-at="2022-07-09T14:27:20 AMT" duration-ms="3262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:20 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:20 AMT" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:20 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:21 AMT" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g. babloyan@iqsoft.am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:21 AMT" name="tearDown" finished-at="2022-07-09T14:27:21 AMT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:21 AMT" name="setup" finished-at="2022-07-09T14:27:25 AMT" duration-ms="3662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:25 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:25 AMT" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:25 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:26 AMT" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g.babloyan @iqsoft.am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:26 AMT" name="tearDown" finished-at="2022-07-09T14:27:26 AMT" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:26 AMT" name="setup" finished-at="2022-07-09T14:27:29 AMT" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="goToLoginPopUp()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:29 AMT" name="goToLoginPopUp" finished-at="2022-07-09T14:27:29 AMT" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLoginPopUp -->
+        <test-method signature="RecoveryPopUpNegativeTest(java.lang.String)[pri:10, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:29 AMT" name="RecoveryPopUpNegativeTest" description="Validate on Password recovery pop up functionality of Recovery with invalid credentials" data-provider="invalidRecoveryData" finished-at="2022-07-09T14:27:30 AMT" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g.babloyan@iqsoft.a m]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecoveryPopUpNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:30 AMT" name="tearDown" finished-at="2022-07-09T14:27:30 AMT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:testCases.PasswordRecoveryTest@6f10d5b6]" started-at="2022-07-09T14:27:30 AMT" name="finish" finished-at="2022-07-09T14:27:30 AMT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- testCases.PasswordRecoveryTest -->
+    </test> <!-- craftBetAutomation -->
+  </suite> <!-- Default Suite -->
+</testng-results>

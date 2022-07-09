@@ -41,7 +41,7 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
             return false;
         }
     }
-    @FindBy(xpath = "//form[@class='ng-pristine ng-invalid ng-touched']//child::label")
+    @FindBy(xpath = "//form[@class='ng-untouched ng-pristine ng-invalid']//child::label")
     @CacheLookup
     WebElement emailInputsLabel;
     public String getEmailInputsLabel(){
@@ -81,7 +81,7 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
     @FindBy(xpath = "//div[@class='help_block']//child::p")
     @CacheLookup
     WebElement helpBlockLabel;
-    public String getHelpBlockLabel(){
+    public String getHelpMessageLabel(){
         try{
             basePage.waitElementToBeVisible(helpBlockLabel);
             return basePage.getText(helpBlockLabel);
@@ -108,10 +108,46 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
     WebElement sendMeRecoveryButton;
     public void clickOnSendMeRecoveryButton(){
         try{
-            basePage.waitElementToBeVisible(sendMeRecoveryButton);
-            basePage.clickOnElementIfClickable(sendMeRecoveryButton);
+            basePage.javaScriptClick(sendMeRecoveryButton);
         }
         catch (Exception e){
+        }
+    }
+
+    public String getTextOnSendMeRecoveryButton(){
+        try{
+            basePage.waitElementToBeVisible(sendMeRecoveryButton);
+            return basePage.getText(sendMeRecoveryButton);
+        }
+        catch (Exception e){
+            return "There is no helpBlockLabel element";
+        }
+    }
+
+
+    @FindBy(xpath = "//div[@class='registration_complete']//h1")
+    @CacheLookup
+    WebElement successMessage;
+
+    public String getSuccessMessage(){
+        try{
+            return basePage.getText(successMessage);
+        }
+        catch (Exception e){
+            return "There is no successMessage element";
+        }
+    }
+
+    @FindBy(xpath = "//div[@class='forgot-error_message error_message']")
+    @CacheLookup
+    WebElement errorMessage;
+
+    public String getErrorMessage(){
+        try{
+            return basePage.getText(errorMessage);
+        }
+        catch (Exception e){
+            return "There is no ErrorMessage element";
         }
     }
 
