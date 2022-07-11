@@ -16,6 +16,10 @@ public class CraftBet_Header_Page extends BasePage {
     @FindBy(xpath = "//button[@class = 'global_register-btn button-style1-type-btn']")
     @CacheLookup
     WebElement signUp;
+    public void clickOnSignUp(){
+        basePage.waitElementToBeVisible(signUp);
+        basePage.clickOnElementIfClickable(signUp);
+    }
     @FindBy(xpath = "//button[@class = 'global_login-btn button-style2-type-btn']")
     @CacheLookup
     WebElement logIn;

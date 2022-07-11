@@ -15,11 +15,11 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
 
     @FindBy(xpath = "//a[@class='reg_item active']")
     @CacheLookup
-    WebElement Logo;
+    WebElement logo;
 
-    public boolean LogoPresence() {
+    public boolean logoPresence() {
         try {
-            basePage.waitElementToBeVisible(Logo);
+            basePage.waitElementToBeVisible(logo);
             return true;
         } catch (Exception e) {
             return false;

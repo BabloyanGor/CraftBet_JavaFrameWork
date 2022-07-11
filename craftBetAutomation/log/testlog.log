@@ -552,3 +552,210 @@
 2022-07-11 17:03:41,172 - craftBet -INFO - SignUp link clicked
 2022-07-11 17:03:42,450 - craftBet -INFO - Browser closed
 2022-07-11 17:03:42,480 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:33:28,909 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:33:29,245 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:33:29,279 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:33:34,992 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:33:34,995 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:33:35,000 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:33:35,005 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:33:35,008 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:33:35,012 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:33:38,647 - craftBet -INFO - SignUp link clicked
+2022-07-11 17:33:40,229 - craftBet -INFO - Browser closed
+2022-07-11 17:33:40,246 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:33:51,565 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:33:51,884 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:33:51,923 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:33:58,415 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:33:58,425 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:33:58,430 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:33:58,431 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:33:58,433 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:33:58,443 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:34:21,299 - craftBet -INFO - Title Captured: Cant find element title
+2022-07-11 17:34:21,299 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 17:34:21,329 - craftBet -INFO - Title checked
+2022-07-11 17:34:23,130 - craftBet -INFO - Browser closed
+2022-07-11 17:34:23,179 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:34:38,963 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:34:39,268 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:34:39,299 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:34:44,731 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:34:44,743 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:34:44,749 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:34:44,756 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:34:44,760 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:34:44,764 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:34:57,762 - craftBet -INFO - Title Captured: Cant find element title
+2022-07-11 17:34:57,762 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 17:34:57,790 - craftBet -INFO - Title checked
+2022-07-11 17:34:59,840 - craftBet -INFO - Browser closed
+2022-07-11 17:34:59,867 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:36:32,417 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:36:32,717 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:36:32,755 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:36:38,393 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:36:38,407 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:36:38,415 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:36:38,417 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:36:38,419 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:36:38,423 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:36:42,575 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 17:36:42,577 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 17:36:42,610 - craftBet -INFO - Title checked
+2022-07-11 17:36:44,600 - craftBet -INFO - Browser closed
+2022-07-11 17:36:44,628 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:36:44,694 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:36:44,721 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:36:48,901 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:36:48,902 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:36:48,905 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:36:48,907 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:36:48,910 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:36:48,918 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:36:51,916 - craftBet -INFO - logo existence checked
+2022-07-11 17:36:53,173 - craftBet -INFO - Browser closed
+2022-07-11 17:36:53,209 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:54:31,663 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:54:31,967 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:54:32,006 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:54:38,112 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:54:38,116 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:54:38,125 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:54:38,127 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:54:38,129 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:54:38,133 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:54:42,334 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 17:54:42,395 - craftBet -INFO - actEmailDropDownLabel Captured: Register By
+2022-07-11 17:54:42,435 - craftBet -INFO - actEmailInputLabel Captured: Email
+2022-07-11 17:54:42,549 - craftBet -INFO - actEmailInputLabel Captured: Currency
+2022-07-11 17:54:42,615 - craftBet -INFO - actEmailInputLabel Captured: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 17:54:42,616 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 17:54:42,616 - craftBet -INFO - Email Drop Down expected label: Register By
+2022-07-11 17:54:42,617 - craftBet -INFO - Email input expected label: Email
+2022-07-11 17:54:42,618 - craftBet -INFO - Currency drop down expected label: Email
+2022-07-11 17:54:42,618 - craftBet -INFO - Terms and Conditions expected label: I have read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 17:54:42,630 - craftBet -INFO - Title checked
+2022-07-11 17:54:42,630 - craftBet -INFO - Email DropDown label checked
+2022-07-11 17:54:42,630 - craftBet -INFO - Email input label checked
+2022-07-11 17:54:42,647 - craftBet -INFO - Email input label checked
+2022-07-11 17:54:42,647 - craftBet -INFO - Terms and Conditions input label checked
+2022-07-11 17:54:44,780 - craftBet -INFO - Browser closed
+2022-07-11 17:54:44,793 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 17:56:25,424 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 17:56:25,755 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 17:56:25,796 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 17:56:31,852 - craftBet -INFO - Header page elements are initialized
+2022-07-11 17:56:31,858 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 17:56:31,864 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 17:56:31,868 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 17:56:31,872 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 17:56:31,876 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 17:56:35,360 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 17:56:35,402 - craftBet -INFO - actEmailDropDownLabel Captured: Register By
+2022-07-11 17:56:35,480 - craftBet -INFO - actEmailInputLabel Captured: Email
+2022-07-11 17:56:35,614 - craftBet -INFO - actEmailInputLabel Captured: Currency
+2022-07-11 17:56:35,760 - craftBet -INFO - actEmailInputLabel Captured: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 17:56:35,761 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 17:56:35,761 - craftBet -INFO - Email Drop Down expected label: Register By
+2022-07-11 17:56:35,762 - craftBet -INFO - Email input expected label: Email
+2022-07-11 17:56:35,763 - craftBet -INFO - Currency drop down expected label: Currency
+2022-07-11 17:56:35,763 - craftBet -INFO - Terms and Conditions expected label: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 17:56:35,779 - craftBet -INFO - Title checked
+2022-07-11 17:56:35,780 - craftBet -INFO - Email DropDown label checked
+2022-07-11 17:56:35,780 - craftBet -INFO - Email input label checked
+2022-07-11 17:56:35,781 - craftBet -INFO - Email input label checked
+2022-07-11 17:56:35,781 - craftBet -INFO - Terms and Conditions input label checked
+2022-07-11 17:56:37,422 - craftBet -INFO - Browser closed
+2022-07-11 17:56:37,457 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 18:00:47,513 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 18:00:49,069 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 18:00:49,115 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 18:00:54,469 - craftBet -INFO - Header page elements are initialized
+2022-07-11 18:00:54,483 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 18:00:54,498 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 18:00:54,499 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 18:00:54,501 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 18:00:54,513 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 18:00:58,194 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 18:00:58,232 - craftBet -INFO - actEmailDropDownLabel Captured: Register By
+2022-07-11 18:00:58,272 - craftBet -INFO - actEmailInputLabel Captured: Email
+2022-07-11 18:00:58,300 - craftBet -INFO - actEmailInputLabel Captured: Currency
+2022-07-11 18:00:58,366 - craftBet -INFO - actEmailInputLabel Captured: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:00:58,399 - craftBet -INFO - actEmailInputLabel Captured: REGISTER
+2022-07-11 18:00:58,399 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 18:00:58,400 - craftBet -INFO - Email Drop Down expected label: Register By
+2022-07-11 18:00:58,400 - craftBet -INFO - Email input expected label: Email
+2022-07-11 18:00:58,400 - craftBet -INFO - Currency drop down expected label: Currency
+2022-07-11 18:00:58,400 - craftBet -INFO - Terms and Conditions expected label: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:00:58,400 - craftBet -INFO - Currency drop down expected label:  Register 
+2022-07-11 18:00:58,404 - craftBet -INFO - Title checked
+2022-07-11 18:00:58,406 - craftBet -INFO - Email DropDown label checked
+2022-07-11 18:00:58,406 - craftBet -INFO - Email input label checked
+2022-07-11 18:00:58,406 - craftBet -INFO - Currency drop down label checked
+2022-07-11 18:00:58,406 - craftBet -INFO - Terms and Conditions input label checked
+2022-07-11 18:00:58,413 - craftBet -INFO - Register button label checked
+2022-07-11 18:00:59,779 - craftBet -INFO - Browser closed
+2022-07-11 18:00:59,786 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 18:01:36,131 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 18:01:36,563 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 18:01:36,616 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 18:01:43,935 - craftBet -INFO - Header page elements are initialized
+2022-07-11 18:01:43,950 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 18:01:43,967 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 18:01:43,968 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 18:01:43,980 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 18:01:43,985 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 18:01:47,264 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 18:01:47,296 - craftBet -INFO - actEmailDropDownLabel Captured: Register By
+2022-07-11 18:01:47,346 - craftBet -INFO - actEmailInputLabel Captured: Email
+2022-07-11 18:01:47,381 - craftBet -INFO - actEmailInputLabel Captured: Currency
+2022-07-11 18:01:47,437 - craftBet -INFO - actEmailInputLabel Captured: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:01:47,466 - craftBet -INFO - actEmailInputLabel Captured: REGISTER
+2022-07-11 18:01:47,466 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 18:01:47,467 - craftBet -INFO - Email Drop Down expected label: Register By
+2022-07-11 18:01:47,467 - craftBet -INFO - Email input expected label: Email
+2022-07-11 18:01:47,467 - craftBet -INFO - Currency drop down expected label: Currency
+2022-07-11 18:01:47,467 - craftBet -INFO - Terms and Conditions expected label: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:01:47,472 - craftBet -INFO - Currency drop down expected label:  REGISTER
+2022-07-11 18:01:47,476 - craftBet -INFO - Title checked
+2022-07-11 18:01:47,476 - craftBet -INFO - Email DropDown label checked
+2022-07-11 18:01:47,476 - craftBet -INFO - Email input label checked
+2022-07-11 18:01:47,477 - craftBet -INFO - Currency drop down label checked
+2022-07-11 18:01:47,477 - craftBet -INFO - Terms and Conditions input label checked
+2022-07-11 18:01:47,482 - craftBet -INFO - Register button label checked
+2022-07-11 18:01:48,729 - craftBet -INFO - Browser closed
+2022-07-11 18:01:48,765 - craftBet -INFO - Login Test Suit test was finished
+2022-07-11 18:08:59,266 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-11 18:08:59,795 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-11 18:08:59,846 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-11 18:09:04,628 - craftBet -INFO - Header page elements are initialized
+2022-07-11 18:09:04,633 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-11 18:09:04,663 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-11 18:09:04,664 - craftBet -INFO - Footer Page elements are initialized
+2022-07-11 18:09:04,666 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-11 18:09:04,683 - craftBet -INFO - Casino Page elements are initialized
+2022-07-11 18:09:07,956 - craftBet -INFO - Title Captured: Quick Register
+2022-07-11 18:09:07,982 - craftBet -INFO - actEmailDropDownLabel Captured: Register By
+2022-07-11 18:09:08,025 - craftBet -INFO - actEmailInputLabel Captured: Email
+2022-07-11 18:09:08,055 - craftBet -INFO - actEmailInputLabel Captured: Currency
+2022-07-11 18:09:08,103 - craftBet -INFO - actEmailInputLabel Captured: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:09:08,128 - craftBet -INFO - actRegisterButtonText Captured: REGISTER
+2022-07-11 18:09:08,152 - craftBet -INFO - actAlreadyHaveAccount Captured: Already have an account? Log In
+2022-07-11 18:09:08,155 - craftBet -INFO - Title expected: Quick Register
+2022-07-11 18:09:08,155 - craftBet -INFO - Email Drop Down expected label: Register By
+2022-07-11 18:09:08,156 - craftBet -INFO - Email input expected label: Email
+2022-07-11 18:09:08,156 - craftBet -INFO - Currency drop down expected label: Currency
+2022-07-11 18:09:08,156 - craftBet -INFO - Terms and Conditions expected label: I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.
+2022-07-11 18:09:08,156 - craftBet -INFO - RegisterButton expected label: REGISTER
+2022-07-11 18:09:08,156 - craftBet -INFO - AlreadyHaveAccount expected label: Already have an account? Log In
+2022-07-11 18:09:08,159 - craftBet -INFO - Title checked
+2022-07-11 18:09:08,160 - craftBet -INFO - Email DropDown label checked
+2022-07-11 18:09:08,160 - craftBet -INFO - Email input label checked
+2022-07-11 18:09:08,160 - craftBet -INFO - Currency drop down label checked
+2022-07-11 18:09:08,160 - craftBet -INFO - Terms and Conditions input label checked
+2022-07-11 18:09:08,160 - craftBet -INFO - Register button label checked
+2022-07-11 18:09:08,160 - craftBet -INFO - AlreadyHaveAccount label checked
+2022-07-11 18:09:09,388 - craftBet -INFO - Browser closed
+2022-07-11 18:09:09,396 - craftBet -INFO - Login Test Suit test was finished

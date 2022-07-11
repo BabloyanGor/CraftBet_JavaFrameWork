@@ -13,7 +13,7 @@ public class SignUpFullRegisterTest extends BaseTest{
 
     @BeforeMethod
     public void goToLoginPopUp() {
-
+        craftBet_header_page.clickOnSignUp();
     }
 
     @Test(priority = 1, description = "" +
