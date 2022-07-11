@@ -25,7 +25,6 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
         catch(Exception e){
             return "There is no passwordRecoveryPageTitle element ";
         }
-
     }
 
     @FindBy(xpath = "//img[@class='recovery-logo']")
