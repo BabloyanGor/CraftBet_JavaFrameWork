@@ -7,6 +7,15 @@
   </listeners>
   <test thread-count="5" name="testCases.LoginPopUpTest(failed)" verbose="0">
     <classes>
+      <class name="testCases.PasswordRecoveryTest">
+        <methods>
+          <include name="RecoveryPopUpSupportLink_Test"/>
+          <include name="finish"/>
+          <include name="goToLoginPopUp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.PasswordRecoveryTest -->
       <class name="testCases.LoginPopUpTest">
         <methods>
           <include name="finish"/>

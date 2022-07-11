@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="74.68" tests="21" errors="0" skipped="0" failures="5">
+<testsuite name="TestSuite" time="19.18" tests="31" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
@@ -60,17 +60,17 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginPopUpLabelsPresenceVerification_Test" classname="testCases.LoginPopUpTest" time="0.369"/>
-  <testcase name="loginPopUpLogoPresenceVerification_Test" classname="testCases.LoginPopUpTest" time="7.333"/>
-  <testcase name="loginPopUpCloseButtonFunctionality_Test" classname="testCases.LoginPopUpTest" time="0.674"/>
-  <testcase name="loginPopUpEyeButtonFunctionality_Test" classname="testCases.LoginPopUpTest" time="0.348"/>
-  <testcase name="loginPopUpRememberMeLabelClickAbility_Test" classname="testCases.LoginPopUpTest" time="0.258"/>
-  <testcase name="loginPopUpCheckBoxClickAbility_Test" classname="testCases.LoginPopUpTest" time="0.224"/>
-  <testcase name="loginPopUpForgotPasswordLink_Test" classname="testCases.LoginPopUpTest" time="0.155"/>
-  <testcase name="loginPopUpSignUpLink_Test" classname="testCases.LoginPopUpTest" time="0.235"/>
-  <testcase name="loginPopUpLogInPositiveTest" classname="testCases.LoginPopUpTest" time="1.992"/>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="60.32"/>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.593">
+  <testcase name="loginPopUpLabelsPresenceVerification_Test" classname="testCases.LoginPopUpTest" time="0.717"/>
+  <testcase name="loginPopUpLogoPresenceVerification_Test" classname="testCases.LoginPopUpTest" time="0.047"/>
+  <testcase name="loginPopUpCloseButtonFunctionality_Test" classname="testCases.LoginPopUpTest" time="0.717"/>
+  <testcase name="loginPopUpEyeButtonFunctionality_Test" classname="testCases.LoginPopUpTest" time="0.313"/>
+  <testcase name="loginPopUpRememberMeLabelClickAbility_Test" classname="testCases.LoginPopUpTest" time="0.269"/>
+  <testcase name="loginPopUpCheckBoxClickAbility_Test" classname="testCases.LoginPopUpTest" time="0.243"/>
+  <testcase name="loginPopUpForgotPasswordLink_Test" classname="testCases.LoginPopUpTest" time="0.15"/>
+  <testcase name="loginPopUpSignUpLink_Test" classname="testCases.LoginPopUpTest" time="0.269"/>
+  <testcase name="loginPopUpLogInPositiveTest" classname="testCases.LoginPopUpTest" time="1.636"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="10.368"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.824">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -78,41 +78,41 @@
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:976)
 	at org.testng.Assert.assertEquals(Assert.java:1010)
-	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:199)
 </failure>
-    <system-out><![CDATA[ INFO [main] (BaseTest.java:75)- Browser closed
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
  INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
  INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
- INFO [main] (BaseTest.java:54)- Header page elements are initialized
- INFO [main] (BaseTest.java:56)- Login_PopUp_Page login PopUp elements are initialized
- INFO [main] (BaseTest.java:58)- SignUp_PopUp_Page elements are initialized
- INFO [main] (BaseTest.java:60)- Footer Page elements are initialized
- INFO [main] (BaseTest.java:62)- Password recovery Page elements are initialized
- INFO [main] (BaseTest.java:64)- Casino Page elements are initialized
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
 I am in onTestStart method loginPopUpLogInNegativeTest start
- INFO [main] (LoginPopUpTest.java:181)- username passed -->U1630370<--
- INFO [main] (LoginPopUpTest.java:183)- password passed -->N3HU3 <--
- INFO [main] (LoginPopUpTest.java:186)- Log In Button was clicked
+ INFO [main] (LoginPopUpTest.java:189)- username passed -->U1630370<--
+ INFO [main] (LoginPopUpTest.java:191)- password passed -->N3HU3 <--
+ INFO [main] (LoginPopUpTest.java:194)- Log In Button was clicked
 I am in onTestFailure method loginPopUpLogInNegativeTest failed
 Screenshot captured for test case:loginPopUpLogInNegativeTest
 Screenshot taken
 ERROR [main] (Reporting.java:88)- loginPopUpLogInNegativeTest--->  Fail
 ERROR [main] (Reporting.java:89)- loginPopUpLogInNegativeTest------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56713
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 5:37:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2022 10:26:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 08, 2022 5:37:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-Jul 08, 2022 5:37:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.476">
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.517">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -120,43 +120,43 @@ INFO: Found CDP implementation for version 103 of 102
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:976)
 	at org.testng.Assert.assertEquals(Assert.java:1010)
-	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:199)
 </failure>
-    <system-out><![CDATA[ INFO [main] (BaseTest.java:75)- Browser closed
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
  INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
  INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
- INFO [main] (BaseTest.java:54)- Header page elements are initialized
- INFO [main] (BaseTest.java:56)- Login_PopUp_Page login PopUp elements are initialized
- INFO [main] (BaseTest.java:58)- SignUp_PopUp_Page elements are initialized
- INFO [main] (BaseTest.java:60)- Footer Page elements are initialized
- INFO [main] (BaseTest.java:62)- Password recovery Page elements are initialized
- INFO [main] (BaseTest.java:64)- Casino Page elements are initialized
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
 I am in onTestStart method loginPopUpLogInNegativeTest start
- INFO [main] (LoginPopUpTest.java:181)- username passed -->U1630370<--
- INFO [main] (LoginPopUpTest.java:183)- password passed --> N3HU3<--
- INFO [main] (LoginPopUpTest.java:186)- Log In Button was clicked
+ INFO [main] (LoginPopUpTest.java:189)- username passed -->U1630370<--
+ INFO [main] (LoginPopUpTest.java:191)- password passed --> N3HU3<--
+ INFO [main] (LoginPopUpTest.java:194)- Log In Button was clicked
 I am in onTestFailure method loginPopUpLogInNegativeTest failed
 Screenshot captured for test case:loginPopUpLogInNegativeTest
 Screenshot taken
 ERROR [main] (Reporting.java:88)- loginPopUpLogInNegativeTest--->  Fail
 ERROR [main] (Reporting.java:89)- loginPopUpLogInNegativeTest------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59037
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61616
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 5:37:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2022 10:26:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 08, 2022 5:37:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-Jul 08, 2022 5:37:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="60.404"/>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="60.401"/>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.578">
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="10.336"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="10.411"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.56">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -164,41 +164,41 @@ INFO: Found CDP implementation for version 103 of 102
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:976)
 	at org.testng.Assert.assertEquals(Assert.java:1010)
-	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:199)
 </failure>
-    <system-out><![CDATA[ INFO [main] (BaseTest.java:75)- Browser closed
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
  INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
  INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
- INFO [main] (BaseTest.java:54)- Header page elements are initialized
- INFO [main] (BaseTest.java:56)- Login_PopUp_Page login PopUp elements are initialized
- INFO [main] (BaseTest.java:58)- SignUp_PopUp_Page elements are initialized
- INFO [main] (BaseTest.java:60)- Footer Page elements are initialized
- INFO [main] (BaseTest.java:62)- Password recovery Page elements are initialized
- INFO [main] (BaseTest.java:64)- Casino Page elements are initialized
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
 I am in onTestStart method loginPopUpLogInNegativeTest start
- INFO [main] (LoginPopUpTest.java:181)- username passed -->U1630370 <--
- INFO [main] (LoginPopUpTest.java:183)- password passed -->N3HU3<--
- INFO [main] (LoginPopUpTest.java:186)- Log In Button was clicked
+ INFO [main] (LoginPopUpTest.java:189)- username passed -->U1630370 <--
+ INFO [main] (LoginPopUpTest.java:191)- password passed -->N3HU3<--
+ INFO [main] (LoginPopUpTest.java:194)- Log In Button was clicked
 I am in onTestFailure method loginPopUpLogInNegativeTest failed
 Screenshot captured for test case:loginPopUpLogInNegativeTest
 Screenshot taken
 ERROR [main] (Reporting.java:88)- loginPopUpLogInNegativeTest--->  Fail
 ERROR [main] (Reporting.java:89)- loginPopUpLogInNegativeTest------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62371
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51001
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 5:39:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2022 10:26:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 08, 2022 5:39:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-Jul 08, 2022 5:39:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.434">
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.544">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -206,41 +206,41 @@ INFO: Found CDP implementation for version 103 of 102
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:976)
 	at org.testng.Assert.assertEquals(Assert.java:1010)
-	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:199)
 </failure>
-    <system-out><![CDATA[ INFO [main] (BaseTest.java:75)- Browser closed
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
  INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
  INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
- INFO [main] (BaseTest.java:54)- Header page elements are initialized
- INFO [main] (BaseTest.java:56)- Login_PopUp_Page login PopUp elements are initialized
- INFO [main] (BaseTest.java:58)- SignUp_PopUp_Page elements are initialized
- INFO [main] (BaseTest.java:60)- Footer Page elements are initialized
- INFO [main] (BaseTest.java:62)- Password recovery Page elements are initialized
- INFO [main] (BaseTest.java:64)- Casino Page elements are initialized
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
 I am in onTestStart method loginPopUpLogInNegativeTest start
- INFO [main] (LoginPopUpTest.java:181)- username passed -->U163 0370<--
- INFO [main] (LoginPopUpTest.java:183)- password passed -->N3HU3<--
- INFO [main] (LoginPopUpTest.java:186)- Log In Button was clicked
+ INFO [main] (LoginPopUpTest.java:189)- username passed -->U163 0370<--
+ INFO [main] (LoginPopUpTest.java:191)- password passed -->N3HU3<--
+ INFO [main] (LoginPopUpTest.java:194)- Log In Button was clicked
 I am in onTestFailure method loginPopUpLogInNegativeTest failed
 Screenshot captured for test case:loginPopUpLogInNegativeTest
 Screenshot taken
 ERROR [main] (Reporting.java:88)- loginPopUpLogInNegativeTest--->  Fail
 ERROR [main] (Reporting.java:89)- loginPopUpLogInNegativeTest------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52305
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63251
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 5:39:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2022 10:26:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 08, 2022 5:39:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-Jul 08, 2022 5:39:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:26:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.47">
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="2.504">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -248,42 +248,89 @@ INFO: Found CDP implementation for version 103 of 102
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:976)
 	at org.testng.Assert.assertEquals(Assert.java:1010)
-	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:191)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:199)
 </failure>
-    <system-out><![CDATA[ INFO [main] (BaseTest.java:75)- Browser closed
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
  INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
  INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
  INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
- INFO [main] (BaseTest.java:54)- Header page elements are initialized
- INFO [main] (BaseTest.java:56)- Login_PopUp_Page login PopUp elements are initialized
- INFO [main] (BaseTest.java:58)- SignUp_PopUp_Page elements are initialized
- INFO [main] (BaseTest.java:60)- Footer Page elements are initialized
- INFO [main] (BaseTest.java:62)- Password recovery Page elements are initialized
- INFO [main] (BaseTest.java:64)- Casino Page elements are initialized
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
 I am in onTestStart method loginPopUpLogInNegativeTest start
- INFO [main] (LoginPopUpTest.java:181)- username passed --> U1630370<--
- INFO [main] (LoginPopUpTest.java:183)- password passed -->N3HU3<--
- INFO [main] (LoginPopUpTest.java:186)- Log In Button was clicked
+ INFO [main] (LoginPopUpTest.java:189)- username passed --> U1630370<--
+ INFO [main] (LoginPopUpTest.java:191)- password passed -->N3HU3<--
+ INFO [main] (LoginPopUpTest.java:194)- Log In Button was clicked
 I am in onTestFailure method loginPopUpLogInNegativeTest failed
 Screenshot captured for test case:loginPopUpLogInNegativeTest
 Screenshot taken
 ERROR [main] (Reporting.java:88)- loginPopUpLogInNegativeTest--->  Fail
 ERROR [main] (Reporting.java:89)- loginPopUpLogInNegativeTest------------------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57190
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62855
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 08, 2022 5:39:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 11, 2022 10:27:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 08, 2022 5:39:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:27:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
-Jul 08, 2022 5:39:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 11, 2022 10:27:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="180.363"/>
-  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="60.369"/>
-  <testcase name="loginPopUpErrorMessageValidationInvalidUsername" classname="testCases.LoginPopUpTest" time="1.327"/>
-  <testcase name="loginPopUpErrorMessageValidationInvalidPassword" classname="testCases.LoginPopUpTest" time="1.445"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="30.446"/>
+  <testcase name="loginPopUpLogInNegativeTest" classname="testCases.LoginPopUpTest" time="10.46"/>
+  <testcase name="loginPopUpErrorMessageValidationInvalidUsername" classname="testCases.LoginPopUpTest" time="1.366"/>
+  <testcase name="loginPopUpErrorMessageValidationInvalidPassword" classname="testCases.LoginPopUpTest" time="1.377"/>
+  <testcase name="RecoveryPopUpLabelsPresenceVerification_Test" classname="testCases.PasswordRecoveryTest" time="0.228"/>
+  <testcase name="RecoveryPopUpLogoPresenceVerification_Test" classname="testCases.PasswordRecoveryTest" time="0.031"/>
+  <testcase name="RecoveryPopUpSupportLink_Test" classname="testCases.PasswordRecoveryTest" time="0.788">
+    <failure message="did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test(PasswordRecoveryTest.java:74)
+</failure>
+    <system-out><![CDATA[ INFO [main] (BaseTest.java:76)- Browser closed
+ INFO [main] (DriverFactory.java:28)- Browser for test will be chrome as chosen
+ INFO [main] (WebDriverManager.java:1197)- Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+ INFO [main] (WebDriverManager.java:1252)- Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+ INFO [main] (BaseTest.java:55)- Header page elements are initialized
+ INFO [main] (BaseTest.java:57)- Login_PopUp_Page login PopUp elements are initialized
+ INFO [main] (BaseTest.java:59)- SignUp_PopUp_Page elements are initialized
+ INFO [main] (BaseTest.java:61)- Footer Page elements are initialized
+ INFO [main] (BaseTest.java:63)- Password recovery Page elements are initialized
+ INFO [main] (BaseTest.java:65)- Casino Page elements are initialized
+I am in onTestStart method RecoveryPopUpSupportLink_Test start
+I am in onTestFailure method RecoveryPopUpSupportLink_Test failed
+Screenshot captured for test case:RecoveryPopUpSupportLink_Test
+Screenshot taken
+ERROR [main] (Reporting.java:88)- RecoveryPopUpSupportLink_Test--->  Fail
+ERROR [main] (Reporting.java:89)- RecoveryPopUpSupportLink_Test------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59032
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 11, 2022 10:28:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 11, 2022 10:28:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 11, 2022 10:28:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+]]></system-err>
+  </testcase>
+  <testcase name="RecoveryPopUpPositiveTest" classname="testCases.PasswordRecoveryTest" time="0.466"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.195"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.231"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.218"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.203"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.206"/>
+  <testcase name="RecoveryPopUpNegativeTest" classname="testCases.PasswordRecoveryTest" time="0.265"/>
 </testsuite>

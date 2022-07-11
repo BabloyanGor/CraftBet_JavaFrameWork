@@ -48,7 +48,8 @@ public class BaseTest extends DriverFactory {
             super.initDriver(baseURL,browser,browserType);
             testDriver = driver;
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
         //region <Page Class Instance Initialization >
         craftBet_header_page = PageFactory.initElements(this.driver, CraftBet_Header_Page.class);
         logger.info("Header page elements are initialized");
@@ -75,7 +76,7 @@ public class BaseTest extends DriverFactory {
             logger.info("Browser closed");
         } catch (Exception exception) {
             this.driver.quit();
-            logger.info("Browser closeOrder has an exception");
+            logger.info("Browser close order has an exception");
         }
     }
 

@@ -61,6 +61,7 @@ public class PasswordRecoveryTest extends BaseTest{
     @Severity(SeverityLevel.MINOR)
     public void RecoveryPopUpLogoPresenceVerification_Test() {
         Assert.assertEquals(craftBet_passwordRecovery_page.logoExistenceVerification(), true);
+        logger.info("logo existence checked");
     }
 
 
@@ -69,13 +70,16 @@ public class PasswordRecoveryTest extends BaseTest{
     @Severity(SeverityLevel.MINOR)
     public void RecoveryPopUpSupportLink_Test() {
         String RecoveryUrl = craftBet_passwordRecovery_page.getUrl();
+        logger.info("Password recovery page url captured");
         craftBet_passwordRecovery_page.clickOnSupportLink();
+        logger.info("Password recovery page support link clicked");
         String supportUrl = craftBet_passwordRecovery_page.getUrl();
+        logger.info("Support page url captured");
         Assert.assertNotEquals(RecoveryUrl, supportUrl);
     }
 
 
-    @Test(priority = 9, description = "Validate on Password recovery pop up functionality of Recovery with valid credentials")
+    @Test(priority = 4, description = "Validate on Password recovery pop up functionality of Recovery with valid credentials")
     @Description("Validate on Password recovery pop up functionality of Recovery with valid credentials")
     @Severity(SeverityLevel.BLOCKER)
     public void RecoveryPopUpPositiveTest() {
@@ -96,7 +100,7 @@ public class PasswordRecoveryTest extends BaseTest{
 
 
 
-    @Test(priority = 10, dataProvider = "invalidRecoveryData", description = "Validate on Password recovery pop up functionality of Recovery with invalid credentials")
+    @Test(priority = 5, dataProvider = "invalidRecoveryData", description = "Validate on Password recovery pop up functionality of Recovery with invalid credentials")
     @Description("Validate on Password recovery pop up functionality of Recovery with invalid credentials")
     @Severity(SeverityLevel.BLOCKER)
     public void RecoveryPopUpNegativeTest(String dataEmail) {
