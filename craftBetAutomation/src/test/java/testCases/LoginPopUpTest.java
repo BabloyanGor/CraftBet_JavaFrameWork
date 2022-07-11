@@ -14,7 +14,6 @@ public class
 
 LoginPopUpTest extends BaseTest {
     SoftAssert softAssert = new SoftAssert();
-    BasePage bp = new BasePage();
 
 
     @BeforeMethod
@@ -160,7 +159,7 @@ LoginPopUpTest extends BaseTest {
         craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
         logger.info("SignUp link clicked");
         try {
-            String header = craftBet_signUp_popUp_page.getTextSignUpPopUpHeader();
+            String header = craftBet_signUp_popUp_page.getTextTitle();
             Assert.assertEquals(header, "Quick Register");
         } catch (Exception e) {
             Assert.assertTrue(false);

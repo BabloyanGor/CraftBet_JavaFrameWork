@@ -11,7 +11,6 @@ import java.time.Duration;
 
 public class Casino_Games_Test extends BaseTest{
     SoftAssert softAssert = new SoftAssert();
-    BasePage bp = new BasePage();
 
     @BeforeMethod
     public void logInGoToCasinoPage() throws InterruptedException {

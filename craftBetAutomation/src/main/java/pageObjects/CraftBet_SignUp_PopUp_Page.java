@@ -84,7 +84,7 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement title;
 
-    public String getTextTitle() {
+    public String getTitle() {
         try {
             return basePage.getText(title);
         } catch (Exception e) {
