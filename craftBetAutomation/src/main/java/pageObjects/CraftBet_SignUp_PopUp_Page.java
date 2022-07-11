@@ -762,6 +762,13 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement inputUsernameF;
 
+    public void sendKeysInputUsernameF(String username) {
+        try {
+            basePage.sendKeysIfElementVisible(inputUsernameF, username);
+        } catch (Exception e) {
+        }
+    }
+
     @FindBy(xpath = "//label[text()='Email']")
     @CacheLookup
     WebElement labelEmailF;
@@ -778,6 +785,14 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement inputEmailF;
 
+    public void sendKeysInputEmailF(String email) {
+        try {
+            basePage.sendKeysIfElementVisible(inputEmailF, email);
+        } catch (Exception e) {
+        }
+    }
+
+
     @FindBy(xpath = "//label[text()='Currency']")
     @CacheLookup
     WebElement labelCurrencyDropDownF;
@@ -790,10 +805,26 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-
     @FindBy(xpath = "//select[@class='ng-pristine ng-valid ng-touched']")
     @CacheLookup
     WebElement dropDownCurrencyF;
+    public void SelectFromDropDownCurrencyFByVisibleText(String text) {
+        try {
+            basePage.waitElementToBeVisible(dropDownCurrencyF);
+            basePage.selectFromDropDownByVisibleText(dropDownCurrencyF, text);
+        } catch (Exception e) {
+
+        }
+    }
+
+    public void SelectFromDropDownCurrencyFIndex(int index) {
+        try {
+            basePage.waitElementToBeVisible(dropDownCurrencyF);
+            basePage.selectFromDropDownByIndex(dropDownCurrencyF, index);
+        } catch (Exception e) {
+
+        }
+    }
 
     @FindBy(xpath = "//label[text()='Password']")
     @CacheLookup
@@ -810,6 +841,12 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @FindBy(xpath = "//input[@placeholder='Password (8 or more characters)']")
     @CacheLookup
     WebElement inputPasswordF;
+    public void sendKeysInputPasswordF(String password) {
+        try {
+            basePage.sendKeysIfElementVisible(inputPasswordF, password);
+        } catch (Exception e) {
+        }
+    }
 
     @FindBy(xpath = "//label[text()='Confirm Password']")
     @CacheLookup
@@ -827,7 +864,14 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement inputConfirmPasswordF;
 
-    @FindBy(xpath = "")
+    public void sendKeysInputConfirmPasswordF(String passwordConfirm) {
+        try {
+            basePage.sendKeysIfElementVisible(inputConfirmPasswordF, passwordConfirm);
+        } catch (Exception e) {
+        }
+    }
+
+    @FindBy(xpath = "//span[@class='reg-conditions']//span")
     @CacheLookup
     WebElement labelPrivacyPolicyF;
 
@@ -839,11 +883,41 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "")
+
+    @FindBy(xpath = "//a[text()='Terms & Conditions and Privacy Policy ']")
+    @CacheLookup
+    WebElement linkPrivacyPolicyF;
+    public void clickOnLinkPrivacyPolicyF() {
+        try {
+            basePage.waitElementToBeVisible(linkPrivacyPolicyF);
+            basePage.javaScriptClick(linkPrivacyPolicyF);
+        } catch (Exception e) {
+
+        }
+    }
+
+    @FindBy(xpath = "//input[@class='reg-checkbox distans-right ng-valid ng-dirty invalid-filed ng-touched']")
     @CacheLookup
     WebElement checkBoxPrivacyPolicyF;
+    public void clickOnCheckBoxPrivacyPolicyF() {
+        try {
+            basePage.waitElementToBeVisible(checkBoxPrivacyPolicyF);
+            basePage.javaScriptClick(checkBoxPrivacyPolicyF);
+        } catch (Exception e) {
 
-    @FindBy(xpath = "")
+        }
+    }
+    public boolean checkBoxCheckBoxPrivacyPolicyFIsSelected(){
+        basePage.waitElementToBeVisible(checkBoxPrivacyPolicyF);
+        if (basePage.elementIsSelected(checkBoxPrivacyPolicyF)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    @FindBy(xpath = "//span[@class='reg-conditions' and @xpath='2']")
     @CacheLookup
     WebElement labelReceiveNewsF;
 
@@ -855,11 +929,28 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@class='reg-checkbox distans-right ng-dirty ng-valid invalid-filed ng-touched']")
     @CacheLookup
     WebElement checkBoxReceiveF;
+    public void clickOnCheckBoxReceiveF() {
+        try {
+            basePage.waitElementToBeVisible(checkBoxReceiveF);
+            basePage.javaScriptClick(checkBoxReceiveF);
+        } catch (Exception e) {
 
-    @FindBy(xpath = "")
+        }
+    }
+    public boolean checkBoxReceiveFIsSelected(){
+            basePage.waitElementToBeVisible(checkBoxReceiveF);
+            if (basePage.elementIsSelected(checkBoxReceiveF)){
+                return true;
+            }
+            else{
+                return false;
+            }
+    }
+
+    @FindBy(xpath = "//button[@class='craft_btn next-btn']")
     @CacheLookup
     WebElement buttonRegisterF;
 
@@ -871,5 +962,13 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
+    public void clickOnButtonRegisterF() {
+        try {
+            basePage.waitElementToBeVisible(buttonRegisterF);
+            basePage.javaScriptClick(buttonRegisterF);
+        } catch (Exception e) {
+
+        }
+    }
 
 }
