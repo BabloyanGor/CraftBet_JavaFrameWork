@@ -26,6 +26,18 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
+    @FindBy(xpath = "//div[@class='register-background']")
+    @CacheLookup
+    WebElement BackgroundPhoto;
+
+    public boolean BackgroundPhotoPresence() {
+        try {
+            basePage.waitElementToBeVisible(BackgroundPhoto);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
     @FindBy(xpath = "//div[@class='reg-prompt-text']")
     @CacheLookup
     WebElement labelPleaseFill;
@@ -118,7 +130,7 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement emailMobileDropDownQ;
 
-    public void SelectEmailMobileDropDownQ(String text) {
+    public void selectEmailMobileDropDownQ(String text) {
         try {
             basePage.waitElementToBeVisible(emailMobileDropDownQ);
             basePage.selectFromDropDownByVisibleText(emailMobileDropDownQ, text);
@@ -126,7 +138,13 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
 
         }
     }
-
+    public String getTextEmailMobileDropDownQ() {
+        try {
+            return basePage.getText(emailMobileDropDownQ);
+        } catch (Exception e) {
+            return "Cant find element emailMobileDropDownQ";
+        }
+    }
 
     @FindBy(xpath = "//div[@class='form_field']//label[text()='Email']")
     @CacheLookup
@@ -140,7 +158,7 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//input[@class='ng-pristine ng-invalid invalid-filed ng-touched']")
+    @FindBy(xpath = "//input[@placeholder='Email']")
     @CacheLookup
     WebElement emailInputQ;
 
@@ -270,20 +288,20 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//input[@class='reg-checkbox distans-right ng-pristine ng-valid invalid-filed ng-touched']")
+    @FindBy(xpath = "//input[@id='acceptTerms']")
     @CacheLookup
     WebElement checkBoxTermsConditionsQ;
 
     public void clickOnCheckBoxTermsConditionsQ() {
         try {
-            basePage.waitElementToBeVisible(buttonRegisterQ);
-            basePage.javaScriptClick(buttonRegisterQ);
+            basePage.waitElementToBeVisible(checkBoxTermsConditionsQ);
+            basePage.javaScriptClick(checkBoxTermsConditionsQ);
         } catch (Exception e) {
 
         }
     }
 
-    @FindBy(xpath = "//button[@class='craft_btn reg_btn not_active']")
+    @FindBy(xpath = "//div[@class='reg-step-navigate-buttons flex-center']//button")
     @CacheLookup
     WebElement buttonRegisterQ;
 
@@ -301,6 +319,15 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
             basePage.javaScriptClick(buttonRegisterQ);
         } catch (Exception e) {
 
+        }
+    }
+
+    public String  getAttributeClassButtonRegisterQ() {
+        try {
+            return basePage.getAttribute(buttonRegisterQ,"class");
+
+        } catch (Exception e) {
+            return "Cant find element buttonRegisterQ";
         }
     }
 

@@ -45,7 +45,7 @@ public class BasePage {
     public File captureScreen(WebDriver driver, String tname) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname+i + ".png");
+        File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + i + ".png");
         FileUtils.copyFile(source, target);
         System.out.println("Screenshot taken");
         return target;
@@ -244,8 +244,8 @@ public class BasePage {
         actions.doubleClick(element).perform();
     }
 
-    public void actionDownXTime(int x) {
-        for (int i = 0; i<x; i++){
+    public void actionDownArrowXTime(int x) {
+        for (int i = 0; i < x; i++) {
             actions.sendKeys(Keys.ARROW_DOWN).perform();
         }
     }
@@ -256,22 +256,84 @@ public class BasePage {
 
 
     //endregion
+    //region <Generate emails>
+    public String generateRandomEmailValid(){
+        String randomEmail;
+        String generatedString = RandomStringUtils.randomAlphanumeric(10);
+        randomEmail = generatedString + "@gmail.com";
+        return randomEmail;
+    }
 
+    //Abc.example.com no @ character
+    public String generateRandomEmailInValid1(){
+        String randomEmail;
+        String generatedString = RandomStringUtils.randomAlphanumeric(10);
+        randomEmail = generatedString + ".gmail.com";
+        return randomEmail;
+    }
 
+    //A@b@c@example.com   only one @ is allowed outside quotation marks
+    public String generateRandomEmailInValid2(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(5);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(5);
+        randomEmail = generatedString1+"@"+generatedString2 + "@gmail.com";
+        return randomEmail;
+    }
+
+    //a"b(c)d,e:f;g<h>i[j\k]l@example.com    ( "  none of the special characters in this local-part are allowed outside quotation marks )
+    public String generateRandomEmailInValid3(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"\\"+ generatedString2 + ".gmail.com";
+        return randomEmail;
+    }
+
+    // just"not"right@example.com (quoted strings must be dot separated or the only element making up the local-part)
+    public String generateRandomEmailInValid4(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"\""+generatedString2+ ".gmail.com";
+        return randomEmail;
+    }
+
+    //this is"not\allowed@example.com (spaces, quotes, and backslashes may only exist when within quoted strings and preceded by a backslash)
+    public String generateRandomEmailInValid5(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+" "+generatedString2+ ".gmail.com";
+        return randomEmail;
+    }
+
+    //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
+    public String generateRandomEmailInValid6(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"_"+generatedString2+ ".gmail.com";
+        return randomEmail;
+    }
+
+    //endregion
 
 
     //region <Navigation>
-    public void navigateForward(){
+    public void navigateForward() {
         driver.navigate().forward();
     }
-    public void navigateBack(){
+
+    public void navigateBack() {
         driver.navigate().back();
     }
-    public void navigateRefresh(){
+
+    public void navigateRefresh() {
         driver.navigate().refresh();
     }
 
-    public void navigateToUrl(String url){
+    public void navigateToUrl(String url) {
         driver.navigate().to(url);
     }
 
