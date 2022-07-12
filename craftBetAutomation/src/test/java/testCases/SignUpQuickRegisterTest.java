@@ -3,8 +3,10 @@ package testCases;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -116,8 +118,8 @@ public class SignUpQuickRegisterTest extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(priority = 3, description = "Validate on Sign Up Pop Up Terms  and conditions check box ")
-    @Description("Validate on Sign Up Pop Up Terms  and conditions check box")
+    @Test(priority = 3, description = "Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
+    @Description("Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterRegisterPrivacyPolicy() {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
@@ -129,5 +131,110 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
     }
 
+    @Test(priority = 4, description = "Validate on Sign Up Pop Up sign up with valid Email")
+    @Description("Validate on Sign Up Pop Up sign up with valid Email")
+    @Severity(SeverityLevel.BLOCKER)
+    public void SignUpPopUpQuickRegisterPositiveTest() {
+        craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
+        craftBet_signUp_popUp_page.sendKeysEmailInputQ(craftBet_signUp_popUp_page.generateRandomEmailValid());
+        craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
+        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(),true);
 
+    }
+
+    @Test(priority = 4, dataProvider ="invalidData",description = "Validate on Sign Up Pop Up sign up with valid Email")
+    @Description("Validate on Sign Up Pop Up sign up with valid Email")
+    @Severity(SeverityLevel.BLOCKER)
+    public void SignUpPopUpQuickRegisterNegativeTest(String invalidEmail) {
+        craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
+        logger.info("Chosen Email from drop down");
+        craftBet_signUp_popUp_page.sendKeysEmailInputQ(invalidEmail);
+        logger.info("invalid Email sent");
+        craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        logger.info("Terms and conditions checkbox clicked");
+        craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
+        logger.info("Register button clicked");
+        String errorMessage = craftBet_passwordRecovery_page.getErrorMessage();
+        logger.info("Error message captured");
+        Assert.assertEquals(errorMessage,"Invalid email address");
+    }
+
+    @DataProvider(name = "invalidData")
+    public Object[][] invalidSignUpData() {
+
+            Object invalidLoginData[][] = {{generateRandomEmailInValid1()},{generateRandomEmailInValid2()},
+                                           {generateRandomEmailInValid3()},{generateRandomEmailInValid4()},
+                                           {generateRandomEmailInValid5()},{generateRandomEmailInValid6()}};
+            return invalidLoginData;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //Abc.example.com no @ character
+    public String generateRandomEmailInValid1(){
+        String randomEmail;
+        String generatedString = RandomStringUtils.randomAlphanumeric(10);
+        randomEmail = generatedString + ".gmail.com";
+        return randomEmail;
+    }
+
+    //A@b@c@example.com   only one @ is allowed outside quotation marks
+    public String generateRandomEmailInValid2(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(5);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(5);
+        randomEmail = generatedString1+"@"+generatedString2 + "@gmail.com";
+        return randomEmail;
+    }
+
+    //a"b(c)d,e:f;g<h>i[j\k]l@example.com    ( "  none of the special characters in this local-part are allowed outside quotation marks )
+    public String generateRandomEmailInValid3(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"\\"+ generatedString2 + "@gmail.com";
+        return randomEmail;
+    }
+
+    // just"not"right@example.com (quoted strings must be dot separated or the only element making up the local-part)
+    public String generateRandomEmailInValid4(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"\""+generatedString2+ "@gmail.com";
+        return randomEmail;
+    }
+
+    //this is"not\allowed@example.com (spaces, quotes, and backslashes may only exist when within quoted strings and preceded by a backslash)
+    public String generateRandomEmailInValid5(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+" "+generatedString2+ "@gmail.com";
+        return randomEmail;
+    }
+
+    //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
+    public String generateRandomEmailInValid6(){
+        String randomEmail;
+        String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
+        String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
+        randomEmail = generatedString1+"_"+generatedString2+ "@gmail.com";
+        return randomEmail;
+    }
 }
+
+
+

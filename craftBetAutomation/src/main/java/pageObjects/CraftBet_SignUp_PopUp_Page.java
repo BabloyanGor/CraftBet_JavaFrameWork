@@ -6,6 +6,9 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 public class CraftBet_SignUp_PopUp_Page extends BasePage {
+//    public CraftBet_SignUp_PopUp_Page( ) {
+//
+//    }
     private final BasePage basePage;
 
     public CraftBet_SignUp_PopUp_Page(WebDriver driver) {
@@ -328,6 +331,17 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
 
         } catch (Exception e) {
             return "Cant find element buttonRegisterQ";
+        }
+    }
+
+    @FindBy(xpath = "//div[@class='error_message register_error_message']")
+    @CacheLookup
+    WebElement errorMessage;
+    public String getTextErrorMessage() {
+        try {
+            return basePage.getText(errorMessage);
+        } catch (Exception e) {
+            return "Cant find element errorMessage";
         }
     }
 
@@ -996,6 +1010,15 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         } catch (Exception e) {
 
         }
+    }
+
+
+    public Object[][] invalidSignUpData() {
+        Object invalidLoginData[][] = {{basePage.generateRandomEmailInValid1()},{basePage.generateRandomEmailInValid2()},
+                {basePage.generateRandomEmailInValid3()},{basePage.generateRandomEmailInValid4()},
+                {basePage.generateRandomEmailInValid5()},{basePage.generateRandomEmailInValid6()}};
+
+        return invalidLoginData;
     }
 
 }

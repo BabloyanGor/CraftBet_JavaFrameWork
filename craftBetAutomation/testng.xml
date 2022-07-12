@@ -16,6 +16,7 @@
         <classes>
             <class name="testCases.LoginPopUpTest"/>
             <class name="testCases.PasswordRecoveryTest"/>
+            <class name="testCases.SignUpQuickRegisterTest"/>
         </classes>
     </test>
 </suite>

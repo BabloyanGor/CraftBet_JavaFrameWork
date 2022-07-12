@@ -112,16 +112,18 @@ public class PasswordRecoveryTest extends BaseTest{
 
         if (actErrorMessage.equals("Wrong recovery input")){
             Assert.assertTrue(true);
+            logger.info("(Wrong recovery input) message received");
         }
         else{
             Assert.assertTrue(false);
+            logger.info("(Wrong recovery input) message not received");
         }
     }
 
     @DataProvider(name = "invalidRecoveryData")
     public Object[][] RecoveryInvalidData() {
         Object invalidRecoveryData[][] = {{" g.babloyan@iqsoft.am"}, {"g.babloyan@iqsoft.am "}, {"g .babloyan@iqsoft.am"},
-                                       {"g. babloyan@iqsoft.am"}, {"g.babloyan @iqsoft.am"},{"g.babloyan@iqsoft.a m"}};
+                                          {"g. babloyan@iqsoft.am"}, {"g.babloyan @iqsoft.am"},{"g.babloyan@iqsoft.a m"}};
         return invalidRecoveryData;
     }
 
