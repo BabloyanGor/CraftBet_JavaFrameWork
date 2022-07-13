@@ -18,13 +18,36 @@
       </class> <!-- testCases.PasswordRecoveryTest -->
       <class name="testCases.LoginPopUpTest">
         <methods>
+          <include name="loginPopUpEyeButtonFunctionality_Test"/>
+          <include name="loginPopUpCloseButtonFunctionality_Test"/>
+          <include name="loginPopUpLogInPositiveTest"/>
+          <include name="finish"/>
+          <include name="setup"/>
+          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
+          <include name="loginPopUpLogoPresenceVerification_Test"/>
+          <include name="loginPopUpLogInNegativeTest"/>
+          <include name="loginPopUpRememberMeLabelClickAbility_Test"/>
+          <include name="goToLoginPopUp"/>
+          <include name="loginPopUpErrorMessageValidationInvalidPassword"/>
+          <include name="loginPopUpForgotPasswordLink_Test"/>
+          <include name="loginPopUpCheckBoxClickAbility_Test"/>
+          <include name="tearDown"/>
+          <include name="loginPopUpSignUpLink_Test"/>
+        </methods>
+      </class> <!-- testCases.LoginPopUpTest -->
+      <class name="testCases.SignUpQuickRegisterTest">
+        <methods>
+          <include name="SignUpPopUpQuickRegisterNegativeTest"/>
+          <include name="SignUpPopUpQuickRegisterRegisterPrivacyPolicy"/>
+          <include name="SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test"/>
+          <include name="goToLoginPopUp"/>
           <include name="finish"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="loginPopUpLogInNegativeTest" invocation-numbers="1 2 5 6 7"/>
-          <include name="goToLoginPopUp"/>
+          <include name="SignUpPopUpQuickRegisterLogoPresenceVerification_Test"/>
+          <include name="SignUpPopUpQuickRegisterPositiveTest"/>
         </methods>
-      </class> <!-- testCases.LoginPopUpTest -->
+      </class> <!-- testCases.SignUpQuickRegisterTest -->
     </classes>
   </test> <!-- testCases.LoginPopUpTest(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
