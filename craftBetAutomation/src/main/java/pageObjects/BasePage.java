@@ -267,6 +267,10 @@ public class BasePage {
 
     //endregion
     //region <Generate emails>
+    public String generateRandomMobileNumberValid(){
+        String generatedNumber = RandomStringUtils.randomNumeric(8);
+        return generatedNumber;
+    }
     public String generateRandomEmailValid(){
         String randomEmail;
         String generatedString = RandomStringUtils.randomAlphanumeric(10);

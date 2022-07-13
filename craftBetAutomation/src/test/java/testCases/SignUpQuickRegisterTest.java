@@ -109,57 +109,109 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
     @Test(priority = 3, description = "Validate on Sign Up Pop Up Email/Mobile Drop down functionality")
     @Description("Validate on Sign Up Pop Up Email/Mobile Drop down functionality")
-    @Severity(SeverityLevel.MINOR)
+    @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test() {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
+        logger.info("From Email/Mobile DropDown select Email");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ(), "Email");
+        logger.info("From Email Input get text");
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
+        logger.info("From Email/Mobile DropDown select Mobile");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelMobileInputQ(), "Mobile");
+        logger.info("From Mobile Input get text");
         softAssert.assertAll();
     }
 
     @Test(priority = 4, description = "Validate on Sign Up Pop Up Currency Drop down functionality")
     @Description("Validate on Sign Up Pop Up Currency Drop down functionality")
-    @Severity(SeverityLevel.MINOR)
+    @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test() {
         craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("AMD");
+        logger.info("From Currency DropDown select AMD");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "AMD");
+        logger.info("From Currency DropDown getting text");
         craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("EUR");
+        logger.info("From Currency DropDown select EUR");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "EUR");
+        logger.info("From Currency DropDown getting text");
         craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("USD");
+        logger.info("From Currency DropDown select USD");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "USD");
+        logger.info("From Currency DropDown getting text");
         softAssert.assertAll();
     }
 
-    @Test(priority = 3, description = "Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
+    @Test(priority = 5, description = "Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
     @Description("Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
-    @Severity(SeverityLevel.MINOR)
+    @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterRegisterPrivacyPolicy() {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
+        logger.info("Email was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(craftBet_signUp_popUp_page.generateRandomEmailValid());
+        logger.info("valid email was generated and passed ");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getAttributeClassButtonRegisterQ(), "craft_btn reg_btn active-item not_active");
+        logger.info("Register button activity checked without clicking on TermsAndConditions checkbox ");
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        logger.info("Terms and conditions checkbox was selected");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getAttributeClassButtonRegisterQ(), "craft_btn reg_btn active-item");
+        logger.info("Register button activity checked with clicking on TermsAndConditions checkbox");
         softAssert.assertAll();
 
     }
 
-    @Test(priority = 4, description = "Validate on Sign Up Pop Up sign up with valid Email")
+
+    @Test(priority = 5, description = "Validate on Sign Up Pop Up close(X) button functionality")
+    @Description("Validate on Sign Up Pop Up close(X) button functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void SignUpPopUpCloseButtonFunctionality() {
+        craftBet_signUp_popUp_page.clickOnButtonCloseXButton();
+        logger.info("Close (X) button was clicked");
+        Assert.assertEquals(craftBet_signUp_popUp_page.logoPresence(), false);
+    }
+
+    @Test(priority = 6, description = "Validate on Sign Up Pop Up Terms and conditions link functionality")
+    @Description("Validate on Sign Up Pop Up Terms and conditions link functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void SignUpPopUpTermsAndConditionsLinkFunctionality() {
+        craftBet_signUp_popUp_page.clickOnLinkTermsConditionsQ();
+        logger.info("Terms and conditions link was clicked");
+        Assert.assertEquals(craftBet_signUp_popUp_page.getUrl(), "https://craftbet.com/terms");
+    }
+
+
+//click on login link
+
+
+
+
+
+
+
+
+
+
+
+
+    @Test(priority = 20, description = "Validate on Sign Up Pop Up sign up with valid Email")
     @Description("Validate on Sign Up Pop Up sign up with valid Email")
     @Severity(SeverityLevel.BLOCKER)
-    public void SignUpPopUpQuickRegisterPositiveTest() {
+    public void SignUpPopUpQuickRegisterWithEmailPositiveTest() {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
+        logger.info("Email was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(craftBet_signUp_popUp_page.generateRandomEmailValid());
+        logger.info("Valid random email was created and passed");
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        logger.info("Terms and Conditions checkbox was selected");
         craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
+        logger.info("Register button was clicked");
         Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(),true);
 
     }
 
-    @Test(priority = 4, dataProvider ="invalidData",description = "Validate on Sign Up Pop Up sign up with valid Email")
+    @Test(priority = 21, dataProvider ="invalidData",description = "Validate on Sign Up Pop Up sign up with valid Email")
     @Description("Validate on Sign Up Pop Up sign up with valid Email")
     @Severity(SeverityLevel.BLOCKER)
-    public void SignUpPopUpQuickRegisterNegativeTest(String invalidEmail) {
+    public void SignUpPopUpQuickRegisterWithEmailNegativeTest(String invalidEmail) {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         logger.info("Chosen Email from drop down");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(invalidEmail);
@@ -174,7 +226,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     }
 
     @DataProvider(name = "invalidData")
-    public Object[][] invalidSignUpData() {
+    public Object[][] invalidSignUpDataEmail() {
 
             Object invalidLoginData[][] = {{generateRandomEmailInValid1()},{generateRandomEmailInValid2()},
                                            {generateRandomEmailInValid3()},{generateRandomEmailInValid4()},
@@ -185,12 +237,51 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
 
 
+    @Test(priority = 30, description = "Validate on Sign Up Pop Up sign up with valid Phone number")
+    @Description("Validate on Sign Up Pop Up sign up with valid Phone number")
+    @Severity(SeverityLevel.BLOCKER)
+    public void SignUpPopUpQuickRegisterWithMobilePositiveTest() {
+        craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
+        logger.info("Mobile was selected From Email/Mobile DropDown ");
+        craftBet_signUp_popUp_page.clickOnMobileDropDownQ();
+        craftBet_signUp_popUp_page.clickOnMobileArmQ();
+        logger.info("Am+374 was selected From Email/Mobile DropDown ");
+        craftBet_signUp_popUp_page.sendKeysMobileInputQ(craftBet_signUp_popUp_page.generateRandomMobileNumberValid());
+        logger.info("Valid random number was created and passed");
+        craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        logger.info("Terms and Conditions checkbox was selected");
+        craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
+        logger.info("Register button was clicked");
+        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(),true);
+
+    }
+
+    @Test(priority = 31, dataProvider = "invalidMobileData", description = "Validate on Sign Up Pop Up sign up with Invalid Phone number")
+    @Description("Validate on Sign Up Pop Up sign up with Invalid Phone number")
+    @Severity(SeverityLevel.BLOCKER)
+    public void SignUpPopUpQuickRegisterWithMobileNegativeTest(String number) throws InterruptedException {
+        craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
+        logger.info("Mobile was selected From Email/Mobile DropDown ");
+        craftBet_signUp_popUp_page.clickOnMobileDropDownQ();
+        craftBet_signUp_popUp_page.clickOnMobileArmQ();
+        logger.info("Am+374 was selected From Email/Mobile DropDown ");
+        craftBet_signUp_popUp_page.sendKeysMobileInputQ(number);
+        logger.info("InValid number was created and passed");
+        craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
+        logger.info("Terms and Conditions checkbox was selected");
+        Thread.sleep(1000);
+        Assert.assertEquals(craftBet_signUp_popUp_page.getAttributeClassButtonRegisterQ(), "craft_btn reg_btn not_active");
+        //softAssert.assertEquals(craftBet_signUp_popUp_page.getAttributeClassButtonRegisterQ(), "craft_btn reg_btn active-item");
+    }
 
 
+    @DataProvider(name = "invalidMobileData")
+    public Object[][] invalidSignUpDataMobile() {
 
-
-
-
+        Object invalidLoginData[][] = {{"123 45 6"},{"123/45/6"},{"123456  "},
+                                       {"123+45-6"},{"123456"},  {" 1 2 3 4 5 6 7 "}};
+        return invalidLoginData;
+    }
 
 
 

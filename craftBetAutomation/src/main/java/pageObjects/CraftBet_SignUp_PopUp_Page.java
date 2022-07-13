@@ -144,11 +144,12 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     }
     public String getTextEmailMobileDropDownQ() {
         try {
-            return basePage.getText(emailMobileDropDownQ);
+            return basePage.getSelectedItemText(basePage.createSelectElement(emailMobileDropDownQ));
         } catch (Exception e) {
-            return "Cant find element emailMobileDropDownQ";
+            return "Cant find element currencyDropDownQ";
         }
     }
+
 
     @FindBy(xpath = "//div[@class='form_field']//label[text()='Email']")
     @CacheLookup
@@ -189,6 +190,19 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @FindBy(xpath = "//div[@class='flex_between current_item']")
     @CacheLookup
     WebElement mobileDropDownQ;
+    @FindBy(xpath = "//span[text()=' AM (+374)']")
+    @CacheLookup
+    WebElement mobileArm;
+
+    public void clickOnMobileArmQ() {
+        basePage.waitElementToBeVisible(mobileArm);
+        basePage.javaScriptClick(mobileArm);
+    }
+    public void clickOnMobileDropDownQ() {
+        basePage.waitElementToBeVisible(mobileDropDownQ);
+        basePage.javaScriptClick(mobileDropDownQ);
+    }
+
 
     public void SelectFromMobileDropDownByVisibleTextQ(String text) {
         try {
@@ -207,6 +221,14 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
 
         }
     }
+    public String getTextFromMobileDropDownQ() {
+        try {
+            return basePage.getSelectedItemText(basePage.createSelectElement(mobileDropDownQ));
+        } catch (Exception e) {
+            return "Cant find element currencyDropDownQ";
+        }
+    }
+
 
     @FindBy(xpath = "//div[@class='flex_between current_item']//div//img")
     @CacheLookup
@@ -220,7 +242,7 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//input[@class='ng-pristine ng-invalid invalid-filed ng-touched']")
+    @FindBy(xpath = "//div[@class='mobileData_tabs']//input")
     @CacheLookup
     WebElement mobileInputQ;
 
