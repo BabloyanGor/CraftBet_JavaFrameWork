@@ -136,6 +136,11 @@ public class BasePage {
     }
 
     //region <Select from Dropdown>
+
+    public Select createSelectElement(WebElement element){
+        Select s = new Select(element);
+        return s;
+    }
     /* this method will be used for selecting element from dropdown using visible text */
     public void selectFromDropDownByVisibleText(WebElement element, String text) {
         select = new Select(element);
@@ -152,6 +157,11 @@ public class BasePage {
     public void selectFromDropDownByValue(WebElement element, String value) {
         select = new Select(element);
         select.selectByValue(value);
+    }
+
+    public String getSelectedItemText(Select element){
+        String text = element.getFirstSelectedOption().getText();
+        return text;
     }
     //endregion
 

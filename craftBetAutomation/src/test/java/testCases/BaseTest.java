@@ -30,11 +30,8 @@ public class BaseTest extends DriverFactory {
     public CraftBet_SignUp_PopUp_Page craftBet_signUp_popUp_page;
     public CraftBet_Casino_Page craftBet_casino_page;
 
-    public  WebDriver testDriver;
     public BaseTest()  {
     }
-
-
 
     @BeforeMethod
     public void setup() {
@@ -43,10 +40,10 @@ public class BaseTest extends DriverFactory {
 
         try {
             super.initDriver(baseURL,browser,browserType);
-            testDriver = driver;
+
         } catch (org.openqa.selenium.TimeoutException exception) {
             super.initDriver(baseURL,browser,browserType);
-            testDriver = driver;
+
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -66,7 +63,9 @@ public class BaseTest extends DriverFactory {
 
 
         //endregion
-        craftBet_header_page.selectEnglishLanguageFromDropDown();
+
+            craftBet_header_page.selectEnglishLanguageFromDropDown();
+
     }
 
     @AfterMethod

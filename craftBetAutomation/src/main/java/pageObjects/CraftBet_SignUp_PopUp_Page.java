@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class CraftBet_SignUp_PopUp_Page extends BasePage {
 //    public CraftBet_SignUp_PopUp_Page( ) {
@@ -235,6 +236,8 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement labelCurrencyDropDownQ;
 
+
+
     public String getTextLabelCurrencyDropDownQ() {
         try {
             return basePage.getText(labelCurrencyDropDownQ);
@@ -243,16 +246,23 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//select[@class='ng-pristine ng-valid ng-touched']")
+    @FindBy(xpath = "//label[text()='Currency']//following::select")
     @CacheLookup
     WebElement currencyDropDownQ;
 
-    public void SelectFromCurrencyDropDownByVisibleTextQ(String text) {
+    public void selectFromCurrencyDropDownByVisibleTextQ(String text) {
         try {
             basePage.waitElementToBeVisible(currencyDropDownQ);
             basePage.selectFromDropDownByVisibleText(currencyDropDownQ, text);
         } catch (Exception e) {
 
+        }
+    }
+    public String getTextFromCurrencyDropDownQ() {
+        try {
+            return basePage.getSelectedItemText(basePage.createSelectElement(currencyDropDownQ));
+        } catch (Exception e) {
+            return "Cant find element currencyDropDownQ";
         }
     }
 

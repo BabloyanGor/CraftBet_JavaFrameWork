@@ -107,14 +107,27 @@ public class SignUpQuickRegisterTest extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(priority = 3, description = "Validate on Sign Up Pop Up Email/Mobile Drop down")
-    @Description("Validate on Sign Up Pop Up Email/Mobile Drop down")
+    @Test(priority = 3, description = "Validate on Sign Up Pop Up Email/Mobile Drop down functionality")
+    @Description("Validate on Sign Up Pop Up Email/Mobile Drop down functionality")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test() {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ(), "Email");
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelMobileInputQ(), "Mobile");
+        softAssert.assertAll();
+    }
+
+    @Test(priority = 4, description = "Validate on Sign Up Pop Up Currency Drop down functionality")
+    @Description("Validate on Sign Up Pop Up Currency Drop down functionality")
+    @Severity(SeverityLevel.MINOR)
+    public void SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test() {
+        craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("AMD");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "AMD");
+        craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("EUR");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "EUR");
+        craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("USD");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "USD");
         softAssert.assertAll();
     }
 
@@ -155,7 +168,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("Terms and conditions checkbox clicked");
         craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
         logger.info("Register button clicked");
-        String errorMessage = craftBet_passwordRecovery_page.getErrorMessage();
+        String errorMessage = craftBet_signUp_popUp_page.getTextErrorMessage();
         logger.info("Error message captured");
         Assert.assertEquals(errorMessage,"Invalid email address");
     }
@@ -169,6 +182,18 @@ public class SignUpQuickRegisterTest extends BaseTest {
             return invalidLoginData;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

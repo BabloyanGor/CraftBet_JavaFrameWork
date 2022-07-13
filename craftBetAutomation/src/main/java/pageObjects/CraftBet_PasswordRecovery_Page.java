@@ -149,6 +149,4 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
             return "There is no ErrorMessage element";
         }
     }
-
-
 }
