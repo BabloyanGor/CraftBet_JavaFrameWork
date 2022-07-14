@@ -22,7 +22,7 @@ public class SignUpFullRegisterTest extends BaseTest{
             " ")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterLabelsPresenceVerification_Test() {
-        String actTitle = craftBet_signUp_popUp_page.getTitle();
+        String actTitle = craftBet_signUp_popUp_page.getTitleQ();
         logger.info("Title Captured: " + actTitle);
 
         String expectedTitle = "Password recovery";

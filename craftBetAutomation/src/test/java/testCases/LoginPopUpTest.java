@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pageObjects.BasePage;
 
 public class
 
@@ -159,7 +158,7 @@ LoginPopUpTest extends BaseTest {
         craftBet_login_popUp_page.clickLoginPopUpSignUpLink();
         logger.info("SignUp link clicked");
         try {
-            String header = craftBet_signUp_popUp_page.getTitle();
+            String header = craftBet_signUp_popUp_page.getTitleQ();
             Assert.assertEquals(header, "Quick Register");
         } catch (Exception e) {
             Assert.assertTrue(false);

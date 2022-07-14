@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 public class CraftBet_SignUp_PopUp_Page extends BasePage {
 //    public CraftBet_SignUp_PopUp_Page( ) {
@@ -54,21 +53,37 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//button[@class='reg_item not_active']")
+    @FindBy(xpath = "//button[text()='Quick Register']")
     @CacheLookup
-    WebElement buttonSwitchQuickFullRegistration;
+    WebElement buttonQuickRegistration;
+    @FindBy(xpath = "//button[text()='Full Register']")
+    @CacheLookup
+    WebElement buttonFullRegistration;
+//    public String getTextButtonSwitchQuickFullRegistration() {
+//        try {
+//            return basePage.getText(buttonSwitchQuickFullRegistration);
+//        } catch (Exception e) {
+//            return "Cant find element buttonSwitchQuickFullRegistration";
+//        }
+//    }
 
-    public String getTextButtonSwitchQuickFullRegistration() {
-        try {
-            return basePage.getText(buttonSwitchQuickFullRegistration);
-        } catch (Exception e) {
-            return "Cant find element buttonSwitchQuickFullRegistration";
+    public void clickOnButtonFullRegistration() {
+        try{
+            basePage.waitElementToBeVisible(buttonFullRegistration);
+            basePage.javaScriptClick(buttonFullRegistration);
+        }
+        catch (Exception e){
+
         }
     }
+    public void clickOnButtonQuickRegistration() {
+        try{
+            basePage.waitElementToBeVisible(buttonQuickRegistration);
+            basePage.javaScriptClick(buttonQuickRegistration);
+        }
+        catch (Exception e){
 
-    public void clickOnButtonSwitchQuickFullRegistration() {
-        basePage.waitElementToBeVisible(buttonSwitchQuickFullRegistration);
-        basePage.javaScriptClick(buttonSwitchQuickFullRegistration);
+        }
     }
 
 
@@ -98,15 +113,19 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
 
     @FindBy(xpath = "//a[@class='reg_item active']")
     @CacheLookup
-    WebElement title;
-
-    public String getTitle() {
+    WebElement titleQ;
+    @FindBy(xpath = "//a[@class='reg_item disabled']")
+    @CacheLookup
+    WebElement titleF;
+    public String getTitleQ() {
         try {
-            return basePage.getText(title);
+            basePage.waitElementToBeVisible(titleQ);
+            return basePage.getText(titleQ);
         } catch (Exception e) {
-            return "Cant find element title";
+            return "Cant find element titleQ";
         }
     }
+
 
     @FindBy(xpath = "//span[@class='icon-close-modal']")
     @CacheLookup

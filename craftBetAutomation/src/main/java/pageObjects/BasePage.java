@@ -23,7 +23,7 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         actions = new Actions(driver);
-        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(10));
         js = (JavascriptExecutor) driver;
     }
 

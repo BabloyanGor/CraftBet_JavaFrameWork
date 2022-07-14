@@ -23,7 +23,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate SignUp PopUps labels")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterLabelsPresenceVerification_Test() {
-        String actTitle = craftBet_signUp_popUp_page.getTitle();
+        String actTitle = craftBet_signUp_popUp_page.getTitleQ();
         logger.info("Title Captured: --->" + actTitle);
         String expectedTitle = "Quick Register";
         logger.info("Title expected: --->" + expectedTitle);
@@ -55,10 +55,10 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("actPleaseFillLabel Captured: --->" + actPleaseFillLabel);
         String expectedPleaseFillLabel = "Please fill in all fields of this form.";
         logger.info("Please fill expected label: --->" + expectedPleaseFillLabel);
-        String actSwitchButtonLabel = craftBet_signUp_popUp_page.getTextButtonSwitchQuickFullRegistration();
-        logger.info("actSwitchButtonLabel Captured: --->" + actSwitchButtonLabel);
-        String expectedSwitchButtonLabel = "Full Register";
-        logger.info("Please fill expected label: --->" + expectedSwitchButtonLabel);
+//        String actSwitchButtonLabel = craftBet_signUp_popUp_page.getTextButtonSwitchQuickFullRegistration();
+//        logger.info("actSwitchButtonLabel Captured: --->" + actSwitchButtonLabel);
+//        String expectedSwitchButtonLabel = "Full Register";
+//        logger.info("Please fill expected label: --->" + expectedSwitchButtonLabel);
         String actThisSiteProtected = craftBet_signUp_popUp_page.getTextLabelThisSiteProtected();
         logger.info("actThisSiteProtected Captured: --->" + actThisSiteProtected);
         String expectedThisSiteProtected = "This site is protected by recaptcha and the Google Privacy Policy and Terms of Service apply. Select a social network and permit the use of your profile info for Craftbet registration";
@@ -85,8 +85,8 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("AlreadyHaveAccount label checked");
         softAssert.assertEquals(actPleaseFillLabel, expectedPleaseFillLabel);
         logger.info("PleaseFillLabel label checked");
-        softAssert.assertEquals(actSwitchButtonLabel, expectedSwitchButtonLabel);
-        logger.info("SwitchButtonLabel label checked");
+//        softAssert.assertEquals(actSwitchButtonLabel, expectedSwitchButtonLabel);
+//        logger.info("SwitchButtonLabel label checked");
         softAssert.assertEquals(actThisSiteProtected, expectedThisSiteProtected);
         logger.info("ThisSiteProtected label checked");
         softAssert.assertEquals(actSafeAndSecureLabel, expectedSafeAndSecureLabel);
@@ -185,6 +185,23 @@ public class SignUpQuickRegisterTest extends BaseTest {
         craftBet_signUp_popUp_page.clickOnLinkLogIn();
         logger.info("LogIn  link was clicked");
         Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(), true);
+    }
+
+    @Test(priority = 8, description = "Validate on Sign Up Pop Up Quick/Full Register button functionality")
+    @Description("Validate on Sign Up Pop Up Quick/Full Register button functionality")
+    @Severity(SeverityLevel.BLOCKER)
+    public void SignUpPopUpQuickFullRegistrationButtonFunctionality() throws InterruptedException {
+
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTitleQ() ,"Quick Register");
+        logger.info("Quick Register Title was captured");
+        craftBet_signUp_popUp_page.clickOnButtonFullRegistration();
+        logger.info("Full Registration button was clicked");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelFirstName() ,"First name");
+        logger.info("Full Register First Name label was captured");
+        craftBet_signUp_popUp_page.clickOnButtonQuickRegistration();
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ() ,"Email");
+
+        softAssert.assertAll();
     }
 
 
