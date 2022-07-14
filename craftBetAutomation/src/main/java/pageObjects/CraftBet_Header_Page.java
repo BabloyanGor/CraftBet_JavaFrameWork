@@ -13,6 +13,125 @@ public class CraftBet_Header_Page extends BasePage {
         basePage = new BasePage(driver);
     }
 
+
+    @FindBy(xpath = "//div[@class='header-section_topPanel_left']")
+    @CacheLookup
+    WebElement logo;
+    public void clickOnLogoIfVisible() {
+        try{
+            basePage.waitElementToBeVisible(logo);
+            basePage.javaScriptClick(logo);
+        }
+        catch(Exception e){
+
+        }
+    }
+    @FindBy(xpath = "//a[text()=' Sports ']")
+    @CacheLookup
+    WebElement linkSports;
+    public void clickOnLinkSports() {
+        try{
+            basePage.waitElementToBeVisible(linkSports);
+            basePage.javaScriptClick(linkSports);
+        }
+        catch(Exception e){
+
+        }
+    }
+    @FindBy(xpath = "//a[text()=' Live ']")
+    @CacheLookup
+    WebElement linkLife;
+    public void clickOnLinkLife() {
+        try{
+            basePage.waitElementToBeVisible(linkLife);
+            basePage.javaScriptClick(linkLife);
+        }
+        catch(Exception e){
+
+        }
+    }
+
+    @FindBy(xpath = "//a[text()=' Asian Sport ']")
+    @CacheLookup
+    WebElement linkAsianSport;
+    public void clickOnLinkAsianSport() {
+        try{
+            basePage.waitElementToBeVisible(linkAsianSport);
+            basePage.javaScriptClick(linkAsianSport);
+        }
+        catch(Exception e){
+
+        }
+    }
+    
+    @FindBy(xpath = "//a[text()=' Asian Sport ']")
+    @CacheLookup
+    WebElement linkVirtualSport;
+    public void clickOnLinkVirtualSport() {
+        try{
+            basePage.waitElementToBeVisible(linkVirtualSport);
+            basePage.javaScriptClick(linkVirtualSport);
+        }
+        catch(Exception e){
+
+        }
+    }
+    public void hoverToLinkVirtualSport() {
+        try{
+            basePage.waitElementToBeVisible(linkVirtualSport);
+            basePage.actionMoveToElement(linkVirtualSport);
+        }
+        catch(Exception e){
+
+        }
+    }
+
+    @FindBy(xpath = "//a[text()=' Casino ']")
+    @CacheLookup
+    WebElement linkCasino;
+    public void clickOnLinkLinkCasino() {
+        try{
+            basePage.waitElementToBeVisible(linkCasino);
+            basePage.javaScriptClick(linkCasino);
+        }
+        catch(Exception e){
+
+        }
+    }
+
+    @FindBy(xpath = "//a[text()=' Asian Sport ']")
+    @CacheLookup
+    WebElement linkLifeCasinoDropDown;
+    public void clickOnLinkLifeCasino() {
+        try{
+            basePage.waitElementToBeVisible(linkLifeCasinoDropDown);
+            basePage.javaScriptClick(linkLifeCasinoDropDown);
+        }
+        catch(Exception e){
+
+        }
+    }
+    public void hoverToLinkLifeCasino() {
+        try{
+            basePage.waitElementToBeVisible(linkLifeCasinoDropDown);
+            basePage.actionMoveToElement(linkLifeCasinoDropDown);
+        }
+        catch(Exception e){
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     @FindBy(xpath = "//button[@class = 'global_register-btn button-style1-type-btn']")
     @CacheLookup
     WebElement signUp;
@@ -53,9 +172,7 @@ public class CraftBet_Header_Page extends BasePage {
         return basePage.elementIsDisplayed(UserIdLabel);
     }
 
-    @FindBy(xpath = "//div[@class='header-section_topPanel_left']")
-    @CacheLookup
-    WebElement logo;
+
 
     @FindBy(xpath = "//a[text() = ' Casino ']")
     @CacheLookup
@@ -96,9 +213,7 @@ public class CraftBet_Header_Page extends BasePage {
         clickOnElementIfVisible(messageIcon);
     }
 
-    public void clickOnLogoIfVisible() {
-        clickOnElementIfVisible(logo);
-    }
+
 }
 
 
