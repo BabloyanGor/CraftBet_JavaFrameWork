@@ -66,9 +66,6 @@ public class CraftBet_Header_Page extends BasePage {
         basePage.clickOnElementIfClickable(CasinoLink);
     }
 
-    public void clickOnSignInButtonIfVisible() {
-        clickOnElementIfVisible(signUp);
-    }
 
     public void clickOnLogInButtonIfVisible() {
         clickOnElementIfVisible(logIn);
@@ -103,3 +100,6 @@ public class CraftBet_Header_Page extends BasePage {
         clickOnElementIfVisible(logo);
     }
 }
+
+
+

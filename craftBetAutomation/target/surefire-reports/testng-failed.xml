@@ -10,6 +10,7 @@
       <class name="testCases.PasswordRecoveryTest">
         <methods>
           <include name="RecoveryPopUpSupportLink_Test"/>
+          <include name="RecoveryPopUpNegativeTest"/>
           <include name="goToLoginPopUp"/>
           <include name="finish"/>
           <include name="setup"/>
@@ -27,18 +28,23 @@
       </class> <!-- testCases.LoginPopUpTest -->
       <class name="testCases.SignUpQuickRegisterTest">
         <methods>
-          <include name="SignUpPopUpQuickRegisterRegisterPrivacyPolicy"/>
-          <include name="SignUpPopUpQuickRegisterWithEmailNegativeTest" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="SignUpPopUpQuickRegisterWithEmailPositiveTest"/>
+          <include name="SignUpPopUpQuickFullRegistrationButtonFunctionality"/>
+          <include name="SignUpPopUpQuickRegisterWithMobileNegativeTest"/>
+          <include name="SignUpPopUpQuickRegisterWithEmailNegativeTest"/>
+          <include name="SignUpPopUpCloseButtonFunctionality"/>
           <include name="goToLoginPopUp"/>
           <include name="SignUpPopUpQuickRegisterWithMobilePositiveTest"/>
-          <include name="SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test"/>
           <include name="finish"/>
-          <include name="SignUpPopUpQuickRegisterLabelsPresenceVerification_Test"/>
           <include name="setup"/>
-          <include name="tearDown"/>
           <include name="SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test"/>
           <include name="SignUpPopUpQuickRegisterLogoPresenceVerification_Test"/>
+          <include name="SignUpPopUpQuickRegisterRegisterPrivacyPolicy"/>
+          <include name="SignUpPopUpTermsAndConditionsLinkFunctionality"/>
+          <include name="SignUpPopUpQuickRegisterWithEmailPositiveTest"/>
+          <include name="SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test"/>
+          <include name="SignUpPopUpQuickRegisterLabelsPresenceVerification_Test"/>
+          <include name="tearDown"/>
+          <include name="SignUpPopUpLogInLinkFunctionality"/>
         </methods>
       </class> <!-- testCases.SignUpQuickRegisterTest -->
     </classes>

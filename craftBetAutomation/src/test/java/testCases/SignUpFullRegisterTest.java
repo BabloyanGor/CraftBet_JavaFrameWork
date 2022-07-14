@@ -14,6 +14,7 @@ public class SignUpFullRegisterTest extends BaseTest{
     @BeforeMethod
     public void goToLoginPopUp() {
         craftBet_header_page.clickOnSignUp();
+        craftBet_signUp_popUp_page.clickOnButtonFullRegistration();
     }
 
     @Test(priority = 1, description = "" +
@@ -25,7 +26,7 @@ public class SignUpFullRegisterTest extends BaseTest{
         String actTitle = craftBet_signUp_popUp_page.getTitleQ();
         logger.info("Title Captured: " + actTitle);
 
-        String expectedTitle = "Password recovery";
+        String expectedTitle = "Full Register";
         logger.info("Title expected: " + expectedTitle);
 
         softAssert.assertEquals(actTitle, expectedTitle);

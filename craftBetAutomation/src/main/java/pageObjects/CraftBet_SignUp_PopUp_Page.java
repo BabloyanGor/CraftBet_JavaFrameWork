@@ -111,7 +111,7 @@ public class CraftBet_SignUp_PopUp_Page extends BasePage {
         }
     }
 
-    @FindBy(xpath = "//a[@class='reg_item active']")
+    @FindBy(xpath = "//div[@class='registration-section_menu']//a[1]")
     @CacheLookup
     WebElement titleQ;
     @FindBy(xpath = "//a[@class='reg_item disabled']")
