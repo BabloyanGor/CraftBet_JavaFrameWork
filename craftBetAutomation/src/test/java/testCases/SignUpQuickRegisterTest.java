@@ -178,15 +178,14 @@ public class SignUpQuickRegisterTest extends BaseTest {
     }
 
 
-//click on login link
-
-
-
-
-
-
-
-
+    @Test(priority = 7, description = "Validate on Sign Up Pop Up LogIn link functionality")
+    @Description("Validate on Sign Up Pop Up LogIn link functionality")
+    @Severity(SeverityLevel.NORMAL)
+    public void SignUpPopUpLogInLinkFunctionality() {
+        craftBet_signUp_popUp_page.clickOnLinkLogIn();
+        logger.info("LogIn  link was clicked");
+        Assert.assertEquals(craftBet_login_popUp_page.loginPopUpLogoPresence(), true);
+    }
 
 
 
@@ -214,7 +213,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         logger.info("Chosen Email from drop down");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(invalidEmail);
-        logger.info("invalid Email sent");
+        logger.info("invalid Email sent: -->" + invalidEmail);
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
         logger.info("Terms and conditions checkbox clicked");
         craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
@@ -265,7 +264,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
         craftBet_signUp_popUp_page.clickOnMobileArmQ();
         logger.info("Am+374 was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysMobileInputQ(number);
-        logger.info("InValid number was created and passed");
+        logger.info("InValid number was created and passed -->"+ number);
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
         logger.info("Terms and Conditions checkbox was selected");
         Thread.sleep(1000);
@@ -281,7 +280,6 @@ public class SignUpQuickRegisterTest extends BaseTest {
                                        {"123+45-6"},{"123456"},  {" 1 2 3 4 5 6 7 "}};
         return invalidLoginData;
     }
-
 
 
 
