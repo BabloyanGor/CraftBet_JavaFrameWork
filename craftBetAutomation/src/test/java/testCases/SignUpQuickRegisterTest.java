@@ -232,6 +232,14 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up sign up with valid Email")
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickRegisterWithEmailNegativeTest(String invalidEmail) {
+        try {
+            double invalidDoubleData = Double.parseDouble(invalidEmail);
+            int invalidIntData = (int) invalidDoubleData;
+            //invalidStringData = String.valueOf(invalidIntData);
+            invalidEmail = String.valueOf(invalidIntData);
+        } catch (Exception e) {
+            //invalidStringData = data;
+        }
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         logger.info("Chosen Email from drop down");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(invalidEmail);
@@ -246,14 +254,32 @@ public class SignUpQuickRegisterTest extends BaseTest {
     }
 
     @DataProvider(name = "invalidData")
-    public Object[][] invalidSignUpDataEmail() {
+    Object[][] invalidSignUpDataEmail() throws IOException {
+        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet sheet = workbook.getSheet("SignUpQuickInvalidEmail");
+        //XSSFSheet sheet = workbook.getSheetAt(0);
+        int numberOfRow = sheet.getLastRowNum();
+        int numberOfCol = sheet.getRow(0).getLastCellNum();
 
-            Object invalidLoginData[][] = {{generateRandomEmailInValid1()},{generateRandomEmailInValid2()},
-                                           {generateRandomEmailInValid3()},{generateRandomEmailInValid4()},
-                                           {generateRandomEmailInValid5()},{generateRandomEmailInValid6()}};
-            return invalidLoginData;
-
+        String[][] arr = new String[numberOfRow][numberOfCol];
+        for (int i = 1; i <= numberOfRow; i++) {
+            for (int j = 0; j < numberOfCol; j++) {
+                arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+            }
+        }
+        file.close();
+        return arr;
     }
+
+//    @DataProvider(name = "invalidData")
+//    public Object[][] invalidSignUpDataEmail() {
+//
+//            Object invalidLoginData[][] = {{generateRandomEmailInValid1()},{generateRandomEmailInValid2()},
+//                                           {generateRandomEmailInValid3()},{generateRandomEmailInValid4()},
+//                                           {generateRandomEmailInValid5()},{generateRandomEmailInValid6()}};
+//            return invalidLoginData;
+//    }
 
 
 
