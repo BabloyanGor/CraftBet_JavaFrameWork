@@ -149,4 +149,17 @@ public class CraftBet_PasswordRecovery_Page extends BasePage{
             return "There is no ErrorMessage element";
         }
     }
+
+    @FindBy(xpath = "//div[@class='registration_complete']//h1")
+    @CacheLookup
+    WebElement mailSuccessMessage;
+
+    public String getMailSuccessMessage(){
+        try{
+            return basePage.getText(mailSuccessMessage);
+        }
+        catch (Exception e){
+            return "There is no mailSuccessMessage element";
+        }
+    }
 }

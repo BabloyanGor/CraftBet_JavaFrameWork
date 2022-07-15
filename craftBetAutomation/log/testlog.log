@@ -1,0 +1,1483 @@
+2022-07-15 10:21:31,969 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:21:33,336 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:21:33,362 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:21:38,534 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:21:38,538 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:21:38,550 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:21:38,552 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:21:38,555 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:21:38,558 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:21:42,434 - craftBet -INFO - username passed -->U1630367<--
+2022-07-15 10:21:42,520 - craftBet -INFO - password passed --> N3HU3<--
+2022-07-15 10:21:42,852 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:21:53,762 - craftBet -INFO - Browser closed
+2022-07-15 10:21:53,767 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:21:53,784 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:21:53,801 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:21:57,456 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:21:57,457 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:21:57,468 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:21:57,468 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:21:57,469 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:21:57,469 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:22:01,134 - craftBet -INFO - username passed -->U1630368<--
+2022-07-15 10:22:01,184 - craftBet -INFO - password passed -->N3HU3 <--
+2022-07-15 10:22:01,470 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:22:12,997 - craftBet -INFO - Browser closed
+2022-07-15 10:22:13,016 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:22:13,056 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:22:13,097 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:22:15,906 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:22:15,907 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:22:15,912 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:22:15,913 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:22:15,914 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:22:15,915 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:22:19,258 - craftBet -INFO - username passed -->U1630369<--
+2022-07-15 10:22:19,326 - craftBet -INFO - password passed -->N3H U3<--
+2022-07-15 10:22:19,622 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:22:30,431 - craftBet -INFO - Browser closed
+2022-07-15 10:22:30,445 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:22:30,467 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:22:30,483 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:22:33,391 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:22:33,395 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:22:33,400 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:22:33,401 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:22:33,401 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:22:33,401 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:22:36,571 - craftBet -INFO - username passed -->U1630370<--
+2022-07-15 10:22:36,620 - craftBet -INFO - password passed -->     <--
+2022-07-15 10:22:36,904 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:22:47,856 - craftBet -INFO - Browser closed
+2022-07-15 10:22:47,873 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:22:47,902 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:22:47,917 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:22:50,378 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:22:50,379 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:22:50,379 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:22:50,380 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:22:50,380 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:22:50,380 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:22:52,947 - craftBet -INFO - username passed -->U1630371<--
+2022-07-15 10:22:53,031 - craftBet -INFO - password passed -->?N3HU3<--
+2022-07-15 10:22:53,337 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:23:04,007 - craftBet -INFO - Browser closed
+2022-07-15 10:23:04,021 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:23:04,042 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:23:04,056 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:23:06,434 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:23:06,435 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:23:06,436 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:23:06,436 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:23:06,437 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:23:06,437 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:23:09,304 - craftBet -INFO - username passed -->N3HU3<--
+2022-07-15 10:23:09,391 - craftBet -INFO - password passed -->U1630371<--
+2022-07-15 10:23:09,692 - craftBet -INFO - Log In Button was clicked
+2022-07-15 10:23:23,344 - craftBet -INFO - Browser closed
+2022-07-15 10:23:23,373 - craftBet -INFO - Login Test Suit test was finished
+2022-07-15 10:36:57,989 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:36:58,626 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:36:58,749 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:04,254 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:04,257 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:04,264 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:04,265 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:04,267 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:04,269 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:08,519 - craftBet -INFO - email passed
+2022-07-15 10:37:08,561 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:08,603 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:09,346 - craftBet -INFO - Browser closed
+2022-07-15 10:37:09,350 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:09,367 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:09,382 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:11,626 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:11,627 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:11,629 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:11,629 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:11,630 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:11,630 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:14,710 - craftBet -INFO - email passed
+2022-07-15 10:37:14,753 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:14,800 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:15,702 - craftBet -INFO - Browser closed
+2022-07-15 10:37:15,713 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:15,733 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:15,749 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:18,254 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:18,255 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:18,257 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:18,257 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:18,257 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:18,258 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:21,053 - craftBet -INFO - email passed
+2022-07-15 10:37:21,090 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:21,123 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:22,054 - craftBet -INFO - Browser closed
+2022-07-15 10:37:22,060 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:22,081 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:22,097 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:24,773 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:24,774 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:24,775 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:24,775 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:24,775 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:24,776 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:28,094 - craftBet -INFO - email passed
+2022-07-15 10:37:28,142 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:28,180 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:29,079 - craftBet -INFO - Browser closed
+2022-07-15 10:37:29,084 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:29,102 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:29,118 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:31,503 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:31,503 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:31,504 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:31,504 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:31,505 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:31,505 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:34,318 - craftBet -INFO - email passed
+2022-07-15 10:37:34,358 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:34,395 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:35,233 - craftBet -INFO - Browser closed
+2022-07-15 10:37:35,242 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:35,263 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:35,277 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:37,877 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:37,878 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:37,879 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:37,879 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:37,880 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:37,880 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:40,537 - craftBet -INFO - email passed
+2022-07-15 10:37:40,574 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:40,604 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:41,367 - craftBet -INFO - Browser closed
+2022-07-15 10:37:41,371 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:41,387 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:41,403 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:43,701 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:43,703 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:43,708 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:43,709 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:43,709 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:43,710 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:46,818 - craftBet -INFO - email passed
+2022-07-15 10:37:46,860 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:46,888 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:47,652 - craftBet -INFO - Browser closed
+2022-07-15 10:37:47,662 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:47,687 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:47,703 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:50,163 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:50,164 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:50,164 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:50,164 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:50,165 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:50,165 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:53,141 - craftBet -INFO - email passed
+2022-07-15 10:37:53,699 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:53,726 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:37:54,530 - craftBet -INFO - Browser closed
+2022-07-15 10:37:54,541 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:37:54,563 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:37:54,576 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:37:56,851 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:37:56,852 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:37:56,852 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:37:56,852 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:37:56,852 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:37:56,853 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:37:59,720 - craftBet -INFO - email passed
+2022-07-15 10:37:59,796 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:37:59,841 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:38:00,577 - craftBet -INFO - Browser closed
+2022-07-15 10:38:00,584 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:38:00,600 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:38:00,619 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:38:03,015 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:38:03,015 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:38:03,017 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:38:03,017 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:38:03,017 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:38:03,018 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:38:05,857 - craftBet -INFO - email passed
+2022-07-15 10:38:05,913 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:38:05,957 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:38:06,856 - craftBet -INFO - Browser closed
+2022-07-15 10:38:06,868 - craftBet -INFO - Login Test Suit test was finished
+2022-07-15 10:47:21,671 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:47:21,969 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:47:21,997 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:47:25,276 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:47:25,280 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:47:25,287 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:47:25,288 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:47:25,290 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:47:25,292 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:47:28,437 - craftBet -INFO - email passed
+2022-07-15 10:47:28,475 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:47:48,549 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:47:49,293 - craftBet -INFO - Browser closed
+2022-07-15 10:47:49,301 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:47:49,317 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:47:49,332 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:47:51,854 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:47:51,854 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:47:51,858 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:47:51,859 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:47:51,860 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:47:51,861 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:47:55,158 - craftBet -INFO - email passed
+2022-07-15 10:47:55,202 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:48:15,255 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:48:16,067 - craftBet -INFO - Browser closed
+2022-07-15 10:48:16,071 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:48:16,086 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:48:16,100 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:48:18,333 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:48:18,334 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:48:18,336 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:48:18,336 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:48:18,337 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:48:18,337 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:48:21,122 - craftBet -INFO - email passed
+2022-07-15 10:48:21,175 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:48:41,256 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:48:42,101 - craftBet -INFO - Browser closed
+2022-07-15 10:48:42,106 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:48:42,123 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:48:42,142 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:48:44,678 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:48:44,681 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:48:44,682 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:48:44,683 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:48:44,684 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:48:44,684 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:48:47,374 - craftBet -INFO - email passed
+2022-07-15 10:48:47,425 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:49:07,487 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:49:08,322 - craftBet -INFO - Browser closed
+2022-07-15 10:49:08,436 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:49:08,459 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:49:08,475 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:49:10,800 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:49:10,801 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:49:10,802 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:49:10,803 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:49:10,803 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:49:10,804 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:49:13,574 - craftBet -INFO - email passed
+2022-07-15 10:49:13,613 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:49:33,669 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:49:34,435 - craftBet -INFO - Browser closed
+2022-07-15 10:49:34,440 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:49:34,457 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:49:34,471 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:49:36,612 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:49:36,614 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:49:36,615 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:49:36,615 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:49:36,616 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:49:36,616 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:49:39,484 - craftBet -INFO - email passed
+2022-07-15 10:49:39,541 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:49:59,605 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:50:00,387 - craftBet -INFO - Browser closed
+2022-07-15 10:50:00,391 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:50:00,408 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:50:00,422 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:50:02,882 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:50:02,883 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:50:02,883 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:50:02,884 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:50:02,884 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:50:02,884 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:50:05,435 - craftBet -INFO - email passed
+2022-07-15 10:50:05,496 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:50:25,550 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:50:26,332 - craftBet -INFO - Browser closed
+2022-07-15 10:50:26,348 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:50:26,368 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:50:26,387 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:50:28,622 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:50:28,622 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:50:28,625 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:50:28,625 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:50:28,625 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:50:28,625 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:50:31,327 - craftBet -INFO - email passed
+2022-07-15 10:50:31,361 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:50:51,412 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:50:52,170 - craftBet -INFO - Browser closed
+2022-07-15 10:50:52,179 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:50:52,207 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:50:52,228 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:50:54,405 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:50:54,411 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:50:54,413 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:50:54,414 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:50:54,415 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:50:54,415 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:50:57,126 - craftBet -INFO - email passed
+2022-07-15 10:50:57,178 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:51:17,230 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:51:18,028 - craftBet -INFO - Browser closed
+2022-07-15 10:51:18,032 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:51:18,045 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:51:18,059 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:51:20,627 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:51:20,627 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:51:20,628 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:51:20,628 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:51:20,628 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:51:20,628 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:51:23,743 - craftBet -INFO - email passed
+2022-07-15 10:51:23,779 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:51:43,842 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:51:44,663 - craftBet -INFO - Browser closed
+2022-07-15 10:51:44,686 - craftBet -INFO - Login Test Suit test was finished
+2022-07-15 10:58:30,784 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:58:31,111 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:58:31,152 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:58:34,404 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:58:34,408 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:58:34,416 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:58:34,417 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:58:34,419 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:58:34,421 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:58:37,883 - craftBet -INFO - password recovery input passed: ---> g.babloyan@iqsoft.am
+2022-07-15 10:58:37,937 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:58:58,002 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:58:58,764 - craftBet -INFO - Browser closed
+2022-07-15 10:58:58,777 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:58:58,796 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:58:58,811 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:59:01,440 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:59:01,441 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:59:01,443 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:59:01,443 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:59:01,443 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:59:01,444 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:59:04,708 - craftBet -INFO - password recovery input passed: --->g.babloyan@iqsoft.am 
+2022-07-15 10:59:04,767 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:59:24,847 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:59:25,614 - craftBet -INFO - Browser closed
+2022-07-15 10:59:25,627 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:59:25,647 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:59:25,663 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:59:28,199 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:59:28,201 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:59:28,207 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:59:28,208 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:59:28,209 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:59:28,210 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:59:31,491 - craftBet -INFO - password recovery input passed: --->g .babloyan@iqsoft.am
+2022-07-15 10:59:31,534 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 10:59:51,592 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 10:59:52,354 - craftBet -INFO - Browser closed
+2022-07-15 10:59:52,357 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 10:59:52,373 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 10:59:52,387 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 10:59:54,741 - craftBet -INFO - Header page elements are initialized
+2022-07-15 10:59:54,741 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 10:59:54,742 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 10:59:54,743 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 10:59:54,743 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 10:59:54,744 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 10:59:57,512 - craftBet -INFO - password recovery input passed: --->g. babloyan@iqsoft.am
+2022-07-15 10:59:57,567 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:00:17,625 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:00:18,586 - craftBet -INFO - Browser closed
+2022-07-15 11:00:18,595 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:00:18,614 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:00:18,633 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:00:21,120 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:00:21,121 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:00:21,121 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:00:21,122 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:00:21,122 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:00:21,122 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:00:23,792 - craftBet -INFO - password recovery input passed: --->g.babloyan @iqsoft.am
+2022-07-15 11:00:23,837 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:00:43,895 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:00:44,719 - craftBet -INFO - Browser closed
+2022-07-15 11:00:44,723 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:00:44,740 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:00:44,755 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:00:47,493 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:00:47,494 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:00:47,494 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:00:47,495 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:00:47,495 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:00:47,497 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:00:50,060 - craftBet -INFO - password recovery input passed: --->g.babloyan@iqsoft.a m
+2022-07-15 11:00:50,120 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:01:10,172 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:01:10,944 - craftBet -INFO - Browser closed
+2022-07-15 11:01:10,959 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:01:10,981 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:01:10,995 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:01:15,256 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:01:15,257 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:01:15,259 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:01:15,259 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:01:15,259 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:01:15,260 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:01:18,455 - craftBet -INFO - password recovery input passed: --->1.0
+2022-07-15 11:01:18,525 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:01:38,617 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:01:39,394 - craftBet -INFO - Browser closed
+2022-07-15 11:01:39,422 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:01:39,459 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:01:39,479 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:01:43,281 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:01:43,284 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:01:43,285 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:01:43,285 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:01:43,286 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:01:43,290 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:01:46,154 - craftBet -INFO - password recovery input passed: --->123456.0
+2022-07-15 11:01:46,211 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:02:06,282 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:02:07,104 - craftBet -INFO - Browser closed
+2022-07-15 11:02:07,123 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:02:07,168 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:02:07,189 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:02:11,486 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:02:11,487 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:02:11,487 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:02:11,487 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:02:11,487 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:02:11,488 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:02:15,221 - craftBet -INFO - password recovery input passed: --->1.234567891E10
+2022-07-15 11:02:15,278 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:02:35,350 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:02:36,144 - craftBet -INFO - Browser closed
+2022-07-15 11:02:36,152 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:02:36,168 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:02:36,192 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:02:39,868 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:02:39,869 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:02:39,869 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:02:39,870 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:02:39,871 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:02:39,871 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:02:43,098 - craftBet -INFO - password recovery input passed: --->01abc01
+2022-07-15 11:02:43,192 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:03:03,266 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:03:04,336 - craftBet -INFO - Browser closed
+2022-07-15 11:03:04,341 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:03:04,359 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:03:04,378 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:03:08,401 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:03:08,403 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:03:08,405 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:03:08,405 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:03:08,406 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:03:08,406 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:03:11,522 - craftBet -INFO - password recovery input passed: --->0.1?2
+2022-07-15 11:03:11,572 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:03:31,623 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:03:32,553 - craftBet -INFO - Browser closed
+2022-07-15 11:03:32,558 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:03:32,575 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:03:32,592 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:03:34,991 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:03:34,991 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:03:34,992 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:03:34,992 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:03:34,992 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:03:34,993 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:03:38,264 - craftBet -INFO - password recovery input passed: --->1.0E-5
+2022-07-15 11:03:38,301 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:03:58,360 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:03:59,195 - craftBet -INFO - Browser closed
+2022-07-15 11:03:59,215 - craftBet -INFO - Login Test Suit test was finished
+2022-07-15 11:05:25,200 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:05:25,570 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:05:25,603 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:05:30,655 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:05:30,660 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:05:30,667 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:05:30,669 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:05:30,672 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:05:30,676 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:05:33,742 - craftBet -INFO - password recovery input passed: ---> g.babloyan@iqsoft.am<---
+2022-07-15 11:05:33,809 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:05:53,865 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:05:54,722 - craftBet -INFO - Browser closed
+2022-07-15 11:05:54,727 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:05:54,747 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:05:54,763 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:05:58,013 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:05:58,015 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:05:58,016 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:05:58,017 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:05:58,017 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:05:58,017 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:06:01,085 - craftBet -INFO - password recovery input passed: --->g.babloyan@iqsoft.am <---
+2022-07-15 11:06:01,131 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:07:06,017 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:07:06,317 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:07:06,347 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:07:10,745 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:07:10,749 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:07:10,759 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:07:10,761 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:07:10,763 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:07:10,769 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:07:13,958 - craftBet -INFO - password recovery input passed: --->1.0<---
+2022-07-15 11:07:13,996 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:32:43,854 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:32:45,697 - craftBet -INFO - Browser closed
+2022-07-15 11:32:45,709 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:32:46,746 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:32:46,759 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:32:51,833 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:32:51,834 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:32:51,836 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:32:51,836 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:32:51,837 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:32:51,838 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:32:55,385 - craftBet -INFO - password recovery input passed: --->123456.0<---
+2022-07-15 11:32:55,430 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:34:20,393 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:34:21,203 - craftBet -INFO - Browser closed
+2022-07-15 11:34:21,209 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:34:21,224 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:34:21,238 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:34:27,658 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:34:27,659 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:34:27,661 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:34:27,661 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:34:27,661 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:34:27,662 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:34:30,980 - craftBet -INFO - password recovery input passed: --->1.234567891E10<---
+2022-07-15 11:34:31,041 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 11:44:08,122 - craftBet -INFO - (Wrong recovery input) message received
+2022-07-15 11:44:29,531 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:44:29,858 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:44:29,893 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:44:34,476 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:44:34,486 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:44:34,497 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:44:34,499 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:44:34,501 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:44:34,503 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:48:24,491 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:48:24,845 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:48:24,898 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:48:29,289 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:48:29,292 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:48:29,298 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:48:29,299 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:48:29,305 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:48:29,307 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:56:23,462 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:56:23,846 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:56:23,888 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:56:29,008 - craftBet -INFO - Header page elements are initialized
+2022-07-15 11:56:29,012 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 11:56:29,024 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 11:56:29,026 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 11:56:29,028 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 11:56:29,030 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 11:58:58,774 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:58:59,216 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:58:59,253 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 11:59:57,397 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 11:59:57,707 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 11:59:57,737 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:00:02,119 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:00:02,124 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:00:02,132 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:00:02,133 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:00:02,137 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:00:02,139 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:00:08,729 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:00:08,794 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:00:48,978 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:00:50,021 - craftBet -INFO - Browser closed
+2022-07-15 12:00:50,031 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:00:50,050 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:00:50,066 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:00:53,434 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:00:53,444 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:00:53,447 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:00:53,449 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:00:53,454 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:00:53,456 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:02:11,337 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:02:11,648 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:02:11,684 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:02:17,264 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:02:17,270 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:02:17,279 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:02:17,280 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:02:17,282 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:02:17,286 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:02:31,359 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:02:31,439 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:03:11,498 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:03:12,563 - craftBet -INFO - Browser closed
+2022-07-15 12:03:12,580 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:03:12,607 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:03:12,624 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:03:16,795 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:03:16,796 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:03:16,798 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:03:16,807 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:03:16,808 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:03:16,811 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:03:20,574 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:03:20,630 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:04:37,685 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:04:52,444 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:04:52,775 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:04:52,810 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:04:57,758 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:04:57,770 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:04:57,782 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:04:57,784 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:04:57,791 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:04:57,796 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:05:15,070 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:05:15,388 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:05:15,421 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:05:20,077 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:05:20,080 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:05:20,089 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:05:20,090 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:05:20,092 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:05:20,093 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:05:23,165 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:05:23,242 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:06:04,445 - craftBet -INFO - Browser closed
+2022-07-15 12:06:04,458 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:06:04,481 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:06:04,498 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:06:08,572 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:06:08,574 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:06:08,575 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:06:08,576 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:06:08,577 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:06:08,579 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:06:11,414 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:06:11,472 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:06:23,350 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:06:23,687 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:06:23,723 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:06:28,301 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:06:28,308 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:06:28,317 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:06:28,319 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:06:28,323 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:06:28,327 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:06:42,850 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:06:43,180 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:06:43,216 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:06:48,155 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:06:48,159 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:06:48,166 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:06:48,167 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:06:48,171 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:06:48,173 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:06:51,193 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:06:51,232 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:09:56,380 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:10:05,096 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:10:05,482 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:10:05,522 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:10:10,036 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:10:10,042 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:10:10,048 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:10:10,051 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:10:10,056 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:10:10,057 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:10:13,731 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:10:13,789 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:10:53,874 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:11:14,581 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:11:22,545 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:11:22,907 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:11:22,947 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:11:27,379 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:11:27,385 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:11:27,394 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:11:27,395 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:11:27,402 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:11:27,406 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:11:30,245 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:11:30,308 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:12:50,097 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:14:10,762 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:14:17,998 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:14:18,383 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:14:18,419 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:14:23,563 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:14:23,567 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:14:23,582 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:14:23,584 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:14:23,590 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:14:23,594 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:14:30,098 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:14:30,250 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:14:33,830 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:14:34,689 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:14:35,432 - craftBet -INFO - Browser closed
+2022-07-15 12:14:35,441 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:14:35,467 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:14:35,484 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:14:39,444 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:14:39,445 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:14:39,447 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:14:39,447 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:14:39,448 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:14:39,448 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:14:42,495 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:14:42,583 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:15:01,246 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:15:01,536 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:15:01,577 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:15:05,978 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:15:05,982 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:15:05,993 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:15:05,995 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:15:05,997 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:15:05,998 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:15:09,193 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:15:09,248 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:15:10,015 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 1<---
+2022-07-15 12:15:10,017 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:15:11,024 - craftBet -INFO - Browser closed
+2022-07-15 12:15:11,031 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:15:11,053 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:15:11,082 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:15:14,699 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:15:14,700 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:15:14,701 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:15:14,701 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:15:14,701 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:15:14,702 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:15:17,747 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:15:17,791 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:15:46,301 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:15:46,683 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:15:46,727 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:15:53,407 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:15:53,429 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:15:53,441 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:15:53,443 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:15:53,446 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:15:53,447 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:16:08,998 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:16:09,444 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:16:09,481 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:16:14,565 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:16:14,573 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:16:14,582 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:16:14,583 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:16:14,589 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:16:14,591 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:16:37,008 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:16:37,050 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:16:37,426 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 1<---
+2022-07-15 12:16:37,428 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:16:38,413 - craftBet -INFO - Browser closed
+2022-07-15 12:16:38,440 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:16:38,477 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:16:38,495 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:16:42,490 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:16:42,499 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:16:42,509 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:16:42,510 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:16:42,514 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:16:42,514 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:17:07,529 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:17:07,567 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:17:47,627 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:17:47,627 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:17:48,516 - craftBet -INFO - Browser closed
+2022-07-15 12:17:48,534 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:17:48,602 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:17:48,624 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:17:52,451 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:17:52,456 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:17:52,458 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:17:52,459 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:17:52,459 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:17:52,460 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:18:25,857 - craftBet -INFO - password recovery input passed: --->2147483647<---
+2022-07-15 12:18:25,892 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:18:26,255 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 2147483647<---
+2022-07-15 12:18:26,256 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:18:27,091 - craftBet -INFO - Browser closed
+2022-07-15 12:18:27,107 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:18:27,130 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:18:27,145 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:18:30,416 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:18:30,417 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:18:30,418 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:18:30,418 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:18:30,418 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:18:30,420 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:18:33,550 - craftBet -INFO - password recovery input passed: --->123abc123<---
+2022-07-15 12:18:33,595 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:19:13,668 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:19:13,668 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:19:14,674 - craftBet -INFO - Browser closed
+2022-07-15 12:19:14,680 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:19:14,697 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:19:14,713 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:19:18,330 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:19:18,331 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:19:18,332 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:19:18,332 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:19:18,332 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:19:18,333 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:19:21,474 - craftBet -INFO - password recovery input passed: --->0.12/34?56<---
+2022-07-15 12:19:21,514 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:19:35,708 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:19:35,975 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:19:36,005 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:19:40,067 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:19:40,072 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:19:40,080 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:19:40,081 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:19:40,083 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:19:40,084 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:19:43,117 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:19:43,168 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:19:44,094 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 1<---
+2022-07-15 12:19:44,096 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:19:45,441 - craftBet -INFO - Browser closed
+2022-07-15 12:19:45,450 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:19:45,468 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:19:45,488 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:19:48,764 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:19:48,765 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:19:48,766 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:19:48,767 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:19:48,767 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:19:48,767 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:19:51,987 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:19:52,042 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:20:32,088 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:20:32,089 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:20:32,994 - craftBet -INFO - Browser closed
+2022-07-15 12:20:33,000 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:20:33,021 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:20:33,085 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:20:36,631 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:20:36,632 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:20:36,633 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:20:36,634 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:20:36,634 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:20:36,635 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:20:39,379 - craftBet -INFO - password recovery input passed: --->2147483647<---
+2022-07-15 12:20:39,415 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:20:39,995 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 2147483647<---
+2022-07-15 12:20:39,995 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:20:41,332 - craftBet -INFO - Browser closed
+2022-07-15 12:20:41,338 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:20:41,356 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:20:41,373 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:21:14,482 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:21:14,745 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:21:14,773 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:21:18,944 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:21:18,949 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:21:18,961 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:21:18,963 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:21:18,966 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:21:18,968 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:21:21,606 - craftBet -INFO - password recovery input passed: --->1<---
+2022-07-15 12:21:21,642 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:21:22,276 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 1<---
+2022-07-15 12:21:22,279 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:21:23,217 - craftBet -INFO - Browser closed
+2022-07-15 12:21:23,224 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:21:23,242 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:21:23,261 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:21:26,834 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:21:26,835 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:21:26,836 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:21:26,836 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:21:26,837 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:21:26,837 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:21:29,388 - craftBet -INFO - password recovery input passed: --->123456<---
+2022-07-15 12:21:29,425 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:22:09,530 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:22:09,530 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:22:11,026 - craftBet -INFO - Browser closed
+2022-07-15 12:22:11,044 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:22:11,071 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:22:11,089 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:22:15,329 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:22:15,330 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:22:15,331 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:22:15,331 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:22:15,332 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:22:15,332 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:22:18,752 - craftBet -INFO - password recovery input passed: --->2147483647<---
+2022-07-15 12:22:18,798 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:22:19,561 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 2147483647<---
+2022-07-15 12:22:19,562 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:22:20,611 - craftBet -INFO - Browser closed
+2022-07-15 12:22:20,620 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:22:20,642 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:22:20,657 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:23:01,188 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:23:01,511 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:23:01,562 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:23:06,283 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:23:06,286 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:23:06,293 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:23:06,294 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:23:06,296 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:23:06,297 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:23:09,424 - craftBet -INFO - password recovery input passed: --->2<---
+2022-07-15 12:23:09,486 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:23:09,962 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 2<---
+2022-07-15 12:23:09,964 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:23:11,246 - craftBet -INFO - Browser closed
+2022-07-15 12:23:11,251 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:23:11,272 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:23:11,290 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:23:15,016 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:23:15,016 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:23:15,017 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:23:15,018 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:23:15,018 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:23:15,019 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:23:17,781 - craftBet -INFO - password recovery input passed: --->23456<---
+2022-07-15 12:23:17,848 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:23:18,494 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 23456<---
+2022-07-15 12:23:18,494 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:23:19,488 - craftBet -INFO - Browser closed
+2022-07-15 12:23:19,504 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:23:19,528 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:23:19,545 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:23:22,844 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:23:22,844 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:23:22,845 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:23:22,845 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:23:22,846 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:23:22,846 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:23:25,915 - craftBet -INFO - password recovery input passed: --->2147483647<---
+2022-07-15 12:23:25,973 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:23:26,364 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 2147483647<---
+2022-07-15 12:23:26,365 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:23:27,324 - craftBet -INFO - Browser closed
+2022-07-15 12:23:27,342 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:23:27,371 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:23:27,388 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:23:30,390 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:23:30,390 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:23:30,391 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:23:30,391 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:23:30,392 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:23:30,392 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:23:33,336 - craftBet -INFO - password recovery input passed: --->123abc123<---
+2022-07-15 12:23:33,374 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:24:13,436 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:24:13,437 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:24:14,368 - craftBet -INFO - Browser closed
+2022-07-15 12:24:14,380 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:24:14,404 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:24:14,419 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:24:19,031 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:24:19,036 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:24:19,038 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:24:19,038 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:24:19,038 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:24:19,040 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:24:22,501 - craftBet -INFO - password recovery input passed: --->0.12/34?56<---
+2022-07-15 12:24:22,531 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:25:02,573 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:25:02,573 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:25:03,320 - craftBet -INFO - Browser closed
+2022-07-15 12:25:03,331 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:25:03,350 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:25:03,364 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:25:06,644 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:25:06,645 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:25:06,650 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:25:06,651 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:25:06,652 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:25:06,652 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:25:09,397 - craftBet -INFO - password recovery input passed: --->0<---
+2022-07-15 12:25:09,446 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:25:10,077 - craftBet -INFO - Success message: --->Recovery code successfully sent to mobile number 0<---
+2022-07-15 12:25:10,077 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:25:11,429 - craftBet -INFO - Browser closed
+2022-07-15 12:25:11,434 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:25:11,448 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:25:11,462 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:25:15,235 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:25:15,235 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:25:15,236 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:25:15,236 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:25:15,237 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:25:15,237 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:25:18,167 - craftBet -INFO - password recovery input passed: ---> g.babloyan@iqsoft.am<---
+2022-07-15 12:25:18,208 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:25:58,261 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:25:58,261 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:25:59,410 - craftBet -INFO - Browser closed
+2022-07-15 12:25:59,432 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:25:59,465 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:25:59,486 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:26:03,231 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:26:03,232 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:26:03,233 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:26:03,233 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:26:03,233 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:26:03,233 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:26:08,177 - craftBet -INFO - password recovery input passed: --->g.babloyan@iqsoft.am <---
+2022-07-15 12:26:08,205 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:26:48,255 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:26:48,255 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:26:49,100 - craftBet -INFO - Browser closed
+2022-07-15 12:26:49,115 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:26:49,137 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:26:49,152 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:26:52,304 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:26:52,305 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:26:52,306 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:26:52,306 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:26:52,306 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:26:52,307 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:26:57,039 - craftBet -INFO - password recovery input passed: --->g .babloyan@iqsoft.am<---
+2022-07-15 12:26:57,071 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:27:37,112 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:27:37,112 - craftBet -INFO - (Wrong recovery input message received
+2022-07-15 12:27:38,112 - craftBet -INFO - Browser closed
+2022-07-15 12:27:38,117 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:27:38,132 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:27:38,146 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:27:41,763 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:27:41,763 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:27:41,764 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:27:41,764 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:27:41,764 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:27:41,764 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:27:46,278 - craftBet -INFO - password recovery input passed: --->g. babloyan@iqsoft.am<---
+2022-07-15 12:27:46,320 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:28:22,834 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:28:23,083 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:28:23,111 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:28:27,350 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:28:27,353 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:28:27,364 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:28:27,365 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:28:27,367 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:28:27,369 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:28:30,081 - craftBet -INFO - password recovery input passed: --->2<---
+2022-07-15 12:28:30,118 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:28:52,880 - craftBet -INFO - Browser closed
+2022-07-15 12:28:52,904 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:28:52,945 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:28:52,972 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:28:56,712 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:28:56,714 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:28:56,716 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:28:56,716 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:28:56,717 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:28:56,717 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:28:59,647 - craftBet -INFO - password recovery input passed: --->23456<---
+2022-07-15 12:28:59,701 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:29:21,028 - craftBet -INFO - Browser closed
+2022-07-15 12:29:21,032 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:29:21,052 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:29:21,074 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:29:24,897 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:29:24,898 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:29:24,899 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:29:24,900 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:29:24,900 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:29:24,900 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:29:27,985 - craftBet -INFO - password recovery input passed: --->2147483647<---
+2022-07-15 12:29:28,033 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:29:49,266 - craftBet -INFO - Browser closed
+2022-07-15 12:29:49,283 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:29:49,308 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:29:49,326 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:29:52,539 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:29:52,539 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:29:52,540 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:29:52,540 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:29:52,541 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:29:52,541 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:29:55,132 - craftBet -INFO - password recovery input passed: --->123abc123<---
+2022-07-15 12:29:55,191 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:30:35,275 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:30:35,275 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:30:36,079 - craftBet -INFO - Browser closed
+2022-07-15 12:30:36,083 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:30:36,097 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:30:36,113 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:30:39,350 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:30:39,352 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:30:39,354 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:30:39,354 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:30:39,354 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:30:39,355 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:30:42,563 - craftBet -INFO - password recovery input passed: --->0.12/34?56<---
+2022-07-15 12:30:42,600 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:31:22,660 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:31:22,660 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:31:23,528 - craftBet -INFO - Browser closed
+2022-07-15 12:31:23,542 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:31:23,563 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:31:23,578 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:31:27,227 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:31:27,228 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:31:27,228 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:31:27,229 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:31:27,229 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:31:27,229 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:31:33,537 - craftBet -INFO - password recovery input passed: --->0<---
+2022-07-15 12:31:33,621 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:31:55,873 - craftBet -INFO - Browser closed
+2022-07-15 12:31:55,890 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:31:55,907 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:31:55,921 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:32:00,931 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:32:00,932 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:32:00,933 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:32:00,933 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:32:00,933 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:32:00,934 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:32:05,751 - craftBet -INFO - password recovery input passed: ---> g.babloyan@iqsoft.am<---
+2022-07-15 12:32:05,785 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:32:45,837 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:32:45,838 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:32:49,078 - craftBet -INFO - Browser closed
+2022-07-15 12:32:49,084 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:32:49,958 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:32:49,970 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:32:54,197 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:32:54,198 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:32:54,198 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:32:54,199 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:32:54,199 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:32:54,200 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:32:59,031 - craftBet -INFO - password recovery input passed: --->g.babloyan@iqsoft.am <---
+2022-07-15 12:32:59,075 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:33:39,129 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:33:39,129 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:33:40,019 - craftBet -INFO - Browser closed
+2022-07-15 12:33:40,030 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:33:40,047 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:33:40,062 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:33:43,484 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:33:43,485 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:33:43,485 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:33:43,485 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:33:43,486 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:33:43,486 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:33:48,261 - craftBet -INFO - password recovery input passed: --->g .babloyan@iqsoft.am<---
+2022-07-15 12:33:48,292 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:34:28,348 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:34:28,348 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:34:29,230 - craftBet -INFO - Browser closed
+2022-07-15 12:34:29,251 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:34:29,280 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:34:29,297 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:34:33,508 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:34:33,509 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:34:33,509 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:34:33,510 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:34:33,510 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:34:33,510 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 12:34:37,456 - craftBet -INFO - password recovery input passed: --->g. babloyan@iqsoft.am<---
+2022-07-15 12:34:37,487 - craftBet -INFO - Send me password Recovery Button was clicked
+2022-07-15 12:35:17,565 - craftBet -INFO - Success message: --->There is no mailSuccessMessage element<---
+2022-07-15 12:35:17,565 - craftBet -INFO - Wrong recovery input message received
+2022-07-15 12:35:18,451 - craftBet -INFO - Browser closed
+2022-07-15 12:35:18,456 - craftBet -INFO - Browser for test will be firefox as chosen
+2022-07-15 12:35:18,468 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using geckodriver 0.31.0 (resolved driver for Firefox 101)
+2022-07-15 12:35:18,569 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.gecko.driver as C:\Users\Nerses Khachatryan\.cache\selenium\geckodriver\win64\0.31.0\geckodriver.exe
+2022-07-15 12:35:23,382 - craftBet -INFO - Header page elements are initialized
+2022-07-15 12:35:23,383 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 12:35:23,383 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 12:35:23,383 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 12:35:23,384 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 12:35:23,384 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:02:43,668 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:02:45,480 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:02:45,519 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:02:52,015 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:02:52,019 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:02:52,027 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:02:52,029 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:02:52,031 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:02:52,034 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:02:56,719 - craftBet -INFO - username passed -->U1630367<--
+2022-07-15 13:02:56,821 - craftBet -INFO - password passed --> N3HU3<--
+2022-07-15 13:02:56,916 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:03:07,349 - craftBet -INFO - Browser closed
+2022-07-15 13:03:07,365 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:03:07,392 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:03:07,411 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:03:09,615 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:03:09,617 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:03:09,619 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:03:09,620 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:03:09,620 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:03:09,621 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:03:15,100 - craftBet -INFO - username passed -->U1630368<--
+2022-07-15 13:03:15,253 - craftBet -INFO - password passed -->N3HU3 <--
+2022-07-15 13:03:15,451 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:03:25,723 - craftBet -INFO - Browser closed
+2022-07-15 13:03:25,743 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:03:25,766 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:03:25,781 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:03:27,337 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:03:27,338 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:03:27,340 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:03:27,340 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:03:27,342 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:03:27,343 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:03:31,721 - craftBet -INFO - username passed -->U1630369<--
+2022-07-15 13:03:31,827 - craftBet -INFO - password passed -->N3H U3<--
+2022-07-15 13:03:31,910 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:03:42,127 - craftBet -INFO - Browser closed
+2022-07-15 13:03:42,136 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:03:42,183 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:03:42,218 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:03:44,946 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:03:44,947 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:03:44,950 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:03:44,950 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:03:44,950 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:03:44,951 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:03:48,988 - craftBet -INFO - username passed -->U1630370<--
+2022-07-15 13:03:49,086 - craftBet -INFO - password passed -->     <--
+2022-07-15 13:03:49,180 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:03:59,539 - craftBet -INFO - Browser closed
+2022-07-15 13:03:59,547 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:03:59,567 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:03:59,584 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:04:10,617 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:04:11,028 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:04:11,069 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:04:15,519 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:04:15,527 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:04:15,534 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:04:15,536 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:04:15,539 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:04:15,547 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:04:26,532 - craftBet -INFO - username passed -->U1630367<--
+2022-07-15 13:04:26,642 - craftBet -INFO - password passed --> N3HU3<--
+2022-07-15 13:04:26,746 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:04:38,104 - craftBet -INFO - Browser closed
+2022-07-15 13:04:38,114 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:04:38,135 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:04:38,162 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:04:40,985 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:04:40,987 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:04:40,989 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:04:40,989 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:04:40,990 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:04:40,991 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:04:44,636 - craftBet -INFO - username passed -->U1630368<--
+2022-07-15 13:04:44,756 - craftBet -INFO - password passed -->N3HU3 <--
+2022-07-15 13:04:44,870 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:04:55,412 - craftBet -INFO - Browser closed
+2022-07-15 13:04:55,437 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:04:55,488 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:04:55,505 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:04:57,517 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:04:57,518 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:04:57,519 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:04:57,519 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:04:57,520 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:04:57,520 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:05:00,872 - craftBet -INFO - username passed -->U1630369<--
+2022-07-15 13:05:00,997 - craftBet -INFO - password passed -->N3H U3<--
+2022-07-15 13:05:01,098 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:05:11,475 - craftBet -INFO - Browser closed
+2022-07-15 13:05:11,485 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:05:11,526 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:05:11,552 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:05:13,537 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:05:13,539 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:05:13,542 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:05:13,543 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:05:13,544 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:05:13,545 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:05:16,846 - craftBet -INFO - username passed -->U1630370<--
+2022-07-15 13:05:16,960 - craftBet -INFO - password passed -->     <--
+2022-07-15 13:05:17,086 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:05:27,524 - craftBet -INFO - Browser closed
+2022-07-15 13:05:27,543 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:05:27,585 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:05:27,605 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:05:30,114 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:05:30,120 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:05:30,121 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:05:30,121 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:05:30,122 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:05:30,122 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:05:33,695 - craftBet -INFO - username passed -->U1630371<--
+2022-07-15 13:05:33,813 - craftBet -INFO - password passed -->?N3HU3<--
+2022-07-15 13:05:33,900 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:05:44,307 - craftBet -INFO - Browser closed
+2022-07-15 13:05:44,313 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:05:44,331 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:05:44,348 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:05:46,937 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:05:46,938 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:05:46,939 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:05:46,939 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:05:46,940 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:05:46,942 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:05:50,264 - craftBet -INFO - username passed -->N3HU3<--
+2022-07-15 13:05:50,447 - craftBet -INFO - password passed -->U1630371<--
+2022-07-15 13:05:50,554 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:06:01,176 - craftBet -INFO - Browser closed
+2022-07-15 13:06:01,187 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:06:01,230 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:06:01,261 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:06:03,687 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:06:03,688 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:06:03,689 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:06:03,689 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:06:03,690 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:06:03,695 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:06:08,072 - craftBet -INFO - username passed -->2<--
+2022-07-15 13:06:08,270 - craftBet -INFO - password passed -->N3HU3<--
+2022-07-15 13:06:08,380 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:06:18,774 - craftBet -INFO - Browser closed
+2022-07-15 13:06:18,780 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:06:18,796 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:06:18,810 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:06:21,035 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:06:21,035 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:06:21,035 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:06:21,036 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:06:21,036 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:06:21,036 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:06:24,298 - craftBet -INFO - username passed -->U1630371<--
+2022-07-15 13:06:24,388 - craftBet -INFO - password passed -->2<--
+2022-07-15 13:06:24,479 - craftBet -INFO - Log In Button was clicked
+2022-07-15 13:06:35,254 - craftBet -INFO - Browser closed
+2022-07-15 13:06:35,283 - craftBet -INFO - Login Test Suit test was finished
+2022-07-15 13:16:08,236 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:08,630 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:08,679 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:12,635 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:12,637 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:12,648 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:12,649 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:12,705 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:12,721 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:16:16,216 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:16:16,357 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:16:16,553 - craftBet -INFO - InValid number was created and passed -->2
+2022-07-15 13:16:16,618 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:16:18,013 - craftBet -INFO - Browser closed
+2022-07-15 13:16:18,039 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:18,073 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:18,097 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:22,201 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:22,202 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:22,204 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:22,205 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:22,206 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:22,206 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:16:26,051 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:16:26,285 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:16:26,415 - craftBet -INFO - InValid number was created and passed -->23456
+2022-07-15 13:16:26,517 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:16:28,084 - craftBet -INFO - Browser closed
+2022-07-15 13:16:28,090 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:28,122 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:28,156 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:30,588 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:30,589 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:30,597 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:30,597 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:30,597 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:30,598 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:16:35,164 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:16:35,336 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:16:35,536 - craftBet -INFO - InValid number was created and passed -->123 45 6
+2022-07-15 13:16:35,606 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:16:36,996 - craftBet -INFO - Browser closed
+2022-07-15 13:16:37,003 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:37,037 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:37,055 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:39,020 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:39,021 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:39,022 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:39,022 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:39,023 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:39,029 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:16:42,733 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:16:43,052 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:16:43,271 - craftBet -INFO - InValid number was created and passed -->123/45/6
+2022-07-15 13:16:43,354 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:16:44,695 - craftBet -INFO - Browser closed
+2022-07-15 13:16:44,699 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:44,719 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:44,735 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:48,089 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:48,090 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:48,097 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:48,097 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:48,098 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:48,102 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:16:52,351 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:16:52,554 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:16:52,682 - craftBet -INFO - InValid number was created and passed -->123456
+2022-07-15 13:16:52,734 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:16:54,041 - craftBet -INFO - Browser closed
+2022-07-15 13:16:54,067 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:16:54,121 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:16:54,140 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:16:57,715 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:16:57,716 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:16:57,716 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:16:57,716 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:16:57,717 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:16:57,718 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:17:01,333 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:17:01,456 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:17:01,689 - craftBet -INFO - InValid number was created and passed -->123+45-6
+2022-07-15 13:17:01,748 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:17:03,248 - craftBet -INFO - Browser closed
+2022-07-15 13:17:03,254 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:17:03,287 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:17:03,318 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:17:05,500 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:17:05,501 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:17:05,514 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:17:05,514 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:17:05,515 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:17:05,515 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:17:08,748 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:17:08,918 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:17:09,146 - craftBet -INFO - InValid number was created and passed -->123456
+2022-07-15 13:17:09,230 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:17:10,663 - craftBet -INFO - Browser closed
+2022-07-15 13:17:10,669 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-15 13:17:10,702 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+2022-07-15 13:17:10,732 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\Nerses Khachatryan\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
+2022-07-15 13:17:12,790 - craftBet -INFO - Header page elements are initialized
+2022-07-15 13:17:12,798 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-15 13:17:12,800 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-15 13:17:12,801 - craftBet -INFO - Footer Page elements are initialized
+2022-07-15 13:17:12,802 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-15 13:17:12,802 - craftBet -INFO - Casino Page elements are initialized
+2022-07-15 13:17:16,952 - craftBet -INFO - Mobile was selected From Email/Mobile DropDown 
+2022-07-15 13:17:17,188 - craftBet -INFO - Am+374 was selected From Email/Mobile DropDown 
+2022-07-15 13:17:17,499 - craftBet -INFO - InValid number was created and passed --> 1 2 3 4 5 6 7 
+2022-07-15 13:17:17,603 - craftBet -INFO - Terms and Conditions checkbox was selected
+2022-07-15 13:17:18,911 - craftBet -INFO - Browser closed
+2022-07-15 13:17:18,934 - craftBet -INFO - Login Test Suit test was finished

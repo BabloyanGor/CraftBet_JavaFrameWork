@@ -1,55 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utilities.Reporting"/>
-    <listener class-name="utilities.ReportingAllure"/>
-  </listeners>
-  <test thread-count="5" name="testCases.LoginPopUpTest(failed)">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="craftBetAutomation(failed)">
     <classes>
-      <class name="testCases.SignUpQuickRegisterTest">
-        <methods>
-          <include name="SignUpPopUpQuickFullRegistrationButtonFunctionality"/>
-          <include name="SignUpPopUpQuickRegisterWithEmailNegativeTest"/>
-          <include name="SignUpPopUpQuickRegisterWithMobileNegativeTest"/>
-          <include name="SignUpPopUpCloseButtonFunctionality"/>
-          <include name="SignUpPopUpQuickRegisterWithMobilePositiveTest"/>
-          <include name="goToLoginPopUp"/>
-          <include name="finish"/>
-          <include name="setup"/>
-          <include name="SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test"/>
-          <include name="SignUpPopUpQuickRegisterLogoPresenceVerification_Test"/>
-          <include name="SignUpPopUpQuickRegisterRegisterPrivacyPolicy"/>
-          <include name="SignUpPopUpTermsAndConditionsLinkFunctionality"/>
-          <include name="SignUpPopUpQuickRegisterWithEmailPositiveTest"/>
-          <include name="SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test"/>
-          <include name="SignUpPopUpQuickRegisterLabelsPresenceVerification_Test"/>
-          <include name="tearDown"/>
-          <include name="SignUpPopUpLogInLinkFunctionality"/>
-        </methods>
-      </class> <!-- testCases.SignUpQuickRegisterTest -->
       <class name="testCases.LoginPopUpTest">
         <methods>
           <include name="loginPopUpLabelsPresenceVerification_Test"/>
           <include name="loginPopUpEyeButtonFunctionality_Test"/>
-          <include name="loginPopUpCheckBoxClickAbility_Test"/>
-          <include name="loginPopUpLogInPositiveTest"/>
+          <include name="loginPopUpCloseButtonFunctionality_Test"/>
           <include name="finish"/>
+          <include name="loginPopUpLogInPositiveTest"/>
+          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="loginPopUpLogoPresenceVerification_Test"/>
+          <include name="loginPopUpLogInNegativeTest"/>
           <include name="goToLoginPopUp"/>
           <include name="loginPopUpRememberMeLabelClickAbility_Test"/>
+          <include name="loginPopUpErrorMessageValidationInvalidPassword"/>
+          <include name="loginPopUpForgotPasswordLink_Test"/>
+          <include name="loginPopUpCheckBoxClickAbility_Test"/>
+          <include name="tearDown"/>
+          <include name="loginPopUpSignUpLink_Test"/>
         </methods>
       </class> <!-- testCases.LoginPopUpTest -->
-      <class name="testCases.PasswordRecoveryTest">
-        <methods>
-          <include name="RecoveryPopUpSupportLink_Test"/>
-          <include name="goToLoginPopUp"/>
-          <include name="finish"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testCases.PasswordRecoveryTest -->
     </classes>
-  </test> <!-- testCases.LoginPopUpTest(failed) -->
-</suite> <!-- Failed suite [All Test Suite] -->
+  </test> <!-- craftBetAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

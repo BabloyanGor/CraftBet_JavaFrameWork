@@ -85,6 +85,7 @@ public class CraftBet_Login_PopUp_Page extends BasePage {
     @CacheLookup
     WebElement loginPopUpErrorMessage;
 
+
     public String getLoginPopUpHeader() {
         try{
             return basePage.getText(loginPopUpHeader);

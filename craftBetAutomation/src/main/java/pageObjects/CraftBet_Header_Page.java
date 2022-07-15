@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class CraftBet_Header_Page extends BasePage {
     private final BasePage basePage;
 
@@ -12,6 +14,41 @@ public class CraftBet_Header_Page extends BasePage {
         super(driver);
         basePage = new BasePage(driver);
     }
+
+
+    @FindBy(xpath = "")
+    @CacheLookup
+    List<WebElement> HeaderMenuLinks;
+    public void clickOnHeaderMenuLinks() {
+        for(WebElement link:HeaderMenuLinks){
+            try{
+                basePage.waitElementToBeVisible(link);
+                basePage.javaScriptClick(link);
+            }
+            catch(Exception e){
+
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @FindBy(xpath = "//div[@class='header-section_topPanel_left']")
@@ -63,7 +100,7 @@ public class CraftBet_Header_Page extends BasePage {
 
         }
     }
-    
+
     @FindBy(xpath = "//a[text()=' Asian Sport ']")
     @CacheLookup
     WebElement linkVirtualSport;

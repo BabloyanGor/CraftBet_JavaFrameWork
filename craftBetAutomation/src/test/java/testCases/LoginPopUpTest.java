@@ -3,11 +3,16 @@ package testCases;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class
 
@@ -21,9 +26,9 @@ LoginPopUpTest extends BaseTest {
     }
 
     @Test(priority = 1, description = "Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
-    " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
+            " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
     @Description("Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me," +
-    " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
+            " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpLabelsPresenceVerification_Test() {
         String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
@@ -183,6 +188,21 @@ LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInNegativeTest(String dataUsername, String dataPassword) {
+        try {
+            double invalidDoubleDataUsername = Double.parseDouble(dataUsername);
+            int invalidIntDataUsername = (int) invalidDoubleDataUsername;
+            dataUsername = String.valueOf(invalidIntDataUsername);
+        } catch (Exception e) {
+            //invalidStringData = data;
+        }
+        try{
+            double invalidDoubleDataPassword = Double.parseDouble(dataPassword);
+            int invalidIntDataPassword = (int) invalidDoubleDataPassword;
+            dataPassword = String.valueOf(invalidIntDataPassword);
+        }
+        catch (Exception e){
+
+        }
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(dataUsername);
         logger.info("username passed -->" + dataUsername + "<--");
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys(dataPassword);
@@ -200,12 +220,31 @@ LoginPopUpTest extends BaseTest {
         }
     }
 
+    //    @DataProvider(name = "invalidLoginData")
+//    public Object[][] loginData() {
+//        Object invalidLoginData[][] = {{"U1630370", "N3 HU3"}, {"U1630370", "N3HU3 "}, {"U1630370", " N3HU3"}, {"U1630370", "     "}, {"U1630370", "?N3HU3"},
+//                {"U1630370 ", "N3HU3"}, {"U163 0370", "N3HU3"}, {" U1630370", "N3HU3"}, {"        ", "N3HU3"}, {"?U1630370", "N3HU3"}};
+//        return invalidLoginData;
+//    }
     @DataProvider(name = "invalidLoginData")
-    public Object[][] loginData() {
-        Object invalidLoginData[][] = {{"U1630370", "N3 HU3"}, {"U1630370", "N3HU3 "}, {"U1630370", " N3HU3"}, {"U1630370", "     "}, {"U1630370", "?N3HU3"},
-                {"U1630370 ", "N3HU3"}, {"U163 0370", "N3HU3"}, {" U1630370", "N3HU3"}, {"        ", "N3HU3"}, {"?U1630370", "N3HU3"}};
-        return invalidLoginData;
+    Object[][] loginDataInvalid() throws IOException {
+        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet sheet = workbook.getSheet("LoginInvalidData");
+        //XSSFSheet sheet = workbook.getSheetAt(0);
+        int numberOfRow = sheet.getLastRowNum();
+        int numberOfCol = sheet.getRow(0).getLastCellNum();
+
+        String[][] arr = new String[numberOfRow][numberOfCol];
+        for (int i = 1; i <= numberOfRow; i++) {
+            for (int j = 0; j < numberOfCol; j++) {
+                arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+            }
+        }
+        file.close();
+        return arr;
     }
+
 
     @Test(priority = 11, description = "Validate on Log_in Pop Up Error message with invalid password")
     @Description("Validate on Log_in Pop Up error message with invalid password")

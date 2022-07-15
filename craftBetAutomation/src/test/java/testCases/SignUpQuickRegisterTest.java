@@ -4,11 +4,16 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class SignUpQuickRegisterTest extends BaseTest {
     SoftAssert softAssert = new SoftAssert();
@@ -275,13 +280,22 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up sign up with Invalid Phone number")
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickRegisterWithMobileNegativeTest(String number) throws InterruptedException {
+        try {
+            double invalidDoubleData = Double.parseDouble(number);
+            int invalidIntData = (int) invalidDoubleData;
+            //invalidStringData = String.valueOf(invalidIntData);
+            number = String.valueOf(invalidIntData);
+        } catch (Exception e) {
+            //invalidStringData = data;
+        }
+
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
         logger.info("Mobile was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.clickOnMobileDropDownQ();
         craftBet_signUp_popUp_page.clickOnMobileArmQ();
         logger.info("Am+374 was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysMobileInputQ(number);
-        logger.info("InValid number was created and passed -->"+ number);
+        logger.info("InValid number was created and passed -->"+ number+"<--");
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
         logger.info("Terms and Conditions checkbox was selected");
         Thread.sleep(1000);
@@ -289,14 +303,32 @@ public class SignUpQuickRegisterTest extends BaseTest {
         //softAssert.assertEquals(craftBet_signUp_popUp_page.getAttributeClassButtonRegisterQ(), "craft_btn reg_btn active-item");
     }
 
-
     @DataProvider(name = "invalidMobileData")
-    public Object[][] invalidSignUpDataMobile() {
+    Object[][] invalidSignUpDataMobile() throws IOException {
+        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet sheet = workbook.getSheet("SignUpQuickInvalidNumber");
+        //XSSFSheet sheet = workbook.getSheetAt(0);
+        int numberOfRow = sheet.getLastRowNum();
+        int numberOfCol = sheet.getRow(0).getLastCellNum();
 
-        Object invalidLoginData[][] = {{"123 45 6"},{"123/45/6"},{"123456  "},
-                                       {"123+45-6"},{"123456"},  {" 1 2 3 4 5 6 7 "}};
-        return invalidLoginData;
+        String[][] arr = new String[numberOfRow][numberOfCol];
+        for (int i = 1; i <= numberOfRow; i++) {
+            for (int j = 0; j < numberOfCol; j++) {
+                arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+            }
+        }
+        file.close();
+        return arr;
     }
+
+//    @DataProvider(name = "invalidMobileData")
+//    public Object[][] invalidSignUpDataMobile() {
+//
+//        Object invalidLoginData[][] = {{"123 45 6"},{"123/45/6"},{"123456  "},
+//                                       {"123+45-6"},{"123456"},  {" 1 2 3 4 5 6 7 "}};
+//        return invalidLoginData;
+//    }
 
 
 

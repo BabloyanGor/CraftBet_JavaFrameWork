@@ -3,12 +3,17 @@ package testCases;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObjects.BasePage;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 
 public class PasswordRecoveryTest extends BaseTest{
     SoftAssert softAssert = new SoftAssert();
@@ -103,29 +108,57 @@ public class PasswordRecoveryTest extends BaseTest{
     @Test(priority = 5, dataProvider = "invalidRecoveryData", description = "Validate on Password recovery pop up functionality of Recovery with invalid credentials")
     @Description("Validate on Password recovery pop up functionality of Recovery with invalid credentials")
     @Severity(SeverityLevel.BLOCKER)
-    public void RecoveryPopUpNegativeTest(String dataEmail) {
-        craftBet_passwordRecovery_page.sendKeysToEmailPhoneInput(dataEmail);
-        logger.info("email passed");
+    public void RecoveryPopUpNegativeTest(String data) {
+        try {
+            double invalidDoubleData = Double.parseDouble(data);
+            int invalidIntData = (int) invalidDoubleData;
+            //invalidStringData = String.valueOf(invalidIntData);
+            data = String.valueOf(invalidIntData);
+        } catch (Exception e) {
+            //invalidStringData = data;
+        }
+        craftBet_passwordRecovery_page.sendKeysToEmailPhoneInput(data);
+        logger.info("password recovery input passed: --->" + data + "<---");
         craftBet_passwordRecovery_page.clickOnSendMeRecoveryButton();
         logger.info("Send me password Recovery Button was clicked");
-        String actErrorMessage = craftBet_passwordRecovery_page.getErrorMessage();
 
-        if (actErrorMessage.equals("Wrong recovery input")){
+        if (craftBet_passwordRecovery_page.getMailSuccessMessage().equals("There is no mailSuccessMessage element")||craftBet_passwordRecovery_page.getErrorMessage().equals("Wrong recovery input") ) {
+            logger.info("Success message: --->" + craftBet_passwordRecovery_page.getMailSuccessMessage() + "<---");
+            logger.info("Success message: --->" + craftBet_passwordRecovery_page.getErrorMessage() + "<---");
             Assert.assertTrue(true);
-            logger.info("(Wrong recovery input) message received");
-        }
-        else{
+            logger.info("Wrong recovery input message received");
+        } else {
             Assert.assertTrue(false);
-            logger.info("(Wrong recovery input) message not received");
+            logger.info("Success message: --->" + craftBet_passwordRecovery_page.getMailSuccessMessage() + "<---");
+            logger.info("Success message: --->" + craftBet_passwordRecovery_page.getErrorMessage() + "<---");
+            logger.info("Wrong recovery input message not received");
         }
     }
 
     @DataProvider(name = "invalidRecoveryData")
-    public Object[][] RecoveryInvalidData() {
-        Object invalidRecoveryData[][] = {{" g.babloyan@iqsoft.am"}, {"g.babloyan@iqsoft.am "}, {"g .babloyan@iqsoft.am"},
-                                          {"g. babloyan@iqsoft.am"}, {"g.babloyan @iqsoft.am"},{"g.babloyan@iqsoft.a m"}};
-        return invalidRecoveryData;
+    Object[][] RecoveryInvalidData() throws IOException {
+        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(file);
+        XSSFSheet sheet = workbook.getSheet("PasswordRecoveryInvalidData");
+        //XSSFSheet sheet = workbook.getSheetAt(0);
+        int numberOfRow = sheet.getLastRowNum();
+        int numberOfCol = sheet.getRow(0).getLastCellNum();
+
+        String[][] arr = new String[numberOfRow][numberOfCol];
+        for (int i = 1; i <= numberOfRow; i++) {
+            for (int j = 0; j < numberOfCol; j++) {
+                arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+            }
+        }
+        file.close();
+        return arr;
     }
+//    @DataProvider(name = "invalidRecoveryData")
+//    public Object[][] RecoveryInvalidData() {
+//        Object invalidRecoveryData[][] = {{" g.babloyan@iqsoft.am"}, {"g.babloyan@iqsoft.am "}, {"g .babloyan@iqsoft.am"},
+//                                          {"g. babloyan@iqsoft.am"}, {"g.babloyan @iqsoft.am"},{"g.babloyan@iqsoft.a m"}};
+//        return invalidRecoveryData;
+//    }
 
 
 
