@@ -109,14 +109,14 @@ public class PasswordRecoveryTest extends BaseTest{
     @Description("Validate on Password recovery pop up functionality of Recovery with invalid credentials")
     @Severity(SeverityLevel.BLOCKER)
     public void RecoveryPopUpNegativeTest(String data) {
-        try {
-            double invalidDoubleData = Double.parseDouble(data);
-            int invalidIntData = (int) invalidDoubleData;
-            //invalidStringData = String.valueOf(invalidIntData);
-            data = String.valueOf(invalidIntData);
-        } catch (Exception e) {
-            //invalidStringData = data;
-        }
+//        try {
+//            double invalidDoubleData = Double.parseDouble(data);
+//            int invalidIntData = (int) invalidDoubleData;
+//            //invalidStringData = String.valueOf(invalidIntData);
+//            data = String.valueOf(invalidIntData);
+//        } catch (Exception e) {
+//            //invalidStringData = data;
+//        }
         craftBet_passwordRecovery_page.sendKeysToEmailPhoneInput(data);
         logger.info("password recovery input passed: --->" + data + "<---");
         craftBet_passwordRecovery_page.clickOnSendMeRecoveryButton();
@@ -137,7 +137,7 @@ public class PasswordRecoveryTest extends BaseTest{
 
     @DataProvider(name = "invalidRecoveryData")
     Object[][] RecoveryInvalidData() throws IOException {
-        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        FileInputStream file = new FileInputStream("D:\\IQsoft\\Git_craftBet_javaFrameworkMavenTestNG\\CraftBet_MyFrameWork\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("PasswordRecoveryInvalidData");
         //XSSFSheet sheet = workbook.getSheetAt(0);
@@ -148,6 +148,14 @@ public class PasswordRecoveryTest extends BaseTest{
         for (int i = 1; i <= numberOfRow; i++) {
             for (int j = 0; j < numberOfCol; j++) {
                 arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+                try {
+                    double invalidDoubleData = Double.parseDouble(arr[i - 1][j]);
+                    int invalidIntData = (int) invalidDoubleData;
+                    //invalidStringData = String.valueOf(invalidIntData);
+                    arr[i - 1][j] = String.valueOf(invalidIntData);
+                } catch (Exception e) {
+                    //invalidStringData = data;
+                }
             }
         }
         file.close();

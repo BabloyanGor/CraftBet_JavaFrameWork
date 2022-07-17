@@ -3,26 +3,16 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="craftBetAutomation(failed)">
     <classes>
-      <class name="testCases.LoginPopUpTest">
+      <class name="testCases.PasswordRecoveryTest">
         <methods>
-          <include name="loginPopUpLabelsPresenceVerification_Test"/>
-          <include name="loginPopUpEyeButtonFunctionality_Test"/>
-          <include name="loginPopUpCloseButtonFunctionality_Test"/>
+          <include name="RecoveryPopUpSupportLink_Test"/>
+          <include name="RecoveryPopUpNegativeTest" invocation-numbers="0 1 2 5 11"/>
           <include name="finish"/>
-          <include name="loginPopUpLogInPositiveTest"/>
-          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
-          <include name="setup"/>
-          <include name="loginPopUpLogoPresenceVerification_Test"/>
-          <include name="loginPopUpLogInNegativeTest"/>
           <include name="goToLoginPopUp"/>
-          <include name="loginPopUpRememberMeLabelClickAbility_Test"/>
-          <include name="loginPopUpErrorMessageValidationInvalidPassword"/>
-          <include name="loginPopUpForgotPasswordLink_Test"/>
-          <include name="loginPopUpCheckBoxClickAbility_Test"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="loginPopUpSignUpLink_Test"/>
         </methods>
-      </class> <!-- testCases.LoginPopUpTest -->
+      </class> <!-- testCases.PasswordRecoveryTest -->
     </classes>
   </test> <!-- craftBetAutomation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

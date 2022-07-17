@@ -188,21 +188,7 @@ LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Log_In functionality with invalid data")
     @Severity(SeverityLevel.BLOCKER)
     public void loginPopUpLogInNegativeTest(String dataUsername, String dataPassword) {
-        try {
-            double invalidDoubleDataUsername = Double.parseDouble(dataUsername);
-            int invalidIntDataUsername = (int) invalidDoubleDataUsername;
-            dataUsername = String.valueOf(invalidIntDataUsername);
-        } catch (Exception e) {
-            //invalidStringData = data;
-        }
-        try{
-            double invalidDoubleDataPassword = Double.parseDouble(dataPassword);
-            int invalidIntDataPassword = (int) invalidDoubleDataPassword;
-            dataPassword = String.valueOf(invalidIntDataPassword);
-        }
-        catch (Exception e){
 
-        }
         craftBet_login_popUp_page.loginPopUpEmailOrUsernameSendKeys(dataUsername);
         logger.info("username passed -->" + dataUsername + "<--");
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys(dataPassword);
@@ -228,7 +214,7 @@ LoginPopUpTest extends BaseTest {
 //    }
     @DataProvider(name = "invalidLoginData")
     Object[][] loginDataInvalid() throws IOException {
-        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        FileInputStream file = new FileInputStream("D:\\IQsoft\\Git_craftBet_javaFrameworkMavenTestNG\\CraftBet_MyFrameWork\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("LoginInvalidData");
         //XSSFSheet sheet = workbook.getSheetAt(0);
@@ -239,6 +225,14 @@ LoginPopUpTest extends BaseTest {
         for (int i = 1; i <= numberOfRow; i++) {
             for (int j = 0; j < numberOfCol; j++) {
                 arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+                try {
+                    double invalidDoubleDataUsername = Double.parseDouble(arr[i - 1][j]);
+                    int invalidIntDataUsername = (int) invalidDoubleDataUsername;
+                    arr[i - 1][j] = String.valueOf(invalidIntDataUsername);
+                } catch (Exception e) {
+                    arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+
+                }
             }
         }
         file.close();

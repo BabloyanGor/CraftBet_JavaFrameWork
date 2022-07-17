@@ -8,6 +8,7 @@
     <artifactId>craftBetAutomation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -35,12 +36,8 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-
         </plugins>
-
     </build>
-
-
     <pluginRepositories>
         <pluginRepository>
             <id>OurNexus</id>
@@ -51,9 +48,23 @@
             <url>https://repo.maven.apache.org/maven2/</url>
         </pluginRepository>
     </pluginRepositories>
-
-
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<!--        <dependency>-->
+<!--            <groupId>org.aspectj</groupId>-->
+<!--            <artifactId>aspectjweaver</artifactId>-->
+<!--            <version>1.9.9.1</version>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>ru.yandex.qatools.allure</groupId>-->
+<!--            <artifactId>allure-testng-adaptor</artifactId>-->
+<!--            <version>1.5.4</version>-->
+<!--        </dependency>-->
+
+<!--kmkmkmkmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm-->
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>

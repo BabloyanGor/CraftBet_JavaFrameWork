@@ -197,19 +197,17 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickFullRegistrationButtonFunctionality() throws InterruptedException {
 
-        softAssert.assertEquals(craftBet_signUp_popUp_page.getTitleQ() ,"Quick Register");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTitleQ(), "Quick Register");
         logger.info("Quick Register Title was captured");
         craftBet_signUp_popUp_page.clickOnButtonFullRegistration();
         logger.info("Full Registration button was clicked");
-        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelFirstName() ,"First name");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelFirstName(), "First name");
         logger.info("Full Register First Name label was captured");
         craftBet_signUp_popUp_page.clickOnButtonQuickRegistration();
-        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ() ,"Email");
+        softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ(), "Email");
 
         softAssert.assertAll();
     }
-
-
 
 
     @Test(priority = 20, description = "Validate on Sign Up Pop Up sign up with valid Email")
@@ -224,11 +222,11 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("Terms and Conditions checkbox was selected");
         craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
         logger.info("Register button was clicked");
-        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(),true);
+        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), true);
 
     }
 
-    @Test(priority = 21, dataProvider ="invalidData",description = "Validate on Sign Up Pop Up sign up with valid Email")
+    @Test(priority = 21, dataProvider = "invalidData", description = "Validate on Sign Up Pop Up sign up with valid Email")
     @Description("Validate on Sign Up Pop Up sign up with valid Email")
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickRegisterWithEmailNegativeTest(String invalidEmail) {
@@ -250,7 +248,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("Register button clicked");
         String errorMessage = craftBet_signUp_popUp_page.getTextErrorMessage();
         logger.info("Error message captured");
-        Assert.assertEquals(errorMessage,"Invalid email address");
+        Assert.assertEquals(errorMessage, "Invalid email address");
     }
 
     @DataProvider(name = "invalidData")
@@ -282,7 +280,6 @@ public class SignUpQuickRegisterTest extends BaseTest {
 //    }
 
 
-
     @Test(priority = 30, description = "Validate on Sign Up Pop Up sign up with valid Phone number")
     @Description("Validate on Sign Up Pop Up sign up with valid Phone number")
     @Severity(SeverityLevel.BLOCKER)
@@ -298,7 +295,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
         logger.info("Terms and Conditions checkbox was selected");
         craftBet_signUp_popUp_page.clickOnButtonRegisterQ();
         logger.info("Register button was clicked");
-        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(),true);
+        Assert.assertEquals(craftBet_header_page.userIdLabelIsEnabled(), true);
 
     }
 
@@ -306,22 +303,13 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up sign up with Invalid Phone number")
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickRegisterWithMobileNegativeTest(String number) throws InterruptedException {
-        try {
-            double invalidDoubleData = Double.parseDouble(number);
-            int invalidIntData = (int) invalidDoubleData;
-            //invalidStringData = String.valueOf(invalidIntData);
-            number = String.valueOf(invalidIntData);
-        } catch (Exception e) {
-            //invalidStringData = data;
-        }
-
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Mobile");
         logger.info("Mobile was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.clickOnMobileDropDownQ();
         craftBet_signUp_popUp_page.clickOnMobileArmQ();
         logger.info("Am+374 was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysMobileInputQ(number);
-        logger.info("InValid number was created and passed -->"+ number+"<--");
+        logger.info("InValid number was created and passed -->" + number + "<--");
         craftBet_signUp_popUp_page.clickOnCheckBoxTermsConditionsQ();
         logger.info("Terms and Conditions checkbox was selected");
         Thread.sleep(1000);
@@ -331,7 +319,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
     @DataProvider(name = "invalidMobileData")
     Object[][] invalidSignUpDataMobile() throws IOException {
-        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        FileInputStream file = new FileInputStream("D:\\IQsoft\\Git_craftBet_javaFrameworkMavenTestNG\\CraftBet_MyFrameWork\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("SignUpQuickInvalidNumber");
         //XSSFSheet sheet = workbook.getSheetAt(0);
@@ -342,6 +330,14 @@ public class SignUpQuickRegisterTest extends BaseTest {
         for (int i = 1; i <= numberOfRow; i++) {
             for (int j = 0; j < numberOfCol; j++) {
                 arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();//1 0 0
+                try {
+                    double invalidDoubleData = Double.parseDouble(arr[i - 1][j]);
+                    int invalidIntData = (int) invalidDoubleData;
+                    //invalidStringData = String.valueOf(invalidIntData);
+                    arr[i - 1][j] = String.valueOf(invalidIntData);
+                } catch (Exception e) {
+                    arr[i - 1][j] = sheet.getRow(i).getCell(j).toString();
+                }
             }
         }
         file.close();
@@ -357,21 +353,8 @@ public class SignUpQuickRegisterTest extends BaseTest {
 //    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     //Abc.example.com no @ character
-    public String generateRandomEmailInValid1(){
+    public String generateRandomEmailInValid1() {
         String randomEmail;
         String generatedString = RandomStringUtils.randomAlphanumeric(10);
         randomEmail = generatedString + ".gmail.com";
@@ -379,47 +362,47 @@ public class SignUpQuickRegisterTest extends BaseTest {
     }
 
     //A@b@c@example.com   only one @ is allowed outside quotation marks
-    public String generateRandomEmailInValid2(){
+    public String generateRandomEmailInValid2() {
         String randomEmail;
         String generatedString1 = RandomStringUtils.randomAlphanumeric(5);
         String generatedString2 = RandomStringUtils.randomAlphanumeric(5);
-        randomEmail = generatedString1+"@"+generatedString2 + "@gmail.com";
+        randomEmail = generatedString1 + "@" + generatedString2 + "@gmail.com";
         return randomEmail;
     }
 
     //a"b(c)d,e:f;g<h>i[j\k]l@example.com    ( "  none of the special characters in this local-part are allowed outside quotation marks )
-    public String generateRandomEmailInValid3(){
+    public String generateRandomEmailInValid3() {
         String randomEmail;
         String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
         String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
-        randomEmail = generatedString1+"\\"+ generatedString2 + "@gmail.com";
+        randomEmail = generatedString1 + "\\" + generatedString2 + "@gmail.com";
         return randomEmail;
     }
 
     // just"not"right@example.com (quoted strings must be dot separated or the only element making up the local-part)
-    public String generateRandomEmailInValid4(){
+    public String generateRandomEmailInValid4() {
         String randomEmail;
         String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
         String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
-        randomEmail = generatedString1+"\""+generatedString2+ "@gmail.com";
+        randomEmail = generatedString1 + "\"" + generatedString2 + "@gmail.com";
         return randomEmail;
     }
 
     //this is"not\allowed@example.com (spaces, quotes, and backslashes may only exist when within quoted strings and preceded by a backslash)
-    public String generateRandomEmailInValid5(){
+    public String generateRandomEmailInValid5() {
         String randomEmail;
         String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
         String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
-        randomEmail = generatedString1+" "+generatedString2+ "@gmail.com";
+        randomEmail = generatedString1 + " " + generatedString2 + "@gmail.com";
         return randomEmail;
     }
 
     //i_like_underscore@but_its_not_allowed_in_this_part.example.com (Underscore is not allowed in domain part)
-    public String generateRandomEmailInValid6(){
+    public String generateRandomEmailInValid6() {
         String randomEmail;
         String generatedString1 = RandomStringUtils.randomAlphanumeric(2);
         String generatedString2 = RandomStringUtils.randomAlphanumeric(2);
-        randomEmail = generatedString1+"_"+generatedString2+ "@gmail.com";
+        randomEmail = generatedString1 + "_" + generatedString2 + "@gmail.com";
         return randomEmail;
     }
 }

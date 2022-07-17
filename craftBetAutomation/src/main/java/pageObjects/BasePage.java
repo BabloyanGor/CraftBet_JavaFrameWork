@@ -47,7 +47,6 @@ public class BasePage {
         File source = ts.getScreenshotAs(OutputType.FILE);
         File target = new File(System.getProperty("user.dir") + "\\Extent_Report\\Screenshots\\" + tname + i + ".png");
         FileUtils.copyFile(source, target);
-        System.out.println("Screenshot taken");
         return target;
     }
 
