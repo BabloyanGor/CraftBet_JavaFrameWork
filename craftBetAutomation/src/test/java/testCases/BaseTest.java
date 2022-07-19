@@ -15,11 +15,11 @@ import java.time.Duration;
 public class BaseTest extends DriverFactory {
 
     ReadConfig readConfig = new ReadConfig();
-    public String baseURL=readConfig.getApplicationURL();
-    public String browserType=readConfig.getBrowserType();
-    public String browser=readConfig.getBrowser();
-    public String username=readConfig.getUsername();
-    public String password=readConfig.getPassword();
+    public String baseURL = readConfig.getApplicationURL();
+    public String browserType = readConfig.getBrowserType();
+    public String browser = readConfig.getBrowser();
+    public String username = readConfig.getUsername();
+    public String password = readConfig.getPassword();
     public static Logger logger;
 
 
@@ -30,7 +30,8 @@ public class BaseTest extends DriverFactory {
     public CraftBet_SignUp_PopUp_Page craftBet_signUp_popUp_page;
     public CraftBet_Casino_Page craftBet_casino_page;
 
-    public BaseTest()  {
+
+    public BaseTest() {
     }
 
     @BeforeMethod
@@ -39,10 +40,10 @@ public class BaseTest extends DriverFactory {
         PropertyConfigurator.configure("Log4j.properties");
 
         try {
-            super.initDriver(baseURL,browser,browserType);
+            super.initDriver(baseURL, browser, browserType);
 
         } catch (org.openqa.selenium.TimeoutException exception) {
-            super.initDriver(baseURL,browser,browserType);
+            super.initDriver(baseURL, browser, browserType);
 
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -63,8 +64,7 @@ public class BaseTest extends DriverFactory {
 
 
         //endregion
-
-            craftBet_header_page.selectEnglishLanguageFromDropDown();
+        craftBet_header_page.selectEnglishLanguageFromDropDown();
 
     }
 
@@ -80,15 +80,10 @@ public class BaseTest extends DriverFactory {
     }
 
 
-
     @AfterSuite
-    public void finish(){
+    public void finish() {
         logger.info("Login Test Suit test was finished");
     }
-
-
-
-
 
 
 }

@@ -253,7 +253,8 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
     @DataProvider(name = "invalidData")
     Object[][] invalidSignUpDataEmail() throws IOException {
-        FileInputStream file = new FileInputStream("C:\\Users\\Nerses Khachatryan\\Desktop\\Git_craftBet_TestAutomation\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        String invalidData = System.getProperty("user.dir") + "\\src\\test\\java\\testData\\InvalidData.xlsx";
+        FileInputStream file = new FileInputStream(invalidData);
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("SignUpQuickInvalidEmail");
         //XSSFSheet sheet = workbook.getSheetAt(0);

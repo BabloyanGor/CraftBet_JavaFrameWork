@@ -214,7 +214,8 @@ LoginPopUpTest extends BaseTest {
 //    }
     @DataProvider(name = "invalidLoginData")
     Object[][] loginDataInvalid() throws IOException {
-        FileInputStream file = new FileInputStream("D:\\IQsoft\\Git_craftBet_javaFrameworkMavenTestNG\\CraftBet_MyFrameWork\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        String invalidData = System.getProperty("user.dir") + "\\src\\test\\java\\testData\\InvalidData.xlsx";
+        FileInputStream file = new FileInputStream(invalidData);
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("LoginInvalidData");
         //XSSFSheet sheet = workbook.getSheetAt(0);
