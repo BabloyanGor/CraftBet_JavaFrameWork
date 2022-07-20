@@ -1,0 +1,881 @@
+<html>
+<head>
+<title>TestNG:  testCases.LoginPopUpTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testCases.LoginPopUpTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 11:43:19 AMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1006 seconds (1006850 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 23456</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace841773244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace841773244'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>20</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651, nsc9  </td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671900358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1671900358'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>2</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: g_babloyan@mail.com</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1722902384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1722902384'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>20</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS_s18@gmail.com</td>
+<td><div><pre>java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1156306409", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1156306409'><pre>java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test()'><b>RecoveryPopUpSupportLink_Test</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password Recovery Pop Up Support link</td>
+<td><div><pre>java.lang.AssertionError: did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]
+	at testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test(PasswordRecoveryTest.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace119418333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace119418333'><pre>java.lang.AssertionError: did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test(PasswordRecoveryTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 2</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1202138162", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1202138162'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>20</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651,  nsc9</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1868931587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1868931587'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>2</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterLabelsPresenceVerification_Test()'><b>SignUpPopUpQuickRegisterLabelsPresenceVerification_Test</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate SignUp PopUps labels</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [I have read and accept the Terms &amp; Conditions and Privacy Policy and I agree that I am at least 21 years of age.] but found [I have 1read and accept the Terms &amp; Conditions and Privacy Policy and I agree that I am at least 21 years of age.]
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterLabelsPresenceVerification_Test(SignUpQuickRegisterTest.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1920084587", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1920084587'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [I have read and accept the Terms &amp; Conditions and Privacy Policy and I agree that I am at least 21 years of age.] but found [I have 1read and accept the Terms &amp; Conditions and Privacy Policy and I agree that I am at least 21 years of age.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterLabelsPresenceVerification_Test(SignUpQuickRegisterTest.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 2147483647</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1187345535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1187345535'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>20</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS s18@gmail.com</td>
+<td><div><pre>java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776341789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1776341789'><pre>java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 2147483647</td>
+<td><div><pre>java.lang.AssertionError: expected [craft_btn reg_btn not_active] but found [craft_btn reg_btn active-item]
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest(SignUpQuickRegisterTest.java:322)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1686905633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1686905633'><pre>java.lang.AssertionError: expected [craft_btn reg_btn not_active] but found [craft_btn reg_btn active-item]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest(SignUpQuickRegisterTest.java:322)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpLabelsPresenceVerification_Test()'><b>RecoveryPopUpLabelsPresenceVerification_Test</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password Recovery PopUp Title, Email/mobile or username input Label, Info Message, Help message, Text on Send Me Recovery Button</td>
+<td></td>
+<td>0</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpCloseButtonFunctionality()'><b>SignUpPopUpCloseButtonFunctionality</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up close(X) button functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS s18@gmailcom</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpPositiveTest()'><b>RecoveryPopUpPositiveTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with valid credentials</td>
+<td></td>
+<td>0</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpLogoPresenceVerification_Test()'><b>RecoveryPopUpLogoPresenceVerification_Test</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password Recovery Pop Up Logo Presence</td>
+<td></td>
+<td>0</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpRememberMeLabelClickAbility_Test()'><b>loginPopUpRememberMeLabelClickAbility_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Remember me label click-ability</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterRegisterPrivacyPolicy()'><b>SignUpPopUpQuickRegisterRegisterPrivacyPolicy</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Terms  and conditions check box need to be checked</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: gor@babloyan@mail.ru</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpSignUpLink_Test()'><b>loginPopUpSignUpLink_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up SignUp link functionality</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 123abc123</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 0.12/34?56</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651,      </td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLabelsPresenceVerification_Test()'><b>loginPopUpLabelsPresenceVerification_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Header, Email/mobile or username, Password, Remember me, You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpErrorMessageValidationInvalidUsername()'><b>loginPopUpErrorMessageValidationInvalidUsername</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Error message with invalid password</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 123456</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 23456</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: ASs18@gmail@com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: ASs18.gmail.com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651, ns c9</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters:  1 2 3 4 5 6 7 </td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: 2, nsc9</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpLogInLinkFunctionality()'><b>SignUpPopUpLogInLinkFunctionality</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up LogIn link functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 123 45 6</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS?s18@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: g.babloyan@iqsoft.am </td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpForgotPasswordLink_Test()'><b>loginPopUpForgotPasswordLink_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Forgot password link functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickFullRegistrationButtonFunctionality()'><b>SignUpPopUpQuickFullRegistrationButtonFunctionality</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Quick/Full Register button functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test()'><b>SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Currency Drop down functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 123456</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: nsc9, U1630651</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651, ?nsc9</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test()'><b>SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Email/Mobile Drop down functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpCloseButtonFunctionality_Test()'><b>loginPopUpCloseButtonFunctionality_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Close (X) button functionality</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS\s18@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobilePositiveTest()'><b>SignUpPopUpQuickRegisterWithMobilePositiveTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Phone number</td>
+<td></td>
+<td>2</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailPositiveTest()'><b>SignUpPopUpQuickRegisterWithEmailPositiveTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email</td>
+<td></td>
+<td>2</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpEyeButtonFunctionality_Test()'><b>loginPopUpEyeButtonFunctionality_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up eye functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpTermsAndConditionsLinkFunctionality()'><b>SignUpPopUpTermsAndConditionsLinkFunctionality</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Terms and conditions link functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 2</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS"s18@gmail.com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogoPresenceVerification_Test()'><b>loginPopUpLogoPresenceVerification_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Logo Presence</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpCheckBoxClickAbility_Test()'><b>loginPopUpCheckBoxClickAbility_Test</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up checkBox functionality</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest()'><b>SignUpPopUpQuickRegisterWithEmailNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with valid Email<br>Parameters: AS s18@gmail..com</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: g. babloyan@iqsoft.am</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInPositiveTest()'><b>loginPopUpLogInPositiveTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with valid credentials</td>
+<td></td>
+<td>3</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters:  g.babloyan@iqsoft.am</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterLogoPresenceVerification_Test()'><b>SignUpPopUpQuickRegisterLogoPresenceVerification_Test</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up Logo Presence</td>
+<td></td>
+<td>0</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 123+45-6</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: 0.12345.6</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: U1630651, 2</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpLogInNegativeTest()'><b>loginPopUpLogInNegativeTest</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up Log_In functionality with invalid data<br>Parameters: 2, 2</td>
+<td></td>
+<td>10</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: g .babloyan@iqsoft.am</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.LoginPopUpTest.loginPopUpErrorMessageValidationInvalidPassword()'><b>loginPopUpErrorMessageValidationInvalidPassword</b><br>Test class: testCases.LoginPopUpTest<br>Test method: Validate on Log_in Pop Up error message with invalid username</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginPopUpTest@130c12b7</td></tr>
+<tr>
+<td title='testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest()'><b>RecoveryPopUpNegativeTest</b><br>Test class: testCases.PasswordRecoveryTest<br>Test method: Validate on Password recovery pop up functionality of Recovery with invalid credentials<br>Parameters: g.babloyan@iqsoft.a m</td>
+<td></td>
+<td>40</td>
+<td>testCases.PasswordRecoveryTest@11392934</td></tr>
+<tr>
+<td title='testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest()'><b>SignUpPopUpQuickRegisterWithMobileNegativeTest</b><br>Test class: testCases.SignUpQuickRegisterTest<br>Test method: Validate on Sign Up Pop Up sign up with Invalid Phone number<br>Parameters: 123/45/6</td>
+<td></td>
+<td>1</td>
+<td>testCases.SignUpQuickRegisterTest@6892b3b6</td></tr>
+</table><p>
+</body>
+</html>

@@ -16,7 +16,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class SignUpQuickRegisterTest extends BaseTest {
-    SoftAssert softAssert = new SoftAssert();
+
 
     @BeforeMethod
     public void goToLoginPopUp() {
@@ -28,6 +28,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate SignUp PopUps labels")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterLabelsPresenceVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         String actTitle = craftBet_signUp_popUp_page.getTitleQ();
         logger.info("Title Captured: --->" + actTitle);
         String expectedTitle = "Quick Register";
@@ -104,6 +105,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up Logo Presence")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterLogoPresenceVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(craftBet_signUp_popUp_page.BackgroundPhotoPresence(), true);
         logger.info("Background photo existence checked");
         softAssert.assertEquals(craftBet_signUp_popUp_page.logoPresence(), true);
@@ -115,6 +117,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up Email/Mobile Drop down functionality")
     @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterRegisterByDropDownVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         logger.info("From Email/Mobile DropDown select Email");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextLabelEmailInputQ(), "Email");
@@ -130,6 +133,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up Currency Drop down functionality")
     @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterCurrencyDropDownVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_signUp_popUp_page.selectFromCurrencyDropDownByVisibleTextQ("AMD");
         logger.info("From Currency DropDown select AMD");
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTextFromCurrencyDropDownQ(), "AMD");
@@ -149,6 +153,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up Terms  and conditions check box need to be checked")
     @Severity(SeverityLevel.NORMAL)
     public void SignUpPopUpQuickRegisterRegisterPrivacyPolicy() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_signUp_popUp_page.selectEmailMobileDropDownQ("Email");
         logger.info("Email was selected From Email/Mobile DropDown ");
         craftBet_signUp_popUp_page.sendKeysEmailInputQ(craftBet_signUp_popUp_page.generateRandomEmailValid());
@@ -196,7 +201,7 @@ public class SignUpQuickRegisterTest extends BaseTest {
     @Description("Validate on Sign Up Pop Up Quick/Full Register button functionality")
     @Severity(SeverityLevel.BLOCKER)
     public void SignUpPopUpQuickFullRegistrationButtonFunctionality() throws InterruptedException {
-
+        SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(craftBet_signUp_popUp_page.getTitleQ(), "Quick Register");
         logger.info("Quick Register Title was captured");
         craftBet_signUp_popUp_page.clickOnButtonFullRegistration();
@@ -320,7 +325,8 @@ public class SignUpQuickRegisterTest extends BaseTest {
 
     @DataProvider(name = "invalidMobileData")
     Object[][] invalidSignUpDataMobile() throws IOException {
-        FileInputStream file = new FileInputStream("D:\\IQsoft\\Git_craftBet_javaFrameworkMavenTestNG\\CraftBet_MyFrameWork\\CraftBet_JavaFrameWork\\craftBetAutomation\\src\\test\\java\\testData\\InvalidData.xlsx");
+        String invalidData = System.getProperty("user.dir") + "\\src\\test\\java\\testData\\InvalidData.xlsx";
+        FileInputStream file = new FileInputStream(invalidData);
         XSSFWorkbook workbook = new XSSFWorkbook(file);
         XSSFSheet sheet = workbook.getSheet("SignUpQuickInvalidNumber");
         //XSSFSheet sheet = workbook.getSheetAt(0);

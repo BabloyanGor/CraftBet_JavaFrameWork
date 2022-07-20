@@ -16,7 +16,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class PasswordRecoveryTest extends BaseTest{
-    SoftAssert softAssert = new SoftAssert();
+
 
     @BeforeMethod
     public void goToLoginPopUp() {
@@ -30,6 +30,7 @@ public class PasswordRecoveryTest extends BaseTest{
                   " Help message, Text on Send Me Recovery Button")
     @Severity(SeverityLevel.MINOR)
     public void RecoveryPopUpLabelsPresenceVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         String actTitle = craftBet_passwordRecovery_page.getTitleText();
         logger.info("Title Captured");
         String actEmailInputLabel = craftBet_passwordRecovery_page.getEmailInputsLabel();

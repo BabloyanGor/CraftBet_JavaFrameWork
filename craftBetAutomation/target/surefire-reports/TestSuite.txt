@@ -1,0 +1,102 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 66, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 1,008.845 sec <<< FAILURE! - in TestSuite
+loginPopUpLogInNegativeTest(testCases.LoginPopUpTest)  Time elapsed: 3.987 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+
+loginPopUpLogInNegativeTest(testCases.LoginPopUpTest)  Time elapsed: 4.209 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:976)
+	at org.testng.Assert.assertEquals(Assert.java:1010)
+	at testCases.LoginPopUpTest.loginPopUpLogInNegativeTest(LoginPopUpTest.java:207)
+
+RecoveryPopUpSupportLink_Test(testCases.PasswordRecoveryTest)  Time elapsed: 1.315 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect [https://craftbet.com/forgot-password] but found [https://craftbet.com/forgot-password]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failEquals(Assert.java:1417)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:156)
+	at org.testng.Assert.assertNotEquals(Assert.java:2033)
+	at org.testng.Assert.assertNotEquals(Assert.java:2055)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpSupportLink_Test(PasswordRecoveryTest.java:84)
+
+RecoveryPopUpNegativeTest(testCases.PasswordRecoveryTest)  Time elapsed: 21.318 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+
+RecoveryPopUpNegativeTest(testCases.PasswordRecoveryTest)  Time elapsed: 21.423 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+
+RecoveryPopUpNegativeTest(testCases.PasswordRecoveryTest)  Time elapsed: 21.426 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+
+RecoveryPopUpNegativeTest(testCases.PasswordRecoveryTest)  Time elapsed: 21.286 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at testCases.PasswordRecoveryTest.RecoveryPopUpNegativeTest(PasswordRecoveryTest.java:125)
+
+SignUpPopUpQuickRegisterLabelsPresenceVerification_Test(testCases.SignUpQuickRegisterTest)  Time elapsed: 2.26 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [I have read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.] but found [I have 1read and accept the Terms & Conditions and Privacy Policy and I agree that I am at least 21 years of age.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterLabelsPresenceVerification_Test(SignUpQuickRegisterTest.java:101)
+
+SignUpPopUpQuickRegisterWithEmailNegativeTest(testCases.SignUpQuickRegisterTest)  Time elapsed: 2.549 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+
+SignUpPopUpQuickRegisterWithEmailNegativeTest(testCases.SignUpQuickRegisterTest)  Time elapsed: 3.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email address] but found [Email address must be unique]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithEmailNegativeTest(SignUpQuickRegisterTest.java:256)
+
+SignUpPopUpQuickRegisterWithMobileNegativeTest(testCases.SignUpQuickRegisterTest)  Time elapsed: 3.184 sec  <<< FAILURE!
+java.lang.AssertionError: expected [craft_btn reg_btn not_active] but found [craft_btn reg_btn active-item]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testCases.SignUpQuickRegisterTest.SignUpPopUpQuickRegisterWithMobileNegativeTest(SignUpQuickRegisterTest.java:322)
+

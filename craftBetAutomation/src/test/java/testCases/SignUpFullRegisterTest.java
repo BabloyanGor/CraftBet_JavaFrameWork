@@ -9,7 +9,7 @@ import org.testng.asserts.SoftAssert;
 
 public class SignUpFullRegisterTest extends BaseTest{
 
-    SoftAssert softAssert = new SoftAssert();
+
 
     @BeforeMethod
     public void goToLoginPopUp() {
@@ -23,6 +23,7 @@ public class SignUpFullRegisterTest extends BaseTest{
             " ")
     @Severity(SeverityLevel.MINOR)
     public void SignUpPopUpQuickRegisterLabelsPresenceVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         String actTitle = craftBet_signUp_popUp_page.getTitleQ();
         logger.info("Title Captured: " + actTitle);
 

@@ -78,12 +78,4 @@ public class BaseTest extends DriverFactory {
             logger.info("Browser close order has an exception");
         }
     }
-
-
-    @AfterSuite
-    public void finish() {
-        logger.info("Login Test Suit test was finished");
-    }
-
-
 }

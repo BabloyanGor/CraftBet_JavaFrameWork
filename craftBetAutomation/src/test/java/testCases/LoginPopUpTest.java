@@ -17,7 +17,7 @@ import java.io.IOException;
 public class
 
 LoginPopUpTest extends BaseTest {
-    SoftAssert softAssert = new SoftAssert();
+
 
 
     @BeforeMethod
@@ -31,6 +31,7 @@ LoginPopUpTest extends BaseTest {
             " You can Sign in with, Don't have an account? Sign Up, Don't have an account? Sign Up, Safe and Secure labels, Login Buttons text")
     @Severity(SeverityLevel.MINOR)
     public void loginPopUpLabelsPresenceVerification_Test() {
+        SoftAssert softAssert = new SoftAssert();
         String actHeader = craftBet_login_popUp_page.getLoginPopUpHeader();
         logger.info("Header Captured");
         String actualEmailLabel = craftBet_login_popUp_page.getLoginPopUpEmailOrUsernameLabel();
@@ -102,6 +103,7 @@ LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up eye functionality")
     @Severity(SeverityLevel.NORMAL)
     public void loginPopUpEyeButtonFunctionality_Test() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_login_popUp_page.loginPopUpPasswordSendKeys("123456");
         logger.info("password passed");
         craftBet_login_popUp_page.clickLoginPopUpEyeShowPassword();
@@ -120,6 +122,7 @@ LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop Up Remember me label click-ability")
     @Severity(SeverityLevel.NORMAL)
     public void loginPopUpRememberMeLabelClickAbility_Test() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_login_popUp_page.clickLoginPopUpRememberMeLabel();
         logger.info("Remember me label clicked");
         softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
@@ -133,6 +136,7 @@ LoginPopUpTest extends BaseTest {
     @Description("Validate on Log_in Pop checkBox functionality")
     @Severity(SeverityLevel.NORMAL)
     public void loginPopUpCheckBoxClickAbility_Test() {
+        SoftAssert softAssert = new SoftAssert();
         craftBet_login_popUp_page.clickLoginPopUpRememberMeCheckbox();
         logger.info("checkbox clicked");
         softAssert.assertEquals(craftBet_login_popUp_page.loginPopUpRememberMeCheckboxIsSelected(), true);
@@ -150,7 +154,7 @@ LoginPopUpTest extends BaseTest {
         logger.info("ForgotPassword link clicked");
         String url = craftBet_login_popUp_page.getUrl();
         logger.info("Url captured");
-        softAssert.assertEquals(url, "https://craftbet.com/forgot-password");
+        Assert.assertEquals(url, "https://craftbet.com/forgot-password");
 
     }
 
