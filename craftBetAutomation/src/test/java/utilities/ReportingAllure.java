@@ -71,7 +71,6 @@ public class ReportingAllure implements ITestListener {
         // Allure ScreenShotRobot and SaveTestLog
         saveTextLog(getTestMethodName(iTestResult) + " Test failed and screenshot taken!");
         if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             Allure.addAttachment(getTestMethodName(iTestResult)+"_", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
             saveScreenshotPNG(driver);
         }
@@ -81,11 +80,9 @@ public class ReportingAllure implements ITestListener {
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        System.out.println("I am in onTestSkipped method " + getTestMethodName(iTestResult) + " skipped");
         WebDriver driver = BaseTest.driver;
         // Allure ScreenShotRobot and SaveTestLog
         if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             Allure.addAttachment(getTestMethodName(iTestResult)+"_", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
             saveScreenshotPNG(driver);
         }
@@ -93,12 +90,10 @@ public class ReportingAllure implements ITestListener {
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
-        System.out.println("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
         // Allure ScreenShotRobot and SaveTestLog
         WebDriver driver = BaseTest.driver;
         // Allure ScreenShotRobot and SaveTestLog
         if (driver instanceof WebDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             Allure.addAttachment(getTestMethodName(iTestResult)+"_", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
             saveScreenshotPNG(driver);
         }
