@@ -1951,3 +1951,17 @@ java.net.SocketException: Connection reset
 2022-07-21 18:04:21,526 - craftBet -INFO - password passed
 2022-07-21 18:04:21,659 - craftBet -INFO - Log In Button was clicked
 2022-07-21 18:04:23,777 - craftBet -INFO - Casino Link was clicked
+2022-07-21 18:06:30,114 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 18:06:31,485 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 18:06:31,525 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\Nerses Khachatryan\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 18:06:36,572 - craftBet -INFO - Header page elements are initialized
+2022-07-21 18:06:36,575 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 18:06:36,581 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 18:06:36,582 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 18:06:36,584 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 18:06:36,590 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 18:06:39,407 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 18:06:40,030 - craftBet -INFO - username passed
+2022-07-21 18:06:40,132 - craftBet -INFO - password passed
+2022-07-21 18:06:40,217 - craftBet -INFO - Log In Button was clicked
+2022-07-21 18:06:42,359 - craftBet -INFO - Casino Link was clicked
