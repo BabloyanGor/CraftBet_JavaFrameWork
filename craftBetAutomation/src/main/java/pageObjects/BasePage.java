@@ -118,6 +118,9 @@ public class BasePage {
         waitElementToBeVisible(element);
         return element.getText();
     }
+    public String getTextNoWait(WebElement element) {
+        return element.getText();
+    }
 
     /* this method will get current URL */
     public String getUrl() {

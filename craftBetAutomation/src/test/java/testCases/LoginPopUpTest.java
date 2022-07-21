@@ -18,8 +18,6 @@ public class
 
 LoginPopUpTest extends BaseTest {
 
-
-
     @BeforeMethod
     public void goToLoginPopUp() {
         craftBet_header_page.clickOnLogInButtonIfVisible();
