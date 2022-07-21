@@ -2439,3 +2439,20 @@ java.net.SocketException: Connection reset
 2022-07-22 01:16:35,688 - craftBet -INFO - Browser closed
 2022-07-22 01:16:35,688 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-07-22 01:16:35,973 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 01:19:06,108 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 01:19:06,296 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 01:19:06,311 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 01:19:10,457 - craftBet -INFO - Header page elements are initialized
+2022-07-22 01:19:10,457 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 01:19:10,457 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 01:19:10,457 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 01:19:10,457 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 01:19:10,472 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 01:19:11,974 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 01:19:12,429 - craftBet -INFO - username passed
+2022-07-22 01:19:12,498 - craftBet -INFO - password passed
+2022-07-22 01:19:12,560 - craftBet -INFO - Log In Button was clicked
+2022-07-22 01:19:14,678 - craftBet -INFO - Casino Link was clicked
+2022-07-22 01:24:49,225 - craftBet -INFO - Browser closed
+2022-07-22 01:24:49,225 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 01:24:49,225 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

@@ -43,7 +43,7 @@ public class Casino_Games_Test extends BaseTest {
         int i = 1;
         int intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
 
-        while (intGameNumber > 3500) {
+        while (intGameNumber > 3000) {
             try {
                 craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
                 System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());

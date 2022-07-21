@@ -2439,3 +2439,20 @@ java.net.SocketException: Connection reset
 2022-07-22 01:16:35,688 [main] INFO craftBet - Browser closed
 2022-07-22 01:16:35,688 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
 2022-07-22 01:16:35,973 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 01:19:06,108 [main] INFO craftBet - Browser for test will be chrome as chosen
+2022-07-22 01:19:06,296 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 01:19:06,311 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 01:19:10,457 [main] INFO craftBet - Header page elements are initialized
+2022-07-22 01:19:10,457 [main] INFO craftBet - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 01:19:10,457 [main] INFO craftBet - SignUp_PopUp_Page elements are initialized
+2022-07-22 01:19:10,457 [main] INFO craftBet - Footer Page elements are initialized
+2022-07-22 01:19:10,457 [main] INFO craftBet - Password recovery Page elements are initialized
+2022-07-22 01:19:10,472 [main] INFO craftBet - Casino Page elements are initialized
+2022-07-22 01:19:11,974 [main] INFO craftBet - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 01:19:12,429 [main] INFO craftBet - username passed
+2022-07-22 01:19:12,498 [main] INFO craftBet - password passed
+2022-07-22 01:19:12,560 [main] INFO craftBet - Log In Button was clicked
+2022-07-22 01:19:14,678 [main] INFO craftBet - Casino Link was clicked
+2022-07-22 01:24:49,225 [main] INFO craftBet - Browser closed
+2022-07-22 01:24:49,225 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 01:24:49,225 [main] INFO craftBet - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
