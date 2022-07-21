@@ -1965,3 +1965,477 @@ java.net.SocketException: Connection reset
 2022-07-21 18:06:40,132 - craftBet -INFO - password passed
 2022-07-21 18:06:40,217 - craftBet -INFO - Log In Button was clicked
 2022-07-21 18:06:42,359 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:03:50,480 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:03:51,533 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:03:51,556 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:03:53,961 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:03:53,964 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:03:53,969 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:03:53,970 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:03:53,971 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:03:53,972 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:03:55,409 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:03:55,992 - craftBet -INFO - username passed
+2022-07-21 21:03:56,078 - craftBet -INFO - password passed
+2022-07-21 21:03:56,143 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:03:58,248 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:04:11,595 - craftBet -INFO - Browser closed
+2022-07-21 21:04:11,596 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 21:04:11,602 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 21:34:25,600 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:34:25,807 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:34:25,827 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:34:27,860 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:34:27,862 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:34:27,868 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:34:27,869 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:34:27,870 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:34:27,872 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:34:30,134 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:34:30,559 - craftBet -INFO - username passed
+2022-07-21 21:34:30,637 - craftBet -INFO - password passed
+2022-07-21 21:34:30,706 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:34:32,818 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:35:13,891 - craftBet -INFO - Browser closed
+2022-07-21 21:35:13,891 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 21:35:13,897 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 21:38:45,978 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:38:46,191 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:38:46,212 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:38:47,920 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:38:47,923 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:38:47,928 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:38:47,929 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:38:47,931 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:38:47,932 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:38:50,003 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:38:50,560 - craftBet -INFO - username passed
+2022-07-21 21:38:50,645 - craftBet -INFO - password passed
+2022-07-21 21:38:50,709 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:38:52,828 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:39:51,432 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:39:51,615 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:39:51,633 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:39:55,056 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:39:55,059 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:39:55,064 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:39:55,065 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:39:55,067 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:39:55,068 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:39:57,558 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:39:57,969 - craftBet -INFO - username passed
+2022-07-21 21:39:58,053 - craftBet -INFO - password passed
+2022-07-21 21:39:58,121 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:40:00,224 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:40:41,604 - craftBet -INFO - Browser closed
+2022-07-21 21:40:41,604 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 21:40:41,612 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 21:48:37,923 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:48:38,101 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:48:38,117 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:48:41,729 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:48:41,732 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:48:41,737 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:48:41,739 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:48:41,741 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:48:41,742 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:48:45,099 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:48:45,518 - craftBet -INFO - username passed
+2022-07-21 21:48:45,604 - craftBet -INFO - password passed
+2022-07-21 21:48:45,672 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:48:47,788 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:49:08,390 - craftBet -INFO - Browser closed
+2022-07-21 21:49:08,391 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 21:49:08,410 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 21:49:31,274 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:49:31,453 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:49:31,471 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:49:35,077 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:49:35,081 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:49:35,086 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:49:35,087 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:49:35,088 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:49:35,090 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:49:37,182 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:49:37,835 - craftBet -INFO - username passed
+2022-07-21 21:49:37,913 - craftBet -INFO - password passed
+2022-07-21 21:49:37,976 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:49:40,097 - craftBet -INFO - Casino Link was clicked
+2022-07-21 21:53:42,855 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 21:53:43,041 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 21:53:43,060 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 21:53:46,410 - craftBet -INFO - Header page elements are initialized
+2022-07-21 21:53:46,413 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 21:53:46,419 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 21:53:46,420 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 21:53:46,421 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 21:53:46,422 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 21:53:48,786 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 21:53:49,210 - craftBet -INFO - username passed
+2022-07-21 21:53:49,293 - craftBet -INFO - password passed
+2022-07-21 21:53:49,360 - craftBet -INFO - Log In Button was clicked
+2022-07-21 21:53:51,472 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:00:07,831 - craftBet -INFO - Browser closed
+2022-07-21 22:00:07,832 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:00:07,839 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:02:52,691 - craftBet -INFO - Browser for test will be edge as chosen
+2022-07-21 22:02:52,889 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using msedgedriver 103.0.1264.62 (resolved driver for Edge 103)
+2022-07-21 22:02:52,908 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.edge.driver as C:\Users\user\.cache\selenium\msedgedriver\win64\103.0.1264.62\msedgedriver.exe
+2022-07-21 22:02:56,877 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:02:56,880 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:02:56,888 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:02:56,889 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:02:56,890 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:02:56,891 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:02:58,545 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:02:59,045 - craftBet -INFO - username passed
+2022-07-21 22:02:59,157 - craftBet -INFO - password passed
+2022-07-21 22:02:59,221 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:03:01,908 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:07:09,591 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:07:10,818 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:07:10,846 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-07-21 22:07:11,795 - io.github.bonigarcia.wdm.online.Downloader -INFO - Downloading https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_win32.zip
+2022-07-21 22:07:14,200 - io.github.bonigarcia.wdm.online.Downloader -INFO - Extracting driver from compressed file chromedriver_win32.zip
+2022-07-21 22:07:14,270 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:07:16,642 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:07:16,644 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:07:16,650 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:07:16,651 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:07:16,653 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:07:16,654 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:07:18,744 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:07:19,191 - craftBet -INFO - username passed
+2022-07-21 22:07:19,277 - craftBet -INFO - password passed
+2022-07-21 22:07:19,345 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:07:21,466 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:08:14,977 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:08:15,242 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:08:15,272 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:09:01,153 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:09:01,153 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:09:01,153 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:09:01,168 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:09:01,168 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:09:01,168 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:09:22,113 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:09:22,300 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:09:22,316 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:09:27,931 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:09:27,934 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:09:27,940 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:09:27,941 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:09:27,942 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:09:27,943 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:09:31,175 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:09:31,761 - craftBet -INFO - username passed
+2022-07-21 22:09:31,840 - craftBet -INFO - password passed
+2022-07-21 22:09:31,906 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:09:34,086 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:11:17,257 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:11:17,261 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:44:02,469 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:44:02,656 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:44:02,672 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:44:04,686 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:44:04,691 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:44:04,696 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:44:04,698 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:44:04,699 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:44:04,700 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:44:07,545 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:44:08,059 - craftBet -INFO - username passed
+2022-07-21 22:44:08,134 - craftBet -INFO - password passed
+2022-07-21 22:44:08,203 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:44:10,317 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:46:02,366 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:46:02,366 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:47:14,945 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:47:15,132 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:47:15,148 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:47:16,951 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:47:16,955 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:47:16,961 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:47:16,962 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:47:16,964 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:47:16,965 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:47:18,714 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:47:19,417 - craftBet -INFO - username passed
+2022-07-21 22:47:19,497 - craftBet -INFO - password passed
+2022-07-21 22:47:19,563 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:47:21,680 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:48:40,883 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:48:40,890 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:49:28,281 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:49:28,453 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:49:28,484 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:49:30,310 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:49:30,312 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:49:30,319 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:49:30,320 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:49:30,322 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:49:30,323 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:49:31,730 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:49:32,641 - craftBet -INFO - username passed
+2022-07-21 22:49:32,720 - craftBet -INFO - password passed
+2022-07-21 22:49:32,792 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:49:34,910 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:50:33,141 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:50:33,150 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:53:39,001 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:53:39,188 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:53:39,204 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:53:41,133 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:53:41,137 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:53:41,143 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:53:41,145 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:53:41,146 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:53:41,148 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:53:42,747 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:53:43,260 - craftBet -INFO - username passed
+2022-07-21 22:53:43,329 - craftBet -INFO - password passed
+2022-07-21 22:53:43,397 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:53:45,719 - craftBet -INFO - Casino Link was clicked
+2022-07-21 22:55:00,470 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 22:55:00,486 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 22:57:41,407 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 22:57:41,610 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 22:57:41,626 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 22:57:43,661 - craftBet -INFO - Header page elements are initialized
+2022-07-21 22:57:43,663 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 22:57:43,669 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 22:57:43,670 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 22:57:43,671 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 22:57:43,672 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 22:57:46,941 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 22:57:47,380 - craftBet -INFO - username passed
+2022-07-21 22:57:47,465 - craftBet -INFO - password passed
+2022-07-21 22:57:47,534 - craftBet -INFO - Log In Button was clicked
+2022-07-21 22:57:49,653 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:00:35,236 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:00:35,439 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:00:35,455 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:00:37,356 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:00:37,358 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:00:37,363 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:00:37,364 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:00:37,365 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:00:37,366 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:00:38,824 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:00:39,385 - craftBet -INFO - username passed
+2022-07-21 23:00:39,490 - craftBet -INFO - password passed
+2022-07-21 23:00:39,556 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:00:41,668 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:02:53,465 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:02:53,691 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:02:53,706 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:02:55,540 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:02:55,543 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:02:55,549 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:02:55,550 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:02:55,551 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:02:55,552 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:02:57,971 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:02:58,419 - craftBet -INFO - username passed
+2022-07-21 23:02:58,499 - craftBet -INFO - password passed
+2022-07-21 23:02:58,564 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:03:00,691 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:05:31,323 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:05:31,526 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:05:31,541 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:05:33,415 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:05:33,419 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:05:33,425 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:05:33,426 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:05:33,427 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:05:33,429 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:05:35,253 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:05:35,647 - craftBet -INFO - username passed
+2022-07-21 23:05:35,737 - craftBet -INFO - password passed
+2022-07-21 23:05:35,800 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:05:37,899 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:08:41,496 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:08:42,027 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:08:42,027 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:08:44,508 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:08:44,510 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:08:44,516 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:08:44,517 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:08:44,518 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:08:44,519 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:08:46,198 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:08:46,653 - craftBet -INFO - username passed
+2022-07-21 23:08:46,733 - craftBet -INFO - password passed
+2022-07-21 23:08:46,799 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:08:48,900 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:11:06,106 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:11:06,294 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:11:06,325 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:11:08,174 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:11:08,176 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:11:08,183 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:11:08,185 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:11:08,186 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:11:08,187 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:11:10,383 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:11:10,873 - craftBet -INFO - username passed
+2022-07-21 23:11:10,947 - craftBet -INFO - password passed
+2022-07-21 23:11:11,010 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:11:13,380 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:12:11,934 - craftBet -INFO - Browser closed
+2022-07-21 23:12:11,934 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 23:12:11,934 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 23:14:04,458 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:14:04,630 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:14:04,645 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:14:06,436 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:14:06,440 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:14:06,445 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:14:06,446 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:14:06,448 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:14:06,449 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:14:08,002 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:14:08,442 - craftBet -INFO - username passed
+2022-07-21 23:14:08,522 - craftBet -INFO - password passed
+2022-07-21 23:14:08,591 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:14:10,710 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:15:03,863 - craftBet -INFO - Browser closed
+2022-07-21 23:15:03,863 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 23:15:03,863 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 23:17:15,889 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:17:16,128 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:17:16,150 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:17:18,779 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:17:18,782 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:17:18,789 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:17:18,790 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:17:18,791 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:17:18,793 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:17:20,936 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:17:21,433 - craftBet -INFO - username passed
+2022-07-21 23:17:21,504 - craftBet -INFO - password passed
+2022-07-21 23:17:21,571 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:17:23,696 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:18:07,629 - craftBet -INFO - Browser closed
+2022-07-21 23:18:07,629 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 23:18:07,634 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 23:18:51,125 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:18:51,303 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:18:51,321 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:18:53,134 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:18:53,137 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:18:53,143 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:18:53,145 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:18:53,146 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:18:53,148 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:18:55,570 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:18:56,033 - craftBet -INFO - username passed
+2022-07-21 23:18:56,109 - craftBet -INFO - password passed
+2022-07-21 23:18:56,175 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:18:58,272 - craftBet -INFO - Casino Link was clicked
+2022-07-21 23:49:16,165 - craftBet -INFO - Browser closed
+2022-07-21 23:49:16,165 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-21 23:49:16,170 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-21 23:55:49,194 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:55:59,323 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-21 23:55:59,500 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-21 23:55:59,518 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-21 23:56:01,520 - craftBet -INFO - Header page elements are initialized
+2022-07-21 23:56:01,523 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-21 23:56:01,528 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-21 23:56:01,529 - craftBet -INFO - Footer Page elements are initialized
+2022-07-21 23:56:01,531 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-21 23:56:01,532 - craftBet -INFO - Casino Page elements are initialized
+2022-07-21 23:56:02,965 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-21 23:56:03,620 - craftBet -INFO - username passed
+2022-07-21 23:56:03,696 - craftBet -INFO - password passed
+2022-07-21 23:56:03,768 - craftBet -INFO - Log In Button was clicked
+2022-07-21 23:56:05,914 - craftBet -INFO - Casino Link was clicked
+2022-07-22 00:07:33,244 - craftBet -INFO - Browser closed
+2022-07-22 00:07:33,244 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 00:07:33,250 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 00:10:56,514 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 00:10:57,083 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 00:10:57,098 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 00:10:58,984 - craftBet -INFO - Header page elements are initialized
+2022-07-22 00:10:58,987 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 00:10:58,992 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 00:10:58,993 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 00:10:58,994 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 00:10:58,996 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 00:11:01,044 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 00:11:01,751 - craftBet -INFO - username passed
+2022-07-22 00:11:01,833 - craftBet -INFO - password passed
+2022-07-22 00:11:01,896 - craftBet -INFO - Log In Button was clicked
+2022-07-22 00:11:03,996 - craftBet -INFO - Casino Link was clicked
+2022-07-22 00:15:26,772 - craftBet -INFO - Browser closed
+2022-07-22 00:15:26,772 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 00:15:27,179 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 00:17:04,146 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 00:17:04,330 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 00:17:04,348 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 00:17:06,413 - craftBet -INFO - Header page elements are initialized
+2022-07-22 00:17:06,416 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 00:17:06,421 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 00:17:06,422 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 00:17:06,424 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 00:17:06,426 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 00:17:08,580 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 00:17:09,066 - craftBet -INFO - username passed
+2022-07-22 00:17:09,194 - craftBet -INFO - password passed
+2022-07-22 00:17:09,259 - craftBet -INFO - Log In Button was clicked
+2022-07-22 00:17:11,419 - craftBet -INFO - Casino Link was clicked
+2022-07-22 00:25:24,572 - craftBet -INFO - Browser closed
+2022-07-22 00:25:24,572 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 00:25:24,572 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 00:27:33,398 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 00:27:33,596 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 00:27:33,606 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 00:27:35,629 - craftBet -INFO - Header page elements are initialized
+2022-07-22 00:27:35,632 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 00:27:35,638 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 00:27:35,639 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 00:27:35,641 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 00:27:35,642 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 00:27:37,186 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 00:27:37,620 - craftBet -INFO - username passed
+2022-07-22 00:27:37,702 - craftBet -INFO - password passed
+2022-07-22 00:27:37,767 - craftBet -INFO - Log In Button was clicked
+2022-07-22 00:27:39,897 - craftBet -INFO - Casino Link was clicked
+2022-07-22 00:54:42,172 - craftBet -INFO - Browser closed
+2022-07-22 00:54:42,172 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 00:54:42,172 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 00:58:56,215 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 00:58:56,467 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 00:58:56,489 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 00:58:58,780 - craftBet -INFO - Header page elements are initialized
+2022-07-22 00:58:58,783 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 00:58:58,800 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 00:58:58,801 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 00:58:58,803 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 00:58:58,805 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 00:59:04,709 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 00:59:05,557 - craftBet -INFO - username passed
+2022-07-22 00:59:05,688 - craftBet -INFO - password passed
+2022-07-22 00:59:05,847 - craftBet -INFO - Log In Button was clicked
+2022-07-22 00:59:07,985 - craftBet -INFO - Casino Link was clicked
+2022-07-22 01:10:59,320 - craftBet -INFO - Browser closed
+2022-07-22 01:10:59,320 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 01:10:59,335 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  
+2022-07-22 01:13:54,710 - craftBet -INFO - Browser for test will be chrome as chosen
+2022-07-22 01:13:55,429 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+2022-07-22 01:13:55,444 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+2022-07-22 01:13:57,664 - craftBet -INFO - Header page elements are initialized
+2022-07-22 01:13:57,667 - craftBet -INFO - Login_PopUp_Page login PopUp elements are initialized
+2022-07-22 01:13:57,672 - craftBet -INFO - SignUp_PopUp_Page elements are initialized
+2022-07-22 01:13:57,673 - craftBet -INFO - Footer Page elements are initialized
+2022-07-22 01:13:57,675 - craftBet -INFO - Password recovery Page elements are initialized
+2022-07-22 01:13:57,676 - craftBet -INFO - Casino Page elements are initialized
+2022-07-22 01:13:59,235 - craftBet -INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started 
+2022-07-22 01:13:59,799 - craftBet -INFO - username passed
+2022-07-22 01:13:59,881 - craftBet -INFO - password passed
+2022-07-22 01:13:59,946 - craftBet -INFO - Log In Button was clicked
+2022-07-22 01:14:02,072 - craftBet -INFO - Casino Link was clicked
+2022-07-22 01:16:35,688 - craftBet -INFO - Browser closed
+2022-07-22 01:16:35,688 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished 
+2022-07-22 01:16:35,973 - craftBet -INFO - <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test Suite finished  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  

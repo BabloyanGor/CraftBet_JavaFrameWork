@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -27,6 +28,10 @@ public class CraftBet_Casino_Page extends BasePage {
         return casinoGames;
     }
 
+
+
+
+
     @FindBy(xpath = "//li[@id='casino_game_item']//img")
     @CacheLookup
     List<WebElement> casinoGamesImages;
@@ -35,14 +40,27 @@ public class CraftBet_Casino_Page extends BasePage {
         ArrayList<String> casinoImagesSrc = new ArrayList<String>();
         for (WebElement img : casinoGamesImages) {
             casinoImagesSrc.add(basePage.getAttribute(img, "src"));
-            System.out.println();
         }
         return casinoImagesSrc;
+    }
+
+    @FindBy(xpath = "//span[@class='title']")
+    @CacheLookup
+    WebElement gameTitle;
+
+    public String getTextGameTitle(int i){
+        WebElement specificGameTitle = basePage.getDriver().findElement(By.xpath("//ul[@class='product_list product_list__4']/li['"+i+"']//span[@class='title']"));
+        return basePage.getText(specificGameTitle);
     }
 
     @FindBy(xpath = "//h2[text()='404 - File or directory not found.']")
     @CacheLookup
     WebElement errorMessageFromSRC;
+
+
+
+
+
 
     @FindBy(xpath = "//img")
     @CacheLookup
