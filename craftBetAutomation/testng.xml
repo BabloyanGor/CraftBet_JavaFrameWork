@@ -5,7 +5,7 @@
         <listener class-name="utilities.Reporting"/>
         <listener class-name="utilities.ReportingAllure"/>
     </listeners>
-    <test name="testCases.LoginPopUpTest">
+    <test name="testCases">
         <classes>
             <class name="testCases.LoginPopUpTest"/>
             <class name="testCases.PasswordRecoveryTest"/>

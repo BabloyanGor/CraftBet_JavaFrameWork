@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="3" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="utilities.Reporting"/>
     <listener class-name="utilities.ReportingAllure"/>
   </listeners>
-  <test thread-count="5" name="testCases.LoginPopUpTest(failed)" verbose="0">
+  <test thread-count="3" parallel="tests" name="testCases(failed)" verbose="0">
     <classes>
       <class name="testCases.PasswordRecoveryTest">
         <methods>
           <include name="RecoveryPopUpSupportLink_Test"/>
-          <include name="RecoveryPopUpNegativeTest" invocation-numbers="0 1 2 11"/>
+          <include name="RecoveryPopUpNegativeTest" invocation-numbers="0 1 10"/>
           <include name="goToLoginPopUp"/>
           <include name="setup"/>
           <include name="tearDown"/>
@@ -18,9 +18,10 @@
       </class> <!-- testCases.PasswordRecoveryTest -->
       <class name="testCases.LoginPopUpTest">
         <methods>
+          <include name="loginPopUpLogInPositiveTest"/>
+          <include name="loginPopUpErrorMessageValidationInvalidUsername"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="loginPopUpLogInNegativeTest" invocation-numbers="0 1"/>
           <include name="goToLoginPopUp"/>
         </methods>
       </class> <!-- testCases.LoginPopUpTest -->
@@ -29,11 +30,10 @@
           <include name="SignUpPopUpQuickRegisterWithEmailNegativeTest" invocation-numbers="4 6"/>
           <include name="SignUpPopUpQuickRegisterWithMobileNegativeTest" invocation-numbers="8"/>
           <include name="goToLoginPopUp"/>
-          <include name="SignUpPopUpQuickRegisterLabelsPresenceVerification_Test"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testCases.SignUpQuickRegisterTest -->
     </classes>
-  </test> <!-- testCases.LoginPopUpTest(failed) -->
+  </test> <!-- testCases(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

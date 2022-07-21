@@ -64,8 +64,9 @@ public class BaseTest extends DriverFactory {
 
 
         //endregion
-        craftBet_header_page.selectEnglishLanguageFromDropDown();
 
+        craftBet_header_page.selectEnglishLanguageFromDropDown();
+        logger.info(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Test started ");
     }
 
     @AfterMethod
@@ -77,5 +78,6 @@ public class BaseTest extends DriverFactory {
             this.driver.quit();
             logger.info("Browser close order has an exception");
         }
+        logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Test finished ");
     }
 }

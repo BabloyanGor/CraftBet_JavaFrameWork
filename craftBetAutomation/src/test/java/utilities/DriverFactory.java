@@ -29,8 +29,11 @@ public class DriverFactory {
                 WebDriverManager.chromedriver().setup();
                 if (browserType.equals("headless")){
                     cOptions=new ChromeOptions();
-                    cOptions.setHeadless(true);
+                    cOptions.addArguments("--headless", "--window-size=1920,1080");
+//                    cOptions.setHeadless(true);
                     driver= new ChromeDriver(cOptions);
+
+
                 }
                 else{
                     driver = new ChromeDriver();
@@ -44,7 +47,8 @@ public class DriverFactory {
                 WebDriverManager.firefoxdriver().setup();
                 if (browserType.equals("headless")){
                     fOptions=new FirefoxOptions();
-                    fOptions.setHeadless(true);
+                    fOptions.addArguments("--headless", "--window-size=1920,1080");
+//                    fOptions.setHeadless(true);
                     driver= new FirefoxDriver(fOptions);
                 }
                 else{
@@ -60,7 +64,8 @@ public class DriverFactory {
                 WebDriverManager.edgedriver().setup();
                 if (browserType.equals("headless")){
                     eOptions=new EdgeOptions();
-                    eOptions.setHeadless(true);
+                    eOptions.addArguments("--headless", "--window-size=1920,1080");
+//                    eOptions.setHeadless(true);
                     driver= new EdgeDriver(eOptions);
                 }
                 else{
@@ -76,7 +81,8 @@ public class DriverFactory {
                 WebDriverManager.chromedriver().setup();
                 if (browserType.equals("headless")){
                     cOptions=new ChromeOptions();
-                    cOptions.setHeadless(true);
+                    eOptions.addArguments("--headless", "--window-size=1920,1080");
+//                    cOptions.setHeadless(true);
                     driver= new ChromeDriver(cOptions);
                 }
                 else{
