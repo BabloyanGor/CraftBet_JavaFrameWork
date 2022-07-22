@@ -195,6 +195,14 @@ public class BasePage {
         js.executeScript("window.scrollBy(0,-document.body.scrollHeight)");
     }
 
+    public void scrollToSpecificElementOnCenter(WebElement element) {
+        String scrollElementIntoMiddle = "var viewPortHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);"
+                + "var elementTop = arguments[0].getBoundingClientRect().top;"
+                + "window.scrollBy(0, elementTop-(viewPortHeight/2));";
+        ((JavascriptExecutor) driver).executeScript(scrollElementIntoMiddle, element);
+    }
+
+
     /* this method will zoom the page */
     public void zoomPageByJS(String zoomProcsent) {
         js.executeScript("document.body.style.zoom='" + zoomProcsent + "%'"); //zoom by 100%

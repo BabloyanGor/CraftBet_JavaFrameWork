@@ -121,5 +121,9 @@ public class CraftBet_Casino_Page extends BasePage {
         return num;
     }
 
+    public void scrollToCasinoGamesSeeMoreButtonGamesNumber(){
+        basePage.scrollToSpecificElementOnCenter(casinoGamesSeeMoreButtonGamesNumber);
+    }
+
 
 }

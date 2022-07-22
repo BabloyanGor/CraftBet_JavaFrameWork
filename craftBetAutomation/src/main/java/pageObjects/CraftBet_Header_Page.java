@@ -211,13 +211,19 @@ public class CraftBet_Header_Page extends BasePage {
 
 
 
-    @FindBy(xpath = "//a[text() = ' Casino ']")
+    @FindBy(xpath = "//a[text()=' Casino ']")
     @CacheLookup
     WebElement CasinoLink;
 
     public void clickOnHeaderCasinoLink(){
-        basePage.waitElementToBeVisible(CasinoLink);
-        basePage.clickOnElementIfClickable(CasinoLink);
+        try{
+            basePage.waitElementToBeVisible(CasinoLink);
+            basePage.clickOnElementIfClickable(CasinoLink);
+        }
+        catch (Exception e){
+            System.out.println("Cant find CasinoLink element");
+        }
+
     }
 
 

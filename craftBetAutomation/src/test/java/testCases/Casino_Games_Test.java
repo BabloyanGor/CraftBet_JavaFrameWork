@@ -1,5 +1,6 @@
 package testCases;
 
+import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -33,40 +34,50 @@ public class Casino_Games_Test extends BaseTest {
         logger.info("password passed");
         craftBet_login_popUp_page.clickLoginPopUpLogInButton();
         logger.info("Log In Button was clicked");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         craftBet_header_page.clickOnHeaderCasinoLink();
         logger.info("Casino Link was clicked");
     }
 
-    @Test
+    @Test(priority = 50, description = "Validate Casino games title Image presence")
+    @Description("Validate Casino games title Image presence")
+    @Severity(SeverityLevel.NORMAL)
     public void casinoGameTest() throws InterruptedException, IOException {
+        SoftAssert softAssert = new SoftAssert();
         int i = 1;
         ArrayList<String> srces = new ArrayList<>();
         ArrayList<String> errorSrcXl = new ArrayList<>();
         int intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
 
-        while (intGameNumber > 50) {
+        while (intGameNumber > 16) {
             try {
-
                 craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
-                System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());
+//                System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());
                 intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
+                craftBet_casino_page.scrollToCasinoGamesSeeMoreButtonGamesNumber();
+
             } catch (Exception e) {
-                System.out.println("Click button many time exception: " + e);
+//                System.out.println("Click button many time exception: " + e);
+                logger.info("Much click exception" + intGameNumber);
                 break;
             }
         }
         try {
             craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
+            logger.info("All games opened on one page");
+
 
         } catch (Exception e) {
-            System.out.println("Click button one time exception: " + e);
+//            System.out.println("Click button one time exception: " + e);
+            logger.info("last click exception");
         }
         try{
             srces = craftBet_casino_page.getSRCForImages();
             errorSrcXl = new ArrayList<>();
         }
-        catch(Exception e){}
+        catch(Exception e){
+            logger.info("get all images exception");
+        }
 
 
         for (String src : srces) {
@@ -75,7 +86,8 @@ public class Casino_Games_Test extends BaseTest {
                 craftBet_casino_page.getDriver().navigate().to(src);
 
                 if (src == null || src.isEmpty()) {
-                    errorSrcXl.add(i + " this game has empty src  --> ");
+                    errorSrcXl.add(i + " this games src has empty/null value");
+
                 } else {
                     try {
                         URL img = new URL(src);
@@ -84,36 +96,45 @@ public class Casino_Games_Test extends BaseTest {
                         int cod = connection.getResponseCode();
 
                         if (cod != 200) {
-                            System.out.println(i + " ---> " + src + " this is not valid src response cod is --> " + cod);
-                            errorSrcXl.add(i + " ---> " + src + "      this is not valid src response cod is --> " + cod);
+//                            System.out.println(i + " ---> " + src + " this is not valid src response cod is --> " + cod);
+                            errorSrcXl.add(i + "  this is not valid src response cod is -->  " + cod+"  src ---> " + src );
                         } else {
                         }
                     } catch (Exception e) {
-                        System.out.println("Url connection exception: " + e);
+//                        System.out.println("Url connection exception: " + e);
+                        logger.info("http connection exception");
                     }
                 }
             } catch (Exception e) {
-                errorSrcXl.add(i + " ---> " + src + "      this is not valid src with exception --> ");
-                System.out.println("Navigate to url exception: " + e);
+                errorSrcXl.add(i + "   this is not valid src with exception -->   " + src );
+                logger.info(i + "  url navigation exception: with saving src value");
+//                System.out.println("Navigate to url exception: " + e);
             }
 
             i++;
-            System.out.println(i);
+//            System.out.println(i);
         }
 
-        System.out.println("Errors are:  " + errorSrcXl.size());
+//        System.out.println("Errors are:  " + errorSrcXl.size());
         String target = System.getProperty("user.dir") + "/src/test/java/testData/data.xlsx";
         FileOutputStream file = new FileOutputStream(target);
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("brokenIMG");
         int k = 0;
-        for (String err : errorSrcXl) {
-            XSSFRow row = sheet.createRow(k);
-            row.createCell(0).setCellValue(err);
-            k++;
+        if (errorSrcXl.size()==0){
+            softAssert.assertTrue(true,"All games have title images");
         }
-        workbook.write(file);
-        workbook.close();
+        else{
+            for (String err : errorSrcXl) {
+                softAssert.assertTrue(false,i+"  this games src has invalid data src------>  " + err);
+                XSSFRow row = sheet.createRow(k);
+                row.createCell(0).setCellValue(err);
+                k++;
+            }
+            workbook.write(file);
+            workbook.close();
+        }
+        softAssert.assertAll();
     }
 
 
