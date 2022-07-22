@@ -45,7 +45,7 @@ public class Casino_Games_Test extends BaseTest {
         ArrayList<String> errorSrcXl = new ArrayList<>();
         int intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
 
-        while (intGameNumber > 100) {
+        while (intGameNumber > 50) {
             try {
 
                 craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
