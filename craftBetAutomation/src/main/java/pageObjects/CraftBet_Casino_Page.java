@@ -37,7 +37,7 @@ public class CraftBet_Casino_Page extends BasePage {
     List<WebElement> casinoGamesImages;
 
     public ArrayList<String> getSRCForImages() {
-        ArrayList<String> casinoImagesSrc = new ArrayList<String>();
+        ArrayList<String> casinoImagesSrc = new ArrayList<>();
         for (WebElement img : casinoGamesImages) {
             casinoImagesSrc.add(basePage.getAttribute(img, "src"));
         }

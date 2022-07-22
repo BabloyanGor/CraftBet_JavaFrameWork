@@ -41,10 +41,13 @@ public class Casino_Games_Test extends BaseTest {
     @Test
     public void casinoGameTest() throws InterruptedException, IOException {
         int i = 1;
+        ArrayList<String> srces = new ArrayList<>();
+        ArrayList<String> errorSrcXl = new ArrayList<>();
         int intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
 
-        while (intGameNumber > 3000) {
+        while (intGameNumber > 100) {
             try {
+
                 craftBet_casino_page.clickOnCasinoGamesSeeMoreButton();
                 System.out.println(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber());
                 intGameNumber = Integer.parseInt(craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().substring(1, craftBet_casino_page.getTextCasinoGamesSeeMoreButtonGamesNumber().length() - 1));
@@ -59,8 +62,12 @@ public class Casino_Games_Test extends BaseTest {
         } catch (Exception e) {
             System.out.println("Click button one time exception: " + e);
         }
-        ArrayList<String> srces = craftBet_casino_page.getSRCForImages();
-        ArrayList<String> errorSrcXl = new ArrayList<>();
+        try{
+            srces = craftBet_casino_page.getSRCForImages();
+            errorSrcXl = new ArrayList<>();
+        }
+        catch(Exception e){}
+
 
         for (String src : srces) {
             //String title = craftBet_casino_page.getTextGameTitle(i);
